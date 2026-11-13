@@ -1,0 +1,24 @@
+MUSIC & SOUND LIST
+MUSIC TRACKS
+{{t.name}}
+{{t.mood}}
+{{t.bpm}}
+SOUND EFFECTS
+Player · shot ×4 (one per jet) · special charge · special release · bomb · pickup · shield hit · shield break · hull hit · low-hull alarm · revive
+Enemy · shot · missile launch · laser charge · laser gate hum · explosion small / medium / large · acid pop · rock break
+Boss · warning siren · roar (one per boss) · phase change · weak point open · defeat boom stack
+Menu · move · select · back · launch · star earned · stage-clear fanfare · game-over sting · A² Burst
+PILOT VOICE LINES
+AYAN
+"Locked on!"
+"Nice shot, Aarav!"
+"Focus Shot, fire!"
+"Hang on, I'm coming!"
+"Boss incoming!"
+AARAV
+"Shields up!"
+"I've got your back, Ayan!"
+"Shield Burst!"
+"Thanks for the save!"
+"We did it!"
+Lines play at most once every 20 s. Subtitles can be turned off in Settings.

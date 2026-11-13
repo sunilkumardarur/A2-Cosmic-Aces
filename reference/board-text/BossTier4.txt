@@ -1,0 +1,73 @@
+BOSSES 4 · STAGES 61–80
+Ten different bosses. Large art is Mk I, small gold art is Mk II (same boss, stronger). Stages: white first fight, gold Mk II, pink pair fight.
+TIER 4
+BOSS 61
+MK II
+STAGES 61 · 71 · 91
+Black Hole Sovereign Singula
+Drags the arena inward. Bullet rings orbit.
+MK II · Ring spin reverses.
+HP 28,000 → 42,000
+BOSS 62
+MK II
+STAGES 62 · 72 · 92
+Supernova Phoenix Solara
+Bursts into flames and rises once from defeat.
+MK II · Rises twice.
+HP 29,500 → 44,250
+BOSS 63
+MK II
+STAGES 63 · 73 · 93
+Dimension Splitter Riftor
+Splits the screen in two. Portals link the halves.
+MK II · Portals move and swap sides.
+HP 31,000 → 46,500
+BOSS 64
+MK II
+STAGES 64 · 74 · 94
+Mecha Leviathan Ω-Prime
+Modules fire missiles, lasers and mines together.
+MK II · Modules repair each other.
+HP 32,500 → 48,750
+BOSS 65
+MK II
+STAGES 65 · 75 · 95
+Quantum Mage Qubit
+Makes three copies. Only one is real.
+MK II · Five copies that swap places.
+HP 34,000 → 51,000
+BOSS 66
+MK II
+STAGES 66 · 76 · 96
+Void Kraken Abyssa
+Tentacles from every edge. Ink clouds hide targets.
+MK II · Ink clouds linger longer.
+HP 35,500 → 53,250
+BOSS 67
+MK II
+STAGES 67 · 77 · 97
+Thunder God Tempest
+Screen-wide lightning after a red warning line.
+MK II · Shorter warning, lines come in pairs.
+HP 37,000 → 55,500
+BOSS 68
+MK II
+STAGES 68 · 78 · 98
+Crystal Titan Geode
+Shards bounce between walls and split on hit.
+MK II · Shards return after bouncing.
+HP 38,500 → 57,750
+BOSS 69
+MK II
+STAGES 69 · 79 · 99
+Mind Eater Cortex
+Flips your controls for 2 seconds at a time.
+MK II · Flips mid-dodge for 3 seconds.
+HP 40,000 → 60,000
+BOSS 70
+MK II
+STAGES 70 · 80 · 100
+Cosmic Emperor Galaxor
+Four phases using every kind of attack.
+MK II · Faster pattern mixing and shorter pauses between phases.
+HP 41,500 → 62,250

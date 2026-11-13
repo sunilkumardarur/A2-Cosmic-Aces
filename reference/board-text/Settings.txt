@@ -1,0 +1,20 @@
+BACK
+SETTINGS
+AUDIO
+Music
+70
+Sound effects
+85
+Pilot voices
+60
+DISPLAY & ACCESSIBILITY
+{{t.label}}
+{{t.desc}}
+DIFFICULTY
+{{d.name}}
+{{diffDesc}}
+{{diffStats}}
+GAMEPLAY & CONTROLS
+{{t.label}}
+{{t.desc}}
+VIEW & REMAP CONTROLS

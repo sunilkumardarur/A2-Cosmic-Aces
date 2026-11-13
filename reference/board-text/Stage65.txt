@@ -1,0 +1,29 @@
+STAGE 65 · TIER 4
+QUANTUM LAB
+A lab of glowing cubes. Copies of things appear.
+SAME STAGE, TINTED, IN
+MK II · STAGE 75
+PAIR · STAGE 95
+ECHO ENEMY
+ENEMY · 6 HITS
+Splits into 3 copies. Only one is real.
+CUBE BARRIER
+OBSTACLE · 10 HITS
+Spinning cubes that form changing walls.
+BLINK MINE
+HAZARD · 2 HITS
+Teleports next to you and explodes.
+PHASE TURRET
+ENEMY · 10 HITS
+Fires from a new spot every 2 seconds.
+BOSS 65
+HP 34,000 · 4 PHASES
+Quantum Mage Qubit
+MK II in stage 75
+HP 51,000
+FIGHTS · Makes three copies. Only one is real.
+WEAK POINT · The real one has no shadow.
+MK II ADDS · Five copies that swap places.
+MID-STAGE · Mini-boss Echo Clone
+First clear up to +300 credits
+Repeat clear +1

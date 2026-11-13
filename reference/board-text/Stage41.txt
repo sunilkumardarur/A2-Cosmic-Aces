@@ -1,0 +1,29 @@
+STAGE 41 · TIER 3
+HYDRA LAGOON
+A swamp lagoon with too many heads watching.
+SAME STAGE, TINTED, IN
+MK II · STAGE 51
+PAIR · STAGE 91
+HYDRA PUP
+ENEMY · 5 HITS
+Pops up from below and snaps at you.
+POISON FOG
+HAZARD · UNBREAKABLE
+Hides the screen edges for 3 seconds.
+NEST EGG
+OBSTACLE · 6 HITS
+Hatches a Hydra Pup when shot.
+LAGOON TURRET
+ENEMY · 8 HITS
+Spits 3 venom blobs in a spread.
+BOSS 41
+HP 17,000 · 3 PHASES
+Hydra Core Hydrax
+MK II in stage 51
+HP 25,500
+FIGHTS · Three heads, each with its own attack.
+WEAK POINT · Core, once the 3 heads are down.
+MK II ADDS · Heads grow back once, faster.
+MID-STAGE · Mini-boss Spawn Head
+First clear up to +220 credits
+Repeat clear +1

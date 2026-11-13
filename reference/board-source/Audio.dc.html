@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>A² Cosmic Aces — Music &amp; Sound</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&amp;family=Exo+2:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>body{margin:0}</style>
+</helmet>
+<div style="width: 1280px; height: 720px; position: relative; overflow: hidden; box-sizing: border-box; padding: 24px 40px; background: #05060F; font-family: 'Exo 2', sans-serif; color: #FFFFFF; display: flex; flex-direction: column; gap: 14px">
+  <h1 style="margin: 0; font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 28px; letter-spacing: 3px; text-shadow: 0 0 16px rgba(45,226,255,.5)">MUSIC &amp; SOUND LIST</h1>
+
+  <div style="display: flex; gap: 18px; flex: 1">
+
+    <section style="width: 600px; padding: 14px 16px; border: 1px solid rgba(45,226,255,.4); background: rgba(5,6,15,.85); display: flex; flex-direction: column; gap: 6px">
+      <h2 style="margin: 0 0 4px; font-family: 'Orbitron', sans-serif; font-size: 12px; letter-spacing: 4px; color: #2DE2FF">MUSIC TRACKS</h2>
+      <sc-for list="{{tracks}}" as="t" hint-placeholder-count="10">
+        <div style="display: flex; align-items: center; gap: 12px; height: 44px; padding: 0 10px; background: rgba(255,255,255,.03); border-left: 4px solid {{t.color}}">
+          <div style="width: 190px; flex: none; display: flex; flex-direction: column; gap: 1px"><b style="font-size: 13px">{{t.name}}</b><span style="font-size: 11px; color: #A9B4D0">{{t.mood}}</span></div>
+          <div style="flex: 1; height: 28px; display: flex; align-items: center; gap: 2px">
+            <sc-for list="{{t.bars}}" as="b" hint-placeholder-count="30">
+              <span style="flex: 1; height: {{b.h}}px; background: {{t.color}}; opacity: .85"></span>
+            </sc-for>
+          </div>
+          <div style="width: 64px; flex: none; text-align: right; font-family: 'Orbitron', sans-serif; font-size: 12px; font-weight: 700">{{t.bpm}}</div>
+        </div>
+      </sc-for>
+    </section>
+
+    <div style="flex: 1; display: flex; flex-direction: column; gap: 12px">
+      <section style="padding: 12px 16px; border: 1px solid rgba(255,154,61,.45); background: rgba(5,6,15,.85); display: flex; flex-direction: column; gap: 6px">
+        <h2 style="margin: 0; font-family: 'Orbitron', sans-serif; font-size: 12px; letter-spacing: 4px; color: #FF9A3D">SOUND EFFECTS</h2>
+        <div style="font-size: 12px; line-height: 1.6; color: #E6EAF5"><b style="color: #2DE2FF">Player</b> · shot ×4 (one per jet) · special charge · special release · bomb · pickup · shield hit · shield break · hull hit · low-hull alarm · revive</div>
+        <div style="font-size: 12px; line-height: 1.6; color: #E6EAF5"><b style="color: #FF4D5E">Enemy</b> · shot · missile launch · laser charge · laser gate hum · explosion small / medium / large · acid pop · rock break</div>
+        <div style="font-size: 12px; line-height: 1.6; color: #E6EAF5"><b style="color: #FF3EA5">Boss</b> · warning siren · roar (one per boss) · phase change · weak point open · defeat boom stack</div>
+        <div style="font-size: 12px; line-height: 1.6; color: #E6EAF5"><b style="color: #7CFF6B">Menu</b> · move · select · back · launch · star earned · stage-clear fanfare · game-over sting · A² Burst</div>
+      </section>
+      <section style="padding: 12px 16px; border: 1px solid rgba(255,200,61,.45); background: rgba(5,6,15,.85); display: flex; flex-direction: column; gap: 8px; flex: 1">
+        <h2 style="margin: 0; font-family: 'Orbitron', sans-serif; font-size: 12px; letter-spacing: 4px; color: #FFC83D">PILOT VOICE LINES</h2>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px">
+          <div style="display: flex; flex-direction: column; gap: 6px"><b style="font-family: 'Orbitron', sans-serif; font-size: 12px; letter-spacing: 2px; color: #2DE2FF">AYAN</b><span style="font-size: 12px; line-height: 1.45">"Locked on!"</span><span style="font-size: 12px; line-height: 1.45">"Nice shot, Aarav!"</span><span style="font-size: 12px; line-height: 1.45">"Focus Shot, fire!"</span><span style="font-size: 12px; line-height: 1.45">"Hang on, I'm coming!"</span><span style="font-size: 12px; line-height: 1.45">"Boss incoming!"</span></div>
+          <div style="display: flex; flex-direction: column; gap: 6px"><b style="font-family: 'Orbitron', sans-serif; font-size: 12px; letter-spacing: 2px; color: #FF9A3D">AARAV</b><span style="font-size: 12px; line-height: 1.45">"Shields up!"</span><span style="font-size: 12px; line-height: 1.45">"I've got your back, Ayan!"</span><span style="font-size: 12px; line-height: 1.45">"Shield Burst!"</span><span style="font-size: 12px; line-height: 1.45">"Thanks for the save!"</span><span style="font-size: 12px; line-height: 1.45">"We did it!"</span></div>
+        </div>
+        <div style="font-size: 12px; color: #A9B4D0; margin-top: auto">Lines play at most once every 20 s. Subtitles can be turned off in Settings.</div>
+      </section>
+    </div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":720}}'>
+class Component extends DCLogic {
+  renderVals() {
+    let s = 71;
+    const r = () => { s = (s * 9301 + 49297) % 233280; return s / 233280; };
+    const mk = (name, mood, bpm, color) => ({ name, mood, bpm, color, bars: Array.from({ length: 34 }, () => ({ h: Math.round(5 + r() * 22) })) });
+    const tracks = [
+      mk('Main Menu', 'Heroic, hopeful synth', '110 BPM', '#2DE2FF'),
+      mk('Hangar', 'Calm, building energy', '95 BPM', '#2DE2FF'),
+      mk('Stage 1 · Ember Belt', 'Driving, drums and bass', '130 BPM', '#FF8A3D'),
+      mk('Stage 2 · Venom Nebula', 'Weird, bubbly, tense', '125 BPM', '#7CFF6B'),
+      mk('Stage 3 · Iron Fleet', 'Heavy, metallic march', '138 BPM', '#4DA3FF'),
+      mk('Stage 4 · Void Rift', 'Dark, huge, choir pads', '120 BPM', '#B26BFF'),
+      mk('Boss Theme (per boss remix)', 'Fast, urgent, big hits', '150 BPM', '#FF3EA5'),
+      mk('Stage Clear', 'Short victory fanfare', '4 sec', '#FFC83D'),
+      mk('Game Over', 'Slow sad sting', '6 sec', '#FF4D5E'),
+      mk('Credits', 'Warm reprise of the menu theme', '100 BPM', '#FFC83D')
+    ];
+    return { tracks };
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,2885 @@
+{
+  "_note": "Enemy/hazard stats come from balance.json enemy_classes. hits=None means not shootable by 'hits' (unbreakable or special rule in text). A stage theme is NOT a sector (sector = 10 stages).",
+  "stage_themes": {
+    "1": {
+      "stage": 1,
+      "name": "EMBER BELT",
+      "difficulty_label": "EASY",
+      "color": "#FF8A3D",
+      "description": "A burning asteroid field at the edge of the galaxy. Learn to dodge, shoot and grab power-ups.",
+      "items": [
+        {
+          "name": "MOLTEN ASTEROID",
+          "kind": "OBSTACLE",
+          "hits_or_note": "3 hits",
+          "text": "Drifts down slowly. Breaks into 2 small rocks when destroyed.",
+          "class": "OBSTACLE",
+          "hits": 3,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "SPIKE MINE",
+          "kind": "HAZARD",
+          "hits_or_note": "1 hit",
+          "text": "Floats in place. Blinks red and explodes if you fly inside its ring.",
+          "class": "HAZARD",
+          "hits": 1,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "SCOUT DRONE",
+          "kind": "ENEMY FLIGHT",
+          "hits_or_note": "2 hits",
+          "text": "Flies in zig-zag groups of 3 and fires single red shots.",
+          "class": "ENEMY_FLIGHT",
+          "hits": 2,
+          "points": 100,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "FIRE COMET",
+          "kind": "HAZARD",
+          "hits_or_note": "unbreakable",
+          "text": "A warning line flashes, then a comet streaks across. Just dodge it.",
+          "class": "HAZARD",
+          "hits": null,
+          "points": 50,
+          "unbreakable": true,
+          "destroy_both_posts": false
+        }
+      ],
+      "mini_boss": {
+        "name": "CINDER CRAB",
+        "hp": 400,
+        "reward_score": 2000,
+        "text": "Slams its claws to send a shockwave along the screen. Dodge in the gap, then shoot its eyes.",
+        "reward_credits": 0,
+        "drops": [
+          "damage_orb"
+        ]
+      }
+    },
+    "2": {
+      "stage": 2,
+      "name": "VENOM NEBULA",
+      "difficulty_label": "MEDIUM",
+      "color": "#7CFF6B",
+      "description": "A toxic green cloud where an alien hive breeds swarms. Enemies come in packs.",
+      "items": [
+        {
+          "name": "STINGER SWARM",
+          "kind": "ENEMY FLIGHT",
+          "hits_or_note": "1 hit each",
+          "text": "Bug fighters in V-formation. They break apart and dive when hit.",
+          "class": "ENEMY_FLIGHT",
+          "hits": 1,
+          "points": 100,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "ACID SPORE",
+          "kind": "HAZARD",
+          "hits_or_note": "2 hits",
+          "text": "Floats slowly. Pops into 8 acid droplets - shoot it from far away.",
+          "class": "HAZARD",
+          "hits": 2,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "NEBULA EEL",
+          "kind": "ENEMY",
+          "hits_or_note": "6 hits (head only)",
+          "text": "Long serpent that weaves in a wave. Its body blocks your bullets.",
+          "class": "ENEMY",
+          "hits": 6,
+          "points": 500,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "LEECH POD",
+          "kind": "ENEMY",
+          "hits_or_note": "3 hits",
+          "text": "Grabs your jet and slows it by 40% until you shake it off.",
+          "class": "ENEMY",
+          "hits": 3,
+          "points": 250,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        }
+      ],
+      "mini_boss": {
+        "name": "SPORE MOTHER",
+        "hp": 600,
+        "reward_score": 2000,
+        "text": "Lets out a ring of 6 acid spores that drift toward you. Pop them early, then hit the pink eye.",
+        "reward_credits": 0,
+        "drops": [
+          "damage_orb"
+        ]
+      }
+    },
+    "3": {
+      "stage": 3,
+      "name": "IRON FLEET",
+      "difficulty_label": "HARD",
+      "color": "#4DA3FF",
+      "description": "A robot armada parked around a giant space station. Fly between hulls, turrets and laser gates.",
+      "items": [
+        {
+          "name": "HULL TURRET",
+          "kind": "ENEMY",
+          "hits_or_note": "4 hits",
+          "text": "Bolted onto ship hulls. Turns to aim at you and fires bursts of 3.",
+          "class": "ENEMY",
+          "hits": 4,
+          "points": 250,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "LASER GATE",
+          "kind": "OBSTACLE",
+          "hits_or_note": "destroy both posts",
+          "text": "A red beam blinks on and off (ON 2s, OFF 1.5s). Time your pass or shoot the posts.",
+          "class": "OBSTACLE",
+          "hits": null,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": true
+        },
+        {
+          "name": "KAMIKAZE BOT",
+          "kind": "ENEMY",
+          "hits_or_note": "1 hit",
+          "text": "Locks on (red target on you) for 1s, then rockets straight at you.",
+          "class": "ENEMY",
+          "hits": 1,
+          "points": 100,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "IRON GUNSHIP",
+          "kind": "ENEMY FLIGHT",
+          "hits_or_note": "8 hits",
+          "text": "Heavy fighter facing down at you. Fires a 3-way spread every 2s.",
+          "class": "ENEMY_FLIGHT",
+          "hits": 8,
+          "points": 500,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        }
+      ],
+      "mini_boss": {
+        "name": "RAIL CRUISER",
+        "hp": 900,
+        "reward_score": 2000,
+        "text": "Sweeps across the top. A red line shows where its rail beam will fire a second later.",
+        "reward_credits": 0,
+        "drops": [
+          "damage_orb"
+        ]
+      }
+    },
+    "4": {
+      "stage": 4,
+      "name": "VOID RIFT",
+      "difficulty_label": "VERY HARD (SectorMap board label: FINAL; Level4 board now says VERY HARD)",
+      "color": "#B26BFF",
+      "description": "The edge of a black hole where light bends. Gravity pulls you and your bullets.",
+      "items": [
+        {
+          "name": "VOID WRAITH",
+          "kind": "ENEMY",
+          "hits_or_note": "3 hits",
+          "text": "Fades in and out. You can only hit it while its eyes glow.",
+          "class": "ENEMY",
+          "hits": 3,
+          "points": 250,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "GRAVITY WELL",
+          "kind": "HAZARD",
+          "hits_or_note": "unbreakable",
+          "text": "Pulls your jet and bends your bullets toward its center.",
+          "class": "HAZARD",
+          "hits": null,
+          "points": 50,
+          "unbreakable": true,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "SHADOW ACE",
+          "kind": "ENEMY FLIGHT",
+          "hits_or_note": "10 hits",
+          "text": "A dark copy of YOUR chosen jet. Mirrors your moves and shots.",
+          "class": "ENEMY_FLIGHT",
+          "hits": 10,
+          "points": 500,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "RIFT CRYSTAL",
+          "kind": "OBSTACLE",
+          "hits_or_note": "4 hits",
+          "text": "Shatters into 4 homing shards. Keep moving after you break it.",
+          "class": "OBSTACLE",
+          "hits": 4,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        }
+      ],
+      "mini_boss": {
+        "name": "RIFT WARDEN",
+        "hp": 1200,
+        "reward_score": 2000,
+        "text": "Jumps between two portals and fires from the one you are not watching. Shoot it as it steps out.",
+        "reward_credits": 0,
+        "drops": [
+          "damage_orb"
+        ]
+      }
+    },
+    "5": {
+      "stage": 5,
+      "name": "FROST REACH",
+      "color": "#8FE8FF",
+      "motif": "ice",
+      "description": "A frozen belt of icebergs. The cold slows everything, including you.",
+      "items": [
+        {
+          "name": "ICICLE SHARD",
+          "kind": "OBSTACLE · 2 HITS",
+          "icon": "crystal",
+          "text": "Hangs in place and drops when you fly under it.",
+          "class": "OBSTACLE",
+          "hits": 2,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "FROST SPRITE",
+          "kind": "ENEMY · 2 HITS",
+          "icon": "orb",
+          "text": "Fires slow blue shots that chill your jet.",
+          "class": "ENEMY",
+          "hits": 2,
+          "points": 100,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "SNOW CLOUD",
+          "kind": "HAZARD · UNBREAKABLE",
+          "icon": "cloud",
+          "text": "Slows your jet while you are inside.",
+          "class": "HAZARD",
+          "hits": null,
+          "points": 50,
+          "unbreakable": true,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "ICE TURRET",
+          "kind": "ENEMY · 4 HITS",
+          "icon": "turret",
+          "text": "Fires bursts of 3 icicles.",
+          "class": "ENEMY",
+          "hits": 4,
+          "points": 250,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        }
+      ],
+      "mini_boss": {
+        "name": "Ice Warden",
+        "hp": 1400,
+        "reward_score": 2000,
+        "text": "Aimed burst: fires 3 aimed shots every 2.2 s; Ring: fires a ring of 5 shots every 3.0 s",
+        "reward_credits": 0,
+        "drops": [
+          "damage_orb"
+        ],
+        "attacks": [
+          {
+            "name": "Aimed burst",
+            "text": "fires 3 aimed shots every 2.2 s"
+          },
+          {
+            "name": "Ring",
+            "text": "fires a ring of 5 shots every 3.0 s"
+          }
+        ]
+      }
+    },
+    "6": {
+      "stage": 6,
+      "name": "STORM VEIL",
+      "color": "#FFC83D",
+      "motif": "storm",
+      "description": "A sky of living lightning. Watch for the glowing orbs.",
+      "items": [
+        {
+          "name": "SPARK ORB",
+          "kind": "HAZARD · 1 HIT",
+          "icon": "orb",
+          "text": "Orbs come in pairs joined by a lightning line.",
+          "class": "HAZARD",
+          "hits": 1,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "STORM WISP",
+          "kind": "ENEMY · 2 HITS",
+          "icon": "drone",
+          "text": "Darts side to side and fires small bolts.",
+          "class": "ENEMY",
+          "hits": 2,
+          "points": 100,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "CHARGED CLOUD",
+          "kind": "OBSTACLE · 3 HITS",
+          "icon": "cloud",
+          "text": "Drifts down and zaps nearby when shot.",
+          "class": "OBSTACLE",
+          "hits": 3,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "STATIC MINE",
+          "kind": "HAZARD · 1 HIT",
+          "icon": "mine",
+          "text": "Bursts into a ring of sparks.",
+          "class": "HAZARD",
+          "hits": 1,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        }
+      ],
+      "mini_boss": {
+        "name": "Thunder Hawk",
+        "hp": 1500,
+        "reward_score": 2000,
+        "text": "Ring: fires a ring of 3 shots every 2.2 s; Charge dive: dives at your lane every 3.0 s, then returns",
+        "reward_credits": 0,
+        "drops": [
+          "damage_orb"
+        ],
+        "attacks": [
+          {
+            "name": "Ring",
+            "text": "fires a ring of 3 shots every 2.2 s"
+          },
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 3.0 s, then returns"
+          }
+        ]
+      }
+    },
+    "7": {
+      "stage": 7,
+      "name": "GEAR YARD",
+      "color": "#FF9A3D",
+      "motif": "gears",
+      "description": "A giant factory of moving parts. Everything runs on a beat.",
+      "items": [
+        {
+          "name": "SPINNING COG",
+          "kind": "OBSTACLE · UNBREAKABLE",
+          "icon": "gear",
+          "text": "Rolls slowly across the screen on a track.",
+          "class": "OBSTACLE",
+          "hits": null,
+          "points": 50,
+          "unbreakable": true,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "WIND-UP SOLDIER",
+          "kind": "ENEMY · 3 HITS",
+          "icon": "drone",
+          "text": "Marches in lines and fires on the beat.",
+          "class": "ENEMY",
+          "hits": 3,
+          "points": 250,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "PISTON WALL",
+          "kind": "OBSTACLE · UNBREAKABLE",
+          "icon": "wall",
+          "text": "Slams shut and open. Fly through the gap.",
+          "class": "OBSTACLE",
+          "hits": null,
+          "points": 50,
+          "unbreakable": true,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "STEAM VENT",
+          "kind": "HAZARD · UNBREAKABLE",
+          "icon": "cloud",
+          "text": "Puffs hot steam after a short hiss.",
+          "class": "HAZARD",
+          "hits": null,
+          "points": 50,
+          "unbreakable": true,
+          "destroy_both_posts": false
+        }
+      ],
+      "mini_boss": {
+        "name": "Cog Crusher",
+        "hp": 1600,
+        "reward_score": 2000,
+        "text": "Charge dive: dives at your lane every 2.2 s, then returns; Fan: fires a fan of 5 shots every 3.0 s",
+        "reward_credits": 0,
+        "drops": [
+          "damage_orb"
+        ],
+        "attacks": [
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 2.2 s, then returns"
+          },
+          {
+            "name": "Fan",
+            "text": "fires a fan of 5 shots every 3.0 s"
+          }
+        ]
+      }
+    },
+    "8": {
+      "stage": 8,
+      "name": "MIRROR MAZE",
+      "color": "#FF3EA5",
+      "motif": "shards",
+      "description": "Walls of glass bounce every shot. Aim with care.",
+      "items": [
+        {
+          "name": "MIRROR PANEL",
+          "kind": "OBSTACLE · UNBREAKABLE",
+          "icon": "mirror",
+          "text": "Bounces your shots back at an angle.",
+          "class": "OBSTACLE",
+          "hits": null,
+          "points": 50,
+          "unbreakable": true,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "REFLECTION DRONE",
+          "kind": "ENEMY · 2 HITS",
+          "icon": "drone",
+          "text": "Copies your left and right moves.",
+          "class": "ENEMY",
+          "hits": 2,
+          "points": 100,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "SHARD RAIN",
+          "kind": "HAZARD · 1 HIT",
+          "icon": "shard",
+          "text": "Glass falls from the top in a zig-zag.",
+          "class": "HAZARD",
+          "hits": 1,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "PRISM TURRET",
+          "kind": "ENEMY · 4 HITS",
+          "icon": "turret",
+          "text": "Splits one shot into three beams.",
+          "class": "ENEMY",
+          "hits": 4,
+          "points": 250,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        }
+      ],
+      "mini_boss": {
+        "name": "Glass Twin",
+        "hp": 1750,
+        "reward_score": 2000,
+        "text": "Fan: fires a fan of 3 shots every 2.2 s; Sweep line: a warning line shows, then a beam sweeps after 1 s; repeats every 3.0 s",
+        "reward_credits": 0,
+        "drops": [
+          "damage_orb"
+        ],
+        "attacks": [
+          {
+            "name": "Fan",
+            "text": "fires a fan of 3 shots every 2.2 s"
+          },
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 3.0 s"
+          }
+        ]
+      }
+    },
+    "9": {
+      "stage": 9,
+      "name": "TIDE GATE",
+      "color": "#2DE2FF",
+      "motif": "waves",
+      "description": "A space ocean full of bubbles and currents.",
+      "items": [
+        {
+          "name": "BUBBLE MINE",
+          "kind": "HAZARD · 1 HIT",
+          "icon": "mine",
+          "text": "Floats up and pops into 4 small bubbles.",
+          "class": "HAZARD",
+          "hits": 1,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "EEL SCOUT",
+          "kind": "ENEMY · 3 HITS",
+          "icon": "tentacle",
+          "text": "Swims in waves and fires sparks.",
+          "class": "ENEMY",
+          "hits": 3,
+          "points": 250,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "WATER WALL",
+          "kind": "OBSTACLE · UNBREAKABLE",
+          "icon": "wall",
+          "text": "Slow column of water with one gap.",
+          "class": "OBSTACLE",
+          "hits": null,
+          "points": 50,
+          "unbreakable": true,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "CURRENT STREAM",
+          "kind": "HAZARD · UNBREAKABLE",
+          "icon": "wave",
+          "text": "Pushes your jet sideways.",
+          "class": "HAZARD",
+          "hits": null,
+          "points": 50,
+          "unbreakable": true,
+          "destroy_both_posts": false
+        }
+      ],
+      "mini_boss": {
+        "name": "Reef Crab",
+        "hp": 1900,
+        "reward_score": 2000,
+        "text": "Sweep line: a warning line shows, then a beam sweeps after 1 s; repeats every 2.2 s; Aimed burst: fires 5 aimed shots every 3.0 s",
+        "reward_credits": 0,
+        "drops": [
+          "damage_orb"
+        ],
+        "attacks": [
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 2.2 s"
+          },
+          {
+            "name": "Aimed burst",
+            "text": "fires 5 aimed shots every 3.0 s"
+          }
+        ]
+      }
+    },
+    "10": {
+      "stage": 10,
+      "name": "COMET RUN",
+      "color": "#FF6A3D",
+      "motif": "fire",
+      "description": "A fast lane through a comet shower. The last stage of the first set.",
+      "items": [
+        {
+          "name": "FIRE COMET",
+          "kind": "HAZARD · UNBREAKABLE",
+          "icon": "orb",
+          "text": "Warning line first, then a fast streak.",
+          "class": "HAZARD",
+          "hits": null,
+          "points": 50,
+          "unbreakable": true,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "CINDER DRONE",
+          "kind": "ENEMY · 3 HITS",
+          "icon": "drone",
+          "text": "Leaves a short fire trail as it flies.",
+          "class": "ENEMY",
+          "hits": 3,
+          "points": 250,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "MAGMA ROCK",
+          "kind": "OBSTACLE · 5 HITS",
+          "icon": "asteroid",
+          "text": "Splits into 3 burning pieces.",
+          "class": "OBSTACLE",
+          "hits": 5,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "FLARE TURRET",
+          "kind": "ENEMY · 5 HITS",
+          "icon": "turret",
+          "text": "Fires a fan of 5 fireballs.",
+          "class": "ENEMY",
+          "hits": 5,
+          "points": 250,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        }
+      ],
+      "mini_boss": {
+        "name": "Meteor Hound",
+        "hp": 2000,
+        "reward_score": 2000,
+        "text": "Aimed burst: fires 3 aimed shots every 2.2 s; Ring: fires a ring of 5 shots every 3.0 s",
+        "reward_credits": 0,
+        "drops": [
+          "damage_orb"
+        ],
+        "attacks": [
+          {
+            "name": "Aimed burst",
+            "text": "fires 3 aimed shots every 2.2 s"
+          },
+          {
+            "name": "Ring",
+            "text": "fires a ring of 5 shots every 3.0 s"
+          }
+        ]
+      }
+    },
+    "21": {
+      "stage": 21,
+      "name": "AEGIS STATION",
+      "color": "#4DA3FF",
+      "motif": "blocks",
+      "description": "An armored space station. Most enemies carry shields.",
+      "items": [
+        {
+          "name": "SHIELD DRONE",
+          "kind": "ENEMY · 4 HITS",
+          "icon": "drone",
+          "text": "Front is armored. Shoot it from the side.",
+          "class": "ENEMY",
+          "hits": 4,
+          "points": 250,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "LASER GATE",
+          "kind": "HAZARD · UNBREAKABLE",
+          "icon": "gate",
+          "text": "Two posts with a beam. Wait for the gap.",
+          "class": "HAZARD",
+          "hits": null,
+          "points": 50,
+          "unbreakable": true,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "HULL PLATE",
+          "kind": "OBSTACLE · 6 HITS",
+          "icon": "wall",
+          "text": "Floating plates that block the lane.",
+          "class": "OBSTACLE",
+          "hits": 6,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "PLASMA TURRET",
+          "kind": "ENEMY · 6 HITS",
+          "icon": "turret",
+          "text": "Locks on, then fires a thick beam.",
+          "class": "ENEMY",
+          "hits": 6,
+          "points": 500,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        }
+      ],
+      "mini_boss": {
+        "name": "Plate Guard",
+        "hp": 2250,
+        "reward_score": 2000,
+        "text": "Ring: fires a ring of 3 shots every 2.0 s; Charge dive: dives at your lane every 2.8 s, then returns",
+        "reward_credits": 0,
+        "drops": [
+          "damage_orb"
+        ],
+        "attacks": [
+          {
+            "name": "Ring",
+            "text": "fires a ring of 3 shots every 2.0 s"
+          },
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 2.8 s, then returns"
+          }
+        ]
+      }
+    },
+    "22": {
+      "stage": 22,
+      "name": "SILK NEBULA",
+      "color": "#B26BFF",
+      "motif": "web",
+      "description": "A purple cloud full of glowing threads.",
+      "items": [
+        {
+          "name": "WEB NODE",
+          "kind": "OBSTACLE · 4 HITS",
+          "icon": "orb",
+          "text": "Anchors a line of web. Break it to open the path.",
+          "class": "OBSTACLE",
+          "hits": 4,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "THREAD SPIDER",
+          "kind": "ENEMY · 4 HITS",
+          "icon": "drone",
+          "text": "Drops down on a line and sprays small shots.",
+          "class": "ENEMY",
+          "hits": 4,
+          "points": 250,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "SILK STRAND",
+          "kind": "HAZARD · UNBREAKABLE",
+          "icon": "gate",
+          "text": "A glowing line that burns on touch.",
+          "class": "HAZARD",
+          "hits": null,
+          "points": 50,
+          "unbreakable": true,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "COCOON POD",
+          "kind": "OBSTACLE · 5 HITS",
+          "icon": "spore",
+          "text": "Hatches 3 baby spiders when shot.",
+          "class": "OBSTACLE",
+          "hits": 5,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        }
+      ],
+      "mini_boss": {
+        "name": "Thread Spinner",
+        "hp": 2450,
+        "reward_score": 2000,
+        "text": "Charge dive: dives at your lane every 2.0 s, then returns; Fan: fires a fan of 5 shots every 2.8 s",
+        "reward_credits": 0,
+        "drops": [
+          "damage_orb"
+        ],
+        "attacks": [
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 2.0 s, then returns"
+          },
+          {
+            "name": "Fan",
+            "text": "fires a fan of 5 shots every 2.8 s"
+          }
+        ]
+      }
+    },
+    "23": {
+      "stage": 23,
+      "name": "HEAVY ORBIT",
+      "color": "#FF9A3D",
+      "motif": "ring",
+      "description": "Giant moons with strong pull. Bullets curve.",
+      "items": [
+        {
+          "name": "GRAVITY WELL",
+          "kind": "HAZARD · UNBREAKABLE",
+          "icon": "orb",
+          "text": "Bends your bullets and your jet toward it.",
+          "class": "HAZARD",
+          "hits": null,
+          "points": 50,
+          "unbreakable": true,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "MOON CHUNK",
+          "kind": "OBSTACLE · 8 HITS",
+          "icon": "asteroid",
+          "text": "Heavy rock that drifts in an orbit.",
+          "class": "OBSTACLE",
+          "hits": 8,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "TETHER DRONE",
+          "kind": "ENEMY · 4 HITS",
+          "icon": "drone",
+          "text": "Pulls you with a beam. Shoot the line.",
+          "class": "ENEMY",
+          "hits": 4,
+          "points": 250,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "ORBIT CANNON",
+          "kind": "ENEMY · 6 HITS",
+          "icon": "turret",
+          "text": "Circles a moon and fires inward.",
+          "class": "ENEMY",
+          "hits": 6,
+          "points": 500,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        }
+      ],
+      "mini_boss": {
+        "name": "Moon Smasher",
+        "hp": 2600,
+        "reward_score": 2000,
+        "text": "Fan: fires a fan of 3 shots every 2.0 s; Sweep line: a warning line shows, then a beam sweeps after 1 s; repeats every 2.8 s",
+        "reward_credits": 0,
+        "drops": [
+          "damage_orb"
+        ],
+        "attacks": [
+          {
+            "name": "Fan",
+            "text": "fires a fan of 3 shots every 2.0 s"
+          },
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 2.8 s"
+          }
+        ]
+      }
+    },
+    "24": {
+      "stage": 24,
+      "name": "GHOST FLEET GRAVEYARD",
+      "color": "#C99BFF",
+      "motif": "ruins",
+      "description": "Broken warships drift in the fog. Some are not empty.",
+      "items": [
+        {
+          "name": "WRECK HULL",
+          "kind": "OBSTACLE · UNBREAKABLE",
+          "icon": "wall",
+          "text": "Drifting ship pieces. Slip between them.",
+          "class": "OBSTACLE",
+          "hits": null,
+          "points": 50,
+          "unbreakable": true,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "GHOST FIGHTER",
+          "kind": "ENEMY · 3 HITS",
+          "icon": "drone",
+          "text": "Fades out and attacks from behind.",
+          "class": "ENEMY",
+          "hits": 3,
+          "points": 250,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "SOUL LANTERN",
+          "kind": "HAZARD · 1 HIT",
+          "icon": "orb",
+          "text": "Follows you slowly and explodes in a ring.",
+          "class": "HAZARD",
+          "hits": 1,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "CURSED CANNON",
+          "kind": "ENEMY · 6 HITS",
+          "icon": "turret",
+          "text": "Fires purple shots that fade then return.",
+          "class": "ENEMY",
+          "hits": 6,
+          "points": 500,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        }
+      ],
+      "mini_boss": {
+        "name": "Wreck Reaper",
+        "hp": 2800,
+        "reward_score": 2000,
+        "text": "Sweep line: a warning line shows, then a beam sweeps after 1 s; repeats every 2.0 s; Aimed burst: fires 5 aimed shots every 2.8 s",
+        "reward_credits": 0,
+        "drops": [
+          "damage_orb"
+        ],
+        "attacks": [
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 2.0 s"
+          },
+          {
+            "name": "Aimed burst",
+            "text": "fires 5 aimed shots every 2.8 s"
+          }
+        ]
+      }
+    },
+    "25": {
+      "stage": 25,
+      "name": "SCRAPYARD BELT",
+      "color": "#FF4D5E",
+      "motif": "blocks",
+      "description": "A junk belt with magnets that grab loose metal.",
+      "items": [
+        {
+          "name": "MAGNET MINE",
+          "kind": "HAZARD · 2 HITS",
+          "icon": "mine",
+          "text": "Pulls nearby bullets and your jet.",
+          "class": "HAZARD",
+          "hits": 2,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "SCRAP BOT",
+          "kind": "ENEMY · 4 HITS",
+          "icon": "drone",
+          "text": "Throws scrap pieces in an arc.",
+          "class": "ENEMY",
+          "hits": 4,
+          "points": 250,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "JUNK CLUMP",
+          "kind": "OBSTACLE · 6 HITS",
+          "icon": "asteroid",
+          "text": "Chunks of metal stuck together.",
+          "class": "OBSTACLE",
+          "hits": 6,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "CRANE ARM",
+          "kind": "OBSTACLE · UNBREAKABLE",
+          "icon": "blade",
+          "text": "Swings across the screen on a slow beat.",
+          "class": "OBSTACLE",
+          "hits": null,
+          "points": 50,
+          "unbreakable": true,
+          "destroy_both_posts": false
+        }
+      ],
+      "mini_boss": {
+        "name": "Iron Hoarder",
+        "hp": 3000,
+        "reward_score": 2000,
+        "text": "Aimed burst: fires 3 aimed shots every 2.0 s; Ring: fires a ring of 5 shots every 2.8 s",
+        "reward_credits": 0,
+        "drops": [
+          "damage_orb"
+        ],
+        "attacks": [
+          {
+            "name": "Aimed burst",
+            "text": "fires 3 aimed shots every 2.0 s"
+          },
+          {
+            "name": "Ring",
+            "text": "fires a ring of 5 shots every 2.8 s"
+          }
+        ]
+      }
+    },
+    "26": {
+      "stage": 26,
+      "name": "TOXIC SWAMP MOON",
+      "color": "#7CFF6B",
+      "motif": "bubbles",
+      "description": "A green moon covered in swamp and sludge.",
+      "items": [
+        {
+          "name": "SLIME BLOB",
+          "kind": "ENEMY · 3 HITS",
+          "icon": "spore",
+          "text": "Splits into two smaller blobs when shot.",
+          "class": "ENEMY",
+          "hits": 3,
+          "points": 250,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "TOXIC POOL",
+          "kind": "HAZARD · UNBREAKABLE",
+          "icon": "wave",
+          "text": "Stays on screen and burns on touch.",
+          "class": "HAZARD",
+          "hits": null,
+          "points": 50,
+          "unbreakable": true,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "SPORE POD",
+          "kind": "OBSTACLE · 4 HITS",
+          "icon": "spore",
+          "text": "Pops into a cloud of 8 slow spores.",
+          "class": "OBSTACLE",
+          "hits": 4,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "BOG TURRET",
+          "kind": "ENEMY · 6 HITS",
+          "icon": "turret",
+          "text": "Spits goo that leaves a small puddle.",
+          "class": "ENEMY",
+          "hits": 6,
+          "points": 500,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        }
+      ],
+      "mini_boss": {
+        "name": "Slime Mother",
+        "hp": 3200,
+        "reward_score": 2000,
+        "text": "Ring: fires a ring of 3 shots every 2.0 s; Charge dive: dives at your lane every 2.8 s, then returns",
+        "reward_credits": 0,
+        "drops": [
+          "damage_orb"
+        ],
+        "attacks": [
+          {
+            "name": "Ring",
+            "text": "fires a ring of 3 shots every 2.0 s"
+          },
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 2.8 s, then returns"
+          }
+        ]
+      }
+    },
+    "27": {
+      "stage": 27,
+      "name": "RAINBOW REEF",
+      "color": "#FF3EA5",
+      "motif": "crystals",
+      "description": "Crystal coral that glows in every colour.",
+      "items": [
+        {
+          "name": "PRISM CRYSTAL",
+          "kind": "OBSTACLE · 5 HITS",
+          "icon": "crystal",
+          "text": "Splits your bullets into 3 colours.",
+          "class": "OBSTACLE",
+          "hits": 5,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "COLOUR SPRITE",
+          "kind": "ENEMY · 3 HITS",
+          "icon": "orb",
+          "text": "Fires red, yellow, green, blue shots in order.",
+          "class": "ENEMY",
+          "hits": 3,
+          "points": 250,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "BEAM CORAL",
+          "kind": "HAZARD · UNBREAKABLE",
+          "icon": "gate",
+          "text": "Short beams that blink on and off.",
+          "class": "HAZARD",
+          "hits": null,
+          "points": 50,
+          "unbreakable": true,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "REEF RAY",
+          "kind": "ENEMY · 5 HITS",
+          "icon": "drone",
+          "text": "Glides in a wide arc and fires fans.",
+          "class": "ENEMY",
+          "hits": 5,
+          "points": 250,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        }
+      ],
+      "mini_boss": {
+        "name": "Colour Sprite",
+        "hp": 3400,
+        "reward_score": 2000,
+        "text": "Charge dive: dives at your lane every 2.0 s, then returns; Fan: fires a fan of 5 shots every 2.8 s",
+        "reward_credits": 0,
+        "drops": [
+          "damage_orb"
+        ],
+        "attacks": [
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 2.0 s, then returns"
+          },
+          {
+            "name": "Fan",
+            "text": "fires a fan of 5 shots every 2.8 s"
+          }
+        ]
+      }
+    },
+    "28": {
+      "stage": 28,
+      "name": "CLOCK TOWER VOID",
+      "color": "#2DE2FF",
+      "motif": "grid",
+      "description": "A tower of clocks floating in empty space.",
+      "items": [
+        {
+          "name": "PENDULUM",
+          "kind": "OBSTACLE · UNBREAKABLE",
+          "icon": "blade",
+          "text": "Swings across the screen on a steady beat.",
+          "class": "OBSTACLE",
+          "hits": null,
+          "points": 50,
+          "unbreakable": true,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "TICK DRONE",
+          "kind": "ENEMY · 3 HITS",
+          "icon": "drone",
+          "text": "Fires one shot every second, always on time.",
+          "class": "ENEMY",
+          "hits": 3,
+          "points": 250,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "SLOW FIELD",
+          "kind": "HAZARD · UNBREAKABLE",
+          "icon": "orb",
+          "text": "A ring that slows your bullets inside.",
+          "class": "HAZARD",
+          "hits": null,
+          "points": 50,
+          "unbreakable": true,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "CLOCK BOMB",
+          "kind": "HAZARD · 1 HIT",
+          "icon": "mine",
+          "text": "Counts down from 3 and explodes.",
+          "class": "HAZARD",
+          "hits": 1,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        }
+      ],
+      "mini_boss": {
+        "name": "Pendulum",
+        "hp": 3550,
+        "reward_score": 2000,
+        "text": "Fan: fires a fan of 3 shots every 2.0 s; Sweep line: a warning line shows, then a beam sweeps after 1 s; repeats every 2.8 s",
+        "reward_credits": 0,
+        "drops": [
+          "damage_orb"
+        ],
+        "attacks": [
+          {
+            "name": "Fan",
+            "text": "fires a fan of 3 shots every 2.0 s"
+          },
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 2.8 s"
+          }
+        ]
+      }
+    },
+    "29": {
+      "stage": 29,
+      "name": "SIEGE LINE",
+      "color": "#A9B4D0",
+      "motif": "blocks",
+      "description": "A battle line of walls and cannons. Break through.",
+      "items": [
+        {
+          "name": "WALL SEGMENT",
+          "kind": "OBSTACLE · 8 HITS",
+          "icon": "wall",
+          "text": "Blocks a lane until it is destroyed.",
+          "class": "OBSTACLE",
+          "hits": 8,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "SIEGE CANNON",
+          "kind": "ENEMY · 7 HITS",
+          "icon": "turret",
+          "text": "Fires slow, huge shells.",
+          "class": "ENEMY",
+          "hits": 7,
+          "points": 500,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "SHIELD CARRIER",
+          "kind": "ENEMY · 5 HITS",
+          "icon": "drone",
+          "text": "Protects nearby enemies with a bubble.",
+          "class": "ENEMY",
+          "hits": 5,
+          "points": 250,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "BARRAGE MINE",
+          "kind": "HAZARD · 2 HITS",
+          "icon": "mine",
+          "text": "Bursts into 6 slow shells.",
+          "class": "HAZARD",
+          "hits": 2,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        }
+      ],
+      "mini_boss": {
+        "name": "Gate Crusher",
+        "hp": 3750,
+        "reward_score": 2000,
+        "text": "Sweep line: a warning line shows, then a beam sweeps after 1 s; repeats every 2.0 s; Aimed burst: fires 5 aimed shots every 2.8 s",
+        "reward_credits": 0,
+        "drops": [
+          "damage_orb"
+        ],
+        "attacks": [
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 2.0 s"
+          },
+          {
+            "name": "Aimed burst",
+            "text": "fires 5 aimed shots every 2.8 s"
+          }
+        ]
+      }
+    },
+    "30": {
+      "stage": 30,
+      "name": "STARFALL FIELDS",
+      "color": "#FFC83D",
+      "motif": "stars",
+      "description": "Falling stars everywhere. Some are bullets.",
+      "items": [
+        {
+          "name": "FALLING STAR",
+          "kind": "HAZARD · 1 HIT",
+          "icon": "orb",
+          "text": "Streaks down in fast groups of 3.",
+          "class": "HAZARD",
+          "hits": 1,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "STAR SCYTHE",
+          "kind": "ENEMY · 4 HITS",
+          "icon": "blade",
+          "text": "Sweeps in an arc and leaves star bullets.",
+          "class": "ENEMY",
+          "hits": 4,
+          "points": 250,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "NOVA ROCK",
+          "kind": "OBSTACLE · 6 HITS",
+          "icon": "asteroid",
+          "text": "Bursts into 5 stars when destroyed.",
+          "class": "OBSTACLE",
+          "hits": 6,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "SKY LANTERN",
+          "kind": "ENEMY · 5 HITS",
+          "icon": "drone",
+          "text": "Floats up slowly and fires in all directions.",
+          "class": "ENEMY",
+          "hits": 5,
+          "points": 250,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        }
+      ],
+      "mini_boss": {
+        "name": "Dusk Reaper",
+        "hp": 3950,
+        "reward_score": 2000,
+        "text": "Aimed burst: fires 3 aimed shots every 2.0 s; Ring: fires a ring of 5 shots every 2.8 s",
+        "reward_credits": 0,
+        "drops": [
+          "damage_orb"
+        ],
+        "attacks": [
+          {
+            "name": "Aimed burst",
+            "text": "fires 3 aimed shots every 2.0 s"
+          },
+          {
+            "name": "Ring",
+            "text": "fires a ring of 5 shots every 2.8 s"
+          }
+        ]
+      }
+    },
+    "41": {
+      "stage": 41,
+      "name": "HYDRA LAGOON",
+      "color": "#7CFF6B",
+      "motif": "bubbles",
+      "description": "A swamp lagoon with too many heads watching.",
+      "items": [
+        {
+          "name": "HYDRA PUP",
+          "kind": "ENEMY · 5 HITS",
+          "icon": "tentacle",
+          "text": "Pops up from below and snaps at you.",
+          "class": "ENEMY",
+          "hits": 5,
+          "points": 250,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "POISON FOG",
+          "kind": "HAZARD · UNBREAKABLE",
+          "icon": "cloud",
+          "text": "Hides the screen edges for 3 seconds.",
+          "class": "HAZARD",
+          "hits": null,
+          "points": 50,
+          "unbreakable": true,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "NEST EGG",
+          "kind": "OBSTACLE · 6 HITS",
+          "icon": "spore",
+          "text": "Hatches a Hydra Pup when shot.",
+          "class": "OBSTACLE",
+          "hits": 6,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "LAGOON TURRET",
+          "kind": "ENEMY · 8 HITS",
+          "icon": "turret",
+          "text": "Spits 3 venom blobs in a spread.",
+          "class": "ENEMY",
+          "hits": 8,
+          "points": 500,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        }
+      ],
+      "mini_boss": {
+        "name": "Spawn Head",
+        "hp": 4250,
+        "reward_score": 2000,
+        "text": "Ring: fires a ring of 5 shots every 1.8 s; Charge dive: dives at your lane every 2.6 s, then returns",
+        "reward_credits": 0,
+        "drops": [
+          "damage_orb"
+        ],
+        "attacks": [
+          {
+            "name": "Ring",
+            "text": "fires a ring of 5 shots every 1.8 s"
+          },
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 2.6 s, then returns"
+          }
+        ]
+      }
+    },
+    "42": {
+      "stage": 42,
+      "name": "METEOR THRONE",
+      "color": "#FF4D5E",
+      "motif": "ruins",
+      "description": "A burning throne room in the middle of a meteor storm.",
+      "items": [
+        {
+          "name": "TARGET MARK",
+          "kind": "HAZARD · UNBREAKABLE",
+          "icon": "orb",
+          "text": "A red ring. A meteor lands there in 1 second.",
+          "class": "HAZARD",
+          "hits": null,
+          "points": 50,
+          "unbreakable": true,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "ROCK KNIGHT",
+          "kind": "ENEMY · 6 HITS",
+          "icon": "drone",
+          "text": "Armoured with rock. Hit the glowing joint.",
+          "class": "ENEMY",
+          "hits": 6,
+          "points": 500,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "FALLING MOON",
+          "kind": "OBSTACLE · 10 HITS",
+          "icon": "asteroid",
+          "text": "Huge rock that breaks into 4.",
+          "class": "OBSTACLE",
+          "hits": 10,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "EMBER TURRET",
+          "kind": "ENEMY · 8 HITS",
+          "icon": "turret",
+          "text": "Fires a slow fire spiral.",
+          "class": "ENEMY",
+          "hits": 8,
+          "points": 500,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        }
+      ],
+      "mini_boss": {
+        "name": "Rock Courtier",
+        "hp": 4500,
+        "reward_score": 2000,
+        "text": "Charge dive: dives at your lane every 1.8 s, then returns; Fan: fires a fan of 7 shots every 2.6 s",
+        "reward_credits": 0,
+        "drops": [
+          "damage_orb"
+        ],
+        "attacks": [
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 1.8 s, then returns"
+          },
+          {
+            "name": "Fan",
+            "text": "fires a fan of 7 shots every 2.6 s"
+          }
+        ]
+      }
+    },
+    "43": {
+      "stage": 43,
+      "name": "ECLIPSE GATE",
+      "color": "#B26BFF",
+      "motif": "void",
+      "description": "A gate where light and dark take turns.",
+      "items": [
+        {
+          "name": "LIGHT ORB",
+          "kind": "HAZARD · 1 HIT",
+          "icon": "orb",
+          "text": "Only harms you while the field is dark.",
+          "class": "HAZARD",
+          "hits": 1,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "SHADE FIGHTER",
+          "kind": "ENEMY · 5 HITS",
+          "icon": "drone",
+          "text": "Can be hit only while the field is light.",
+          "class": "ENEMY",
+          "hits": 5,
+          "points": 250,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "PHASE WALL",
+          "kind": "OBSTACLE · UNBREAKABLE",
+          "icon": "wall",
+          "text": "Solid in one phase, ghost in the other.",
+          "class": "OBSTACLE",
+          "hits": null,
+          "points": 50,
+          "unbreakable": true,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "ECLIPSE EYE",
+          "kind": "ENEMY · 8 HITS",
+          "icon": "turret",
+          "text": "Opens when the field changes and fires a ring.",
+          "class": "ENEMY",
+          "hits": 8,
+          "points": 500,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        }
+      ],
+      "mini_boss": {
+        "name": "Dusk Moth",
+        "hp": 4750,
+        "reward_score": 2000,
+        "text": "Fan: fires a fan of 5 shots every 1.8 s; Sweep line: a warning line shows, then a beam sweeps after 1 s; repeats every 2.6 s",
+        "reward_credits": 0,
+        "drops": [
+          "damage_orb"
+        ],
+        "attacks": [
+          {
+            "name": "Fan",
+            "text": "fires a fan of 5 shots every 1.8 s"
+          },
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 2.6 s"
+          }
+        ]
+      }
+    },
+    "44": {
+      "stage": 44,
+      "name": "LEGION DOCK",
+      "color": "#4DA3FF",
+      "motif": "grid",
+      "description": "A drone factory. They come out in neat lines.",
+      "items": [
+        {
+          "name": "MICRO DRONE",
+          "kind": "ENEMY · 1 HIT",
+          "icon": "drone",
+          "text": "Comes in groups of 12 in shapes.",
+          "class": "ENEMY",
+          "hits": 1,
+          "points": 100,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "DOCK ARM",
+          "kind": "OBSTACLE · UNBREAKABLE",
+          "icon": "blade",
+          "text": "Swings in and out of the lane.",
+          "class": "OBSTACLE",
+          "hits": null,
+          "points": 50,
+          "unbreakable": true,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "HANGAR DOOR",
+          "kind": "OBSTACLE · 8 HITS",
+          "icon": "wall",
+          "text": "Opens to release a drone wave.",
+          "class": "OBSTACLE",
+          "hits": 8,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "SIGNAL BEACON",
+          "kind": "ENEMY · 6 HITS",
+          "icon": "orb",
+          "text": "Marks you. Drones fly to the mark.",
+          "class": "ENEMY",
+          "hits": 6,
+          "points": 500,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        }
+      ],
+      "mini_boss": {
+        "name": "Drone Captain",
+        "hp": 5000,
+        "reward_score": 2000,
+        "text": "Sweep line: a warning line shows, then a beam sweeps after 1 s; repeats every 1.8 s; Aimed burst: fires 7 aimed shots every 2.6 s",
+        "reward_credits": 0,
+        "drops": [
+          "damage_orb"
+        ],
+        "attacks": [
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 1.8 s"
+          },
+          {
+            "name": "Aimed burst",
+            "text": "fires 7 aimed shots every 2.6 s"
+          }
+        ]
+      }
+    },
+    "45": {
+      "stage": 45,
+      "name": "MAGMA CORE",
+      "color": "#FF8A3D",
+      "motif": "fire",
+      "description": "Inside a living volcano. The floor is lava.",
+      "items": [
+        {
+          "name": "LAVA COLUMN",
+          "kind": "HAZARD · UNBREAKABLE",
+          "icon": "wave",
+          "text": "Warning glow, then a tall eruption.",
+          "class": "HAZARD",
+          "hits": null,
+          "points": 50,
+          "unbreakable": true,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "MAGMA IMP",
+          "kind": "ENEMY · 5 HITS",
+          "icon": "drone",
+          "text": "Hops across lava and throws embers.",
+          "class": "ENEMY",
+          "hits": 5,
+          "points": 250,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "OBSIDIAN SLAB",
+          "kind": "OBSTACLE · 10 HITS",
+          "icon": "wall",
+          "text": "Hard rock plates that block the lane.",
+          "class": "OBSTACLE",
+          "hits": 10,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "CINDER CANNON",
+          "kind": "ENEMY · 8 HITS",
+          "icon": "turret",
+          "text": "Fires a 7 ball fan then reloads.",
+          "class": "ENEMY",
+          "hits": 8,
+          "points": 500,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        }
+      ],
+      "mini_boss": {
+        "name": "Ember Giant",
+        "hp": 5250,
+        "reward_score": 2000,
+        "text": "Aimed burst: fires 5 aimed shots every 1.8 s; Ring: fires a ring of 7 shots every 2.6 s",
+        "reward_credits": 0,
+        "drops": [
+          "damage_orb"
+        ],
+        "attacks": [
+          {
+            "name": "Aimed burst",
+            "text": "fires 5 aimed shots every 1.8 s"
+          },
+          {
+            "name": "Ring",
+            "text": "fires a ring of 7 shots every 2.6 s"
+          }
+        ]
+      }
+    },
+    "46": {
+      "stage": 46,
+      "name": "CYBER DUNES",
+      "color": "#2DE2FF",
+      "motif": "grid",
+      "description": "A desert of metal sand and robot nests.",
+      "items": [
+        {
+          "name": "SAND SPIKE",
+          "kind": "HAZARD · 1 HIT",
+          "icon": "crystal",
+          "text": "Rises out of the sand after a ripple.",
+          "class": "HAZARD",
+          "hits": 1,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "SCRAP SCORPION",
+          "kind": "ENEMY · 6 HITS",
+          "icon": "tentacle",
+          "text": "Curls its tail and fires a laser.",
+          "class": "ENEMY",
+          "hits": 6,
+          "points": 500,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "BURIED MINE",
+          "kind": "HAZARD · 2 HITS",
+          "icon": "mine",
+          "text": "Pops up when you pass over it.",
+          "class": "HAZARD",
+          "hits": 2,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "DUNE TURRET",
+          "kind": "ENEMY · 8 HITS",
+          "icon": "turret",
+          "text": "Rotates and fires a rolling stream.",
+          "class": "ENEMY",
+          "hits": 8,
+          "points": 500,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        }
+      ],
+      "mini_boss": {
+        "name": "Sand Stinger",
+        "hp": 5500,
+        "reward_score": 2000,
+        "text": "Ring: fires a ring of 5 shots every 1.8 s; Charge dive: dives at your lane every 2.6 s, then returns",
+        "reward_credits": 0,
+        "drops": [
+          "damage_orb"
+        ],
+        "attacks": [
+          {
+            "name": "Ring",
+            "text": "fires a ring of 5 shots every 1.8 s"
+          },
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 2.6 s, then returns"
+          }
+        ]
+      }
+    },
+    "47": {
+      "stage": 47,
+      "name": "FROZEN THRONE",
+      "color": "#8FE8FF",
+      "motif": "ice",
+      "description": "A palace of ice. The cold blocks your special move.",
+      "items": [
+        {
+          "name": "FREEZE FIELD",
+          "kind": "HAZARD · UNBREAKABLE",
+          "icon": "cloud",
+          "text": "Locks your Special bar while you are in it.",
+          "class": "HAZARD",
+          "hits": null,
+          "points": 50,
+          "unbreakable": true,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "ICE GUARD",
+          "kind": "ENEMY · 6 HITS",
+          "icon": "drone",
+          "text": "Throws ice spears in a fan.",
+          "class": "ENEMY",
+          "hits": 6,
+          "points": 500,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "CRYSTAL PILLAR",
+          "kind": "OBSTACLE · 12 HITS",
+          "icon": "crystal",
+          "text": "Reflects your bullets sideways.",
+          "class": "OBSTACLE",
+          "hits": 12,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "BLIZZARD VENT",
+          "kind": "HAZARD · UNBREAKABLE",
+          "icon": "wave",
+          "text": "Pushes you across the screen.",
+          "class": "HAZARD",
+          "hits": null,
+          "points": 50,
+          "unbreakable": true,
+          "destroy_both_posts": false
+        }
+      ],
+      "mini_boss": {
+        "name": "Frost Maiden",
+        "hp": 5750,
+        "reward_score": 2000,
+        "text": "Charge dive: dives at your lane every 1.8 s, then returns; Fan: fires a fan of 7 shots every 2.6 s",
+        "reward_credits": 0,
+        "drops": [
+          "damage_orb"
+        ],
+        "attacks": [
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 1.8 s, then returns"
+          },
+          {
+            "name": "Fan",
+            "text": "fires a fan of 7 shots every 2.6 s"
+          }
+        ]
+      }
+    },
+    "48": {
+      "stage": 48,
+      "name": "CARNIVAL OF CHAOS",
+      "color": "#FF3EA5",
+      "motif": "shards",
+      "description": "A floating circus. Nothing happens the same way twice.",
+      "items": [
+        {
+          "name": "JACK-IN-BOX",
+          "kind": "ENEMY · 5 HITS",
+          "icon": "spore",
+          "text": "Pops open and fires in a random direction.",
+          "class": "ENEMY",
+          "hits": 5,
+          "points": 250,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "CARD BLADE",
+          "kind": "HAZARD · 1 HIT",
+          "icon": "blade",
+          "text": "Spinning card that bounces on the edges.",
+          "class": "HAZARD",
+          "hits": 1,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "TRICK BALLOON",
+          "kind": "OBSTACLE · 3 HITS",
+          "icon": "orb",
+          "text": "Pops into a surprise: shots, coins or nothing.",
+          "class": "OBSTACLE",
+          "hits": 3,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "CIRCUS CANNON",
+          "kind": "ENEMY · 8 HITS",
+          "icon": "turret",
+          "text": "Fires confetti bullets in random patterns.",
+          "class": "ENEMY",
+          "hits": 8,
+          "points": 500,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        }
+      ],
+      "mini_boss": {
+        "name": "Card Dealer",
+        "hp": 6000,
+        "reward_score": 2000,
+        "text": "Fan: fires a fan of 5 shots every 1.8 s; Sweep line: a warning line shows, then a beam sweeps after 1 s; repeats every 2.6 s",
+        "reward_credits": 0,
+        "drops": [
+          "damage_orb"
+        ],
+        "attacks": [
+          {
+            "name": "Fan",
+            "text": "fires a fan of 5 shots every 1.8 s"
+          },
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 2.6 s"
+          }
+        ]
+      }
+    },
+    "49": {
+      "stage": 49,
+      "name": "NEUTRON FIELD",
+      "color": "#FFC83D",
+      "motif": "stars",
+      "description": "A field of dense stars that send out waves.",
+      "items": [
+        {
+          "name": "PULSE STAR",
+          "kind": "HAZARD · UNBREAKABLE",
+          "icon": "orb",
+          "text": "Sends out rings every 2 seconds.",
+          "class": "HAZARD",
+          "hits": null,
+          "points": 50,
+          "unbreakable": true,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "NEUTRON SHARD",
+          "kind": "OBSTACLE · 8 HITS",
+          "icon": "crystal",
+          "text": "Heavy and slow. Drops fast sparks.",
+          "class": "OBSTACLE",
+          "hits": 8,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "GRAVITY ROCK",
+          "kind": "OBSTACLE · 12 HITS",
+          "icon": "asteroid",
+          "text": "Pulls bullets into its centre.",
+          "class": "OBSTACLE",
+          "hits": 12,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "STAR DRONE",
+          "kind": "ENEMY · 6 HITS",
+          "icon": "drone",
+          "text": "Orbits a pulse star and fires inward.",
+          "class": "ENEMY",
+          "hits": 6,
+          "points": 500,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        }
+      ],
+      "mini_boss": {
+        "name": "Pulse Ball",
+        "hp": 6250,
+        "reward_score": 2000,
+        "text": "Sweep line: a warning line shows, then a beam sweeps after 1 s; repeats every 1.8 s; Aimed burst: fires 7 aimed shots every 2.6 s",
+        "reward_credits": 0,
+        "drops": [
+          "damage_orb"
+        ],
+        "attacks": [
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 1.8 s"
+          },
+          {
+            "name": "Aimed burst",
+            "text": "fires 7 aimed shots every 2.6 s"
+          }
+        ]
+      }
+    },
+    "50": {
+      "stage": 50,
+      "name": "NEBULA COURT",
+      "color": "#B26BFF",
+      "motif": "void",
+      "description": "The home of the Nebula Overlord. All earlier tricks return.",
+      "items": [
+        {
+          "name": "COURT GUARD",
+          "kind": "ENEMY · 8 HITS",
+          "icon": "drone",
+          "text": "Uses a move from an earlier sector.",
+          "class": "ENEMY",
+          "hits": 8,
+          "points": 500,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "MAGIC SIGIL",
+          "kind": "HAZARD · UNBREAKABLE",
+          "icon": "orb",
+          "text": "Glows, then bursts into spirals.",
+          "class": "HAZARD",
+          "hits": null,
+          "points": 50,
+          "unbreakable": true,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "NEBULA GATE",
+          "kind": "OBSTACLE · UNBREAKABLE",
+          "icon": "gate",
+          "text": "Opens and closes in a pattern.",
+          "class": "OBSTACLE",
+          "hits": null,
+          "points": 50,
+          "unbreakable": true,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "ARCANE TURRET",
+          "kind": "ENEMY · 9 HITS",
+          "icon": "turret",
+          "text": "Fires 4 different bullet types in a loop.",
+          "class": "ENEMY",
+          "hits": 9,
+          "points": 500,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        }
+      ],
+      "mini_boss": {
+        "name": "Court Mage",
+        "hp": 6500,
+        "reward_score": 2000,
+        "text": "Aimed burst: fires 5 aimed shots every 1.8 s; Ring: fires a ring of 7 shots every 2.6 s",
+        "reward_credits": 0,
+        "drops": [
+          "damage_orb"
+        ],
+        "attacks": [
+          {
+            "name": "Aimed burst",
+            "text": "fires 5 aimed shots every 1.8 s"
+          },
+          {
+            "name": "Ring",
+            "text": "fires a ring of 7 shots every 2.6 s"
+          }
+        ]
+      }
+    },
+    "61": {
+      "stage": 61,
+      "name": "EVENT HORIZON",
+      "color": "#B26BFF",
+      "motif": "void",
+      "description": "The edge of a black hole. Everything leans inward.",
+      "items": [
+        {
+          "name": "ACCRETION RING",
+          "kind": "HAZARD · UNBREAKABLE",
+          "icon": "wave",
+          "text": "Spinning ring of light that burns on touch.",
+          "class": "HAZARD",
+          "hits": null,
+          "points": 50,
+          "unbreakable": true,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "DEBRIS SWARM",
+          "kind": "OBSTACLE · 3 HITS",
+          "icon": "asteroid",
+          "text": "Fast rocks pulled into the centre.",
+          "class": "OBSTACLE",
+          "hits": 3,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "GRAVITY EEL",
+          "kind": "ENEMY · 8 HITS",
+          "icon": "tentacle",
+          "text": "Swims in spirals and fires pulses.",
+          "class": "ENEMY",
+          "hits": 8,
+          "points": 500,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "SINGULARITY POD",
+          "kind": "HAZARD · 3 HITS",
+          "icon": "orb",
+          "text": "Opens a small pull zone for 3 seconds.",
+          "class": "HAZARD",
+          "hits": 3,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        }
+      ],
+      "mini_boss": {
+        "name": "Gravity Eel",
+        "hp": 7000,
+        "reward_score": 2000,
+        "text": "Ring: fires a ring of 7 shots every 1.6 s; Charge dive: dives at your lane every 2.4 s, then returns",
+        "reward_credits": 0,
+        "drops": [
+          "damage_orb"
+        ],
+        "attacks": [
+          {
+            "name": "Ring",
+            "text": "fires a ring of 7 shots every 1.6 s"
+          },
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 2.4 s, then returns"
+          }
+        ]
+      }
+    },
+    "62": {
+      "stage": 62,
+      "name": "SOLAR FORGE",
+      "color": "#FF9A3D",
+      "motif": "fire",
+      "description": "The inside of a star. Heat waves and fire birds.",
+      "items": [
+        {
+          "name": "FLARE WAVE",
+          "kind": "HAZARD · UNBREAKABLE",
+          "icon": "wave",
+          "text": "Wall of fire with one gap.",
+          "class": "HAZARD",
+          "hits": null,
+          "points": 50,
+          "unbreakable": true,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "FIRE FINCH",
+          "kind": "ENEMY · 6 HITS",
+          "icon": "blade",
+          "text": "Dives from above in a V shape.",
+          "class": "ENEMY",
+          "hits": 6,
+          "points": 500,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "SOLAR PLATE",
+          "kind": "OBSTACLE · 12 HITS",
+          "icon": "wall",
+          "text": "Melts after 3 seconds if not shot.",
+          "class": "OBSTACLE",
+          "hits": 12,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "FORGE CANNON",
+          "kind": "ENEMY · 10 HITS",
+          "icon": "turret",
+          "text": "Fires molten spirals.",
+          "class": "ENEMY",
+          "hits": 10,
+          "points": 500,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        }
+      ],
+      "mini_boss": {
+        "name": "Ember Bird",
+        "hp": 7400,
+        "reward_score": 2000,
+        "text": "Charge dive: dives at your lane every 1.6 s, then returns; Fan: fires a fan of 9 shots every 2.4 s",
+        "reward_credits": 0,
+        "drops": [
+          "damage_orb"
+        ],
+        "attacks": [
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 1.6 s, then returns"
+          },
+          {
+            "name": "Fan",
+            "text": "fires a fan of 9 shots every 2.4 s"
+          }
+        ]
+      }
+    },
+    "63": {
+      "stage": 63,
+      "name": "BROKEN DIMENSION",
+      "color": "#FF3EA5",
+      "motif": "shards",
+      "description": "Space is torn in pieces. Portals link the halves.",
+      "items": [
+        {
+          "name": "RIFT PORTAL",
+          "kind": "HAZARD · UNBREAKABLE",
+          "icon": "gate",
+          "text": "Pulls you through to the other half.",
+          "class": "HAZARD",
+          "hits": null,
+          "points": 50,
+          "unbreakable": true,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "RIFT HOUND",
+          "kind": "ENEMY · 8 HITS",
+          "icon": "drone",
+          "text": "Jumps through portals to surprise you.",
+          "class": "ENEMY",
+          "hits": 8,
+          "points": 500,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "SPLIT WALL",
+          "kind": "OBSTACLE · UNBREAKABLE",
+          "icon": "wall",
+          "text": "A wall that exists in only one half.",
+          "class": "OBSTACLE",
+          "hits": null,
+          "points": 50,
+          "unbreakable": true,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "TEAR TURRET",
+          "kind": "ENEMY · 10 HITS",
+          "icon": "turret",
+          "text": "Fires from one half to the other.",
+          "class": "ENEMY",
+          "hits": 10,
+          "points": 500,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        }
+      ],
+      "mini_boss": {
+        "name": "Rift Hound",
+        "hp": 7750,
+        "reward_score": 2000,
+        "text": "Fan: fires a fan of 7 shots every 1.6 s; Sweep line: a warning line shows, then a beam sweeps after 1 s; repeats every 2.4 s",
+        "reward_credits": 0,
+        "drops": [
+          "damage_orb"
+        ],
+        "attacks": [
+          {
+            "name": "Fan",
+            "text": "fires a fan of 7 shots every 1.6 s"
+          },
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 2.4 s"
+          }
+        ]
+      }
+    },
+    "64": {
+      "stage": 64,
+      "name": "MECHA ABYSS",
+      "color": "#4DA3FF",
+      "motif": "blocks",
+      "description": "A giant machine ocean with steel sea monsters.",
+      "items": [
+        {
+          "name": "TORPEDO",
+          "kind": "ENEMY · 3 HITS",
+          "icon": "blade",
+          "text": "Locks on and chases you for 3 seconds.",
+          "class": "ENEMY",
+          "hits": 3,
+          "points": 250,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "SEA MINE CHAIN",
+          "kind": "HAZARD · 2 HITS",
+          "icon": "mine",
+          "text": "Chains of mines that explode one by one.",
+          "class": "HAZARD",
+          "hits": 2,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "STEEL KELP",
+          "kind": "OBSTACLE · UNBREAKABLE",
+          "icon": "tentacle",
+          "text": "Sways side to side and blocks lanes.",
+          "class": "OBSTACLE",
+          "hits": null,
+          "points": 50,
+          "unbreakable": true,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "SONAR TURRET",
+          "kind": "ENEMY · 10 HITS",
+          "icon": "turret",
+          "text": "Sends rings that reveal hidden mines.",
+          "class": "ENEMY",
+          "hits": 10,
+          "points": 500,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        }
+      ],
+      "mini_boss": {
+        "name": "Torpedo Tank",
+        "hp": 8100,
+        "reward_score": 2000,
+        "text": "Sweep line: a warning line shows, then a beam sweeps after 1 s; repeats every 1.6 s; Aimed burst: fires 9 aimed shots every 2.4 s",
+        "reward_credits": 0,
+        "drops": [
+          "damage_orb"
+        ],
+        "attacks": [
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 1.6 s"
+          },
+          {
+            "name": "Aimed burst",
+            "text": "fires 9 aimed shots every 2.4 s"
+          }
+        ]
+      }
+    },
+    "65": {
+      "stage": 65,
+      "name": "QUANTUM LAB",
+      "color": "#2DE2FF",
+      "motif": "grid",
+      "description": "A lab of glowing cubes. Copies of things appear.",
+      "items": [
+        {
+          "name": "ECHO ENEMY",
+          "kind": "ENEMY · 6 HITS",
+          "icon": "drone",
+          "text": "Splits into 3 copies. Only one is real.",
+          "class": "ENEMY",
+          "hits": 6,
+          "points": 500,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "CUBE BARRIER",
+          "kind": "OBSTACLE · 10 HITS",
+          "icon": "wall",
+          "text": "Spinning cubes that form changing walls.",
+          "class": "OBSTACLE",
+          "hits": 10,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "BLINK MINE",
+          "kind": "HAZARD · 2 HITS",
+          "icon": "mine",
+          "text": "Teleports next to you and explodes.",
+          "class": "HAZARD",
+          "hits": 2,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "PHASE TURRET",
+          "kind": "ENEMY · 10 HITS",
+          "icon": "turret",
+          "text": "Fires from a new spot every 2 seconds.",
+          "class": "ENEMY",
+          "hits": 10,
+          "points": 500,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        }
+      ],
+      "mini_boss": {
+        "name": "Echo Clone",
+        "hp": 8500,
+        "reward_score": 2000,
+        "text": "Aimed burst: fires 7 aimed shots every 1.6 s; Ring: fires a ring of 9 shots every 2.4 s",
+        "reward_credits": 0,
+        "drops": [
+          "damage_orb"
+        ],
+        "attacks": [
+          {
+            "name": "Aimed burst",
+            "text": "fires 7 aimed shots every 1.6 s"
+          },
+          {
+            "name": "Ring",
+            "text": "fires a ring of 9 shots every 2.4 s"
+          }
+        ]
+      }
+    },
+    "66": {
+      "stage": 66,
+      "name": "ABYSSAL VOID",
+      "color": "#B26BFF",
+      "motif": "bubbles",
+      "description": "A pitch-black deep with watching eyes.",
+      "items": [
+        {
+          "name": "INK CLOUD",
+          "kind": "HAZARD · UNBREAKABLE",
+          "icon": "cloud",
+          "text": "Hides enemy bullets for 2 seconds.",
+          "class": "HAZARD",
+          "hits": null,
+          "points": 50,
+          "unbreakable": true,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "TENTACLE TIP",
+          "kind": "ENEMY · 8 HITS",
+          "icon": "tentacle",
+          "text": "Reaches in from the edge and lashes.",
+          "class": "ENEMY",
+          "hits": 8,
+          "points": 500,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "EYE POD",
+          "kind": "OBSTACLE · 10 HITS",
+          "icon": "orb",
+          "text": "A floating eye that fires slow beams.",
+          "class": "OBSTACLE",
+          "hits": 10,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "DEEP LURE",
+          "kind": "ENEMY · 6 HITS",
+          "icon": "drone",
+          "text": "A bright light that drags you in with a beam.",
+          "class": "ENEMY",
+          "hits": 6,
+          "points": 500,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        }
+      ],
+      "mini_boss": {
+        "name": "Ink Squid",
+        "hp": 8900,
+        "reward_score": 2000,
+        "text": "Ring: fires a ring of 7 shots every 1.6 s; Charge dive: dives at your lane every 2.4 s, then returns",
+        "reward_credits": 0,
+        "drops": [
+          "damage_orb"
+        ],
+        "attacks": [
+          {
+            "name": "Ring",
+            "text": "fires a ring of 7 shots every 1.6 s"
+          },
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 2.4 s, then returns"
+          }
+        ]
+      }
+    },
+    "67": {
+      "stage": 67,
+      "name": "STORM CITADEL",
+      "color": "#FFC83D",
+      "motif": "storm",
+      "description": "A castle on the cloud top. Lightning strikes in lines.",
+      "items": [
+        {
+          "name": "WARNING LINE",
+          "kind": "HAZARD · UNBREAKABLE",
+          "icon": "gate",
+          "text": "A red line. Lightning hits it in 1 second.",
+          "class": "HAZARD",
+          "hits": null,
+          "points": 50,
+          "unbreakable": true,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "THUNDER KNIGHT",
+          "kind": "ENEMY · 10 HITS",
+          "icon": "drone",
+          "text": "Throws a spinning lightning axe.",
+          "class": "ENEMY",
+          "hits": 10,
+          "points": 500,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "TOWER SHIELD",
+          "kind": "OBSTACLE · 14 HITS",
+          "icon": "wall",
+          "text": "Blocks bullets. Break it from the top.",
+          "class": "OBSTACLE",
+          "hits": 14,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "TESLA COIL",
+          "kind": "ENEMY · 10 HITS",
+          "icon": "bolt",
+          "text": "Arcs between two coils in a line.",
+          "class": "ENEMY",
+          "hits": 10,
+          "points": 500,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        }
+      ],
+      "mini_boss": {
+        "name": "Lightning Guard",
+        "hp": 9250,
+        "reward_score": 2000,
+        "text": "Charge dive: dives at your lane every 1.6 s, then returns; Fan: fires a fan of 9 shots every 2.4 s",
+        "reward_credits": 0,
+        "drops": [
+          "damage_orb"
+        ],
+        "attacks": [
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 1.6 s, then returns"
+          },
+          {
+            "name": "Fan",
+            "text": "fires a fan of 9 shots every 2.4 s"
+          }
+        ]
+      }
+    },
+    "68": {
+      "stage": 68,
+      "name": "CRYSTAL CAVERNS",
+      "color": "#2DE2FF",
+      "motif": "crystals",
+      "description": "A cave of giant crystals that bounce and split bullets.",
+      "items": [
+        {
+          "name": "GEODE ROCK",
+          "kind": "OBSTACLE · 12 HITS",
+          "icon": "crystal",
+          "text": "Opens into 4 shards when destroyed.",
+          "class": "OBSTACLE",
+          "hits": 12,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "SHARD BAT",
+          "kind": "ENEMY · 6 HITS",
+          "icon": "blade",
+          "text": "Flies in zig-zag and fires splitting shots.",
+          "class": "ENEMY",
+          "hits": 6,
+          "points": 500,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "MIRROR VEIN",
+          "kind": "HAZARD · UNBREAKABLE",
+          "icon": "mirror",
+          "text": "Bounces all bullets, yours and theirs.",
+          "class": "HAZARD",
+          "hits": null,
+          "points": 50,
+          "unbreakable": true,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "CRYSTAL TURRET",
+          "kind": "ENEMY · 10 HITS",
+          "icon": "turret",
+          "text": "Fires bouncing shards.",
+          "class": "ENEMY",
+          "hits": 10,
+          "points": 500,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        }
+      ],
+      "mini_boss": {
+        "name": "Shard Beast",
+        "hp": 9600,
+        "reward_score": 2000,
+        "text": "Fan: fires a fan of 7 shots every 1.6 s; Sweep line: a warning line shows, then a beam sweeps after 1 s; repeats every 2.4 s",
+        "reward_credits": 0,
+        "drops": [
+          "damage_orb"
+        ],
+        "attacks": [
+          {
+            "name": "Fan",
+            "text": "fires a fan of 7 shots every 1.6 s"
+          },
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 2.4 s"
+          }
+        ]
+      }
+    },
+    "69": {
+      "stage": 69,
+      "name": "MIND MAZE",
+      "color": "#FF3EA5",
+      "motif": "web",
+      "description": "A maze of floating thoughts. Controls may flip.",
+      "items": [
+        {
+          "name": "THOUGHT BUBBLE",
+          "kind": "HAZARD · 1 HIT",
+          "icon": "orb",
+          "text": "Pop it and your controls flip for 1 second.",
+          "class": "HAZARD",
+          "hits": 1,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "MEMORY WISP",
+          "kind": "ENEMY · 6 HITS",
+          "icon": "drone",
+          "text": "Repeats your last 3 moves as attacks.",
+          "class": "ENEMY",
+          "hits": 6,
+          "points": 500,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "NEURON WALL",
+          "kind": "OBSTACLE · 12 HITS",
+          "icon": "wall",
+          "text": "Pulses with light and blocks the lane.",
+          "class": "OBSTACLE",
+          "hits": 12,
+          "points": 50,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "DREAM TURRET",
+          "kind": "ENEMY · 10 HITS",
+          "icon": "turret",
+          "text": "Fires bullets that curve toward you.",
+          "class": "ENEMY",
+          "hits": 10,
+          "points": 500,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        }
+      ],
+      "mini_boss": {
+        "name": "Thought Eater",
+        "hp": 10000,
+        "reward_score": 2000,
+        "text": "Sweep line: a warning line shows, then a beam sweeps after 1 s; repeats every 1.6 s; Aimed burst: fires 9 aimed shots every 2.4 s",
+        "reward_credits": 0,
+        "drops": [
+          "damage_orb"
+        ],
+        "attacks": [
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 1.6 s"
+          },
+          {
+            "name": "Aimed burst",
+            "text": "fires 9 aimed shots every 2.4 s"
+          }
+        ]
+      }
+    },
+    "70": {
+      "stage": 70,
+      "name": "THRONE OF STARS",
+      "color": "#FFC83D",
+      "motif": "stars",
+      "description": "The home of the Cosmic Emperor. The hardest stage of the set.",
+      "items": [
+        {
+          "name": "STAR GUARD",
+          "kind": "ENEMY · 12 HITS",
+          "icon": "drone",
+          "text": "Uses attacks from all four sectors.",
+          "class": "ENEMY",
+          "hits": 12,
+          "points": 500,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "COSMIC SIGIL",
+          "kind": "HAZARD · UNBREAKABLE",
+          "icon": "orb",
+          "text": "Opens into bullet rings at fixed spots.",
+          "class": "HAZARD",
+          "hits": null,
+          "points": 50,
+          "unbreakable": true,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "ROYAL GATE",
+          "kind": "OBSTACLE · UNBREAKABLE",
+          "icon": "gate",
+          "text": "Opens and closes to a beat.",
+          "class": "OBSTACLE",
+          "hits": null,
+          "points": 50,
+          "unbreakable": true,
+          "destroy_both_posts": false
+        },
+        {
+          "name": "CROWN TURRET",
+          "kind": "ENEMY · 12 HITS",
+          "icon": "turret",
+          "text": "Fires 3 bullet types at once.",
+          "class": "ENEMY",
+          "hits": 12,
+          "points": 500,
+          "unbreakable": false,
+          "destroy_both_posts": false
+        }
+      ],
+      "mini_boss": {
+        "name": "Star Guard",
+        "hp": 10400,
+        "reward_score": 2000,
+        "text": "Aimed burst: fires 7 aimed shots every 1.6 s; Ring: fires a ring of 9 shots every 2.4 s",
+        "reward_credits": 0,
+        "drops": [
+          "damage_orb"
+        ],
+        "attacks": [
+          {
+            "name": "Aimed burst",
+            "text": "fires 7 aimed shots every 1.6 s"
+          },
+          {
+            "name": "Ring",
+            "text": "fires a ring of 9 shots every 2.4 s"
+          }
+        ]
+      }
+    }
+  }
+}

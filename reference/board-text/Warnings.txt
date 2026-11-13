@@ -1,0 +1,33 @@
+MENU
+WARNINGS & BOSS HEALTH
+Every danger state has a look and a sound. Flashes are soft and turn off with the Flash Effects setting.
+HULL
+HULL LOW
+LOW HULL
+With 1 hull bar left: pip blinks twice a second, red edge glow pulses, alarm loops. Music drops 30%.
+0.2 s flash
+1 s blink
+normal
+HIT FEEDBACK
+Jet flashes white, red edge frame, then 1 second of blinking. No hits count while blinking.
+!
+LASER LINE
+2 seconds
+INCOMING HAZARD
+A gold arrow and a red lane show where a laser, wall or ram will arrive 2 seconds before it does.
+ROCKMAW
+PHASE 1 / 3
+66%
+33%
+Glows gold when a weak point is open
+BOSS HEALTH BAR
+Full-width bar with 2 phase notches at 66% and 33%. Phase count is on the right.
+PHASE 2
+BOSS PHASE CHANGE
+Boss flashes white, a shockwave ring clears all bullets, PHASE banner for 1.5 seconds. Players are safe meanwhile.
+3 hits left
+2 hits left
+1 hit left
+broken
+SHIELD STATES
+Ring colour drops from blue to gold to red as hits are used. At 1 hit left it blinks. Breaking it plays a glass shatter.

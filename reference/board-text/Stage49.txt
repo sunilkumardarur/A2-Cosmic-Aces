@@ -1,0 +1,29 @@
+STAGE 49 · TIER 3
+NEUTRON FIELD
+A field of dense stars that send out waves.
+SAME STAGE, TINTED, IN
+MK II · STAGE 59
+PAIR · STAGE 99
+PULSE STAR
+HAZARD · UNBREAKABLE
+Sends out rings every 2 seconds.
+NEUTRON SHARD
+OBSTACLE · 8 HITS
+Heavy and slow. Drops fast sparks.
+GRAVITY ROCK
+OBSTACLE · 12 HITS
+Pulls bullets into its centre.
+STAR DRONE
+ENEMY · 6 HITS
+Orbits a pulse star and fires inward.
+BOSS 49
+HP 25,000 · 3 PHASES
+Neutron Behemoth Atlas
+MK II in stage 59
+HP 37,500
+FIGHTS · Rolls across the screen with shockwave rings.
+WEAK POINT · Single eye between shockwaves.
+MK II ADDS · Rings bounce back from the walls.
+MID-STAGE · Mini-boss Pulse Ball
+First clear up to +220 credits
+Repeat clear +1

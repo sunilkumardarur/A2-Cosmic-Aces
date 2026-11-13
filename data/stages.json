@@ -1,0 +1,4424 @@
+{
+  "_note": "Pair stages use the lower-numbered boss's stage theme (per design). Stage selection: SectorMap board (10 sectors) -> SectorNN board (10 stages) -> play. waves are in waves.json.",
+  "tier_by_stage": {
+    "1-20": 1,
+    "21-40": 2,
+    "41-60": 3,
+    "61-80": 4,
+    "81-100": "pairs"
+  },
+  "stages": [
+    {
+      "stage": 1,
+      "block": 1,
+      "boss_ids": [
+        1
+      ],
+      "boss_version": "mk1",
+      "theme_ref": 1,
+      "sector": 1,
+      "first_clear_credits": {
+        "clear": 30,
+        "stars_max": 30,
+        "boss": 40,
+        "total": 100,
+        "star_credits": [
+          10,
+          20,
+          30
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": true,
+      "mini_boss": {
+        "hp": 400,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": null,
+        "attacks_note": "Use the attack text of stage_themes.json stage theme 1 mini_boss"
+      },
+      "music_track": "Sector 1 · Ember Belt",
+      "boss_total_hp": 1200,
+      "boss_damage_scale": 1.0,
+      "enemy_hp_scale": 1.0,
+      "enemy_bullet_speed_scale": 1.0,
+      "stage_unlocked_by": null
+    },
+    {
+      "stage": 2,
+      "block": 1,
+      "boss_ids": [
+        2
+      ],
+      "boss_version": "mk1",
+      "theme_ref": 2,
+      "sector": 1,
+      "first_clear_credits": {
+        "clear": 30,
+        "stars_max": 30,
+        "boss": 40,
+        "total": 100,
+        "star_credits": [
+          10,
+          20,
+          30
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": true,
+      "mini_boss": {
+        "hp": 600,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": null,
+        "attacks_note": "Use the attack text of stage_themes.json stage theme 2 mini_boss"
+      },
+      "music_track": "Sector 2 · Venom Nebula",
+      "boss_total_hp": 2000,
+      "boss_damage_scale": 1.0,
+      "enemy_hp_scale": 1.0,
+      "enemy_bullet_speed_scale": 1.0,
+      "stage_unlocked_by": 1
+    },
+    {
+      "stage": 3,
+      "block": 1,
+      "boss_ids": [
+        3
+      ],
+      "boss_version": "mk1",
+      "theme_ref": 3,
+      "sector": 1,
+      "first_clear_credits": {
+        "clear": 30,
+        "stars_max": 30,
+        "boss": 40,
+        "total": 100,
+        "star_credits": [
+          10,
+          20,
+          30
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": true,
+      "mini_boss": {
+        "hp": 900,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": null,
+        "attacks_note": "Use the attack text of stage_themes.json stage theme 3 mini_boss"
+      },
+      "music_track": "Sector 3 · Iron Fleet",
+      "boss_total_hp": 3200,
+      "boss_damage_scale": 1.0,
+      "enemy_hp_scale": 1.0,
+      "enemy_bullet_speed_scale": 1.0,
+      "stage_unlocked_by": 2
+    },
+    {
+      "stage": 4,
+      "block": 1,
+      "boss_ids": [
+        4
+      ],
+      "boss_version": "mk1",
+      "theme_ref": 4,
+      "sector": 1,
+      "first_clear_credits": {
+        "clear": 30,
+        "stars_max": 30,
+        "boss": 40,
+        "total": 100,
+        "star_credits": [
+          10,
+          20,
+          30
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": true,
+      "mini_boss": {
+        "hp": 1200,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": null,
+        "attacks_note": "Use the attack text of stage_themes.json stage theme 4 mini_boss"
+      },
+      "music_track": "Sector 4 · Void Rift",
+      "boss_total_hp": 5000,
+      "boss_damage_scale": 1.0,
+      "enemy_hp_scale": 1.0,
+      "enemy_bullet_speed_scale": 1.0,
+      "stage_unlocked_by": 3
+    },
+    {
+      "stage": 5,
+      "block": 1,
+      "boss_ids": [
+        5
+      ],
+      "boss_version": "mk1",
+      "theme_ref": 5,
+      "sector": 1,
+      "first_clear_credits": {
+        "clear": 30,
+        "stars_max": 30,
+        "boss": 40,
+        "total": 100,
+        "star_credits": [
+          10,
+          20,
+          30
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": true,
+      "mini_boss": {
+        "hp": 1400,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Aimed burst",
+            "text": "fires 3 aimed shots every 2.2 s"
+          },
+          {
+            "name": "Ring",
+            "text": "fires a ring of 5 shots every 3.0 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 1 · Ember Belt",
+      "boss_total_hp": 5500,
+      "boss_damage_scale": 1.0,
+      "enemy_hp_scale": 1.0,
+      "enemy_bullet_speed_scale": 1.0,
+      "stage_unlocked_by": 4
+    },
+    {
+      "stage": 6,
+      "block": 1,
+      "boss_ids": [
+        6
+      ],
+      "boss_version": "mk1",
+      "theme_ref": 6,
+      "sector": 1,
+      "first_clear_credits": {
+        "clear": 30,
+        "stars_max": 30,
+        "boss": 40,
+        "total": 100,
+        "star_credits": [
+          10,
+          20,
+          30
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": true,
+      "mini_boss": {
+        "hp": 1500,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Ring",
+            "text": "fires a ring of 3 shots every 2.2 s"
+          },
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 3.0 s, then returns"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 2 · Venom Nebula",
+      "boss_total_hp": 6000,
+      "boss_damage_scale": 1.0,
+      "enemy_hp_scale": 1.0,
+      "enemy_bullet_speed_scale": 1.0,
+      "stage_unlocked_by": 5
+    },
+    {
+      "stage": 7,
+      "block": 1,
+      "boss_ids": [
+        7
+      ],
+      "boss_version": "mk1",
+      "theme_ref": 7,
+      "sector": 1,
+      "first_clear_credits": {
+        "clear": 30,
+        "stars_max": 30,
+        "boss": 40,
+        "total": 100,
+        "star_credits": [
+          10,
+          20,
+          30
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": true,
+      "mini_boss": {
+        "hp": 1600,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 2.2 s, then returns"
+          },
+          {
+            "name": "Fan",
+            "text": "fires a fan of 5 shots every 3.0 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 3 · Iron Fleet",
+      "boss_total_hp": 6500,
+      "boss_damage_scale": 1.0,
+      "enemy_hp_scale": 1.0,
+      "enemy_bullet_speed_scale": 1.0,
+      "stage_unlocked_by": 6
+    },
+    {
+      "stage": 8,
+      "block": 1,
+      "boss_ids": [
+        8
+      ],
+      "boss_version": "mk1",
+      "theme_ref": 8,
+      "sector": 1,
+      "first_clear_credits": {
+        "clear": 30,
+        "stars_max": 30,
+        "boss": 40,
+        "total": 100,
+        "star_credits": [
+          10,
+          20,
+          30
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": true,
+      "mini_boss": {
+        "hp": 1750,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Fan",
+            "text": "fires a fan of 3 shots every 2.2 s"
+          },
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 3.0 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 4 · Void Rift",
+      "boss_total_hp": 7000,
+      "boss_damage_scale": 1.0,
+      "enemy_hp_scale": 1.0,
+      "enemy_bullet_speed_scale": 1.0,
+      "stage_unlocked_by": 7
+    },
+    {
+      "stage": 9,
+      "block": 1,
+      "boss_ids": [
+        9
+      ],
+      "boss_version": "mk1",
+      "theme_ref": 9,
+      "sector": 1,
+      "first_clear_credits": {
+        "clear": 30,
+        "stars_max": 30,
+        "boss": 40,
+        "total": 100,
+        "star_credits": [
+          10,
+          20,
+          30
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": true,
+      "mini_boss": {
+        "hp": 1900,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 2.2 s"
+          },
+          {
+            "name": "Aimed burst",
+            "text": "fires 5 aimed shots every 3.0 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 1 · Ember Belt",
+      "boss_total_hp": 7500,
+      "boss_damage_scale": 1.0,
+      "enemy_hp_scale": 1.0,
+      "enemy_bullet_speed_scale": 1.0,
+      "stage_unlocked_by": 8
+    },
+    {
+      "stage": 10,
+      "block": 1,
+      "boss_ids": [
+        10
+      ],
+      "boss_version": "mk1",
+      "theme_ref": 10,
+      "sector": 1,
+      "first_clear_credits": {
+        "clear": 30,
+        "stars_max": 30,
+        "boss": 40,
+        "total": 100,
+        "star_credits": [
+          10,
+          20,
+          30
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": true,
+      "mini_boss": {
+        "hp": 2000,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Aimed burst",
+            "text": "fires 3 aimed shots every 2.2 s"
+          },
+          {
+            "name": "Ring",
+            "text": "fires a ring of 5 shots every 3.0 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 2 · Venom Nebula",
+      "boss_total_hp": 8000,
+      "boss_damage_scale": 1.0,
+      "enemy_hp_scale": 1.0,
+      "enemy_bullet_speed_scale": 1.0,
+      "stage_unlocked_by": 9
+    },
+    {
+      "stage": 11,
+      "block": 2,
+      "boss_ids": [
+        1
+      ],
+      "boss_version": "mk2",
+      "theme_ref": 1,
+      "sector": 2,
+      "first_clear_credits": {
+        "clear": 36,
+        "stars_max": 36,
+        "boss": 48,
+        "total": 120,
+        "star_credits": [
+          12,
+          24,
+          36
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 600,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": null,
+        "attacks_note": "Use the attack text of stage_themes.json stage theme 1 mini_boss"
+      },
+      "music_track": "Sector 1 · Ember Belt",
+      "boss_total_hp": 1800,
+      "boss_damage_scale": 1.0,
+      "enemy_hp_scale": 1.15,
+      "enemy_bullet_speed_scale": 1.03,
+      "stage_unlocked_by": 10
+    },
+    {
+      "stage": 12,
+      "block": 2,
+      "boss_ids": [
+        2
+      ],
+      "boss_version": "mk2",
+      "theme_ref": 2,
+      "sector": 2,
+      "first_clear_credits": {
+        "clear": 36,
+        "stars_max": 36,
+        "boss": 48,
+        "total": 120,
+        "star_credits": [
+          12,
+          24,
+          36
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 900,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": null,
+        "attacks_note": "Use the attack text of stage_themes.json stage theme 2 mini_boss"
+      },
+      "music_track": "Sector 2 · Venom Nebula",
+      "boss_total_hp": 3000,
+      "boss_damage_scale": 1.0,
+      "enemy_hp_scale": 1.15,
+      "enemy_bullet_speed_scale": 1.03,
+      "stage_unlocked_by": 11
+    },
+    {
+      "stage": 13,
+      "block": 2,
+      "boss_ids": [
+        3
+      ],
+      "boss_version": "mk2",
+      "theme_ref": 3,
+      "sector": 2,
+      "first_clear_credits": {
+        "clear": 36,
+        "stars_max": 36,
+        "boss": 48,
+        "total": 120,
+        "star_credits": [
+          12,
+          24,
+          36
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 1350,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": null,
+        "attacks_note": "Use the attack text of stage_themes.json stage theme 3 mini_boss"
+      },
+      "music_track": "Sector 3 · Iron Fleet",
+      "boss_total_hp": 4800,
+      "boss_damage_scale": 1.0,
+      "enemy_hp_scale": 1.15,
+      "enemy_bullet_speed_scale": 1.03,
+      "stage_unlocked_by": 12
+    },
+    {
+      "stage": 14,
+      "block": 2,
+      "boss_ids": [
+        4
+      ],
+      "boss_version": "mk2",
+      "theme_ref": 4,
+      "sector": 2,
+      "first_clear_credits": {
+        "clear": 36,
+        "stars_max": 36,
+        "boss": 48,
+        "total": 120,
+        "star_credits": [
+          12,
+          24,
+          36
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 1800,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": null,
+        "attacks_note": "Use the attack text of stage_themes.json stage theme 4 mini_boss"
+      },
+      "music_track": "Sector 4 · Void Rift",
+      "boss_total_hp": 7500,
+      "boss_damage_scale": 1.0,
+      "enemy_hp_scale": 1.15,
+      "enemy_bullet_speed_scale": 1.03,
+      "stage_unlocked_by": 13
+    },
+    {
+      "stage": 15,
+      "block": 2,
+      "boss_ids": [
+        5
+      ],
+      "boss_version": "mk2",
+      "theme_ref": 5,
+      "sector": 2,
+      "first_clear_credits": {
+        "clear": 36,
+        "stars_max": 36,
+        "boss": 48,
+        "total": 120,
+        "star_credits": [
+          12,
+          24,
+          36
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 2100,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Aimed burst",
+            "text": "fires 3 aimed shots every 2.1 s"
+          },
+          {
+            "name": "Ring",
+            "text": "fires a ring of 5 shots every 2.9 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 1 · Ember Belt",
+      "boss_total_hp": 8250,
+      "boss_damage_scale": 1.0,
+      "enemy_hp_scale": 1.15,
+      "enemy_bullet_speed_scale": 1.03,
+      "stage_unlocked_by": 14
+    },
+    {
+      "stage": 16,
+      "block": 2,
+      "boss_ids": [
+        6
+      ],
+      "boss_version": "mk2",
+      "theme_ref": 6,
+      "sector": 2,
+      "first_clear_credits": {
+        "clear": 36,
+        "stars_max": 36,
+        "boss": 48,
+        "total": 120,
+        "star_credits": [
+          12,
+          24,
+          36
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 2250,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Ring",
+            "text": "fires a ring of 3 shots every 2.1 s"
+          },
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 2.9 s, then returns"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 2 · Venom Nebula",
+      "boss_total_hp": 9000,
+      "boss_damage_scale": 1.0,
+      "enemy_hp_scale": 1.15,
+      "enemy_bullet_speed_scale": 1.03,
+      "stage_unlocked_by": 15
+    },
+    {
+      "stage": 17,
+      "block": 2,
+      "boss_ids": [
+        7
+      ],
+      "boss_version": "mk2",
+      "theme_ref": 7,
+      "sector": 2,
+      "first_clear_credits": {
+        "clear": 36,
+        "stars_max": 36,
+        "boss": 48,
+        "total": 120,
+        "star_credits": [
+          12,
+          24,
+          36
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 2400,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 2.1 s, then returns"
+          },
+          {
+            "name": "Fan",
+            "text": "fires a fan of 5 shots every 2.9 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 3 · Iron Fleet",
+      "boss_total_hp": 9750,
+      "boss_damage_scale": 1.0,
+      "enemy_hp_scale": 1.15,
+      "enemy_bullet_speed_scale": 1.03,
+      "stage_unlocked_by": 16
+    },
+    {
+      "stage": 18,
+      "block": 2,
+      "boss_ids": [
+        8
+      ],
+      "boss_version": "mk2",
+      "theme_ref": 8,
+      "sector": 2,
+      "first_clear_credits": {
+        "clear": 36,
+        "stars_max": 36,
+        "boss": 48,
+        "total": 120,
+        "star_credits": [
+          12,
+          24,
+          36
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 2625,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Fan",
+            "text": "fires a fan of 3 shots every 2.1 s"
+          },
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 2.9 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 4 · Void Rift",
+      "boss_total_hp": 10500,
+      "boss_damage_scale": 1.0,
+      "enemy_hp_scale": 1.15,
+      "enemy_bullet_speed_scale": 1.03,
+      "stage_unlocked_by": 17
+    },
+    {
+      "stage": 19,
+      "block": 2,
+      "boss_ids": [
+        9
+      ],
+      "boss_version": "mk2",
+      "theme_ref": 9,
+      "sector": 2,
+      "first_clear_credits": {
+        "clear": 36,
+        "stars_max": 36,
+        "boss": 48,
+        "total": 120,
+        "star_credits": [
+          12,
+          24,
+          36
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 2850,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 2.1 s"
+          },
+          {
+            "name": "Aimed burst",
+            "text": "fires 5 aimed shots every 2.9 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 1 · Ember Belt",
+      "boss_total_hp": 11250,
+      "boss_damage_scale": 1.0,
+      "enemy_hp_scale": 1.15,
+      "enemy_bullet_speed_scale": 1.03,
+      "stage_unlocked_by": 18
+    },
+    {
+      "stage": 20,
+      "block": 2,
+      "boss_ids": [
+        10
+      ],
+      "boss_version": "mk2",
+      "theme_ref": 10,
+      "sector": 2,
+      "first_clear_credits": {
+        "clear": 36,
+        "stars_max": 36,
+        "boss": 48,
+        "total": 120,
+        "star_credits": [
+          12,
+          24,
+          36
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 3000,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Aimed burst",
+            "text": "fires 3 aimed shots every 2.1 s"
+          },
+          {
+            "name": "Ring",
+            "text": "fires a ring of 5 shots every 2.9 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 2 · Venom Nebula",
+      "boss_total_hp": 12000,
+      "boss_damage_scale": 1.0,
+      "enemy_hp_scale": 1.15,
+      "enemy_bullet_speed_scale": 1.03,
+      "stage_unlocked_by": 19
+    },
+    {
+      "stage": 21,
+      "block": 3,
+      "boss_ids": [
+        21
+      ],
+      "boss_version": "mk1",
+      "theme_ref": 21,
+      "sector": 3,
+      "first_clear_credits": {
+        "clear": 45,
+        "stars_max": 45,
+        "boss": 60,
+        "total": 150,
+        "star_credits": [
+          15,
+          30,
+          45
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": true,
+      "mini_boss": {
+        "hp": 2250,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Ring",
+            "text": "fires a ring of 3 shots every 2.0 s"
+          },
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 2.8 s, then returns"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 1 · Ember Belt",
+      "boss_total_hp": 9000,
+      "boss_damage_scale": 1.6,
+      "enemy_hp_scale": 1.3,
+      "enemy_bullet_speed_scale": 1.06,
+      "stage_unlocked_by": 20
+    },
+    {
+      "stage": 22,
+      "block": 3,
+      "boss_ids": [
+        22
+      ],
+      "boss_version": "mk1",
+      "theme_ref": 22,
+      "sector": 3,
+      "first_clear_credits": {
+        "clear": 45,
+        "stars_max": 45,
+        "boss": 60,
+        "total": 150,
+        "star_credits": [
+          15,
+          30,
+          45
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": true,
+      "mini_boss": {
+        "hp": 2450,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 2.0 s, then returns"
+          },
+          {
+            "name": "Fan",
+            "text": "fires a fan of 5 shots every 2.8 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 2 · Venom Nebula",
+      "boss_total_hp": 9750,
+      "boss_damage_scale": 1.6,
+      "enemy_hp_scale": 1.3,
+      "enemy_bullet_speed_scale": 1.06,
+      "stage_unlocked_by": 21
+    },
+    {
+      "stage": 23,
+      "block": 3,
+      "boss_ids": [
+        23
+      ],
+      "boss_version": "mk1",
+      "theme_ref": 23,
+      "sector": 3,
+      "first_clear_credits": {
+        "clear": 45,
+        "stars_max": 45,
+        "boss": 60,
+        "total": 150,
+        "star_credits": [
+          15,
+          30,
+          45
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": true,
+      "mini_boss": {
+        "hp": 2600,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Fan",
+            "text": "fires a fan of 3 shots every 2.0 s"
+          },
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 2.8 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 3 · Iron Fleet",
+      "boss_total_hp": 10500,
+      "boss_damage_scale": 1.6,
+      "enemy_hp_scale": 1.3,
+      "enemy_bullet_speed_scale": 1.06,
+      "stage_unlocked_by": 22
+    },
+    {
+      "stage": 24,
+      "block": 3,
+      "boss_ids": [
+        24
+      ],
+      "boss_version": "mk1",
+      "theme_ref": 24,
+      "sector": 3,
+      "first_clear_credits": {
+        "clear": 45,
+        "stars_max": 45,
+        "boss": 60,
+        "total": 150,
+        "star_credits": [
+          15,
+          30,
+          45
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": true,
+      "mini_boss": {
+        "hp": 2800,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 2.0 s"
+          },
+          {
+            "name": "Aimed burst",
+            "text": "fires 5 aimed shots every 2.8 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 4 · Void Rift",
+      "boss_total_hp": 11250,
+      "boss_damage_scale": 1.6,
+      "enemy_hp_scale": 1.3,
+      "enemy_bullet_speed_scale": 1.06,
+      "stage_unlocked_by": 23
+    },
+    {
+      "stage": 25,
+      "block": 3,
+      "boss_ids": [
+        25
+      ],
+      "boss_version": "mk1",
+      "theme_ref": 25,
+      "sector": 3,
+      "first_clear_credits": {
+        "clear": 45,
+        "stars_max": 45,
+        "boss": 60,
+        "total": 150,
+        "star_credits": [
+          15,
+          30,
+          45
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": true,
+      "mini_boss": {
+        "hp": 3000,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Aimed burst",
+            "text": "fires 3 aimed shots every 2.0 s"
+          },
+          {
+            "name": "Ring",
+            "text": "fires a ring of 5 shots every 2.8 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 1 · Ember Belt",
+      "boss_total_hp": 12000,
+      "boss_damage_scale": 1.6,
+      "enemy_hp_scale": 1.3,
+      "enemy_bullet_speed_scale": 1.06,
+      "stage_unlocked_by": 24
+    },
+    {
+      "stage": 26,
+      "block": 3,
+      "boss_ids": [
+        26
+      ],
+      "boss_version": "mk1",
+      "theme_ref": 26,
+      "sector": 3,
+      "first_clear_credits": {
+        "clear": 45,
+        "stars_max": 45,
+        "boss": 60,
+        "total": 150,
+        "star_credits": [
+          15,
+          30,
+          45
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": true,
+      "mini_boss": {
+        "hp": 3200,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Ring",
+            "text": "fires a ring of 3 shots every 2.0 s"
+          },
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 2.8 s, then returns"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 2 · Venom Nebula",
+      "boss_total_hp": 12750,
+      "boss_damage_scale": 1.6,
+      "enemy_hp_scale": 1.3,
+      "enemy_bullet_speed_scale": 1.06,
+      "stage_unlocked_by": 25
+    },
+    {
+      "stage": 27,
+      "block": 3,
+      "boss_ids": [
+        27
+      ],
+      "boss_version": "mk1",
+      "theme_ref": 27,
+      "sector": 3,
+      "first_clear_credits": {
+        "clear": 45,
+        "stars_max": 45,
+        "boss": 60,
+        "total": 150,
+        "star_credits": [
+          15,
+          30,
+          45
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": true,
+      "mini_boss": {
+        "hp": 3400,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 2.0 s, then returns"
+          },
+          {
+            "name": "Fan",
+            "text": "fires a fan of 5 shots every 2.8 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 3 · Iron Fleet",
+      "boss_total_hp": 13500,
+      "boss_damage_scale": 1.6,
+      "enemy_hp_scale": 1.3,
+      "enemy_bullet_speed_scale": 1.06,
+      "stage_unlocked_by": 26
+    },
+    {
+      "stage": 28,
+      "block": 3,
+      "boss_ids": [
+        28
+      ],
+      "boss_version": "mk1",
+      "theme_ref": 28,
+      "sector": 3,
+      "first_clear_credits": {
+        "clear": 45,
+        "stars_max": 45,
+        "boss": 60,
+        "total": 150,
+        "star_credits": [
+          15,
+          30,
+          45
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": true,
+      "mini_boss": {
+        "hp": 3550,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Fan",
+            "text": "fires a fan of 3 shots every 2.0 s"
+          },
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 2.8 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 4 · Void Rift",
+      "boss_total_hp": 14250,
+      "boss_damage_scale": 1.6,
+      "enemy_hp_scale": 1.3,
+      "enemy_bullet_speed_scale": 1.06,
+      "stage_unlocked_by": 27
+    },
+    {
+      "stage": 29,
+      "block": 3,
+      "boss_ids": [
+        29
+      ],
+      "boss_version": "mk1",
+      "theme_ref": 29,
+      "sector": 3,
+      "first_clear_credits": {
+        "clear": 45,
+        "stars_max": 45,
+        "boss": 60,
+        "total": 150,
+        "star_credits": [
+          15,
+          30,
+          45
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": true,
+      "mini_boss": {
+        "hp": 3750,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 2.0 s"
+          },
+          {
+            "name": "Aimed burst",
+            "text": "fires 5 aimed shots every 2.8 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 1 · Ember Belt",
+      "boss_total_hp": 15000,
+      "boss_damage_scale": 1.6,
+      "enemy_hp_scale": 1.3,
+      "enemy_bullet_speed_scale": 1.06,
+      "stage_unlocked_by": 28
+    },
+    {
+      "stage": 30,
+      "block": 3,
+      "boss_ids": [
+        30
+      ],
+      "boss_version": "mk1",
+      "theme_ref": 30,
+      "sector": 3,
+      "first_clear_credits": {
+        "clear": 45,
+        "stars_max": 45,
+        "boss": 60,
+        "total": 150,
+        "star_credits": [
+          15,
+          30,
+          45
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": true,
+      "mini_boss": {
+        "hp": 3950,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Aimed burst",
+            "text": "fires 3 aimed shots every 2.0 s"
+          },
+          {
+            "name": "Ring",
+            "text": "fires a ring of 5 shots every 2.8 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 2 · Venom Nebula",
+      "boss_total_hp": 15750,
+      "boss_damage_scale": 1.6,
+      "enemy_hp_scale": 1.3,
+      "enemy_bullet_speed_scale": 1.06,
+      "stage_unlocked_by": 29
+    },
+    {
+      "stage": 31,
+      "block": 4,
+      "boss_ids": [
+        21
+      ],
+      "boss_version": "mk2",
+      "theme_ref": 21,
+      "sector": 4,
+      "first_clear_credits": {
+        "clear": 54,
+        "stars_max": 54,
+        "boss": 72,
+        "total": 180,
+        "star_credits": [
+          18,
+          36,
+          54
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 3375,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Ring",
+            "text": "fires a ring of 5 shots every 1.9 s"
+          },
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 2.7 s, then returns"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 1 · Ember Belt",
+      "boss_total_hp": 13500,
+      "boss_damage_scale": 1.6,
+      "enemy_hp_scale": 1.45,
+      "enemy_bullet_speed_scale": 1.09,
+      "stage_unlocked_by": 30
+    },
+    {
+      "stage": 32,
+      "block": 4,
+      "boss_ids": [
+        22
+      ],
+      "boss_version": "mk2",
+      "theme_ref": 22,
+      "sector": 4,
+      "first_clear_credits": {
+        "clear": 54,
+        "stars_max": 54,
+        "boss": 72,
+        "total": 180,
+        "star_credits": [
+          18,
+          36,
+          54
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 3675,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 1.9 s, then returns"
+          },
+          {
+            "name": "Fan",
+            "text": "fires a fan of 7 shots every 2.7 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 2 · Venom Nebula",
+      "boss_total_hp": 14625,
+      "boss_damage_scale": 1.6,
+      "enemy_hp_scale": 1.45,
+      "enemy_bullet_speed_scale": 1.09,
+      "stage_unlocked_by": 31
+    },
+    {
+      "stage": 33,
+      "block": 4,
+      "boss_ids": [
+        23
+      ],
+      "boss_version": "mk2",
+      "theme_ref": 23,
+      "sector": 4,
+      "first_clear_credits": {
+        "clear": 54,
+        "stars_max": 54,
+        "boss": 72,
+        "total": 180,
+        "star_credits": [
+          18,
+          36,
+          54
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 3900,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Fan",
+            "text": "fires a fan of 5 shots every 1.9 s"
+          },
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 2.7 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 3 · Iron Fleet",
+      "boss_total_hp": 15750,
+      "boss_damage_scale": 1.6,
+      "enemy_hp_scale": 1.45,
+      "enemy_bullet_speed_scale": 1.09,
+      "stage_unlocked_by": 32
+    },
+    {
+      "stage": 34,
+      "block": 4,
+      "boss_ids": [
+        24
+      ],
+      "boss_version": "mk2",
+      "theme_ref": 24,
+      "sector": 4,
+      "first_clear_credits": {
+        "clear": 54,
+        "stars_max": 54,
+        "boss": 72,
+        "total": 180,
+        "star_credits": [
+          18,
+          36,
+          54
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 4200,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 1.9 s"
+          },
+          {
+            "name": "Aimed burst",
+            "text": "fires 7 aimed shots every 2.7 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 4 · Void Rift",
+      "boss_total_hp": 16875,
+      "boss_damage_scale": 1.6,
+      "enemy_hp_scale": 1.45,
+      "enemy_bullet_speed_scale": 1.09,
+      "stage_unlocked_by": 33
+    },
+    {
+      "stage": 35,
+      "block": 4,
+      "boss_ids": [
+        25
+      ],
+      "boss_version": "mk2",
+      "theme_ref": 25,
+      "sector": 4,
+      "first_clear_credits": {
+        "clear": 54,
+        "stars_max": 54,
+        "boss": 72,
+        "total": 180,
+        "star_credits": [
+          18,
+          36,
+          54
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 4500,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Aimed burst",
+            "text": "fires 5 aimed shots every 1.9 s"
+          },
+          {
+            "name": "Ring",
+            "text": "fires a ring of 7 shots every 2.7 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 1 · Ember Belt",
+      "boss_total_hp": 18000,
+      "boss_damage_scale": 1.6,
+      "enemy_hp_scale": 1.45,
+      "enemy_bullet_speed_scale": 1.09,
+      "stage_unlocked_by": 34
+    },
+    {
+      "stage": 36,
+      "block": 4,
+      "boss_ids": [
+        26
+      ],
+      "boss_version": "mk2",
+      "theme_ref": 26,
+      "sector": 4,
+      "first_clear_credits": {
+        "clear": 54,
+        "stars_max": 54,
+        "boss": 72,
+        "total": 180,
+        "star_credits": [
+          18,
+          36,
+          54
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 4800,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Ring",
+            "text": "fires a ring of 5 shots every 1.9 s"
+          },
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 2.7 s, then returns"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 2 · Venom Nebula",
+      "boss_total_hp": 19125,
+      "boss_damage_scale": 1.6,
+      "enemy_hp_scale": 1.45,
+      "enemy_bullet_speed_scale": 1.09,
+      "stage_unlocked_by": 35
+    },
+    {
+      "stage": 37,
+      "block": 4,
+      "boss_ids": [
+        27
+      ],
+      "boss_version": "mk2",
+      "theme_ref": 27,
+      "sector": 4,
+      "first_clear_credits": {
+        "clear": 54,
+        "stars_max": 54,
+        "boss": 72,
+        "total": 180,
+        "star_credits": [
+          18,
+          36,
+          54
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 5100,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 1.9 s, then returns"
+          },
+          {
+            "name": "Fan",
+            "text": "fires a fan of 7 shots every 2.7 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 3 · Iron Fleet",
+      "boss_total_hp": 20250,
+      "boss_damage_scale": 1.6,
+      "enemy_hp_scale": 1.45,
+      "enemy_bullet_speed_scale": 1.09,
+      "stage_unlocked_by": 36
+    },
+    {
+      "stage": 38,
+      "block": 4,
+      "boss_ids": [
+        28
+      ],
+      "boss_version": "mk2",
+      "theme_ref": 28,
+      "sector": 4,
+      "first_clear_credits": {
+        "clear": 54,
+        "stars_max": 54,
+        "boss": 72,
+        "total": 180,
+        "star_credits": [
+          18,
+          36,
+          54
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 5325,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Fan",
+            "text": "fires a fan of 5 shots every 1.9 s"
+          },
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 2.7 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 4 · Void Rift",
+      "boss_total_hp": 21375,
+      "boss_damage_scale": 1.6,
+      "enemy_hp_scale": 1.45,
+      "enemy_bullet_speed_scale": 1.09,
+      "stage_unlocked_by": 37
+    },
+    {
+      "stage": 39,
+      "block": 4,
+      "boss_ids": [
+        29
+      ],
+      "boss_version": "mk2",
+      "theme_ref": 29,
+      "sector": 4,
+      "first_clear_credits": {
+        "clear": 54,
+        "stars_max": 54,
+        "boss": 72,
+        "total": 180,
+        "star_credits": [
+          18,
+          36,
+          54
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 5625,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 1.9 s"
+          },
+          {
+            "name": "Aimed burst",
+            "text": "fires 7 aimed shots every 2.7 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 1 · Ember Belt",
+      "boss_total_hp": 22500,
+      "boss_damage_scale": 1.6,
+      "enemy_hp_scale": 1.45,
+      "enemy_bullet_speed_scale": 1.09,
+      "stage_unlocked_by": 38
+    },
+    {
+      "stage": 40,
+      "block": 4,
+      "boss_ids": [
+        30
+      ],
+      "boss_version": "mk2",
+      "theme_ref": 30,
+      "sector": 4,
+      "first_clear_credits": {
+        "clear": 54,
+        "stars_max": 54,
+        "boss": 72,
+        "total": 180,
+        "star_credits": [
+          18,
+          36,
+          54
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 5925,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Aimed burst",
+            "text": "fires 5 aimed shots every 1.9 s"
+          },
+          {
+            "name": "Ring",
+            "text": "fires a ring of 7 shots every 2.7 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 2 · Venom Nebula",
+      "boss_total_hp": 23625,
+      "boss_damage_scale": 1.6,
+      "enemy_hp_scale": 1.45,
+      "enemy_bullet_speed_scale": 1.09,
+      "stage_unlocked_by": 39
+    },
+    {
+      "stage": 41,
+      "block": 5,
+      "boss_ids": [
+        41
+      ],
+      "boss_version": "mk1",
+      "theme_ref": 41,
+      "sector": 5,
+      "first_clear_credits": {
+        "clear": 66,
+        "stars_max": 66,
+        "boss": 88,
+        "total": 220,
+        "star_credits": [
+          22,
+          44,
+          66
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": true,
+      "mini_boss": {
+        "hp": 4250,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Ring",
+            "text": "fires a ring of 5 shots every 1.8 s"
+          },
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 2.6 s, then returns"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 1 · Ember Belt",
+      "boss_total_hp": 17000,
+      "boss_damage_scale": 2.2,
+      "enemy_hp_scale": 1.6,
+      "enemy_bullet_speed_scale": 1.12,
+      "stage_unlocked_by": 40
+    },
+    {
+      "stage": 42,
+      "block": 5,
+      "boss_ids": [
+        42
+      ],
+      "boss_version": "mk1",
+      "theme_ref": 42,
+      "sector": 5,
+      "first_clear_credits": {
+        "clear": 66,
+        "stars_max": 66,
+        "boss": 88,
+        "total": 220,
+        "star_credits": [
+          22,
+          44,
+          66
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": true,
+      "mini_boss": {
+        "hp": 4500,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 1.8 s, then returns"
+          },
+          {
+            "name": "Fan",
+            "text": "fires a fan of 7 shots every 2.6 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 2 · Venom Nebula",
+      "boss_total_hp": 18000,
+      "boss_damage_scale": 2.2,
+      "enemy_hp_scale": 1.6,
+      "enemy_bullet_speed_scale": 1.12,
+      "stage_unlocked_by": 41
+    },
+    {
+      "stage": 43,
+      "block": 5,
+      "boss_ids": [
+        43
+      ],
+      "boss_version": "mk1",
+      "theme_ref": 43,
+      "sector": 5,
+      "first_clear_credits": {
+        "clear": 66,
+        "stars_max": 66,
+        "boss": 88,
+        "total": 220,
+        "star_credits": [
+          22,
+          44,
+          66
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": true,
+      "mini_boss": {
+        "hp": 4750,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Fan",
+            "text": "fires a fan of 5 shots every 1.8 s"
+          },
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 2.6 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 3 · Iron Fleet",
+      "boss_total_hp": 19000,
+      "boss_damage_scale": 2.2,
+      "enemy_hp_scale": 1.6,
+      "enemy_bullet_speed_scale": 1.12,
+      "stage_unlocked_by": 42
+    },
+    {
+      "stage": 44,
+      "block": 5,
+      "boss_ids": [
+        44
+      ],
+      "boss_version": "mk1",
+      "theme_ref": 44,
+      "sector": 5,
+      "first_clear_credits": {
+        "clear": 66,
+        "stars_max": 66,
+        "boss": 88,
+        "total": 220,
+        "star_credits": [
+          22,
+          44,
+          66
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": true,
+      "mini_boss": {
+        "hp": 5000,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 1.8 s"
+          },
+          {
+            "name": "Aimed burst",
+            "text": "fires 7 aimed shots every 2.6 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 4 · Void Rift",
+      "boss_total_hp": 20000,
+      "boss_damage_scale": 2.2,
+      "enemy_hp_scale": 1.6,
+      "enemy_bullet_speed_scale": 1.12,
+      "stage_unlocked_by": 43
+    },
+    {
+      "stage": 45,
+      "block": 5,
+      "boss_ids": [
+        45
+      ],
+      "boss_version": "mk1",
+      "theme_ref": 45,
+      "sector": 5,
+      "first_clear_credits": {
+        "clear": 66,
+        "stars_max": 66,
+        "boss": 88,
+        "total": 220,
+        "star_credits": [
+          22,
+          44,
+          66
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": true,
+      "mini_boss": {
+        "hp": 5250,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Aimed burst",
+            "text": "fires 5 aimed shots every 1.8 s"
+          },
+          {
+            "name": "Ring",
+            "text": "fires a ring of 7 shots every 2.6 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 1 · Ember Belt",
+      "boss_total_hp": 21000,
+      "boss_damage_scale": 2.2,
+      "enemy_hp_scale": 1.6,
+      "enemy_bullet_speed_scale": 1.12,
+      "stage_unlocked_by": 44
+    },
+    {
+      "stage": 46,
+      "block": 5,
+      "boss_ids": [
+        46
+      ],
+      "boss_version": "mk1",
+      "theme_ref": 46,
+      "sector": 5,
+      "first_clear_credits": {
+        "clear": 66,
+        "stars_max": 66,
+        "boss": 88,
+        "total": 220,
+        "star_credits": [
+          22,
+          44,
+          66
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": true,
+      "mini_boss": {
+        "hp": 5500,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Ring",
+            "text": "fires a ring of 5 shots every 1.8 s"
+          },
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 2.6 s, then returns"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 2 · Venom Nebula",
+      "boss_total_hp": 22000,
+      "boss_damage_scale": 2.2,
+      "enemy_hp_scale": 1.6,
+      "enemy_bullet_speed_scale": 1.12,
+      "stage_unlocked_by": 45
+    },
+    {
+      "stage": 47,
+      "block": 5,
+      "boss_ids": [
+        47
+      ],
+      "boss_version": "mk1",
+      "theme_ref": 47,
+      "sector": 5,
+      "first_clear_credits": {
+        "clear": 66,
+        "stars_max": 66,
+        "boss": 88,
+        "total": 220,
+        "star_credits": [
+          22,
+          44,
+          66
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": true,
+      "mini_boss": {
+        "hp": 5750,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 1.8 s, then returns"
+          },
+          {
+            "name": "Fan",
+            "text": "fires a fan of 7 shots every 2.6 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 3 · Iron Fleet",
+      "boss_total_hp": 23000,
+      "boss_damage_scale": 2.2,
+      "enemy_hp_scale": 1.6,
+      "enemy_bullet_speed_scale": 1.12,
+      "stage_unlocked_by": 46
+    },
+    {
+      "stage": 48,
+      "block": 5,
+      "boss_ids": [
+        48
+      ],
+      "boss_version": "mk1",
+      "theme_ref": 48,
+      "sector": 5,
+      "first_clear_credits": {
+        "clear": 66,
+        "stars_max": 66,
+        "boss": 88,
+        "total": 220,
+        "star_credits": [
+          22,
+          44,
+          66
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": true,
+      "mini_boss": {
+        "hp": 6000,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Fan",
+            "text": "fires a fan of 5 shots every 1.8 s"
+          },
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 2.6 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 4 · Void Rift",
+      "boss_total_hp": 24000,
+      "boss_damage_scale": 2.2,
+      "enemy_hp_scale": 1.6,
+      "enemy_bullet_speed_scale": 1.12,
+      "stage_unlocked_by": 47
+    },
+    {
+      "stage": 49,
+      "block": 5,
+      "boss_ids": [
+        49
+      ],
+      "boss_version": "mk1",
+      "theme_ref": 49,
+      "sector": 5,
+      "first_clear_credits": {
+        "clear": 66,
+        "stars_max": 66,
+        "boss": 88,
+        "total": 220,
+        "star_credits": [
+          22,
+          44,
+          66
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": true,
+      "mini_boss": {
+        "hp": 6250,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 1.8 s"
+          },
+          {
+            "name": "Aimed burst",
+            "text": "fires 7 aimed shots every 2.6 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 1 · Ember Belt",
+      "boss_total_hp": 25000,
+      "boss_damage_scale": 2.2,
+      "enemy_hp_scale": 1.6,
+      "enemy_bullet_speed_scale": 1.12,
+      "stage_unlocked_by": 48
+    },
+    {
+      "stage": 50,
+      "block": 5,
+      "boss_ids": [
+        50
+      ],
+      "boss_version": "mk1",
+      "theme_ref": 50,
+      "sector": 5,
+      "first_clear_credits": {
+        "clear": 66,
+        "stars_max": 66,
+        "boss": 88,
+        "total": 220,
+        "star_credits": [
+          22,
+          44,
+          66
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": true,
+      "mini_boss": {
+        "hp": 6500,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Aimed burst",
+            "text": "fires 5 aimed shots every 1.8 s"
+          },
+          {
+            "name": "Ring",
+            "text": "fires a ring of 7 shots every 2.6 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 2 · Venom Nebula",
+      "boss_total_hp": 26000,
+      "boss_damage_scale": 2.2,
+      "enemy_hp_scale": 1.6,
+      "enemy_bullet_speed_scale": 1.12,
+      "stage_unlocked_by": 49
+    },
+    {
+      "stage": 51,
+      "block": 6,
+      "boss_ids": [
+        41
+      ],
+      "boss_version": "mk2",
+      "theme_ref": 41,
+      "sector": 6,
+      "first_clear_credits": {
+        "clear": 78,
+        "stars_max": 78,
+        "boss": 104,
+        "total": 260,
+        "star_credits": [
+          26,
+          52,
+          78
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 6375,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Ring",
+            "text": "fires a ring of 5 shots every 1.7 s"
+          },
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 2.5 s, then returns"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 1 · Ember Belt",
+      "boss_total_hp": 25500,
+      "boss_damage_scale": 2.2,
+      "enemy_hp_scale": 1.75,
+      "enemy_bullet_speed_scale": 1.15,
+      "stage_unlocked_by": 50
+    },
+    {
+      "stage": 52,
+      "block": 6,
+      "boss_ids": [
+        42
+      ],
+      "boss_version": "mk2",
+      "theme_ref": 42,
+      "sector": 6,
+      "first_clear_credits": {
+        "clear": 78,
+        "stars_max": 78,
+        "boss": 104,
+        "total": 260,
+        "star_credits": [
+          26,
+          52,
+          78
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 6750,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 1.7 s, then returns"
+          },
+          {
+            "name": "Fan",
+            "text": "fires a fan of 7 shots every 2.5 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 2 · Venom Nebula",
+      "boss_total_hp": 27000,
+      "boss_damage_scale": 2.2,
+      "enemy_hp_scale": 1.75,
+      "enemy_bullet_speed_scale": 1.15,
+      "stage_unlocked_by": 51
+    },
+    {
+      "stage": 53,
+      "block": 6,
+      "boss_ids": [
+        43
+      ],
+      "boss_version": "mk2",
+      "theme_ref": 43,
+      "sector": 6,
+      "first_clear_credits": {
+        "clear": 78,
+        "stars_max": 78,
+        "boss": 104,
+        "total": 260,
+        "star_credits": [
+          26,
+          52,
+          78
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 7125,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Fan",
+            "text": "fires a fan of 5 shots every 1.7 s"
+          },
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 2.5 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 3 · Iron Fleet",
+      "boss_total_hp": 28500,
+      "boss_damage_scale": 2.2,
+      "enemy_hp_scale": 1.75,
+      "enemy_bullet_speed_scale": 1.15,
+      "stage_unlocked_by": 52
+    },
+    {
+      "stage": 54,
+      "block": 6,
+      "boss_ids": [
+        44
+      ],
+      "boss_version": "mk2",
+      "theme_ref": 44,
+      "sector": 6,
+      "first_clear_credits": {
+        "clear": 78,
+        "stars_max": 78,
+        "boss": 104,
+        "total": 260,
+        "star_credits": [
+          26,
+          52,
+          78
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 7500,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 1.7 s"
+          },
+          {
+            "name": "Aimed burst",
+            "text": "fires 7 aimed shots every 2.5 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 4 · Void Rift",
+      "boss_total_hp": 30000,
+      "boss_damage_scale": 2.2,
+      "enemy_hp_scale": 1.75,
+      "enemy_bullet_speed_scale": 1.15,
+      "stage_unlocked_by": 53
+    },
+    {
+      "stage": 55,
+      "block": 6,
+      "boss_ids": [
+        45
+      ],
+      "boss_version": "mk2",
+      "theme_ref": 45,
+      "sector": 6,
+      "first_clear_credits": {
+        "clear": 78,
+        "stars_max": 78,
+        "boss": 104,
+        "total": 260,
+        "star_credits": [
+          26,
+          52,
+          78
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 7875,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Aimed burst",
+            "text": "fires 5 aimed shots every 1.7 s"
+          },
+          {
+            "name": "Ring",
+            "text": "fires a ring of 7 shots every 2.5 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 1 · Ember Belt",
+      "boss_total_hp": 31500,
+      "boss_damage_scale": 2.2,
+      "enemy_hp_scale": 1.75,
+      "enemy_bullet_speed_scale": 1.15,
+      "stage_unlocked_by": 54
+    },
+    {
+      "stage": 56,
+      "block": 6,
+      "boss_ids": [
+        46
+      ],
+      "boss_version": "mk2",
+      "theme_ref": 46,
+      "sector": 6,
+      "first_clear_credits": {
+        "clear": 78,
+        "stars_max": 78,
+        "boss": 104,
+        "total": 260,
+        "star_credits": [
+          26,
+          52,
+          78
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 8250,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Ring",
+            "text": "fires a ring of 5 shots every 1.7 s"
+          },
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 2.5 s, then returns"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 2 · Venom Nebula",
+      "boss_total_hp": 33000,
+      "boss_damage_scale": 2.2,
+      "enemy_hp_scale": 1.75,
+      "enemy_bullet_speed_scale": 1.15,
+      "stage_unlocked_by": 55
+    },
+    {
+      "stage": 57,
+      "block": 6,
+      "boss_ids": [
+        47
+      ],
+      "boss_version": "mk2",
+      "theme_ref": 47,
+      "sector": 6,
+      "first_clear_credits": {
+        "clear": 78,
+        "stars_max": 78,
+        "boss": 104,
+        "total": 260,
+        "star_credits": [
+          26,
+          52,
+          78
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 8625,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 1.7 s, then returns"
+          },
+          {
+            "name": "Fan",
+            "text": "fires a fan of 7 shots every 2.5 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 3 · Iron Fleet",
+      "boss_total_hp": 34500,
+      "boss_damage_scale": 2.2,
+      "enemy_hp_scale": 1.75,
+      "enemy_bullet_speed_scale": 1.15,
+      "stage_unlocked_by": 56
+    },
+    {
+      "stage": 58,
+      "block": 6,
+      "boss_ids": [
+        48
+      ],
+      "boss_version": "mk2",
+      "theme_ref": 48,
+      "sector": 6,
+      "first_clear_credits": {
+        "clear": 78,
+        "stars_max": 78,
+        "boss": 104,
+        "total": 260,
+        "star_credits": [
+          26,
+          52,
+          78
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 9000,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Fan",
+            "text": "fires a fan of 5 shots every 1.7 s"
+          },
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 2.5 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 4 · Void Rift",
+      "boss_total_hp": 36000,
+      "boss_damage_scale": 2.2,
+      "enemy_hp_scale": 1.75,
+      "enemy_bullet_speed_scale": 1.15,
+      "stage_unlocked_by": 57
+    },
+    {
+      "stage": 59,
+      "block": 6,
+      "boss_ids": [
+        49
+      ],
+      "boss_version": "mk2",
+      "theme_ref": 49,
+      "sector": 6,
+      "first_clear_credits": {
+        "clear": 78,
+        "stars_max": 78,
+        "boss": 104,
+        "total": 260,
+        "star_credits": [
+          26,
+          52,
+          78
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 9375,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 1.7 s"
+          },
+          {
+            "name": "Aimed burst",
+            "text": "fires 7 aimed shots every 2.5 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 1 · Ember Belt",
+      "boss_total_hp": 37500,
+      "boss_damage_scale": 2.2,
+      "enemy_hp_scale": 1.75,
+      "enemy_bullet_speed_scale": 1.15,
+      "stage_unlocked_by": 58
+    },
+    {
+      "stage": 60,
+      "block": 6,
+      "boss_ids": [
+        50
+      ],
+      "boss_version": "mk2",
+      "theme_ref": 50,
+      "sector": 6,
+      "first_clear_credits": {
+        "clear": 78,
+        "stars_max": 78,
+        "boss": 104,
+        "total": 260,
+        "star_credits": [
+          26,
+          52,
+          78
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 9750,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Aimed burst",
+            "text": "fires 5 aimed shots every 1.7 s"
+          },
+          {
+            "name": "Ring",
+            "text": "fires a ring of 7 shots every 2.5 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 2 · Venom Nebula",
+      "boss_total_hp": 39000,
+      "boss_damage_scale": 2.2,
+      "enemy_hp_scale": 1.75,
+      "enemy_bullet_speed_scale": 1.15,
+      "stage_unlocked_by": 59
+    },
+    {
+      "stage": 61,
+      "block": 7,
+      "boss_ids": [
+        61
+      ],
+      "boss_version": "mk1",
+      "theme_ref": 61,
+      "sector": 7,
+      "first_clear_credits": {
+        "clear": 90,
+        "stars_max": 90,
+        "boss": 120,
+        "total": 300,
+        "star_credits": [
+          30,
+          60,
+          90
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": true,
+      "mini_boss": {
+        "hp": 7000,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Ring",
+            "text": "fires a ring of 7 shots every 1.6 s"
+          },
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 2.4 s, then returns"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 1 · Ember Belt",
+      "boss_total_hp": 28000,
+      "boss_damage_scale": 3.0,
+      "enemy_hp_scale": 1.9,
+      "enemy_bullet_speed_scale": 1.18,
+      "stage_unlocked_by": 60
+    },
+    {
+      "stage": 62,
+      "block": 7,
+      "boss_ids": [
+        62
+      ],
+      "boss_version": "mk1",
+      "theme_ref": 62,
+      "sector": 7,
+      "first_clear_credits": {
+        "clear": 90,
+        "stars_max": 90,
+        "boss": 120,
+        "total": 300,
+        "star_credits": [
+          30,
+          60,
+          90
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": true,
+      "mini_boss": {
+        "hp": 7400,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 1.6 s, then returns"
+          },
+          {
+            "name": "Fan",
+            "text": "fires a fan of 9 shots every 2.4 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 2 · Venom Nebula",
+      "boss_total_hp": 29500,
+      "boss_damage_scale": 3.0,
+      "enemy_hp_scale": 1.9,
+      "enemy_bullet_speed_scale": 1.18,
+      "stage_unlocked_by": 61
+    },
+    {
+      "stage": 63,
+      "block": 7,
+      "boss_ids": [
+        63
+      ],
+      "boss_version": "mk1",
+      "theme_ref": 63,
+      "sector": 7,
+      "first_clear_credits": {
+        "clear": 90,
+        "stars_max": 90,
+        "boss": 120,
+        "total": 300,
+        "star_credits": [
+          30,
+          60,
+          90
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": true,
+      "mini_boss": {
+        "hp": 7750,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Fan",
+            "text": "fires a fan of 7 shots every 1.6 s"
+          },
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 2.4 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 3 · Iron Fleet",
+      "boss_total_hp": 31000,
+      "boss_damage_scale": 3.0,
+      "enemy_hp_scale": 1.9,
+      "enemy_bullet_speed_scale": 1.18,
+      "stage_unlocked_by": 62
+    },
+    {
+      "stage": 64,
+      "block": 7,
+      "boss_ids": [
+        64
+      ],
+      "boss_version": "mk1",
+      "theme_ref": 64,
+      "sector": 7,
+      "first_clear_credits": {
+        "clear": 90,
+        "stars_max": 90,
+        "boss": 120,
+        "total": 300,
+        "star_credits": [
+          30,
+          60,
+          90
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": true,
+      "mini_boss": {
+        "hp": 8100,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 1.6 s"
+          },
+          {
+            "name": "Aimed burst",
+            "text": "fires 9 aimed shots every 2.4 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 4 · Void Rift",
+      "boss_total_hp": 32500,
+      "boss_damage_scale": 3.0,
+      "enemy_hp_scale": 1.9,
+      "enemy_bullet_speed_scale": 1.18,
+      "stage_unlocked_by": 63
+    },
+    {
+      "stage": 65,
+      "block": 7,
+      "boss_ids": [
+        65
+      ],
+      "boss_version": "mk1",
+      "theme_ref": 65,
+      "sector": 7,
+      "first_clear_credits": {
+        "clear": 90,
+        "stars_max": 90,
+        "boss": 120,
+        "total": 300,
+        "star_credits": [
+          30,
+          60,
+          90
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": true,
+      "mini_boss": {
+        "hp": 8500,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Aimed burst",
+            "text": "fires 7 aimed shots every 1.6 s"
+          },
+          {
+            "name": "Ring",
+            "text": "fires a ring of 9 shots every 2.4 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 1 · Ember Belt",
+      "boss_total_hp": 34000,
+      "boss_damage_scale": 3.0,
+      "enemy_hp_scale": 1.9,
+      "enemy_bullet_speed_scale": 1.18,
+      "stage_unlocked_by": 64
+    },
+    {
+      "stage": 66,
+      "block": 7,
+      "boss_ids": [
+        66
+      ],
+      "boss_version": "mk1",
+      "theme_ref": 66,
+      "sector": 7,
+      "first_clear_credits": {
+        "clear": 90,
+        "stars_max": 90,
+        "boss": 120,
+        "total": 300,
+        "star_credits": [
+          30,
+          60,
+          90
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": true,
+      "mini_boss": {
+        "hp": 8900,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Ring",
+            "text": "fires a ring of 7 shots every 1.6 s"
+          },
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 2.4 s, then returns"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 2 · Venom Nebula",
+      "boss_total_hp": 35500,
+      "boss_damage_scale": 3.0,
+      "enemy_hp_scale": 1.9,
+      "enemy_bullet_speed_scale": 1.18,
+      "stage_unlocked_by": 65
+    },
+    {
+      "stage": 67,
+      "block": 7,
+      "boss_ids": [
+        67
+      ],
+      "boss_version": "mk1",
+      "theme_ref": 67,
+      "sector": 7,
+      "first_clear_credits": {
+        "clear": 90,
+        "stars_max": 90,
+        "boss": 120,
+        "total": 300,
+        "star_credits": [
+          30,
+          60,
+          90
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": true,
+      "mini_boss": {
+        "hp": 9250,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 1.6 s, then returns"
+          },
+          {
+            "name": "Fan",
+            "text": "fires a fan of 9 shots every 2.4 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 3 · Iron Fleet",
+      "boss_total_hp": 37000,
+      "boss_damage_scale": 3.0,
+      "enemy_hp_scale": 1.9,
+      "enemy_bullet_speed_scale": 1.18,
+      "stage_unlocked_by": 66
+    },
+    {
+      "stage": 68,
+      "block": 7,
+      "boss_ids": [
+        68
+      ],
+      "boss_version": "mk1",
+      "theme_ref": 68,
+      "sector": 7,
+      "first_clear_credits": {
+        "clear": 90,
+        "stars_max": 90,
+        "boss": 120,
+        "total": 300,
+        "star_credits": [
+          30,
+          60,
+          90
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": true,
+      "mini_boss": {
+        "hp": 9600,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Fan",
+            "text": "fires a fan of 7 shots every 1.6 s"
+          },
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 2.4 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 4 · Void Rift",
+      "boss_total_hp": 38500,
+      "boss_damage_scale": 3.0,
+      "enemy_hp_scale": 1.9,
+      "enemy_bullet_speed_scale": 1.18,
+      "stage_unlocked_by": 67
+    },
+    {
+      "stage": 69,
+      "block": 7,
+      "boss_ids": [
+        69
+      ],
+      "boss_version": "mk1",
+      "theme_ref": 69,
+      "sector": 7,
+      "first_clear_credits": {
+        "clear": 90,
+        "stars_max": 90,
+        "boss": 120,
+        "total": 300,
+        "star_credits": [
+          30,
+          60,
+          90
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": true,
+      "mini_boss": {
+        "hp": 10000,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 1.6 s"
+          },
+          {
+            "name": "Aimed burst",
+            "text": "fires 9 aimed shots every 2.4 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 1 · Ember Belt",
+      "boss_total_hp": 40000,
+      "boss_damage_scale": 3.0,
+      "enemy_hp_scale": 1.9,
+      "enemy_bullet_speed_scale": 1.18,
+      "stage_unlocked_by": 68
+    },
+    {
+      "stage": 70,
+      "block": 7,
+      "boss_ids": [
+        70
+      ],
+      "boss_version": "mk1",
+      "theme_ref": 70,
+      "sector": 7,
+      "first_clear_credits": {
+        "clear": 90,
+        "stars_max": 90,
+        "boss": 120,
+        "total": 300,
+        "star_credits": [
+          30,
+          60,
+          90
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": true,
+      "mini_boss": {
+        "hp": 10400,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Aimed burst",
+            "text": "fires 7 aimed shots every 1.6 s"
+          },
+          {
+            "name": "Ring",
+            "text": "fires a ring of 9 shots every 2.4 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 2 · Venom Nebula",
+      "boss_total_hp": 41500,
+      "boss_damage_scale": 3.0,
+      "enemy_hp_scale": 1.9,
+      "enemy_bullet_speed_scale": 1.18,
+      "stage_unlocked_by": 69
+    },
+    {
+      "stage": 71,
+      "block": 8,
+      "boss_ids": [
+        61
+      ],
+      "boss_version": "mk2",
+      "theme_ref": 61,
+      "sector": 8,
+      "first_clear_credits": {
+        "clear": 105,
+        "stars_max": 105,
+        "boss": 140,
+        "total": 350,
+        "star_credits": [
+          35,
+          70,
+          105
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 10500,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Ring",
+            "text": "fires a ring of 7 shots every 1.5 s"
+          },
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 2.3 s, then returns"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 1 · Ember Belt",
+      "boss_total_hp": 42000,
+      "boss_damage_scale": 3.0,
+      "enemy_hp_scale": 2.05,
+      "enemy_bullet_speed_scale": 1.21,
+      "stage_unlocked_by": 70
+    },
+    {
+      "stage": 72,
+      "block": 8,
+      "boss_ids": [
+        62
+      ],
+      "boss_version": "mk2",
+      "theme_ref": 62,
+      "sector": 8,
+      "first_clear_credits": {
+        "clear": 105,
+        "stars_max": 105,
+        "boss": 140,
+        "total": 350,
+        "star_credits": [
+          35,
+          70,
+          105
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 11100,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 1.5 s, then returns"
+          },
+          {
+            "name": "Fan",
+            "text": "fires a fan of 9 shots every 2.3 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 2 · Venom Nebula",
+      "boss_total_hp": 44250,
+      "boss_damage_scale": 3.0,
+      "enemy_hp_scale": 2.05,
+      "enemy_bullet_speed_scale": 1.21,
+      "stage_unlocked_by": 71
+    },
+    {
+      "stage": 73,
+      "block": 8,
+      "boss_ids": [
+        63
+      ],
+      "boss_version": "mk2",
+      "theme_ref": 63,
+      "sector": 8,
+      "first_clear_credits": {
+        "clear": 105,
+        "stars_max": 105,
+        "boss": 140,
+        "total": 350,
+        "star_credits": [
+          35,
+          70,
+          105
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 11625,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Fan",
+            "text": "fires a fan of 7 shots every 1.5 s"
+          },
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 2.3 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 3 · Iron Fleet",
+      "boss_total_hp": 46500,
+      "boss_damage_scale": 3.0,
+      "enemy_hp_scale": 2.05,
+      "enemy_bullet_speed_scale": 1.21,
+      "stage_unlocked_by": 72
+    },
+    {
+      "stage": 74,
+      "block": 8,
+      "boss_ids": [
+        64
+      ],
+      "boss_version": "mk2",
+      "theme_ref": 64,
+      "sector": 8,
+      "first_clear_credits": {
+        "clear": 105,
+        "stars_max": 105,
+        "boss": 140,
+        "total": 350,
+        "star_credits": [
+          35,
+          70,
+          105
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 12150,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 1.5 s"
+          },
+          {
+            "name": "Aimed burst",
+            "text": "fires 9 aimed shots every 2.3 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 4 · Void Rift",
+      "boss_total_hp": 48750,
+      "boss_damage_scale": 3.0,
+      "enemy_hp_scale": 2.05,
+      "enemy_bullet_speed_scale": 1.21,
+      "stage_unlocked_by": 73
+    },
+    {
+      "stage": 75,
+      "block": 8,
+      "boss_ids": [
+        65
+      ],
+      "boss_version": "mk2",
+      "theme_ref": 65,
+      "sector": 8,
+      "first_clear_credits": {
+        "clear": 105,
+        "stars_max": 105,
+        "boss": 140,
+        "total": 350,
+        "star_credits": [
+          35,
+          70,
+          105
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 12750,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Aimed burst",
+            "text": "fires 7 aimed shots every 1.5 s"
+          },
+          {
+            "name": "Ring",
+            "text": "fires a ring of 9 shots every 2.3 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 1 · Ember Belt",
+      "boss_total_hp": 51000,
+      "boss_damage_scale": 3.0,
+      "enemy_hp_scale": 2.05,
+      "enemy_bullet_speed_scale": 1.21,
+      "stage_unlocked_by": 74
+    },
+    {
+      "stage": 76,
+      "block": 8,
+      "boss_ids": [
+        66
+      ],
+      "boss_version": "mk2",
+      "theme_ref": 66,
+      "sector": 8,
+      "first_clear_credits": {
+        "clear": 105,
+        "stars_max": 105,
+        "boss": 140,
+        "total": 350,
+        "star_credits": [
+          35,
+          70,
+          105
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 13350,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Ring",
+            "text": "fires a ring of 7 shots every 1.5 s"
+          },
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 2.3 s, then returns"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 2 · Venom Nebula",
+      "boss_total_hp": 53250,
+      "boss_damage_scale": 3.0,
+      "enemy_hp_scale": 2.05,
+      "enemy_bullet_speed_scale": 1.21,
+      "stage_unlocked_by": 75
+    },
+    {
+      "stage": 77,
+      "block": 8,
+      "boss_ids": [
+        67
+      ],
+      "boss_version": "mk2",
+      "theme_ref": 67,
+      "sector": 8,
+      "first_clear_credits": {
+        "clear": 105,
+        "stars_max": 105,
+        "boss": 140,
+        "total": 350,
+        "star_credits": [
+          35,
+          70,
+          105
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 13875,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 1.5 s, then returns"
+          },
+          {
+            "name": "Fan",
+            "text": "fires a fan of 9 shots every 2.3 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 3 · Iron Fleet",
+      "boss_total_hp": 55500,
+      "boss_damage_scale": 3.0,
+      "enemy_hp_scale": 2.05,
+      "enemy_bullet_speed_scale": 1.21,
+      "stage_unlocked_by": 76
+    },
+    {
+      "stage": 78,
+      "block": 8,
+      "boss_ids": [
+        68
+      ],
+      "boss_version": "mk2",
+      "theme_ref": 68,
+      "sector": 8,
+      "first_clear_credits": {
+        "clear": 105,
+        "stars_max": 105,
+        "boss": 140,
+        "total": 350,
+        "star_credits": [
+          35,
+          70,
+          105
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 14400,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Fan",
+            "text": "fires a fan of 7 shots every 1.5 s"
+          },
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 2.3 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 4 · Void Rift",
+      "boss_total_hp": 57750,
+      "boss_damage_scale": 3.0,
+      "enemy_hp_scale": 2.05,
+      "enemy_bullet_speed_scale": 1.21,
+      "stage_unlocked_by": 77
+    },
+    {
+      "stage": 79,
+      "block": 8,
+      "boss_ids": [
+        69
+      ],
+      "boss_version": "mk2",
+      "theme_ref": 69,
+      "sector": 8,
+      "first_clear_credits": {
+        "clear": 105,
+        "stars_max": 105,
+        "boss": 140,
+        "total": 350,
+        "star_credits": [
+          35,
+          70,
+          105
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 15000,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 1.5 s"
+          },
+          {
+            "name": "Aimed burst",
+            "text": "fires 9 aimed shots every 2.3 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 1 · Ember Belt",
+      "boss_total_hp": 60000,
+      "boss_damage_scale": 3.0,
+      "enemy_hp_scale": 2.05,
+      "enemy_bullet_speed_scale": 1.21,
+      "stage_unlocked_by": 78
+    },
+    {
+      "stage": 80,
+      "block": 8,
+      "boss_ids": [
+        70
+      ],
+      "boss_version": "mk2",
+      "theme_ref": 70,
+      "sector": 8,
+      "first_clear_credits": {
+        "clear": 105,
+        "stars_max": 105,
+        "boss": 140,
+        "total": 350,
+        "star_credits": [
+          35,
+          70,
+          105
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 15600,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Aimed burst",
+            "text": "fires 7 aimed shots every 1.5 s"
+          },
+          {
+            "name": "Ring",
+            "text": "fires a ring of 9 shots every 2.3 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 2 · Venom Nebula",
+      "boss_total_hp": 62250,
+      "boss_damage_scale": 3.0,
+      "enemy_hp_scale": 2.05,
+      "enemy_bullet_speed_scale": 1.21,
+      "stage_unlocked_by": 79
+    },
+    {
+      "stage": 81,
+      "block": 9,
+      "boss_ids": [
+        1,
+        21
+      ],
+      "boss_version": "pair",
+      "theme_ref": 1,
+      "sector": 9,
+      "first_clear_credits": {
+        "clear": 120,
+        "stars_max": 120,
+        "boss": 160,
+        "total": 400,
+        "star_credits": [
+          40,
+          80,
+          120
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 600,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": null,
+        "attacks_note": "Use the attack text of stage_themes.json stage theme 1 mini_boss"
+      },
+      "music_track": "Sector 1 · Ember Belt",
+      "boss_total_hp": 15300,
+      "boss_damage_scale": 1.5,
+      "enemy_hp_scale": 2.2,
+      "enemy_bullet_speed_scale": 1.24,
+      "stage_unlocked_by": 80
+    },
+    {
+      "stage": 82,
+      "block": 9,
+      "boss_ids": [
+        2,
+        22
+      ],
+      "boss_version": "pair",
+      "theme_ref": 2,
+      "sector": 9,
+      "first_clear_credits": {
+        "clear": 120,
+        "stars_max": 120,
+        "boss": 160,
+        "total": 400,
+        "star_credits": [
+          40,
+          80,
+          120
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 900,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": null,
+        "attacks_note": "Use the attack text of stage_themes.json stage theme 2 mini_boss"
+      },
+      "music_track": "Sector 2 · Venom Nebula",
+      "boss_total_hp": 17625,
+      "boss_damage_scale": 1.5,
+      "enemy_hp_scale": 2.2,
+      "enemy_bullet_speed_scale": 1.24,
+      "stage_unlocked_by": 81
+    },
+    {
+      "stage": 83,
+      "block": 9,
+      "boss_ids": [
+        3,
+        23
+      ],
+      "boss_version": "pair",
+      "theme_ref": 3,
+      "sector": 9,
+      "first_clear_credits": {
+        "clear": 120,
+        "stars_max": 120,
+        "boss": 160,
+        "total": 400,
+        "star_credits": [
+          40,
+          80,
+          120
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 1350,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": null,
+        "attacks_note": "Use the attack text of stage_themes.json stage theme 3 mini_boss"
+      },
+      "music_track": "Sector 3 · Iron Fleet",
+      "boss_total_hp": 20550,
+      "boss_damage_scale": 1.5,
+      "enemy_hp_scale": 2.2,
+      "enemy_bullet_speed_scale": 1.24,
+      "stage_unlocked_by": 82
+    },
+    {
+      "stage": 84,
+      "block": 9,
+      "boss_ids": [
+        4,
+        24
+      ],
+      "boss_version": "pair",
+      "theme_ref": 4,
+      "sector": 9,
+      "first_clear_credits": {
+        "clear": 120,
+        "stars_max": 120,
+        "boss": 160,
+        "total": 400,
+        "star_credits": [
+          40,
+          80,
+          120
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 1800,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": null,
+        "attacks_note": "Use the attack text of stage_themes.json stage theme 4 mini_boss"
+      },
+      "music_track": "Sector 4 · Void Rift",
+      "boss_total_hp": 24375,
+      "boss_damage_scale": 1.5,
+      "enemy_hp_scale": 2.2,
+      "enemy_bullet_speed_scale": 1.24,
+      "stage_unlocked_by": 83
+    },
+    {
+      "stage": 85,
+      "block": 9,
+      "boss_ids": [
+        5,
+        25
+      ],
+      "boss_version": "pair",
+      "theme_ref": 5,
+      "sector": 9,
+      "first_clear_credits": {
+        "clear": 120,
+        "stars_max": 120,
+        "boss": 160,
+        "total": 400,
+        "star_credits": [
+          40,
+          80,
+          120
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 2100,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Aimed burst",
+            "text": "fires 7 aimed shots every 1.4 s"
+          },
+          {
+            "name": "Ring",
+            "text": "fires a ring of 9 shots every 2.2 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 1 · Ember Belt",
+      "boss_total_hp": 26250,
+      "boss_damage_scale": 1.5,
+      "enemy_hp_scale": 2.2,
+      "enemy_bullet_speed_scale": 1.24,
+      "stage_unlocked_by": 84
+    },
+    {
+      "stage": 86,
+      "block": 9,
+      "boss_ids": [
+        6,
+        26
+      ],
+      "boss_version": "pair",
+      "theme_ref": 6,
+      "sector": 9,
+      "first_clear_credits": {
+        "clear": 120,
+        "stars_max": 120,
+        "boss": 160,
+        "total": 400,
+        "star_credits": [
+          40,
+          80,
+          120
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 2250,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Ring",
+            "text": "fires a ring of 7 shots every 1.4 s"
+          },
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 2.2 s, then returns"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 2 · Venom Nebula",
+      "boss_total_hp": 28125,
+      "boss_damage_scale": 1.5,
+      "enemy_hp_scale": 2.2,
+      "enemy_bullet_speed_scale": 1.24,
+      "stage_unlocked_by": 85
+    },
+    {
+      "stage": 87,
+      "block": 9,
+      "boss_ids": [
+        7,
+        27
+      ],
+      "boss_version": "pair",
+      "theme_ref": 7,
+      "sector": 9,
+      "first_clear_credits": {
+        "clear": 120,
+        "stars_max": 120,
+        "boss": 160,
+        "total": 400,
+        "star_credits": [
+          40,
+          80,
+          120
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 2400,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 1.4 s, then returns"
+          },
+          {
+            "name": "Fan",
+            "text": "fires a fan of 9 shots every 2.2 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 3 · Iron Fleet",
+      "boss_total_hp": 30000,
+      "boss_damage_scale": 1.5,
+      "enemy_hp_scale": 2.2,
+      "enemy_bullet_speed_scale": 1.24,
+      "stage_unlocked_by": 86
+    },
+    {
+      "stage": 88,
+      "block": 9,
+      "boss_ids": [
+        8,
+        28
+      ],
+      "boss_version": "pair",
+      "theme_ref": 8,
+      "sector": 9,
+      "first_clear_credits": {
+        "clear": 120,
+        "stars_max": 120,
+        "boss": 160,
+        "total": 400,
+        "star_credits": [
+          40,
+          80,
+          120
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 2625,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Fan",
+            "text": "fires a fan of 7 shots every 1.4 s"
+          },
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 2.2 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 4 · Void Rift",
+      "boss_total_hp": 31875,
+      "boss_damage_scale": 1.5,
+      "enemy_hp_scale": 2.2,
+      "enemy_bullet_speed_scale": 1.24,
+      "stage_unlocked_by": 87
+    },
+    {
+      "stage": 89,
+      "block": 9,
+      "boss_ids": [
+        9,
+        29
+      ],
+      "boss_version": "pair",
+      "theme_ref": 9,
+      "sector": 9,
+      "first_clear_credits": {
+        "clear": 120,
+        "stars_max": 120,
+        "boss": 160,
+        "total": 400,
+        "star_credits": [
+          40,
+          80,
+          120
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 2850,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 1.4 s"
+          },
+          {
+            "name": "Aimed burst",
+            "text": "fires 9 aimed shots every 2.2 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 1 · Ember Belt",
+      "boss_total_hp": 33750,
+      "boss_damage_scale": 1.5,
+      "enemy_hp_scale": 2.2,
+      "enemy_bullet_speed_scale": 1.24,
+      "stage_unlocked_by": 88
+    },
+    {
+      "stage": 90,
+      "block": 9,
+      "boss_ids": [
+        10,
+        30
+      ],
+      "boss_version": "pair",
+      "theme_ref": 10,
+      "sector": 9,
+      "first_clear_credits": {
+        "clear": 120,
+        "stars_max": 120,
+        "boss": 160,
+        "total": 400,
+        "star_credits": [
+          40,
+          80,
+          120
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 3000,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Aimed burst",
+            "text": "fires 7 aimed shots every 1.4 s"
+          },
+          {
+            "name": "Ring",
+            "text": "fires a ring of 9 shots every 2.2 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 2 · Venom Nebula",
+      "boss_total_hp": 35625,
+      "boss_damage_scale": 1.5,
+      "enemy_hp_scale": 2.2,
+      "enemy_bullet_speed_scale": 1.24,
+      "stage_unlocked_by": 89
+    },
+    {
+      "stage": 91,
+      "block": 10,
+      "boss_ids": [
+        41,
+        61
+      ],
+      "boss_version": "pair",
+      "theme_ref": 41,
+      "sector": 10,
+      "first_clear_credits": {
+        "clear": 135,
+        "stars_max": 135,
+        "boss": 180,
+        "total": 450,
+        "star_credits": [
+          45,
+          90,
+          135
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 6375,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Ring",
+            "text": "fires a ring of 9 shots every 1.4 s"
+          },
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 2.2 s, then returns"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 1 · Ember Belt",
+      "boss_total_hp": 67500,
+      "boss_damage_scale": 3.3,
+      "enemy_hp_scale": 2.4,
+      "enemy_bullet_speed_scale": 1.27,
+      "stage_unlocked_by": 90
+    },
+    {
+      "stage": 92,
+      "block": 10,
+      "boss_ids": [
+        42,
+        62
+      ],
+      "boss_version": "pair",
+      "theme_ref": 42,
+      "sector": 10,
+      "first_clear_credits": {
+        "clear": 135,
+        "stars_max": 135,
+        "boss": 180,
+        "total": 450,
+        "star_credits": [
+          45,
+          90,
+          135
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 6750,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 1.4 s, then returns"
+          },
+          {
+            "name": "Fan",
+            "text": "fires a fan of 11 shots every 2.2 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 2 · Venom Nebula",
+      "boss_total_hp": 71250,
+      "boss_damage_scale": 3.3,
+      "enemy_hp_scale": 2.4,
+      "enemy_bullet_speed_scale": 1.27,
+      "stage_unlocked_by": 91
+    },
+    {
+      "stage": 93,
+      "block": 10,
+      "boss_ids": [
+        43,
+        63
+      ],
+      "boss_version": "pair",
+      "theme_ref": 43,
+      "sector": 10,
+      "first_clear_credits": {
+        "clear": 135,
+        "stars_max": 135,
+        "boss": 180,
+        "total": 450,
+        "star_credits": [
+          45,
+          90,
+          135
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 7125,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Fan",
+            "text": "fires a fan of 9 shots every 1.4 s"
+          },
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 2.2 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 3 · Iron Fleet",
+      "boss_total_hp": 75000,
+      "boss_damage_scale": 3.3,
+      "enemy_hp_scale": 2.4,
+      "enemy_bullet_speed_scale": 1.27,
+      "stage_unlocked_by": 92
+    },
+    {
+      "stage": 94,
+      "block": 10,
+      "boss_ids": [
+        44,
+        64
+      ],
+      "boss_version": "pair",
+      "theme_ref": 44,
+      "sector": 10,
+      "first_clear_credits": {
+        "clear": 135,
+        "stars_max": 135,
+        "boss": 180,
+        "total": 450,
+        "star_credits": [
+          45,
+          90,
+          135
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 7500,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 1.4 s"
+          },
+          {
+            "name": "Aimed burst",
+            "text": "fires 11 aimed shots every 2.2 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 4 · Void Rift",
+      "boss_total_hp": 78750,
+      "boss_damage_scale": 3.3,
+      "enemy_hp_scale": 2.4,
+      "enemy_bullet_speed_scale": 1.27,
+      "stage_unlocked_by": 93
+    },
+    {
+      "stage": 95,
+      "block": 10,
+      "boss_ids": [
+        45,
+        65
+      ],
+      "boss_version": "pair",
+      "theme_ref": 45,
+      "sector": 10,
+      "first_clear_credits": {
+        "clear": 135,
+        "stars_max": 135,
+        "boss": 180,
+        "total": 450,
+        "star_credits": [
+          45,
+          90,
+          135
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 7875,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Aimed burst",
+            "text": "fires 9 aimed shots every 1.4 s"
+          },
+          {
+            "name": "Ring",
+            "text": "fires a ring of 11 shots every 2.2 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 1 · Ember Belt",
+      "boss_total_hp": 82500,
+      "boss_damage_scale": 3.3,
+      "enemy_hp_scale": 2.4,
+      "enemy_bullet_speed_scale": 1.27,
+      "stage_unlocked_by": 94
+    },
+    {
+      "stage": 96,
+      "block": 10,
+      "boss_ids": [
+        46,
+        66
+      ],
+      "boss_version": "pair",
+      "theme_ref": 46,
+      "sector": 10,
+      "first_clear_credits": {
+        "clear": 135,
+        "stars_max": 135,
+        "boss": 180,
+        "total": 450,
+        "star_credits": [
+          45,
+          90,
+          135
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 8250,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Ring",
+            "text": "fires a ring of 9 shots every 1.4 s"
+          },
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 2.2 s, then returns"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 2 · Venom Nebula",
+      "boss_total_hp": 86250,
+      "boss_damage_scale": 3.3,
+      "enemy_hp_scale": 2.4,
+      "enemy_bullet_speed_scale": 1.27,
+      "stage_unlocked_by": 95
+    },
+    {
+      "stage": 97,
+      "block": 10,
+      "boss_ids": [
+        47,
+        67
+      ],
+      "boss_version": "pair",
+      "theme_ref": 47,
+      "sector": 10,
+      "first_clear_credits": {
+        "clear": 135,
+        "stars_max": 135,
+        "boss": 180,
+        "total": 450,
+        "star_credits": [
+          45,
+          90,
+          135
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 8625,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Charge dive",
+            "text": "dives at your lane every 1.4 s, then returns"
+          },
+          {
+            "name": "Fan",
+            "text": "fires a fan of 11 shots every 2.2 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 3 · Iron Fleet",
+      "boss_total_hp": 90000,
+      "boss_damage_scale": 3.3,
+      "enemy_hp_scale": 2.4,
+      "enemy_bullet_speed_scale": 1.27,
+      "stage_unlocked_by": 96
+    },
+    {
+      "stage": 98,
+      "block": 10,
+      "boss_ids": [
+        48,
+        68
+      ],
+      "boss_version": "pair",
+      "theme_ref": 48,
+      "sector": 10,
+      "first_clear_credits": {
+        "clear": 135,
+        "stars_max": 135,
+        "boss": 180,
+        "total": 450,
+        "star_credits": [
+          45,
+          90,
+          135
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 9000,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Fan",
+            "text": "fires a fan of 9 shots every 1.4 s"
+          },
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 2.2 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 4 · Void Rift",
+      "boss_total_hp": 93750,
+      "boss_damage_scale": 3.3,
+      "enemy_hp_scale": 2.4,
+      "enemy_bullet_speed_scale": 1.27,
+      "stage_unlocked_by": 97
+    },
+    {
+      "stage": 99,
+      "block": 10,
+      "boss_ids": [
+        49,
+        69
+      ],
+      "boss_version": "pair",
+      "theme_ref": 49,
+      "sector": 10,
+      "first_clear_credits": {
+        "clear": 135,
+        "stars_max": 135,
+        "boss": 180,
+        "total": 450,
+        "star_credits": [
+          45,
+          90,
+          135
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 9375,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Sweep line",
+            "text": "a warning line shows, then a beam sweeps after 1 s; repeats every 1.4 s"
+          },
+          {
+            "name": "Aimed burst",
+            "text": "fires 11 aimed shots every 2.2 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 1 · Ember Belt",
+      "boss_total_hp": 97500,
+      "boss_damage_scale": 3.3,
+      "enemy_hp_scale": 2.4,
+      "enemy_bullet_speed_scale": 1.27,
+      "stage_unlocked_by": 98
+    },
+    {
+      "stage": 100,
+      "block": 10,
+      "boss_ids": [
+        50,
+        70
+      ],
+      "boss_version": "pair",
+      "theme_ref": 50,
+      "sector": 10,
+      "first_clear_credits": {
+        "clear": 135,
+        "stars_max": 135,
+        "boss": 180,
+        "total": 450,
+        "star_credits": [
+          45,
+          90,
+          135
+        ]
+      },
+      "repeat_clear_credits": 1,
+      "has_own_board": false,
+      "mini_boss": {
+        "hp": 9750,
+        "reward_score": 2000,
+        "reward_credits": 0,
+        "attacks": [
+          {
+            "name": "Aimed burst",
+            "text": "fires 9 aimed shots every 1.4 s"
+          },
+          {
+            "name": "Ring",
+            "text": "fires a ring of 11 shots every 2.2 s"
+          }
+        ],
+        "attacks_note": null
+      },
+      "music_track": "Sector 2 · Venom Nebula",
+      "boss_total_hp": 101250,
+      "boss_damage_scale": 3.3,
+      "enemy_hp_scale": 2.4,
+      "enemy_bullet_speed_scale": 1.27,
+      "stage_unlocked_by": 99
+    }
+  ]
+}

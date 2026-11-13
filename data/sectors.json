@@ -1,0 +1,275 @@
+{
+  "_note": "SECTOR = a block of 10 stages. 10 sectors, 100 stages. Screens: SectorMap (pick sector) -> SectorNN (pick stage) -> play. A sector unlocks when stage 10 of the previous sector is first cleared (stage n unlocks when n-1 is cleared). Sector names were chosen for the build.",
+  "sectors": [
+    {
+      "sector": 1,
+      "name": "DAWN FRONTIER",
+      "description": "Meet the first ten bosses.",
+      "label": "Tier 1 · Mk I",
+      "color": "#2DE2FF",
+      "stages": [
+        1,
+        10
+      ],
+      "stage_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "board": "Sector01",
+      "bosses": "Mk I of bosses 1-10",
+      "first_clear_credits_total": 1000,
+      "block_multiplier": 1
+    },
+    {
+      "sector": 2,
+      "name": "RED FRONTIER",
+      "description": "The same ten bosses return, stronger.",
+      "label": "Tier 1 · Mk II",
+      "color": "#2DE2FF",
+      "stages": [
+        11,
+        20
+      ],
+      "stage_ids": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "board": "Sector02",
+      "bosses": "Mk II of bosses 1-10",
+      "first_clear_credits_total": 1200,
+      "block_multiplier": 1.2
+    },
+    {
+      "sector": 3,
+      "name": "STEEL EXPANSE",
+      "description": "Ten new bosses with new ways to fight.",
+      "label": "Tier 2 · Mk I",
+      "color": "#7CFF6B",
+      "stages": [
+        21,
+        30
+      ],
+      "stage_ids": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "board": "Sector03",
+      "bosses": "Mk I of bosses 21-30",
+      "first_clear_credits_total": 1500,
+      "block_multiplier": 1.5
+    },
+    {
+      "sector": 4,
+      "name": "IRON EXPANSE",
+      "description": "The Tier 2 bosses return, stronger.",
+      "label": "Tier 2 · Mk II",
+      "color": "#7CFF6B",
+      "stages": [
+        31,
+        40
+      ],
+      "stage_ids": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "board": "Sector04",
+      "bosses": "Mk II of bosses 21-30",
+      "first_clear_credits_total": 1800,
+      "block_multiplier": 1.8
+    },
+    {
+      "sector": 5,
+      "name": "SHADOW DEEP",
+      "description": "Ten harder bosses. Tricks and traps.",
+      "label": "Tier 3 · Mk I",
+      "color": "#B26BFF",
+      "stages": [
+        41,
+        50
+      ],
+      "stage_ids": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "board": "Sector05",
+      "bosses": "Mk I of bosses 41-50",
+      "first_clear_credits_total": 2200,
+      "block_multiplier": 2.2
+    },
+    {
+      "sector": 6,
+      "name": "NIGHT DEEP",
+      "description": "The Tier 3 bosses return, stronger.",
+      "label": "Tier 3 · Mk II",
+      "color": "#B26BFF",
+      "stages": [
+        51,
+        60
+      ],
+      "stage_ids": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "board": "Sector06",
+      "bosses": "Mk II of bosses 41-50",
+      "first_clear_credits_total": 2600,
+      "block_multiplier": 2.6
+    },
+    {
+      "sector": 7,
+      "name": "OMEGA REACH",
+      "description": "The ten toughest single bosses.",
+      "label": "Tier 4 · Mk I",
+      "color": "#FF4D5E",
+      "stages": [
+        61,
+        70
+      ],
+      "stage_ids": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70
+      ],
+      "board": "Sector07",
+      "bosses": "Mk I of bosses 61-70",
+      "first_clear_credits_total": 3000,
+      "block_multiplier": 3
+    },
+    {
+      "sector": 8,
+      "name": "FINAL REACH",
+      "description": "The Tier 4 bosses return, stronger.",
+      "label": "Tier 4 · Mk II",
+      "color": "#FF4D5E",
+      "stages": [
+        71,
+        80
+      ],
+      "stage_ids": [
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ],
+      "board": "Sector08",
+      "bosses": "Mk II of bosses 61-70",
+      "first_clear_credits_total": 3500,
+      "block_multiplier": 3.5
+    },
+    {
+      "sector": 9,
+      "name": "TWIN GATE",
+      "description": "Two bosses at once. Tier 1 + Tier 2.",
+      "label": "Pair fights",
+      "color": "#FF9A3D",
+      "stages": [
+        81,
+        90
+      ],
+      "stage_ids": [
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "board": "Sector09",
+      "bosses": "pairs: boss k + boss k+20",
+      "first_clear_credits_total": 4000,
+      "block_multiplier": 4
+    },
+    {
+      "sector": 10,
+      "name": "CROWN GATE",
+      "description": "Two bosses at once. Tier 3 + Tier 4.",
+      "label": "Pair fights",
+      "color": "#FFC83D",
+      "stages": [
+        91,
+        100
+      ],
+      "stage_ids": [
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
+      ],
+      "board": "Sector10",
+      "bosses": "pairs: boss 40+k + boss 60+k",
+      "first_clear_credits_total": 4500,
+      "block_multiplier": 4.5
+    }
+  ]
+}

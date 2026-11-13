@@ -1,0 +1,778 @@
+[
+  {
+    "file": "Main.dc.html",
+    "title": "01 · Home Screen",
+    "section": "Menus & Flow",
+    "interactive": true,
+    "x": 0,
+    "y": 280
+  },
+  {
+    "file": "ModeSelect.dc.html",
+    "title": "Mode Select — Solo or Co-op",
+    "section": "Menus & Flow",
+    "interactive": true,
+    "x": 1360,
+    "y": 280
+  },
+  {
+    "file": "Profiles.dc.html",
+    "title": "Profile Select",
+    "section": "Menus & Flow",
+    "interactive": true,
+    "x": 2720,
+    "y": 280
+  },
+  {
+    "file": "Load.dc.html",
+    "title": "Load Game — Save Slots",
+    "section": "Menus & Flow",
+    "interactive": true,
+    "x": 4080,
+    "y": 280
+  },
+  {
+    "file": "Settings.dc.html",
+    "title": "Settings",
+    "section": "Menus & Flow",
+    "interactive": true,
+    "x": 0,
+    "y": 1120
+  },
+  {
+    "file": "Achievements.dc.html",
+    "title": "Achievements & High Scores",
+    "section": "Menus & Flow",
+    "interactive": null,
+    "x": 1360,
+    "y": 1120
+  },
+  {
+    "file": "Credits.dc.html",
+    "title": "Credits",
+    "section": "Menus & Flow",
+    "interactive": true,
+    "x": 2720,
+    "y": 1120
+  },
+  {
+    "file": "Story.dc.html",
+    "title": "Story Intro",
+    "section": "Menus & Flow",
+    "interactive": true,
+    "x": 4080,
+    "y": 1120
+  },
+  {
+    "file": "Loading.dc.html",
+    "title": "Loading Screen",
+    "section": "Menus & Flow",
+    "interactive": null,
+    "x": 0,
+    "y": 1960
+  },
+  {
+    "file": "ProfileCode.dc.html",
+    "title": "Profile Backup — Export & Import",
+    "section": "Menus & Flow",
+    "interactive": null,
+    "x": 1360,
+    "y": 1960
+  },
+  {
+    "file": "Confirms.dc.html",
+    "title": "Confirm Dialogs — Exit, Delete, Rename, Overwrite",
+    "section": "Menus & Flow",
+    "interactive": null,
+    "x": 2720,
+    "y": 1960
+  },
+  {
+    "file": "Hangar.dc.html",
+    "title": "02 · Hangar — Choose Flight & Fighter",
+    "section": "Hangar, Pilots & Power-ups",
+    "interactive": true,
+    "x": 0,
+    "y": 3360
+  },
+  {
+    "file": "Specials.dc.html",
+    "title": "Special Moves & A² Burst",
+    "section": "Hangar, Pilots & Power-ups",
+    "interactive": null,
+    "x": 1360,
+    "y": 3360
+  },
+  {
+    "file": "PowerUps.dc.html",
+    "title": "Power-ups — Pickups & In-Use Effects",
+    "section": "Hangar, Pilots & Power-ups",
+    "interactive": null,
+    "x": 2720,
+    "y": 3360
+  },
+  {
+    "file": "DamageBoost.dc.html",
+    "title": "Power-up 9 — Damage Boost (Levels 1–5)",
+    "section": "Hangar, Pilots & Power-ups",
+    "interactive": null,
+    "x": 4080,
+    "y": 3360
+  },
+  {
+    "file": "Gameplay.dc.html",
+    "title": "03 · In-Game Background & HUD",
+    "section": "Gameplay & HUD",
+    "interactive": null,
+    "x": 0,
+    "y": 4760
+  },
+  {
+    "file": "Tutorial.dc.html",
+    "title": "Tutorial Hints — Stage 1",
+    "section": "Gameplay & HUD",
+    "interactive": null,
+    "x": 1360,
+    "y": 4760
+  },
+  {
+    "file": "Pause.dc.html",
+    "title": "Pause Menu",
+    "section": "Gameplay & HUD",
+    "interactive": true,
+    "x": 2720,
+    "y": 4760
+  },
+  {
+    "file": "GameOver.dc.html",
+    "title": "Game Over",
+    "section": "Gameplay & HUD",
+    "interactive": true,
+    "x": 4080,
+    "y": 4760
+  },
+  {
+    "file": "SectorClear.dc.html",
+    "title": "Stage Clear",
+    "section": "Gameplay & HUD",
+    "interactive": true,
+    "x": 0,
+    "y": 5600
+  },
+  {
+    "file": "Coop.dc.html",
+    "title": "Co-op Gameplay & HUD",
+    "section": "Gameplay & HUD",
+    "interactive": null,
+    "x": 1360,
+    "y": 5600
+  },
+  {
+    "file": "CoopGameOver.dc.html",
+    "title": "Co-op Game Over — Both Pilots Down",
+    "section": "Gameplay & HUD",
+    "interactive": null,
+    "x": 2720,
+    "y": 5600
+  },
+  {
+    "file": "Controls.dc.html",
+    "title": "Controls — Keyboard, Gamepad, Touch",
+    "section": "Controls & Input",
+    "interactive": null,
+    "x": 0,
+    "y": 7000
+  },
+  {
+    "file": "Gamepad.dc.html",
+    "title": "Gamepad Button Prompts",
+    "section": "Controls & Input",
+    "interactive": null,
+    "x": 1360,
+    "y": 7000
+  },
+  {
+    "file": "Touch.dc.html",
+    "title": "Touch Controls",
+    "section": "Controls & Input",
+    "interactive": null,
+    "x": 2720,
+    "y": 7000
+  },
+  {
+    "file": "SectorMap.dc.html",
+    "title": "Sector Map — Select 1 of 10 Sectors",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": true,
+    "x": 0,
+    "y": 8400
+  },
+  {
+    "file": "Sector01.dc.html",
+    "title": "Sector 1 · Dawn Frontier — Stages 1–10",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": true,
+    "x": 0,
+    "y": 9500
+  },
+  {
+    "file": "Stage01.dc.html",
+    "title": "Stage 1 · Ember Belt",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": null,
+    "x": 1360,
+    "y": 9500
+  },
+  {
+    "file": "Stage02.dc.html",
+    "title": "Stage 2 · Venom Nebula",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": null,
+    "x": 2720,
+    "y": 9500
+  },
+  {
+    "file": "Stage03.dc.html",
+    "title": "Stage 3 · Iron Fleet",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": null,
+    "x": 4080,
+    "y": 9500
+  },
+  {
+    "file": "Stage04.dc.html",
+    "title": "Stage 4 · Void Rift",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": null,
+    "x": 0,
+    "y": 10340
+  },
+  {
+    "file": "Stage05.dc.html",
+    "title": "Stage 5 · Frost Reach · Boss 5",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": null,
+    "x": 1360,
+    "y": 10340
+  },
+  {
+    "file": "Stage06.dc.html",
+    "title": "Stage 6 · Storm Veil · Boss 6",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": null,
+    "x": 2720,
+    "y": 10340
+  },
+  {
+    "file": "Stage07.dc.html",
+    "title": "Stage 7 · Gear Yard · Boss 7",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": null,
+    "x": 4080,
+    "y": 10340
+  },
+  {
+    "file": "Stage08.dc.html",
+    "title": "Stage 8 · Mirror Maze · Boss 8",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": null,
+    "x": 0,
+    "y": 11180
+  },
+  {
+    "file": "Stage09.dc.html",
+    "title": "Stage 9 · Tide Gate · Boss 9",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": null,
+    "x": 1360,
+    "y": 11180
+  },
+  {
+    "file": "Stage10.dc.html",
+    "title": "Stage 10 · Comet Run · Boss 10",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": null,
+    "x": 2720,
+    "y": 11180
+  },
+  {
+    "file": "Sector02.dc.html",
+    "title": "Sector 2 · Red Frontier — Stages 11–20",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": true,
+    "x": 0,
+    "y": 12200
+  },
+  {
+    "file": "Sector03.dc.html",
+    "title": "Sector 3 · Steel Expanse — Stages 21–30",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": true,
+    "x": 0,
+    "y": 13220
+  },
+  {
+    "file": "Stage21.dc.html",
+    "title": "Stage 21 · Aegis Station · Boss 21",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": null,
+    "x": 1360,
+    "y": 13220
+  },
+  {
+    "file": "Stage22.dc.html",
+    "title": "Stage 22 · Silk Nebula · Boss 22",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": null,
+    "x": 2720,
+    "y": 13220
+  },
+  {
+    "file": "Stage23.dc.html",
+    "title": "Stage 23 · Heavy Orbit · Boss 23",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": null,
+    "x": 4080,
+    "y": 13220
+  },
+  {
+    "file": "Stage24.dc.html",
+    "title": "Stage 24 · Ghost Fleet Graveyard · Boss 24",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": null,
+    "x": 0,
+    "y": 14060
+  },
+  {
+    "file": "Stage25.dc.html",
+    "title": "Stage 25 · Scrapyard Belt · Boss 25",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": null,
+    "x": 1360,
+    "y": 14060
+  },
+  {
+    "file": "Stage26.dc.html",
+    "title": "Stage 26 · Toxic Swamp Moon · Boss 26",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": null,
+    "x": 2720,
+    "y": 14060
+  },
+  {
+    "file": "Stage27.dc.html",
+    "title": "Stage 27 · Rainbow Reef · Boss 27",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": null,
+    "x": 4080,
+    "y": 14060
+  },
+  {
+    "file": "Stage28.dc.html",
+    "title": "Stage 28 · Clock Tower Void · Boss 28",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": null,
+    "x": 0,
+    "y": 14900
+  },
+  {
+    "file": "Stage29.dc.html",
+    "title": "Stage 29 · Siege Line · Boss 29",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": null,
+    "x": 1360,
+    "y": 14900
+  },
+  {
+    "file": "Stage30.dc.html",
+    "title": "Stage 30 · Starfall Fields · Boss 30",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": null,
+    "x": 2720,
+    "y": 14900
+  },
+  {
+    "file": "Sector04.dc.html",
+    "title": "Sector 4 · Iron Expanse — Stages 31–40",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": true,
+    "x": 0,
+    "y": 15920
+  },
+  {
+    "file": "Sector05.dc.html",
+    "title": "Sector 5 · Shadow Deep — Stages 41–50",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": true,
+    "x": 0,
+    "y": 16940
+  },
+  {
+    "file": "Stage41.dc.html",
+    "title": "Stage 41 · Hydra Lagoon · Boss 41",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": null,
+    "x": 1360,
+    "y": 16940
+  },
+  {
+    "file": "Stage42.dc.html",
+    "title": "Stage 42 · Meteor Throne · Boss 42",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": null,
+    "x": 2720,
+    "y": 16940
+  },
+  {
+    "file": "Stage43.dc.html",
+    "title": "Stage 43 · Eclipse Gate · Boss 43",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": null,
+    "x": 4080,
+    "y": 16940
+  },
+  {
+    "file": "Stage44.dc.html",
+    "title": "Stage 44 · Legion Dock · Boss 44",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": null,
+    "x": 0,
+    "y": 17780
+  },
+  {
+    "file": "Stage45.dc.html",
+    "title": "Stage 45 · Magma Core · Boss 45",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": null,
+    "x": 1360,
+    "y": 17780
+  },
+  {
+    "file": "Stage46.dc.html",
+    "title": "Stage 46 · Cyber Dunes · Boss 46",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": null,
+    "x": 2720,
+    "y": 17780
+  },
+  {
+    "file": "Stage47.dc.html",
+    "title": "Stage 47 · Frozen Throne · Boss 47",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": null,
+    "x": 4080,
+    "y": 17780
+  },
+  {
+    "file": "Stage48.dc.html",
+    "title": "Stage 48 · Carnival Of Chaos · Boss 48",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": null,
+    "x": 0,
+    "y": 18620
+  },
+  {
+    "file": "Stage49.dc.html",
+    "title": "Stage 49 · Neutron Field · Boss 49",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": null,
+    "x": 1360,
+    "y": 18620
+  },
+  {
+    "file": "Stage50.dc.html",
+    "title": "Stage 50 · Nebula Court · Boss 50",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": null,
+    "x": 2720,
+    "y": 18620
+  },
+  {
+    "file": "Sector06.dc.html",
+    "title": "Sector 6 · Night Deep — Stages 51–60",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": true,
+    "x": 0,
+    "y": 19640
+  },
+  {
+    "file": "Sector07.dc.html",
+    "title": "Sector 7 · Omega Reach — Stages 61–70",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": true,
+    "x": 0,
+    "y": 20660
+  },
+  {
+    "file": "Stage61.dc.html",
+    "title": "Stage 61 · Event Horizon · Boss 61",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": null,
+    "x": 1360,
+    "y": 20660
+  },
+  {
+    "file": "Stage62.dc.html",
+    "title": "Stage 62 · Solar Forge · Boss 62",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": null,
+    "x": 2720,
+    "y": 20660
+  },
+  {
+    "file": "Stage63.dc.html",
+    "title": "Stage 63 · Broken Dimension · Boss 63",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": null,
+    "x": 4080,
+    "y": 20660
+  },
+  {
+    "file": "Stage64.dc.html",
+    "title": "Stage 64 · Mecha Abyss · Boss 64",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": null,
+    "x": 0,
+    "y": 21500
+  },
+  {
+    "file": "Stage65.dc.html",
+    "title": "Stage 65 · Quantum Lab · Boss 65",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": null,
+    "x": 1360,
+    "y": 21500
+  },
+  {
+    "file": "Stage66.dc.html",
+    "title": "Stage 66 · Abyssal Void · Boss 66",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": null,
+    "x": 2720,
+    "y": 21500
+  },
+  {
+    "file": "Stage67.dc.html",
+    "title": "Stage 67 · Storm Citadel · Boss 67",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": null,
+    "x": 4080,
+    "y": 21500
+  },
+  {
+    "file": "Stage68.dc.html",
+    "title": "Stage 68 · Crystal Caverns · Boss 68",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": null,
+    "x": 0,
+    "y": 22340
+  },
+  {
+    "file": "Stage69.dc.html",
+    "title": "Stage 69 · Mind Maze · Boss 69",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": null,
+    "x": 1360,
+    "y": 22340
+  },
+  {
+    "file": "Stage70.dc.html",
+    "title": "Stage 70 · Throne Of Stars · Boss 70",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": null,
+    "x": 2720,
+    "y": 22340
+  },
+  {
+    "file": "Sector08.dc.html",
+    "title": "Sector 8 · Final Reach — Stages 71–80",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": true,
+    "x": 0,
+    "y": 23360
+  },
+  {
+    "file": "Sector09.dc.html",
+    "title": "Sector 9 · Twin Gate — Stages 81–90",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": true,
+    "x": 0,
+    "y": 24380
+  },
+  {
+    "file": "Sector10.dc.html",
+    "title": "Sector 10 · Crown Gate — Stages 91–100",
+    "section": "Sectors & Stages — 10 Sectors, 10 Stages Each",
+    "interactive": true,
+    "x": 0,
+    "y": 25400
+  },
+  {
+    "file": "BossOverview.dc.html",
+    "title": "Boss Plan — Stages 1–100",
+    "section": "Bosses — All 40 Bosses, Mini-bosses & Pair Fights",
+    "interactive": null,
+    "x": 0,
+    "y": 26800
+  },
+  {
+    "file": "BossTier1.dc.html",
+    "title": "Bosses 1–10 · Tier 1",
+    "section": "Bosses — All 40 Bosses, Mini-bosses & Pair Fights",
+    "interactive": null,
+    "x": 1360,
+    "y": 26800
+  },
+  {
+    "file": "BossTier2.dc.html",
+    "title": "Bosses 21–30 · Tier 2",
+    "section": "Bosses — All 40 Bosses, Mini-bosses & Pair Fights",
+    "interactive": null,
+    "x": 2720,
+    "y": 26800
+  },
+  {
+    "file": "BossTier3.dc.html",
+    "title": "Bosses 41–50 · Tier 3",
+    "section": "Bosses — All 40 Bosses, Mini-bosses & Pair Fights",
+    "interactive": null,
+    "x": 4080,
+    "y": 26800
+  },
+  {
+    "file": "BossTier4.dc.html",
+    "title": "Bosses 61–70 · Tier 4",
+    "section": "Bosses — All 40 Bosses, Mini-bosses & Pair Fights",
+    "interactive": null,
+    "x": 0,
+    "y": 27640
+  },
+  {
+    "file": "BossDual.dc.html",
+    "title": "Pair Fights · Stages 81–100",
+    "section": "Bosses — All 40 Bosses, Mini-bosses & Pair Fights",
+    "interactive": null,
+    "x": 1360,
+    "y": 27640
+  },
+  {
+    "file": "PairFight.dc.html",
+    "title": "Pair Fight Screen — Stage 81",
+    "section": "Bosses — All 40 Bosses, Mini-bosses & Pair Fights",
+    "interactive": null,
+    "x": 2720,
+    "y": 27640
+  },
+  {
+    "file": "MiniBosses.dc.html",
+    "title": "Mini-bosses & Stage Flow",
+    "section": "Bosses — All 40 Bosses, Mini-bosses & Pair Fights",
+    "interactive": null,
+    "x": 4080,
+    "y": 27640
+  },
+  {
+    "file": "BossIntro.dc.html",
+    "title": "Boss Intro Banner",
+    "section": "Bosses — All 40 Bosses, Mini-bosses & Pair Fights",
+    "interactive": null,
+    "x": 0,
+    "y": 28480
+  },
+  {
+    "file": "BossDefeat.dc.html",
+    "title": "Boss Defeat & Explosion Sequence",
+    "section": "Bosses — All 40 Bosses, Mini-bosses & Pair Fights",
+    "interactive": null,
+    "x": 1360,
+    "y": 28480
+  },
+  {
+    "file": "Warnings.dc.html",
+    "title": "Warnings & Boss Health Bar",
+    "section": "Bosses — All 40 Bosses, Mini-bosses & Pair Fights",
+    "interactive": null,
+    "x": 2720,
+    "y": 28480
+  },
+  {
+    "file": "Progression.dc.html",
+    "title": "Scoring, Stars, Unlocks, Upgrades & Difficulty",
+    "section": "Economy & Progression",
+    "interactive": null,
+    "x": 0,
+    "y": 29880
+  },
+  {
+    "file": "Shop.dc.html",
+    "title": "Shop — Permanent Powers",
+    "section": "Economy & Progression",
+    "interactive": true,
+    "x": 1360,
+    "y": 29880
+  },
+  {
+    "file": "ShopTiers.dc.html",
+    "title": "Shop — Upgrade Tiers II & III",
+    "section": "Economy & Progression",
+    "interactive": null,
+    "x": 2720,
+    "y": 29880
+  },
+  {
+    "file": "CreditsEcon.dc.html",
+    "title": "Credits by Stage — First Clear vs Repeat",
+    "section": "Economy & Progression",
+    "interactive": null,
+    "x": 4080,
+    "y": 29880
+  },
+  {
+    "file": "PowerCurve.dc.html",
+    "title": "Power Curve — Shop vs Challenge",
+    "section": "Economy & Progression",
+    "interactive": null,
+    "x": 0,
+    "y": 30720
+  },
+  {
+    "file": "Effects.dc.html",
+    "title": "Effects Sheet",
+    "section": "Audio, Art & Tech",
+    "interactive": null,
+    "x": 0,
+    "y": 32120
+  },
+  {
+    "file": "Logo.dc.html",
+    "title": "Logo & App Icon",
+    "section": "Audio, Art & Tech",
+    "interactive": null,
+    "x": 1360,
+    "y": 32120
+  },
+  {
+    "file": "Audio.dc.html",
+    "title": "Music & Sound List",
+    "section": "Audio, Art & Tech",
+    "interactive": null,
+    "x": 2720,
+    "y": 32120
+  },
+  {
+    "file": "MusicMap.dc.html",
+    "title": "Music Map — Track per Screen",
+    "section": "Audio, Art & Tech",
+    "interactive": null,
+    "x": 4080,
+    "y": 32120
+  },
+  {
+    "file": "TechPlan.dc.html",
+    "title": "Tech Plan — Engine, Platform, Saving",
+    "section": "Audio, Art & Tech",
+    "interactive": null,
+    "x": 0,
+    "y": 32960
+  }
+]

@@ -1,0 +1,196 @@
+{
+  "rules": [
+    "Tier I first; II and III unlock one after another.",
+    "A higher tier replaces the lower one, it does not stack.",
+    "Bought once = owned for good, every sector, every mode, per profile.",
+    "Co-op: each pilot brings own shop powers and earns own credits."
+  ],
+  "total_cost_all": 15500,
+  "items": [
+    {
+      "id": "shield_start",
+      "name": "Shield Start",
+      "tag": "SH",
+      "tiers": [
+        {
+          "tier": 1,
+          "price": 300,
+          "effect": "Blocks 3 hits"
+        },
+        {
+          "tier": 2,
+          "price": 450,
+          "effect": "Blocks 5 hits"
+        },
+        {
+          "tier": 3,
+          "price": 700,
+          "effect": "Blocks 7 hits"
+        }
+      ],
+      "total": 1450
+    },
+    {
+      "id": "damage_head_start",
+      "name": "Damage Head Start",
+      "tag": "D2",
+      "tiers": [
+        {
+          "tier": 1,
+          "price": 300,
+          "effect": "Start at Damage Lv 2"
+        },
+        {
+          "tier": 2,
+          "price": 500,
+          "effect": "Start at Damage Lv 3"
+        },
+        {
+          "tier": 3,
+          "price": 800,
+          "effect": "Start at Damage Lv 4"
+        }
+      ],
+      "total": 1600
+    },
+    {
+      "id": "bomb_stock",
+      "name": "Bomb Stock",
+      "tag": "B2",
+      "tiers": [
+        {
+          "tier": 1,
+          "price": 250,
+          "effect": "Start with 2 bombs"
+        },
+        {
+          "tier": 2,
+          "price": 400,
+          "effect": "Start with 3 bombs"
+        },
+        {
+          "tier": 3,
+          "price": 650,
+          "effect": "Start with 4 bombs"
+        }
+      ],
+      "total": 1300
+    },
+    {
+      "id": "pickup_magnet",
+      "name": "Pickup Magnet",
+      "tag": "MG",
+      "tiers": [
+        {
+          "tier": 1,
+          "price": 150,
+          "effect": "Short pull range"
+        },
+        {
+          "tier": 2,
+          "price": 250,
+          "effect": "Wide pull range"
+        },
+        {
+          "tier": 3,
+          "price": 400,
+          "effect": "Pulls from the whole screen"
+        }
+      ],
+      "total": 800
+    },
+    {
+      "id": "wingman_drone",
+      "name": "Wingman Drone",
+      "tag": "WM",
+      "tiers": [
+        {
+          "tier": 1,
+          "price": 900,
+          "effect": "1 drone"
+        },
+        {
+          "tier": 2,
+          "price": 1200,
+          "effect": "2 drones"
+        },
+        {
+          "tier": 3,
+          "price": 1600,
+          "effect": "2 drones that also fire missiles"
+        }
+      ],
+      "total": 3700
+    },
+    {
+      "id": "lucky_orb",
+      "name": "Lucky Orb",
+      "tag": "LK",
+      "tiers": [
+        {
+          "tier": 1,
+          "price": 450,
+          "effect": "+25% power-up drops"
+        },
+        {
+          "tier": 2,
+          "price": 650,
+          "effect": "+50% power-up drops"
+        },
+        {
+          "tier": 3,
+          "price": 900,
+          "effect": "+75% power-up drops"
+        }
+      ],
+      "total": 2000
+    },
+    {
+      "id": "extra_hull",
+      "name": "Extra Hull Bar",
+      "tag": "HP",
+      "tiers": [
+        {
+          "tier": 1,
+          "price": 800,
+          "effect": "+1 hull bar"
+        },
+        {
+          "tier": 2,
+          "price": 1100,
+          "effect": "+2 hull bars"
+        },
+        {
+          "tier": 3,
+          "price": 1500,
+          "effect": "+3 hull bars"
+        }
+      ],
+      "total": 3400
+    },
+    {
+      "id": "special_charge",
+      "name": "Special Charge",
+      "tag": "SC",
+      "tiers": [
+        {
+          "tier": 1,
+          "price": 250,
+          "effect": "Bar fills 20% faster"
+        },
+        {
+          "tier": 2,
+          "price": 400,
+          "effect": "Bar fills 40% faster"
+        },
+        {
+          "tier": 3,
+          "price": 600,
+          "effect": "Bar fills 60% faster"
+        }
+      ],
+      "total": 1250
+    }
+  ],
+  "note": "The old Shop board (8 single cards) shows demo prices in the page script; ShopTiers board is the source of truth."
+}

@@ -1,0 +1,30 @@
+MENU
+PROFILE BACKUP
+Move a profile to another device with a code or a file.
+PROFILES · 2 / 4
+EXPORT PROFILE
+Profile AYAN as a code. Keep it somewhere safe.
+A2CA-AYAN-7F3K-92QD-M4XP-18ZT-C6HW-0VNB
+COPY CODE
+SAVE AS FILE
+Code copied.
+WHAT THE CODE CARRIES
+Name and picture
+Credits (340)
+Shop powers and tiers
+Unlocked jets
+Stars and high scores
+Achievements
+Play time
+Game saves (3 slots + auto)
+Settings stay on the device and are not in the code.
+IMPORT PROFILE
+Paste a code from another device.
+A2CA-AARAV-3M9Q-…|
+IMPORT
+LOAD FROM FILE
+RESULT MESSAGES
+Profile found. AARAV · 120 credits · 1 / 8 shop powers · 2 achievements
+Name already exists. Replace the profile on this device, or import under a new name.
+Code not valid. Check for a missing or extra character and try again.
+Device is full. 4 of 4 profiles used. Delete one first.

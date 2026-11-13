@@ -1,0 +1,90 @@
+STAGES 81–100 · PAIR LIST
+Stage 81 = boss 1 + 21. Stage 91 = boss 41 + 61. All 40 bosses are used. See the Pair Fight screen for how it looks.
+STAGES 81–90 · TIER 1 + TIER 2
+TOTAL BOSS HP
+81
+Rockmaw · boss 1
+Sentinel Prime Aegis · boss 21
+15,300
+82
+Hive Queen Zyra · boss 2
+Plasma Weaver Arachna · boss 22
+17,625
+83
+Dreadnought Ω-9 · boss 3
+Gravity Golem Massa · boss 23
+20,550
+84
+Void Emperor Kaal · boss 4
+Phantom Admiral Noctis · boss 24
+24,375
+85
+Frost Colossus Glacius · boss 5
+Magnet Lord Ferrox · boss 25
+26,250
+86
+Storm Serpent Voltra · boss 6
+Sludge Leviathan Bog · boss 26
+28,125
+87
+Clockwork Titan Tikka · boss 7
+Prism Dragon Chroma · boss 27
+30,000
+88
+Mirror Mantis Spectra · boss 8
+Time Warden Chronos · boss 28
+31,875
+89
+Tidal Kraken Maelo · boss 9
+Siege Fortress Bastion · boss 29
+33,750
+90
+Comet King Blazar · boss 10
+Star Reaper Falx · boss 30
+35,625
+STAGES 91–100 · TIER 3 + TIER 4
+TOTAL BOSS HP
+91
+Hydra Core Hydrax · boss 41
+Black Hole Sovereign Singula · boss 61
+67,500
+92
+Meteor Queen Rubia · boss 42
+Supernova Phoenix Solara · boss 62
+71,250
+93
+Eclipse Wraith Umbra · boss 43
+Dimension Splitter Riftor · boss 63
+75,000
+94
+Drone Mother Legion · boss 44
+Mecha Leviathan Ω-Prime · boss 64
+78,750
+95
+Lava Colossus Magmor · boss 45
+Quantum Mage Qubit · boss 65
+82,500
+96
+Cyber Scorpion Stingra · boss 46
+Void Kraken Abyssa · boss 66
+86,250
+97
+Frozen Empress Glacira · boss 47
+Thunder God Tempest · boss 67
+90,000
+98
+Chaos Jester Wildcard · boss 48
+Crystal Titan Geode · boss 68
+93,750
+99
+Neutron Behemoth Atlas · boss 49
+Mind Eater Cortex · boss 69
+97,500
+100
+Nebula Overlord Zorak · boss 50
+Cosmic Emperor Galaxor · boss 70
+101,250
+Mk III · Each boss keeps its Mk II health, gets 40% faster bullets and shares a pair attack.
+Together · Both enter at once with two health bars. Clear needs both down.
+Enrage · When one falls, the other gets 30% faster for 10 seconds.
+Fair play · Bullets on screen are capped so pairs stay dodgeable.

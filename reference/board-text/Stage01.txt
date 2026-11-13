@@ -1,0 +1,29 @@
+STAGE 01 · TIER 1
+EMBER BELT
+A burning asteroid field at the edge of the galaxy. Learn to dodge, shoot and grab power-ups.
+SAME STAGE, TINTED, IN
+MK II · STAGE 11
+PAIR · STAGE 81
+MOLTEN ASTEROID
+OBSTACLE · 3 HITS
+Drifts down slowly. Breaks into 2 small rocks when destroyed.
+SPIKE MINE
+HAZARD · 1 HIT
+Floats in place. Blinks red and explodes if you fly inside its ring.
+SCOUT DRONE
+ENEMY FLIGHT · 2 HITS
+Flies in zig-zag groups of 3 and fires single red shots.
+FIRE COMET
+HAZARD · UNBREAKABLE
+A warning line flashes, then a comet streaks across. Just dodge it.
+BOSS 1
+HP 1,200 · 2 PHASES
+Rockmaw
+MK II in stage 11
+HP 1,800
+FIGHTS · Rams down the screen and spits rock chunks in fans.
+WEAK POINT · Magma core in its mouth. Opens after each Magma Spit.
+MK II ADDS · Rock rain from above, faster ram.
+MID-STAGE · Mini-boss Cinder Crab
+First clear up to +100 credits
+Repeat clear +1

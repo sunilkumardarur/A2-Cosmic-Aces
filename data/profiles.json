@@ -1,0 +1,31 @@
+{
+  "fields": [
+    "credits",
+    "shop powers owned",
+    "stars",
+    "achievements",
+    "best score",
+    "play time"
+  ],
+  "max_profiles_per_device": 4,
+  "save_slots_per_profile": "3 slots + 1 autosave (Profiles and TechPlan boards agree)",
+  "storage": "localStorage",
+  "export": "Export code button copies save as text (ProfileCode board)",
+  "save_example": {
+    "slot": 1,
+    "mode": "solo",
+    "profile": "ayan",
+    "jet": "nova",
+    "sector": 3,
+    "score": 48900,
+    "stars": [
+      3,
+      2,
+      0,
+      0
+    ],
+    "difficulty": "normal",
+    "savedAt": "2026-11-08T19:20:00Z"
+  },
+  "save_schema": "data/save_schema.json (100-stage based)"
+}

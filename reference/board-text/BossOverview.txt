@@ -1,0 +1,67 @@
+BOSS PLAN · STAGES 1–100
+40 different bosses over 100 stages. Mk II repeats cover stages 11–80, then pair fights finish the game.
+STAGES
+BOSSES
+VERSION
+BOSS HP
+PHASES
+1–10
+Bosses 1–10
+Mk I
+1,200–8,000
+2–3
+11–20
+Bosses 1–10
+Mk II
+1,800–12,000
+2–3
+21–30
+Bosses 21–30
+Mk I
+9,000–15,750
+3
+31–40
+Bosses 21–30
+Mk II
+13,500–23,625
+3
+41–50
+Bosses 41–50
+Mk I
+17,000–26,000
+3
+51–60
+Bosses 41–50
+Mk II
+25,500–39,000
+3
+61–70
+Bosses 61–70
+Mk I
+28,000–41,500
+4
+71–80
+Bosses 61–70
+Mk II
+42,000–62,250
+4
+81–90
+Pairs 1+21 … 10+30
+Mk III
+15,300–35,625 total
+2 bosses
+91–100
+Pairs 41+61 … 50+70
+Mk III
+67,500–101,250 total
+2 bosses
+TIERS
+Each set of 10 is stronger than the last and looks and fights differently. Tier 1 is bosses 1–10, Tier 2 is 21–30, Tier 3 is 41–50, Tier 4 is 61–70.
+MK II (REPEAT STAGES)
+Same boss, 1.5× health, 20% faster bullets, one new attack and gold armour on its art.
+MK III (STAGES 81–100)
+Two bosses at once with Mk II health, 40% faster bullets and a shared pair attack.
+BOSS HP
+Real hit points. Stages 81–90 have less total health than 71–80 but two bosses attack together, so they are harder to dodge.
+PHASES
+Tier 1: 2 (boss 4 has 3), Tiers 2 and 3: 3, Tier 4: 4. Phase changes follow the Warnings board.

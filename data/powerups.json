@@ -1,0 +1,128 @@
+{
+  "items": [
+    {
+      "id": "spread_shot",
+      "name": "SPREAD SHOT",
+      "tag": "S",
+      "type": "WEAPON",
+      "duration_s": 12,
+      "text": "Fires 5 shots in a fan. Great for swarms and asteroid fields."
+    },
+    {
+      "id": "plasma_laser",
+      "name": "PLASMA LASER",
+      "tag": "L",
+      "type": "WEAPON",
+      "duration_s": 8,
+      "text": "A non-stop beam that melts anything in a straight line. Best vs bosses."
+    },
+    {
+      "id": "energy_shield",
+      "name": "ENERGY SHIELD",
+      "tag": null,
+      "type": "DEFENSE",
+      "hits": 3,
+      "text": "Blue bubble around the jet. Flashes white on each hit, cracks on the last."
+    },
+    {
+      "id": "homing_missiles",
+      "name": "HOMING MISSILES",
+      "tag": "M",
+      "type": "WEAPON",
+      "missiles": 6,
+      "text": "Red missiles curve on their own to the nearest enemies."
+    },
+    {
+      "id": "turbo_boost",
+      "name": "TURBO BOOST",
+      "tag": null,
+      "type": "MOVEMENT",
+      "duration_s": 10,
+      "speed_bonus": "+50%",
+      "text": "+50% speed with a golden afterimage trail and long engine flames."
+    },
+    {
+      "id": "wingman_drones",
+      "name": "WINGMAN DRONES",
+      "tag": "W",
+      "type": "SUPPORT",
+      "duration_s": 15,
+      "drones": 2,
+      "text": "Two green drones orbit your jet, shoot with you and block bullets."
+    },
+    {
+      "id": "repair_kit",
+      "name": "REPAIR KIT",
+      "tag": null,
+      "type": "INSTANT",
+      "hull": 1,
+      "text": "Green sparkles rise as the jet flashes green and one hull bar refills."
+    },
+    {
+      "id": "nova_bomb",
+      "name": "NOVA BOMB",
+      "tag": null,
+      "type": "STORED",
+      "key": "B (keyboard) / Y (gamepad)",
+      "text": "Pink shockwave clears all enemies and bullets; deals big damage to bosses."
+    },
+    {
+      "id": "damage_boost",
+      "name": "DAMAGE BOOST",
+      "tag": null,
+      "type": "STACKING",
+      "orb_color": "purple",
+      "max_level": 5,
+      "per_level_bonus": "+25% damage",
+      "text": "Every purple orb you collect raises your damage by one level. Bullets get bigger, change color and hit harder."
+    }
+  ],
+  "damage_boost": {
+    "levels": [
+      {
+        "level": 1,
+        "mult": 1.0,
+        "color": "#2DE2FF",
+        "look": "Starting damage. Thin shots."
+      },
+      {
+        "level": 2,
+        "mult": 1.25,
+        "color": "#7CFF6B",
+        "look": "Wider green shots."
+      },
+      {
+        "level": 3,
+        "mult": 1.5,
+        "color": "#FFC83D",
+        "look": "Third shot joins. Gold with a white core."
+      },
+      {
+        "level": 4,
+        "mult": 1.75,
+        "color": "#FF9A3D",
+        "look": "Big orange plasma bolts."
+      },
+      {
+        "level": 5,
+        "mult": 2.0,
+        "color": "#FF3EA5",
+        "look": "Four pink bolts and a glowing jet. Max power."
+      }
+    ],
+    "rules": [
+      "You start every sector at Level 1 (unless the shop Damage Head Start applies).",
+      "Each orb is +1 level, up to Level 5.",
+      "Each level adds +25% damage, so Level 5 deals double (x2.0).",
+      "Taking a hull hit drops 1 level. It never goes below Level 1.",
+      "Works with every weapon: normal shots, Spread, Laser and Missiles. It does not change the Nova Bomb.",
+      "At Level 5 an extra orb gives +500 points instead.",
+      "Orbs drop from tough enemies and always from mini-bosses.",
+      "In co-op each pilot has their own Damage level."
+    ],
+    "hud": "DMG: five pips under the Focus bar. Pips take the level color. At Level 5 they glow pink and pulse.",
+    "pickup_effect": "The jet flashes the new level color, a short ring pulses out, and the DMG bar fills one more pip.",
+    "src": "DamageBoost board"
+  },
+  "drop_rates": "see balance.json drops"
+}

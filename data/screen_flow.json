@@ -1,0 +1,583 @@
+{
+  "note": "Extracted from link targets in each board. Boards with no links are reference/spec boards. Main flow: HOME->MODE->HANGAR->MAP->STORY->LOADING->PLAY->BOSS->CLEAR/GAME OVER.",
+  "boards": {
+    "Main": {
+      "title": "01 · Home Screen",
+      "links_to": [
+        "Achievements",
+        "Credits",
+        "Hangar",
+        "Load",
+        "ModeSelect",
+        "Profiles",
+        "Settings",
+        "Shop"
+      ],
+      "has_exit": true
+    },
+    "ModeSelect": {
+      "title": "Mode Select — Solo or Co-op",
+      "links_to": [
+        "Hangar",
+        "Main"
+      ],
+      "has_exit": false
+    },
+    "Profiles": {
+      "title": "Profile Select",
+      "links_to": [
+        "Main"
+      ],
+      "has_exit": false
+    },
+    "Load": {
+      "title": "Load Game — Save Slots",
+      "links_to": [
+        "Gameplay",
+        "Main",
+        "ModeSelect",
+        "SectorMap"
+      ],
+      "has_exit": false
+    },
+    "Settings": {
+      "title": "Settings",
+      "links_to": [
+        "Controls",
+        "Main"
+      ],
+      "has_exit": false
+    },
+    "Achievements": {
+      "title": "Achievements & High Scores",
+      "links_to": [
+        "Main"
+      ],
+      "has_exit": false
+    },
+    "Credits": {
+      "title": "Credits",
+      "links_to": [
+        "Main"
+      ],
+      "has_exit": false
+    },
+    "Story": {
+      "title": "Story Intro",
+      "links_to": [
+        "SectorMap"
+      ],
+      "has_exit": false
+    },
+    "Loading": {
+      "title": "Loading Screen",
+      "links_to": [],
+      "has_exit": false
+    },
+    "ProfileCode": {
+      "title": "Profile Backup — Export & Import",
+      "links_to": [
+        "Main"
+      ],
+      "has_exit": false
+    },
+    "Confirms": {
+      "title": "Confirm Dialogs — Exit, Delete, Rename, Overwrite",
+      "links_to": [
+        "Main"
+      ],
+      "has_exit": false
+    },
+    "Hangar": {
+      "title": "02 · Hangar — Choose Flight & Fighter",
+      "links_to": [
+        "Main",
+        "SectorMap"
+      ],
+      "has_exit": false
+    },
+    "Specials": {
+      "title": "Special Moves & A² Burst",
+      "links_to": [],
+      "has_exit": false
+    },
+    "PowerUps": {
+      "title": "Power-ups — Pickups & In-Use Effects",
+      "links_to": [],
+      "has_exit": false
+    },
+    "DamageBoost": {
+      "title": "Power-up 9 — Damage Boost (Levels 1–5)",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Gameplay": {
+      "title": "03 · In-Game Background & HUD",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Tutorial": {
+      "title": "Tutorial Hints — Stage 1",
+      "links_to": [
+        "Gameplay"
+      ],
+      "has_exit": false
+    },
+    "Pause": {
+      "title": "Pause Menu",
+      "links_to": [
+        "Gameplay",
+        "Main",
+        "Settings"
+      ],
+      "has_exit": false
+    },
+    "GameOver": {
+      "title": "Game Over",
+      "links_to": [
+        "Gameplay",
+        "Main"
+      ],
+      "has_exit": false
+    },
+    "SectorClear": {
+      "title": "Stage Clear",
+      "links_to": [
+        "Gameplay",
+        "Main",
+        "SectorMap"
+      ],
+      "has_exit": false
+    },
+    "Coop": {
+      "title": "Co-op Gameplay & HUD",
+      "links_to": [],
+      "has_exit": false
+    },
+    "CoopGameOver": {
+      "title": "Co-op Game Over — Both Pilots Down",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Controls": {
+      "title": "Controls — Keyboard, Gamepad, Touch",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Gamepad": {
+      "title": "Gamepad Button Prompts",
+      "links_to": [
+        "Main"
+      ],
+      "has_exit": false
+    },
+    "Touch": {
+      "title": "Touch Controls",
+      "links_to": [
+        "Main"
+      ],
+      "has_exit": false
+    },
+    "SectorMap": {
+      "title": "Sector Map — Select 1 of 10 Sectors",
+      "links_to": [
+        "Hangar",
+        "Sector01",
+        "Sector02",
+        "Sector03",
+        "Sector04",
+        "Sector05",
+        "Sector06",
+        "Sector07",
+        "Sector08",
+        "Sector09",
+        "Sector10"
+      ],
+      "has_exit": false
+    },
+    "Sector01": {
+      "title": "Sector 1 · Dawn Frontier — Stages 1–10",
+      "links_to": [
+        "Gameplay",
+        "SectorMap"
+      ],
+      "has_exit": false
+    },
+    "Stage01": {
+      "title": "Stage 1 · Ember Belt",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Stage02": {
+      "title": "Stage 2 · Venom Nebula",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Stage03": {
+      "title": "Stage 3 · Iron Fleet",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Stage04": {
+      "title": "Stage 4 · Void Rift",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Stage05": {
+      "title": "Stage 5 · Frost Reach · Boss 5",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Stage06": {
+      "title": "Stage 6 · Storm Veil · Boss 6",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Stage07": {
+      "title": "Stage 7 · Gear Yard · Boss 7",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Stage08": {
+      "title": "Stage 8 · Mirror Maze · Boss 8",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Stage09": {
+      "title": "Stage 9 · Tide Gate · Boss 9",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Stage10": {
+      "title": "Stage 10 · Comet Run · Boss 10",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Sector02": {
+      "title": "Sector 2 · Red Frontier — Stages 11–20",
+      "links_to": [
+        "SectorMap"
+      ],
+      "has_exit": false
+    },
+    "Sector03": {
+      "title": "Sector 3 · Steel Expanse — Stages 21–30",
+      "links_to": [
+        "SectorMap"
+      ],
+      "has_exit": false
+    },
+    "Stage21": {
+      "title": "Stage 21 · Aegis Station · Boss 21",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Stage22": {
+      "title": "Stage 22 · Silk Nebula · Boss 22",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Stage23": {
+      "title": "Stage 23 · Heavy Orbit · Boss 23",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Stage24": {
+      "title": "Stage 24 · Ghost Fleet Graveyard · Boss 24",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Stage25": {
+      "title": "Stage 25 · Scrapyard Belt · Boss 25",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Stage26": {
+      "title": "Stage 26 · Toxic Swamp Moon · Boss 26",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Stage27": {
+      "title": "Stage 27 · Rainbow Reef · Boss 27",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Stage28": {
+      "title": "Stage 28 · Clock Tower Void · Boss 28",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Stage29": {
+      "title": "Stage 29 · Siege Line · Boss 29",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Stage30": {
+      "title": "Stage 30 · Starfall Fields · Boss 30",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Sector04": {
+      "title": "Sector 4 · Iron Expanse — Stages 31–40",
+      "links_to": [
+        "SectorMap"
+      ],
+      "has_exit": false
+    },
+    "Sector05": {
+      "title": "Sector 5 · Shadow Deep — Stages 41–50",
+      "links_to": [
+        "SectorMap"
+      ],
+      "has_exit": false
+    },
+    "Stage41": {
+      "title": "Stage 41 · Hydra Lagoon · Boss 41",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Stage42": {
+      "title": "Stage 42 · Meteor Throne · Boss 42",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Stage43": {
+      "title": "Stage 43 · Eclipse Gate · Boss 43",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Stage44": {
+      "title": "Stage 44 · Legion Dock · Boss 44",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Stage45": {
+      "title": "Stage 45 · Magma Core · Boss 45",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Stage46": {
+      "title": "Stage 46 · Cyber Dunes · Boss 46",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Stage47": {
+      "title": "Stage 47 · Frozen Throne · Boss 47",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Stage48": {
+      "title": "Stage 48 · Carnival Of Chaos · Boss 48",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Stage49": {
+      "title": "Stage 49 · Neutron Field · Boss 49",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Stage50": {
+      "title": "Stage 50 · Nebula Court · Boss 50",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Sector06": {
+      "title": "Sector 6 · Night Deep — Stages 51–60",
+      "links_to": [
+        "SectorMap"
+      ],
+      "has_exit": false
+    },
+    "Sector07": {
+      "title": "Sector 7 · Omega Reach — Stages 61–70",
+      "links_to": [
+        "SectorMap"
+      ],
+      "has_exit": false
+    },
+    "Stage61": {
+      "title": "Stage 61 · Event Horizon · Boss 61",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Stage62": {
+      "title": "Stage 62 · Solar Forge · Boss 62",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Stage63": {
+      "title": "Stage 63 · Broken Dimension · Boss 63",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Stage64": {
+      "title": "Stage 64 · Mecha Abyss · Boss 64",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Stage65": {
+      "title": "Stage 65 · Quantum Lab · Boss 65",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Stage66": {
+      "title": "Stage 66 · Abyssal Void · Boss 66",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Stage67": {
+      "title": "Stage 67 · Storm Citadel · Boss 67",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Stage68": {
+      "title": "Stage 68 · Crystal Caverns · Boss 68",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Stage69": {
+      "title": "Stage 69 · Mind Maze · Boss 69",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Stage70": {
+      "title": "Stage 70 · Throne Of Stars · Boss 70",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Sector08": {
+      "title": "Sector 8 · Final Reach — Stages 71–80",
+      "links_to": [
+        "SectorMap"
+      ],
+      "has_exit": false
+    },
+    "Sector09": {
+      "title": "Sector 9 · Twin Gate — Stages 81–90",
+      "links_to": [
+        "SectorMap"
+      ],
+      "has_exit": false
+    },
+    "Sector10": {
+      "title": "Sector 10 · Crown Gate — Stages 91–100",
+      "links_to": [
+        "SectorMap"
+      ],
+      "has_exit": false
+    },
+    "BossOverview": {
+      "title": "Boss Plan — Stages 1–100",
+      "links_to": [],
+      "has_exit": false
+    },
+    "BossTier1": {
+      "title": "Bosses 1–10 · Tier 1",
+      "links_to": [],
+      "has_exit": false
+    },
+    "BossTier2": {
+      "title": "Bosses 21–30 · Tier 2",
+      "links_to": [],
+      "has_exit": false
+    },
+    "BossTier3": {
+      "title": "Bosses 41–50 · Tier 3",
+      "links_to": [],
+      "has_exit": false
+    },
+    "BossTier4": {
+      "title": "Bosses 61–70 · Tier 4",
+      "links_to": [],
+      "has_exit": false
+    },
+    "BossDual": {
+      "title": "Pair Fights · Stages 81–100",
+      "links_to": [],
+      "has_exit": false
+    },
+    "PairFight": {
+      "title": "Pair Fight Screen — Stage 81",
+      "links_to": [],
+      "has_exit": false
+    },
+    "MiniBosses": {
+      "title": "Mini-bosses & Stage Flow",
+      "links_to": [],
+      "has_exit": false
+    },
+    "BossIntro": {
+      "title": "Boss Intro Banner",
+      "links_to": [],
+      "has_exit": false
+    },
+    "BossDefeat": {
+      "title": "Boss Defeat & Explosion Sequence",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Warnings": {
+      "title": "Warnings & Boss Health Bar",
+      "links_to": [
+        "Main"
+      ],
+      "has_exit": false
+    },
+    "Progression": {
+      "title": "Scoring, Stars, Unlocks, Upgrades & Difficulty",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Shop": {
+      "title": "Shop — Permanent Powers",
+      "links_to": [
+        "Main"
+      ],
+      "has_exit": false
+    },
+    "ShopTiers": {
+      "title": "Shop — Upgrade Tiers II & III",
+      "links_to": [
+        "Main"
+      ],
+      "has_exit": false
+    },
+    "CreditsEcon": {
+      "title": "Credits by Stage — First Clear vs Repeat",
+      "links_to": [],
+      "has_exit": false
+    },
+    "PowerCurve": {
+      "title": "Power Curve — Shop vs Challenge",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Effects": {
+      "title": "Effects Sheet",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Logo": {
+      "title": "Logo & App Icon",
+      "links_to": [],
+      "has_exit": false
+    },
+    "Audio": {
+      "title": "Music & Sound List",
+      "links_to": [],
+      "has_exit": false
+    },
+    "MusicMap": {
+      "title": "Music Map — Track per Screen",
+      "links_to": [
+        "Main"
+      ],
+      "has_exit": false
+    },
+    "TechPlan": {
+      "title": "Tech Plan — Engine, Platform, Saving",
+      "links_to": [],
+      "has_exit": false
+    }
+  }
+}

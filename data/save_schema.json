@@ -1,0 +1,48 @@
+{
+  "_note": "Per profile. 4 profiles per device. Each profile: 3 save slots + 1 autosave. localStorage key prefix a2ca.",
+  "profile": {
+    "id": "ayan|aarav|<custom name slug>",
+    "name": "string",
+    "credits": "int",
+    "shop_tiers": {
+      "shield_start": "0-3",
+      "damage_head_start": "0-3",
+      "bomb_stock": "0-3",
+      "pickup_magnet": "0-3",
+      "wingman_drone": "0-3",
+      "lucky_orb": "0-3",
+      "extra_hull": "0-3",
+      "special_charge": "0-3"
+    },
+    "stars": "array[100] of 0-3 (index 0 = stage 1)",
+    "cleared": "array[100] of 0|1",
+    "best_score": "int",
+    "achievements": "array[12] of 0|1",
+    "play_time_s": "int",
+    "jets_unlocked": "array of jet ids"
+  },
+  "save_slot": {
+    "slot": "1|2|3|'auto'",
+    "mode": "solo|coop",
+    "profile": "profile id",
+    "partner_profile": "profile id|null",
+    "jet": "jet id",
+    "stage": "1-100 (stage being played or next)",
+    "score": "int",
+    "stage_unlocked": "1-100",
+    "difficulty": "easy|normal|hard",
+    "savedAt": "ISO 8601 UTC"
+  },
+  "example": {
+    "slot": 1,
+    "mode": "solo",
+    "profile": "ayan",
+    "jet": "nova_striker",
+    "stage": 41,
+    "score": 48900,
+    "stage_unlocked": 41,
+    "difficulty": "normal",
+    "savedAt": "2026-11-08T19:20:00Z"
+  },
+  "export_code": "Base64 of the JSON of one profile (ProfileCode board)."
+}

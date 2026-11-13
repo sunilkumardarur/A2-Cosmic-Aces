@@ -1,0 +1,29 @@
+STAGE 07 · TIER 1
+GEAR YARD
+A giant factory of moving parts. Everything runs on a beat.
+SAME STAGE, TINTED, IN
+MK II · STAGE 17
+PAIR · STAGE 87
+SPINNING COG
+OBSTACLE · UNBREAKABLE
+Rolls slowly across the screen on a track.
+WIND-UP SOLDIER
+ENEMY · 3 HITS
+Marches in lines and fires on the beat.
+PISTON WALL
+OBSTACLE · UNBREAKABLE
+Slams shut and open. Fly through the gap.
+STEAM VENT
+HAZARD · UNBREAKABLE
+Puffs hot steam after a short hiss.
+BOSS 7
+HP 6,500 · 2 PHASES
+Clockwork Titan Tikka
+MK II in stage 17
+HP 9,750
+FIGHTS · Spinning gear blades. Bullets come in a rhythm.
+WEAK POINT · Clock face when the gears pause.
+MK II ADDS · Rhythm changes mid-attack.
+MID-STAGE · Mini-boss Cog Crusher
+First clear up to +100 credits
+Repeat clear +1

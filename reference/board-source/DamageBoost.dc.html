@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>A² Cosmic Aces — Damage Boost</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&amp;family=Exo+2:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>body{margin:0}</style>
+</helmet>
+<div style="width: 1280px; height: 880px; position: relative; overflow: hidden; box-sizing: border-box; padding: 32px 40px; background: #05060F; font-family: 'Exo 2', sans-serif; color: #FFFFFF; display: flex; flex-direction: column; gap: 20px">
+  <sc-for list="{{stars}}" as="s" hint-placeholder-count="20">
+    <div style="position: absolute; left: {{s.x}}px; top: {{s.y}}px; width: 2px; height: 2px; border-radius: 50%; background: #FFFFFF; opacity: {{s.o}}"></div>
+  </sc-for>
+
+  <header style="position: relative; display: flex; justify-content: space-between; align-items: center; gap: 24px">
+    <div style="display: flex; align-items: center; gap: 18px">
+      <div style="width: 68px; height: 68px; flex: none; border-radius: 50%; border: 3px solid #B26BFF; background: radial-gradient(circle, rgba(178,107,255,.55), rgba(178,107,255,.08)); box-shadow: 0 0 22px rgba(178,107,255,.8); display: flex; align-items: center; justify-content: center">
+        <svg aria-hidden="true" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20V6M6 12l6-6 6 6"/><path d="M8 22h8" opacity=".6"/></svg>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 2px">
+        <div style="font-size: 12px; letter-spacing: 4px; color: #C99BFF">POWER-UP · STACKS UP TO LEVEL 5</div>
+        <h1 style="margin: 0; font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 38px; letter-spacing: 3px; text-shadow: 0 0 18px rgba(178,107,255,.6)">DAMAGE BOOST</h1>
+      </div>
+    </div>
+    <div style="font-size: 14px; line-height: 1.5; color: #D7DEF0; max-width: 480px; text-align: right">Every purple orb you collect raises your damage by one level. Bullets get bigger, change color and hit harder.</div>
+  </header>
+
+  <div style="position: relative; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 14px">
+    <sc-for list="{{levels}}" as="L" hint-placeholder-count="5">
+      <div style="border: 2px solid {{L.color}}; background: rgba(5,6,15,.85); display: flex; flex-direction: column">
+        <div style="position: relative; height: 330px; overflow: hidden; background: #0A0C1A">
+          <div style="position: absolute; left: 62px; top: 236px; width: 100px; height: 100px; border-radius: 50%; background: radial-gradient(circle, {{L.color}}, rgba(5,6,15,0) 70%); opacity: {{L.aura}}"></div>
+          <sc-for list="{{L.bullets}}" as="b" hint-placeholder-count="4">
+            <div style="position: absolute; left: {{b.left}}px; top: {{b.top}}px; width: {{b.w}}px; height: {{b.h}}px; border-radius: {{b.r}}px; background: {{b.fill}}; box-shadow: 0 0 {{b.glow}}px {{L.color}}"></div>
+          </sc-for>
+          <svg aria-hidden="true" viewBox="0 0 100 120" style="position: absolute; left: 72px; top: 236px; width: 80px; height: 90px"><path d="M44 96 L50 120 L56 96 Z" fill="#FF3EA5"/><path d="M50 4 L60 40 L92 74 L92 86 L62 80 L58 96 L42 96 L38 80 L8 86 L8 74 L40 40 Z" fill="#0E1A2E" stroke="#2DE2FF" stroke-width="3" stroke-linejoin="round"/><path d="M50 18 L55 44 L50 58 L45 44 Z" fill="#2DE2FF"/></svg>
+        </div>
+        <div style="padding: 12px 14px; display: flex; flex-direction: column; gap: 4px">
+          <div style="display: flex; justify-content: space-between; align-items: baseline"><b style="font-family: 'Orbitron', sans-serif; font-size: 20px; color: {{L.color}}">LV {{L.lv}}</b><b style="font-family: 'Orbitron', sans-serif; font-size: 16px">{{L.mult}}</b></div>
+          <div style="font-size: 12px; line-height: 1.45; color: #D7DEF0">{{L.note}}</div>
+        </div>
+      </div>
+    </sc-for>
+  </div>
+
+  <div style="position: relative; display: flex; gap: 16px; flex: 1">
+    <section style="width: 380px; padding: 16px 18px; border: 1px solid rgba(178,107,255,.5); background: rgba(5,6,15,.85); display: flex; flex-direction: column; gap: 10px">
+      <h2 style="margin: 0; font-family: 'Orbitron', sans-serif; font-size: 12px; letter-spacing: 4px; color: #C99BFF">WHEN YOU PICK IT UP</h2>
+      <div style="position: relative; height: 130px; background: #0A0C1A; display: flex; align-items: center; justify-content: center; gap: 28px">
+        <div style="width: 52px; height: 52px; border-radius: 50%; border: 3px solid #B26BFF; background: radial-gradient(circle, rgba(178,107,255,.5), rgba(178,107,255,.08)); box-shadow: 0 0 18px rgba(178,107,255,.8); display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20V6M6 12l6-6 6 6"/></svg></div>
+        <svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#A9B4D0" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 4px"><span style="font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 20px; color: #FFC83D; text-shadow: 0 0 12px rgba(255,200,61,.7)">DMG +1</span><span style="font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 12px; letter-spacing: 2px; color: #FFFFFF">LEVEL 3</span></div>
+      </div>
+      <div style="font-size: 13px; line-height: 1.55; color: #D7DEF0">The jet flashes the new level color, a short ring pulses out, and the DMG bar in the corner fills one more pip.</div>
+    </section>
+
+    <section style="flex: 1; padding: 16px 18px; border: 1px solid rgba(255,200,61,.45); background: rgba(5,6,15,.85); display: flex; flex-direction: column; gap: 10px">
+      <h2 style="margin: 0; font-family: 'Orbitron', sans-serif; font-size: 12px; letter-spacing: 4px; color: #FFC83D">RULES (STARTING VALUES)</h2>
+      <ul style="margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 7px; font-size: 14px; line-height: 1.45; color: #E6EAF5">
+        <li>You start every stage at <b>Level 1</b>. Each orb is <b>+1 level</b>, up to <b>Level 5</b>.</li>
+        <li>Each level adds <b>+25% damage</b>, so Level 5 deals <b>double</b> (×2.0).</li>
+        <li>Taking a hull hit drops <b>1 level</b>. It never goes below Level 1.</li>
+        <li>Works with every weapon: normal shots, Spread, Laser and Missiles. It does not change the Nova Bomb.</li>
+        <li>At Level 5 an extra orb gives <b>+500 points</b> instead.</li>
+        <li>Orbs drop from tough enemies and always from mini-bosses.</li>
+      </ul>
+    </section>
+
+    <section style="width: 300px; padding: 16px 18px; border: 1px solid rgba(45,226,255,.45); background: rgba(5,6,15,.85); display: flex; flex-direction: column; gap: 10px">
+      <h2 style="margin: 0; font-family: 'Orbitron', sans-serif; font-size: 12px; letter-spacing: 4px; color: #2DE2FF">HUD DISPLAY</h2>
+      <div style="padding: 12px 14px; background: rgba(4,5,12,.9); border: 1px solid rgba(45,226,255,.35); display: flex; align-items: center; gap: 3px">
+        <span style="font-size: 11px; color: #A9B4D0; width: 44px">DMG</span>
+        <div style="flex: 1; height: 8px; background: #FFC83D"></div><div style="flex: 1; height: 8px; background: #FFC83D"></div><div style="flex: 1; height: 8px; background: #FFC83D"></div><div style="flex: 1; height: 8px; background: rgba(255,255,255,.15)"></div><div style="flex: 1; height: 8px; background: rgba(255,255,255,.15)"></div>
+      </div>
+      <div style="font-size: 13px; line-height: 1.55; color: #D7DEF0">Five pips under the Focus bar. Pips take the level color. At Level 5 they glow pink and pulse.</div>
+      <div style="font-size: 13px; line-height: 1.55; color: #A9B4D0">In co-op each pilot has their own Damage level.</div>
+    </section>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":880}}'>
+class Component extends DCLogic {
+  renderVals() {
+    let s = 83;
+    const r = () => { s = (s * 9301 + 49297) % 233280; return s / 233280; };
+    const stars = [];
+    for (let i = 0; i < 100; i++) stars.push({ x: Math.round(r() * 1280), y: Math.round(r() * 880), o: (0.15 + r() * 0.5).toFixed(2) });
+    const defs = [
+      { lv: 1, color: '#2DE2FF', mult: '×1.0', w: 6, h: 26, xs: [78, 142], aura: 0, glow: 6, white: false, note: 'Starting damage. Thin shots.' },
+      { lv: 2, color: '#7CFF6B', mult: '×1.25', w: 9, h: 30, xs: [78, 142], aura: 0.15, glow: 8, white: false, note: 'Wider green shots.' },
+      { lv: 3, color: '#FFC83D', mult: '×1.5', w: 11, h: 34, xs: [62, 112, 162], aura: 0.3, glow: 10, white: true, note: 'Third shot joins. Gold with a white core.' },
+      { lv: 4, color: '#FF9A3D', mult: '×1.75', w: 14, h: 38, xs: [62, 112, 162], aura: 0.45, glow: 14, white: true, note: 'Big orange plasma bolts.' },
+      { lv: 5, color: '#FF3EA5', mult: '×2.0', w: 16, h: 44, xs: [46, 90, 134, 178], aura: 0.65, glow: 20, white: true, note: 'Four pink bolts and a glowing jet. Max power.' }
+    ];
+    const levels = defs.map((d) => {
+      const bullets = [];
+      d.xs.forEach((cx) => {
+        [40, 140].forEach((top) => {
+          bullets.push({ left: cx - d.w / 2, top, w: d.w, h: d.h, r: Math.round(d.w / 2), fill: d.white ? 'linear-gradient(90deg, ' + d.color + ', #FFFFFF, ' + d.color + ')' : d.color, glow: d.glow });
+        });
+      });
+      return { lv: d.lv, color: d.color, mult: d.mult, aura: d.aura, note: d.note, bullets };
+    });
+    return { stars, levels };
+  }
+}
+</script>
+</body>
+</html>

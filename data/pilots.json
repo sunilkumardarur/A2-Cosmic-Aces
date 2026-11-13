@@ -1,0 +1,57 @@
+{
+  "pilots": [
+    {
+      "id": "ayan",
+      "name": "AYAN",
+      "title": "THE SHARPSHOOTER",
+      "color": "#2DE2FF",
+      "helmet": "cyan",
+      "special": {
+        "name": "FOCUS SHOT",
+        "text": "Half-second charge ring, then a thick beam fires straight up for 1 second. It pierces every enemy in the line. Strong against bosses.",
+        "short": "Charged beam that pierces every enemy in a line."
+      },
+      "voice": [
+        "Locked on!",
+        "Nice shot, Aarav!",
+        "Focus Shot, fire!",
+        "Hang on, I'm coming!",
+        "Boss incoming!"
+      ],
+      "src": "Hangar, Specials, Audio, Profiles"
+    },
+    {
+      "id": "aarav",
+      "name": "AARAV",
+      "title": "THE DEFENDER",
+      "color": "#FF9A3D",
+      "helmet": "orange, with glasses",
+      "special": {
+        "name": "SHIELD BURST",
+        "text": "A round shockwave grows from the jet. Every enemy bullet it touches turns into gold sparks, and enemies inside freeze for 1 second.",
+        "short": "Shockwave that wipes out nearby enemy bullets."
+      },
+      "voice": [
+        "Shields up!",
+        "I've got your back, Ayan!",
+        "Shield Burst!",
+        "Thanks for the save!",
+        "We did it!"
+      ],
+      "src": "Hangar, Specials, Audio, Profiles"
+    }
+  ],
+  "special_rules": {
+    "trigger": "Shift (keyboard) or X (gamepad). Press when the bar is full. Using it empties the bar.",
+    "bar_fill": "Fills as you shoot and destroy enemies. About 40 seconds of normal play to fill.",
+    "shop_modifier": "Shop 'Special Charge' makes it fill faster (see shop.json).",
+    "a2_burst": {
+      "name": "A2 BURST",
+      "mode": "Co-op only",
+      "how": "With the A2 meter full, both pilots press Special within 1 second.",
+      "effect": "Both beams twist into one giant beam for 2 seconds, clearing all bullets and hitting everything on screen. Bosses lose 15% of their health.",
+      "meter": "Fills when both pilots shoot. Needs both pilots alive."
+    },
+    "src": "Specials, Coop, Controls"
+  }
+}

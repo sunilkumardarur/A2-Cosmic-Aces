@@ -1,0 +1,29 @@
+STAGE 44 · TIER 3
+LEGION DOCK
+A drone factory. They come out in neat lines.
+SAME STAGE, TINTED, IN
+MK II · STAGE 54
+PAIR · STAGE 94
+MICRO DRONE
+ENEMY · 1 HIT
+Comes in groups of 12 in shapes.
+DOCK ARM
+OBSTACLE · UNBREAKABLE
+Swings in and out of the lane.
+HANGAR DOOR
+OBSTACLE · 8 HITS
+Opens to release a drone wave.
+SIGNAL BEACON
+ENEMY · 6 HITS
+Marks you. Drones fly to the mark.
+BOSS 44
+HP 20,000 · 3 PHASES
+Drone Mother Legion
+MK II in stage 54
+HP 30,000
+FIGHTS · Hundreds of tiny drones fly in formations.
+WEAK POINT · Central eye while drones are out.
+MK II ADDS · Formations chase the pilot.
+MID-STAGE · Mini-boss Drone Captain
+First clear up to +220 credits
+Repeat clear +1

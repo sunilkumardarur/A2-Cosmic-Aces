@@ -1,0 +1,29 @@
+STAGE 68 · TIER 4
+CRYSTAL CAVERNS
+A cave of giant crystals that bounce and split bullets.
+SAME STAGE, TINTED, IN
+MK II · STAGE 78
+PAIR · STAGE 98
+GEODE ROCK
+OBSTACLE · 12 HITS
+Opens into 4 shards when destroyed.
+SHARD BAT
+ENEMY · 6 HITS
+Flies in zig-zag and fires splitting shots.
+MIRROR VEIN
+HAZARD · UNBREAKABLE
+Bounces all bullets, yours and theirs.
+CRYSTAL TURRET
+ENEMY · 10 HITS
+Fires bouncing shards.
+BOSS 68
+HP 38,500 · 4 PHASES
+Crystal Titan Geode
+MK II in stage 78
+HP 57,750
+FIGHTS · Shards bounce between walls and split on hit.
+WEAK POINT · Purple geode core in the chest.
+MK II ADDS · Shards return after bouncing.
+MID-STAGE · Mini-boss Shard Beast
+First clear up to +300 credits
+Repeat clear +1

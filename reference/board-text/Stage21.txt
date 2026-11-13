@@ -1,0 +1,29 @@
+STAGE 21 · TIER 2
+AEGIS STATION
+An armored space station. Most enemies carry shields.
+SAME STAGE, TINTED, IN
+MK II · STAGE 31
+PAIR · STAGE 81
+SHIELD DRONE
+ENEMY · 4 HITS
+Front is armored. Shoot it from the side.
+LASER GATE
+HAZARD · UNBREAKABLE
+Two posts with a beam. Wait for the gap.
+HULL PLATE
+OBSTACLE · 6 HITS
+Floating plates that block the lane.
+PLASMA TURRET
+ENEMY · 6 HITS
+Locks on, then fires a thick beam.
+BOSS 21
+HP 9,000 · 3 PHASES
+Sentinel Prime Aegis
+MK II in stage 31
+HP 13,500
+FIGHTS · Rotating shield plates. Only the back is open.
+WEAK POINT · Back plate once the shields rotate away.
+MK II ADDS · Plates break off and fly at you.
+MID-STAGE · Mini-boss Plate Guard
+First clear up to +150 credits
+Repeat clear +1

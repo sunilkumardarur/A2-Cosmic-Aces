@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>A² Cosmic Aces — Choose Mode</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&amp;family=Exo+2:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#2DE2FF}a:hover{color:#FFFFFF}
+.mc:hover{background:rgba(255,255,255,.08) !important;transform:translateY(-4px)}
+</style>
+</helmet>
+<div style="width: 1280px; height: 720px; position: relative; overflow: hidden; box-sizing: border-box; padding: 32px 56px; background: #05060F; font-family: 'Exo 2', sans-serif; color: #FFFFFF; display: flex; flex-direction: column; gap: 22px">
+  <sc-for list="{{stars}}" as="s" hint-placeholder-count="20">
+    <div style="position: absolute; left: {{s.x}}px; top: {{s.y}}px; width: 2px; height: 2px; border-radius: 50%; background: #FFFFFF; opacity: {{s.o}}"></div>
+  </sc-for>
+  <header style="position: relative; display: flex; align-items: center; gap: 20px">
+    <a href="Main.dc.html" style="display: flex; align-items: center; gap: 8px; height: 44px; padding: 0 16px; border: 2px solid rgba(169,180,208,.4); color: #D7DEF0; text-decoration: none; font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 13px; letter-spacing: 2px"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg>MENU</a>
+    <div style="display: flex; flex-direction: column; gap: 2px"><h1 style="margin: 0; font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 32px; letter-spacing: 3px; text-shadow: 0 0 16px rgba(45,226,255,.5)">CHOOSE YOUR MISSION</h1><div style="font-size: 14px; color: #A9B4D0">Fly alone, or take both pilots into battle together.</div></div>
+  </header>
+
+  <div style="position: relative; display: flex; gap: 32px; flex: 1">
+    <a class="mc" href="Hangar.dc.html" style="flex: 1; text-decoration: none; color: #FFFFFF; padding: 28px; border: 2px solid #2DE2FF; background: rgba(45,226,255,.05); display: flex; flex-direction: column; gap: 16px; transition: transform .15s">
+      <div style="display: flex; justify-content: space-between; align-items: center"><span style="font-size: 12px; letter-spacing: 5px; color: #2DE2FF">1 PLAYER</span><span style="font-size: 12px; letter-spacing: 3px; color: #A9B4D0">ENTER</span></div>
+      <h2 style="margin: 0; font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 36px; letter-spacing: 3px; color: #2DE2FF">SOLO ACE</h2>
+      <div style="display: flex; justify-content: center; align-items: center; gap: 20px; height: 200px; background: rgba(5,6,15,.6)">
+        <svg role="img" aria-label="Ayan" viewBox="0 0 120 120" style="width: 130px; height: 130px"><circle cx="60" cy="64" r="44" fill="#16223C" stroke="#2DE2FF" stroke-width="4"/><ellipse cx="60" cy="74" rx="27" ry="28" fill="#B9794E"/><path d="M33 66 L38 50 L44 58 L50 46 L56 56 L62 44 L68 56 L74 46 L80 58 L86 52 L87 66 Q60 54 33 66 Z" fill="#1B1210"/><ellipse cx="50" cy="76" rx="4" ry="5" fill="#1B1210"/><ellipse cx="70" cy="76" rx="4" ry="5" fill="#1B1210"/><path d="M49 88 Q60 97 71 88" stroke="#1B1210" stroke-width="3" fill="none" stroke-linecap="round"/><rect x="34" y="22" width="52" height="16" rx="8" fill="#2DE2FF"/></svg>
+        <span style="font-family: 'Orbitron', sans-serif; font-size: 14px; letter-spacing: 3px; color: #A9B4D0">OR</span>
+        <svg role="img" aria-label="Aarav" viewBox="0 0 120 120" style="width: 130px; height: 130px"><circle cx="60" cy="64" r="44" fill="#2A1C12" stroke="#FF9A3D" stroke-width="4"/><ellipse cx="60" cy="74" rx="27" ry="28" fill="#A86A42"/><path d="M33 68 Q36 48 60 46 Q84 46 87 64 Q72 56 52 58 Q42 60 33 68 Z" fill="#14100E"/><circle cx="49" cy="77" r="8" fill="none" stroke="#FFC83D" stroke-width="2.5"/><circle cx="71" cy="77" r="8" fill="none" stroke="#FFC83D" stroke-width="2.5"/><circle cx="49" cy="77" r="3.5" fill="#14100E"/><circle cx="71" cy="77" r="3.5" fill="#14100E"/><path d="M50 90 Q60 96 70 90" stroke="#14100E" stroke-width="3" fill="none" stroke-linecap="round"/><rect x="34" y="22" width="52" height="16" rx="8" fill="#FF9A3D"/></svg>
+      </div>
+      <ul style="margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 8px; font-size: 15px; line-height: 1.4; color: #E6EAF5"><li>Pick Ayan or Aarav and one of 4 jets.</li><li>Keyboard, gamepad or touch.</li><li>Your partner pilot cheers you on in voice lines.</li></ul>
+    </a>
+
+    <a class="mc" href="Hangar.dc.html" style="flex: 1; text-decoration: none; color: #FFFFFF; padding: 28px; border: 2px solid #FF3EA5; background: rgba(255,62,165,.05); display: flex; flex-direction: column; gap: 16px; transition: transform .15s">
+      <div style="display: flex; justify-content: space-between; align-items: center"><span style="font-size: 12px; letter-spacing: 5px; color: #FF3EA5">2 PLAYERS · SAME SCREEN</span><span style="font-size: 12px; letter-spacing: 3px; color: #FFC83D">RECOMMENDED</span></div>
+      <h2 style="margin: 0; font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 36px; letter-spacing: 3px; color: #FF3EA5">DOUBLE ACES</h2>
+      <div style="display: flex; justify-content: center; align-items: center; gap: 20px; height: 200px; background: rgba(5,6,15,.6)">
+        <svg role="img" aria-label="Ayan" viewBox="0 0 120 120" style="width: 130px; height: 130px"><circle cx="60" cy="64" r="44" fill="#16223C" stroke="#2DE2FF" stroke-width="4"/><ellipse cx="60" cy="74" rx="27" ry="28" fill="#B9794E"/><path d="M33 66 L38 50 L44 58 L50 46 L56 56 L62 44 L68 56 L74 46 L80 58 L86 52 L87 66 Q60 54 33 66 Z" fill="#1B1210"/><ellipse cx="50" cy="76" rx="4" ry="5" fill="#1B1210"/><ellipse cx="70" cy="76" rx="4" ry="5" fill="#1B1210"/><path d="M49 88 Q60 97 71 88" stroke="#1B1210" stroke-width="3" fill="none" stroke-linecap="round"/><rect x="34" y="22" width="52" height="16" rx="8" fill="#2DE2FF"/></svg>
+        <span style="font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 30px; color: #FF3EA5; text-shadow: 0 0 14px rgba(255,62,165,.7)">+</span>
+        <svg role="img" aria-label="Aarav" viewBox="0 0 120 120" style="width: 130px; height: 130px"><circle cx="60" cy="64" r="44" fill="#2A1C12" stroke="#FF9A3D" stroke-width="4"/><ellipse cx="60" cy="74" rx="27" ry="28" fill="#A86A42"/><path d="M33 68 Q36 48 60 46 Q84 46 87 64 Q72 56 52 58 Q42 60 33 68 Z" fill="#14100E"/><circle cx="49" cy="77" r="8" fill="none" stroke="#FFC83D" stroke-width="2.5"/><circle cx="71" cy="77" r="8" fill="none" stroke="#FFC83D" stroke-width="2.5"/><circle cx="49" cy="77" r="3.5" fill="#14100E"/><circle cx="71" cy="77" r="3.5" fill="#14100E"/><path d="M50 90 Q60 96 70 90" stroke="#14100E" stroke-width="3" fill="none" stroke-linecap="round"/><rect x="34" y="22" width="52" height="16" rx="8" fill="#FF9A3D"/></svg>
+      </div>
+      <ul style="margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 8px; font-size: 15px; line-height: 1.4; color: #E6EAF5"><li>Each pilot has their own jet, hull and special.</li><li>Fly into a downed partner for 2 seconds to revive them.</li><li>Shared score and combo. Fill the <b style="color: #FFC83D">A² Burst</b> meter, then press both specials together.</li></ul>
+    </a>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":720}}'>
+class Component extends DCLogic {
+  renderVals() {
+    let s = 59;
+    const r = () => { s = (s * 9301 + 49297) % 233280; return s / 233280; };
+    const stars = [];
+    for (let i = 0; i < 80; i++) stars.push({ x: Math.round(r() * 1280), y: Math.round(r() * 720), o: (0.15 + r() * 0.5).toFixed(2) });
+    return { stars };
+  }
+}
+</script>
+</body>
+</html>

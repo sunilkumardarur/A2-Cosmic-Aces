@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>A² Cosmic Aces — Paused</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&amp;family=Exo+2:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#2DE2FF}a:hover{color:#FFFFFF}
+.pb:hover{background:rgba(45,226,255,.18) !important;color:#FFFFFF !important}
+</style>
+</helmet>
+<div style="width: 1280px; height: 720px; position: relative; overflow: hidden; background: #04050C; font-family: 'Exo 2', sans-serif; color: #FFFFFF">
+  <sc-for list="{{stars}}" as="s" hint-placeholder-count="20">
+    <div style="position: absolute; left: {{s.x}}px; top: {{s.y}}px; width: 2px; height: 2px; border-radius: 50%; background: #C9D4FF; opacity: {{s.o}}"></div>
+  </sc-for>
+  <div style="position: absolute; left: 180px; top: -120px; width: 900px; height: 520px; border-radius: 50%; background: radial-gradient(ellipse, rgba(255,138,61,.22), rgba(4,5,12,0) 70%)"></div>
+  <svg aria-hidden="true" viewBox="0 0 60 60" style="position: absolute; left: 300px; top: 150px; width: 54px; height: 54px"><path d="M30 4 L54 22 L46 50 L14 50 L6 22 Z" fill="#1A1E2C" stroke="#FF4D5E" stroke-width="2.5"/><circle cx="30" cy="30" r="7" fill="#FF4D5E"/></svg>
+  <svg aria-hidden="true" viewBox="0 0 60 60" style="position: absolute; left: 900px; top: 120px; width: 54px; height: 54px"><path d="M30 4 L54 22 L46 50 L14 50 L6 22 Z" fill="#1A1E2C" stroke="#FF4D5E" stroke-width="2.5"/><circle cx="30" cy="30" r="7" fill="#FF4D5E"/></svg>
+  <svg aria-hidden="true" viewBox="0 0 100 120" style="position: absolute; left: 590px; top: 470px; width: 100px; height: 120px"><path d="M44 96 L50 120 L56 96 Z" fill="#FF3EA5"/><path d="M50 4 L60 40 L92 74 L92 86 L62 80 L58 96 L42 96 L38 80 L8 86 L8 74 L40 40 Z" fill="#0E1A2E" stroke="#2DE2FF" stroke-width="2.5" stroke-linejoin="round"/><path d="M50 18 L55 44 L50 58 L45 44 Z" fill="#2DE2FF"/></svg>
+
+  <div style="position: absolute; inset: 0; background: rgba(5,6,15,.82)"></div>
+
+  <div style="position: absolute; left: 56px; top: 56px; width: 300px; display: flex; flex-direction: column; gap: 14px">
+    <div style="font-size: 11px; letter-spacing: 4px; color: #A9B4D0">THIS RUN</div>
+    <div style="display: flex; flex-direction: column; gap: 10px; padding: 16px; border: 1px solid rgba(45,226,255,.3); background: rgba(5,6,15,.7)">
+      <div style="display: flex; justify-content: space-between"><span style="color: #A9B4D0; font-size: 13px">SCORE</span><b style="font-family: 'Orbitron', sans-serif; font-size: 16px">0012450</b></div>
+      <div style="display: flex; justify-content: space-between"><span style="color: #A9B4D0; font-size: 13px">STAGE</span><b style="font-size: 14px; color: #FF8A3D">1 · EMBER BELT</b></div>
+      <div style="display: flex; justify-content: space-between"><span style="color: #A9B4D0; font-size: 13px">PILOT</span><b style="font-size: 14px; color: #2DE2FF">AYAN · NOVA STRIKER</b></div>
+      <div style="display: flex; justify-content: space-between"><span style="color: #A9B4D0; font-size: 13px">HULL</span><span style="display: flex; gap: 3px"><span style="width: 18px; height: 8px; background: #7CFF6B"></span><span style="width: 18px; height: 8px; background: #7CFF6B"></span><span style="width: 18px; height: 8px; background: #7CFF6B"></span><span style="width: 18px; height: 8px; background: rgba(255,255,255,.18)"></span><span style="width: 18px; height: 8px; background: rgba(255,255,255,.18)"></span></span></div>
+      <div style="display: flex; justify-content: space-between"><span style="color: #A9B4D0; font-size: 13px">TIME</span><b style="font-size: 14px">03:42</b></div>
+    </div>
+  </div>
+
+  <div style="position: absolute; left: 440px; top: 100px; width: 400px; display: flex; flex-direction: column; gap: 14px; align-items: stretch">
+    <div style="text-align: center; display: flex; flex-direction: column; gap: 4px; margin-bottom: 10px">
+      <div style="font-size: 12px; letter-spacing: 6px; color: #2DE2FF">MISSION ON HOLD</div>
+      <h1 style="margin: 0; font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 52px; letter-spacing: 6px; text-shadow: 0 0 22px rgba(45,226,255,.6)">PAUSED</h1>
+    </div>
+    <a class="pb" href="Gameplay.dc.html" style="display: flex; align-items: center; justify-content: center; height: 58px; background: #2DE2FF; color: #05060F; text-decoration: none; font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 18px; letter-spacing: 4px; clip-path: polygon(14px 0, 100% 0, calc(100% - 14px) 100%, 0 100%)">RESUME</a>
+    <a class="pb" href="Gameplay.dc.html" style="display: flex; align-items: center; justify-content: center; height: 52px; border: 2px solid #2DE2FF; color: #2DE2FF; text-decoration: none; font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 15px; letter-spacing: 3px">RESTART STAGE</a>
+    <a class="pb" href="Settings.dc.html" style="display: flex; align-items: center; justify-content: center; height: 52px; border: 2px solid rgba(169,180,208,.5); color: #D7DEF0; text-decoration: none; font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 15px; letter-spacing: 3px">SETTINGS</a>
+    <a class="pb" href="Main.dc.html" style="display: flex; align-items: center; justify-content: center; height: 52px; border: 2px solid rgba(255,77,94,.7); color: #FF7A86; text-decoration: none; font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 15px; letter-spacing: 3px">QUIT TO MENU</a>
+    <div style="text-align: center; font-size: 12px; letter-spacing: 2px; color: #A9B4D0; margin-top: 4px">PROGRESS IS SAVED AT THE START OF EACH STAGE</div>
+  </div>
+
+  <div style="position: absolute; right: 56px; top: 56px; width: 300px; display: flex; flex-direction: column; gap: 14px">
+    <div style="font-size: 11px; letter-spacing: 4px; color: #A9B4D0">ACTIVE POWER-UPS</div>
+    <div style="display: flex; flex-direction: column; gap: 10px; padding: 16px; border: 1px solid rgba(255,154,61,.35); background: rgba(5,6,15,.7)">
+      <div style="display: flex; align-items: center; gap: 12px"><span style="width: 34px; height: 34px; border-radius: 50%; border: 2px solid #FF9A3D; display: flex; align-items: center; justify-content: center; font-family: 'Orbitron', sans-serif; font-weight: 900">S</span><span style="flex: 1; font-size: 13px">Spread Shot</span><b style="font-family: 'Orbitron', sans-serif; font-size: 14px">08s</b></div>
+      <div style="display: flex; align-items: center; gap: 12px"><span style="width: 34px; height: 34px; border-radius: 50%; border: 2px solid #4DA3FF; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linejoin="round"><path d="M12 2l8 3v6c0 5-3.5 9-8 11-4.5-2-8-6-8-11V5z"/></svg></span><span style="flex: 1; font-size: 13px">Energy Shield</span><b style="font-family: 'Orbitron', sans-serif; font-size: 14px">2 HITS</b></div>
+    </div>
+    <div style="font-size: 12px; line-height: 1.6; color: #A9B4D0">ESC — resume · R — restart · M — music on/off</div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":720}}'>
+class Component extends DCLogic {
+  renderVals() {
+    let s = 5;
+    const r = () => { s = (s * 9301 + 49297) % 233280; return s / 233280; };
+    const stars = [];
+    for (let i = 0; i < 100; i++) stars.push({ x: Math.round(r() * 1280), y: Math.round(r() * 720), o: (0.2 + r() * 0.6).toFixed(2) });
+    return { stars };
+  }
+}
+</script>
+</body>
+</html>

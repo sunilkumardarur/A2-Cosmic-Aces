@@ -1,0 +1,29 @@
+STAGE 25 · TIER 2
+SCRAPYARD BELT
+A junk belt with magnets that grab loose metal.
+SAME STAGE, TINTED, IN
+MK II · STAGE 35
+PAIR · STAGE 85
+MAGNET MINE
+HAZARD · 2 HITS
+Pulls nearby bullets and your jet.
+SCRAP BOT
+ENEMY · 4 HITS
+Throws scrap pieces in an arc.
+JUNK CLUMP
+OBSTACLE · 6 HITS
+Chunks of metal stuck together.
+CRANE ARM
+OBSTACLE · UNBREAKABLE
+Swings across the screen on a slow beat.
+BOSS 25
+HP 12,000 · 3 PHASES
+Magnet Lord Ferrox
+MK II in stage 35
+HP 18,000
+FIGHTS · Pulls you toward him and flings metal scrap.
+WEAK POINT · Both pole tips at the same time.
+MK II ADDS · Pull flips to push without warning.
+MID-STAGE · Mini-boss Iron Hoarder
+First clear up to +150 credits
+Repeat clear +1

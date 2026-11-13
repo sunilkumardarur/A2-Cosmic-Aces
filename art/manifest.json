@@ -1,0 +1,2178 @@
+{
+  "note": "role=img SVGs extracted from boards. has_template_vars=true means the SVG contains {{...}} placeholders from the board template and needs the values from that board.",
+  "boss_art": "art/bosses (40 x Mk I and Mk II)",
+  "items": [
+    {
+      "file": "art/boards/BossDefeat_01_boss-flashing-white-on-the-final-hit.svg",
+      "board": "BossDefeat",
+      "label": "Boss flashing white on the final hit",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossDefeat_02_boss-shaking-with-cracks-and-smoke.svg",
+      "board": "BossDefeat",
+      "label": "Boss shaking with cracks and smoke",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossDefeat_03_chain-of-small-explosions-across-the-bos.svg",
+      "board": "BossDefeat",
+      "label": "Chain of small explosions across the boss",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossDefeat_04_huge-white-explosion-with-shockwave-ring.svg",
+      "board": "BossDefeat",
+      "label": "Huge white explosion with shockwave rings and flying fragments",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossDefeat_05_debris-falling-score-popup-and-three-pow.svg",
+      "board": "BossDefeat",
+      "label": "Debris falling, score popup and three power-up orbs",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossIntro_01_hive-queen-zyra-descending-from-the-top-.svg",
+      "board": "BossIntro",
+      "label": "Hive Queen Zyra descending from the top of the screen",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier1_01_rockmaw.svg",
+      "board": "BossTier1",
+      "label": "Rockmaw",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier1_02_rockmaw.svg",
+      "board": "BossTier1",
+      "label": "Rockmaw",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier1_03_hive-queen-zyra.svg",
+      "board": "BossTier1",
+      "label": "Hive Queen Zyra",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier1_04_hive-queen-zyra.svg",
+      "board": "BossTier1",
+      "label": "Hive Queen Zyra",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier1_05_dreadnought-9.svg",
+      "board": "BossTier1",
+      "label": "Dreadnought Ω-9",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier1_06_dreadnought-9.svg",
+      "board": "BossTier1",
+      "label": "Dreadnought Ω-9",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier1_07_void-emperor-kaal.svg",
+      "board": "BossTier1",
+      "label": "Void Emperor Kaal",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier1_08_void-emperor-kaal.svg",
+      "board": "BossTier1",
+      "label": "Void Emperor Kaal",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier1_09_frost-colossus-glacius.svg",
+      "board": "BossTier1",
+      "label": "Frost Colossus Glacius",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier1_10_frost-colossus-glacius.svg",
+      "board": "BossTier1",
+      "label": "Frost Colossus Glacius",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier1_11_storm-serpent-voltra.svg",
+      "board": "BossTier1",
+      "label": "Storm Serpent Voltra",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier1_12_storm-serpent-voltra.svg",
+      "board": "BossTier1",
+      "label": "Storm Serpent Voltra",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier1_13_clockwork-titan-tikka.svg",
+      "board": "BossTier1",
+      "label": "Clockwork Titan Tikka",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier1_14_clockwork-titan-tikka.svg",
+      "board": "BossTier1",
+      "label": "Clockwork Titan Tikka",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier1_15_mirror-mantis-spectra.svg",
+      "board": "BossTier1",
+      "label": "Mirror Mantis Spectra",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier1_16_mirror-mantis-spectra.svg",
+      "board": "BossTier1",
+      "label": "Mirror Mantis Spectra",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier1_17_tidal-kraken-maelo.svg",
+      "board": "BossTier1",
+      "label": "Tidal Kraken Maelo",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier1_18_tidal-kraken-maelo.svg",
+      "board": "BossTier1",
+      "label": "Tidal Kraken Maelo",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier1_19_comet-king-blazar.svg",
+      "board": "BossTier1",
+      "label": "Comet King Blazar",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier1_20_comet-king-blazar.svg",
+      "board": "BossTier1",
+      "label": "Comet King Blazar",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier2_01_sentinel-prime-aegis.svg",
+      "board": "BossTier2",
+      "label": "Sentinel Prime Aegis",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier2_02_sentinel-prime-aegis.svg",
+      "board": "BossTier2",
+      "label": "Sentinel Prime Aegis",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier2_03_plasma-weaver-arachna.svg",
+      "board": "BossTier2",
+      "label": "Plasma Weaver Arachna",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier2_04_plasma-weaver-arachna.svg",
+      "board": "BossTier2",
+      "label": "Plasma Weaver Arachna",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier2_05_gravity-golem-massa.svg",
+      "board": "BossTier2",
+      "label": "Gravity Golem Massa",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier2_06_gravity-golem-massa.svg",
+      "board": "BossTier2",
+      "label": "Gravity Golem Massa",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier2_07_phantom-admiral-noctis.svg",
+      "board": "BossTier2",
+      "label": "Phantom Admiral Noctis",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier2_08_phantom-admiral-noctis.svg",
+      "board": "BossTier2",
+      "label": "Phantom Admiral Noctis",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier2_09_magnet-lord-ferrox.svg",
+      "board": "BossTier2",
+      "label": "Magnet Lord Ferrox",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier2_10_magnet-lord-ferrox.svg",
+      "board": "BossTier2",
+      "label": "Magnet Lord Ferrox",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier2_11_sludge-leviathan-bog.svg",
+      "board": "BossTier2",
+      "label": "Sludge Leviathan Bog",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier2_12_sludge-leviathan-bog.svg",
+      "board": "BossTier2",
+      "label": "Sludge Leviathan Bog",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier2_13_prism-dragon-chroma.svg",
+      "board": "BossTier2",
+      "label": "Prism Dragon Chroma",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier2_14_prism-dragon-chroma.svg",
+      "board": "BossTier2",
+      "label": "Prism Dragon Chroma",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier2_15_time-warden-chronos.svg",
+      "board": "BossTier2",
+      "label": "Time Warden Chronos",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier2_16_time-warden-chronos.svg",
+      "board": "BossTier2",
+      "label": "Time Warden Chronos",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier2_17_siege-fortress-bastion.svg",
+      "board": "BossTier2",
+      "label": "Siege Fortress Bastion",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier2_18_siege-fortress-bastion.svg",
+      "board": "BossTier2",
+      "label": "Siege Fortress Bastion",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier2_19_star-reaper-falx.svg",
+      "board": "BossTier2",
+      "label": "Star Reaper Falx",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier2_20_star-reaper-falx.svg",
+      "board": "BossTier2",
+      "label": "Star Reaper Falx",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier3_01_hydra-core-hydrax.svg",
+      "board": "BossTier3",
+      "label": "Hydra Core Hydrax",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier3_02_hydra-core-hydrax.svg",
+      "board": "BossTier3",
+      "label": "Hydra Core Hydrax",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier3_03_meteor-queen-rubia.svg",
+      "board": "BossTier3",
+      "label": "Meteor Queen Rubia",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier3_04_meteor-queen-rubia.svg",
+      "board": "BossTier3",
+      "label": "Meteor Queen Rubia",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier3_05_eclipse-wraith-umbra.svg",
+      "board": "BossTier3",
+      "label": "Eclipse Wraith Umbra",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier3_06_eclipse-wraith-umbra.svg",
+      "board": "BossTier3",
+      "label": "Eclipse Wraith Umbra",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier3_07_drone-mother-legion.svg",
+      "board": "BossTier3",
+      "label": "Drone Mother Legion",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier3_08_drone-mother-legion.svg",
+      "board": "BossTier3",
+      "label": "Drone Mother Legion",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier3_09_lava-colossus-magmor.svg",
+      "board": "BossTier3",
+      "label": "Lava Colossus Magmor",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier3_10_lava-colossus-magmor.svg",
+      "board": "BossTier3",
+      "label": "Lava Colossus Magmor",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier3_11_cyber-scorpion-stingra.svg",
+      "board": "BossTier3",
+      "label": "Cyber Scorpion Stingra",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier3_12_cyber-scorpion-stingra.svg",
+      "board": "BossTier3",
+      "label": "Cyber Scorpion Stingra",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier3_13_frozen-empress-glacira.svg",
+      "board": "BossTier3",
+      "label": "Frozen Empress Glacira",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier3_14_frozen-empress-glacira.svg",
+      "board": "BossTier3",
+      "label": "Frozen Empress Glacira",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier3_15_chaos-jester-wildcard.svg",
+      "board": "BossTier3",
+      "label": "Chaos Jester Wildcard",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier3_16_chaos-jester-wildcard.svg",
+      "board": "BossTier3",
+      "label": "Chaos Jester Wildcard",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier3_17_neutron-behemoth-atlas.svg",
+      "board": "BossTier3",
+      "label": "Neutron Behemoth Atlas",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier3_18_neutron-behemoth-atlas.svg",
+      "board": "BossTier3",
+      "label": "Neutron Behemoth Atlas",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier3_19_nebula-overlord-zorak.svg",
+      "board": "BossTier3",
+      "label": "Nebula Overlord Zorak",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier3_20_nebula-overlord-zorak.svg",
+      "board": "BossTier3",
+      "label": "Nebula Overlord Zorak",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier4_01_black-hole-sovereign-singula.svg",
+      "board": "BossTier4",
+      "label": "Black Hole Sovereign Singula",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier4_02_black-hole-sovereign-singula.svg",
+      "board": "BossTier4",
+      "label": "Black Hole Sovereign Singula",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier4_03_supernova-phoenix-solara.svg",
+      "board": "BossTier4",
+      "label": "Supernova Phoenix Solara",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier4_04_supernova-phoenix-solara.svg",
+      "board": "BossTier4",
+      "label": "Supernova Phoenix Solara",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier4_05_dimension-splitter-riftor.svg",
+      "board": "BossTier4",
+      "label": "Dimension Splitter Riftor",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier4_06_dimension-splitter-riftor.svg",
+      "board": "BossTier4",
+      "label": "Dimension Splitter Riftor",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier4_07_mecha-leviathan-prime.svg",
+      "board": "BossTier4",
+      "label": "Mecha Leviathan Ω-Prime",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier4_08_mecha-leviathan-prime.svg",
+      "board": "BossTier4",
+      "label": "Mecha Leviathan Ω-Prime",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier4_09_quantum-mage-qubit.svg",
+      "board": "BossTier4",
+      "label": "Quantum Mage Qubit",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier4_10_quantum-mage-qubit.svg",
+      "board": "BossTier4",
+      "label": "Quantum Mage Qubit",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier4_11_void-kraken-abyssa.svg",
+      "board": "BossTier4",
+      "label": "Void Kraken Abyssa",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier4_12_void-kraken-abyssa.svg",
+      "board": "BossTier4",
+      "label": "Void Kraken Abyssa",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier4_13_thunder-god-tempest.svg",
+      "board": "BossTier4",
+      "label": "Thunder God Tempest",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier4_14_thunder-god-tempest.svg",
+      "board": "BossTier4",
+      "label": "Thunder God Tempest",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier4_15_crystal-titan-geode.svg",
+      "board": "BossTier4",
+      "label": "Crystal Titan Geode",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier4_16_crystal-titan-geode.svg",
+      "board": "BossTier4",
+      "label": "Crystal Titan Geode",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier4_17_mind-eater-cortex.svg",
+      "board": "BossTier4",
+      "label": "Mind Eater Cortex",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier4_18_mind-eater-cortex.svg",
+      "board": "BossTier4",
+      "label": "Mind Eater Cortex",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier4_19_cosmic-emperor-galaxor.svg",
+      "board": "BossTier4",
+      "label": "Cosmic Emperor Galaxor",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/BossTier4_20_cosmic-emperor-galaxor.svg",
+      "board": "BossTier4",
+      "label": "Cosmic Emperor Galaxor",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Controls_01_up-arrow.svg",
+      "board": "Controls",
+      "label": "Up arrow",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Controls_02_left-arrow.svg",
+      "board": "Controls",
+      "label": "Left arrow",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Controls_03_down-arrow.svg",
+      "board": "Controls",
+      "label": "Down arrow",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Controls_04_right-arrow.svg",
+      "board": "Controls",
+      "label": "Right arrow",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Controls_05_game-controller.svg",
+      "board": "Controls",
+      "label": "Game controller",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Controls_06_phone-in-landscape-with-a-left-move-stic.svg",
+      "board": "Controls",
+      "label": "Phone in landscape with a left move stick, right fire button and two small buttons",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Coop_01_ayan-s-nova-striker-flying.svg",
+      "board": "Coop",
+      "label": "Ayan's Nova Striker, flying",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Coop_02_aarav-s-titan-bulwark-downed-and-waiting.svg",
+      "board": "Coop",
+      "label": "Aarav's Titan Bulwark, downed and waiting to be revived",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Coop_03_ayan.svg",
+      "board": "Coop",
+      "label": "Ayan",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Coop_04_aarav.svg",
+      "board": "Coop",
+      "label": "Aarav",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Credits_01_ayan.svg",
+      "board": "Credits",
+      "label": "Ayan",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Credits_02_aarav.svg",
+      "board": "Credits",
+      "label": "Aarav",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Effects_01_twin-cyan-pulse-bullets.svg",
+      "board": "Effects",
+      "label": "Twin cyan pulse bullets",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Effects_02_thin-violet-needles.svg",
+      "board": "Effects",
+      "label": "Thin violet needles",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Effects_03_large-orange-plasma-balls.svg",
+      "board": "Effects",
+      "label": "Large orange plasma balls",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Effects_04_small-green-darts-in-a-stack.svg",
+      "board": "Effects",
+      "label": "Small green darts in a stack",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Effects_05_red-orb.svg",
+      "board": "Effects",
+      "label": "Red orb",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Effects_06_acid-drop.svg",
+      "board": "Effects",
+      "label": "Acid drop",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Effects_07_homing-missile.svg",
+      "board": "Effects",
+      "label": "Homing missile",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Effects_08_laser-beam.svg",
+      "board": "Effects",
+      "label": "Laser beam",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Effects_09_small-explosion.svg",
+      "board": "Effects",
+      "label": "Small explosion",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Effects_10_medium-explosion.svg",
+      "board": "Effects",
+      "label": "Medium explosion",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Effects_11_large-explosion-with-ring.svg",
+      "board": "Effects",
+      "label": "Large explosion with ring",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Effects_12_hit-flash-on-a-jet.svg",
+      "board": "Effects",
+      "label": "Hit flash on a jet",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Effects_13_four-engine-flames-cyan-jet-pink-flame-v.svg",
+      "board": "Effects",
+      "label": "Four engine flames: cyan jet pink flame, violet jet cyan flame, orange jet twin pink flames, green jet yellow flame",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Effects_14_three-frames-full-shield-bubble-cracked-.svg",
+      "board": "Effects",
+      "label": "Three frames: full shield bubble, cracked bubble, shattered shards",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/GameOver_01_crashing-nova-striker-jet-trailing-smoke.svg",
+      "board": "GameOver",
+      "label": "Crashing Nova Striker jet trailing smoke and fire",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Gameplay_01_ayan.svg",
+      "board": "Gameplay",
+      "label": "Ayan",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Gameplay_02_3-lives.svg",
+      "board": "Gameplay",
+      "label": "3 lives",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Hangar_01_ayan-kid-pilot-in-a-cyan-helmet.svg",
+      "board": "Hangar",
+      "label": "Ayan, kid pilot in a cyan helmet",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Hangar_02_aarav-kid-pilot-in-an-orange-helmet-with.svg",
+      "board": "Hangar",
+      "label": "Aarav, kid pilot in an orange helmet with round glasses",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Load_01_ayan.svg",
+      "board": "Load",
+      "label": "Ayan",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Load_02_ayan.svg",
+      "board": "Load",
+      "label": "Ayan",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Load_03_aarav.svg",
+      "board": "Load",
+      "label": "Aarav",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Logo_01_a-cosmic-aces-emblem-a-letter-a-built-fr.svg",
+      "board": "Logo",
+      "label": "A² Cosmic Aces emblem: a letter A built from a cyan and an orange stroke with a pink crossbar and a gold star",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Logo_02_app-icon-rounded-square-with-the-a-emble.svg",
+      "board": "Logo",
+      "label": "App icon: rounded square with the A² emblem",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Logo_03_icon-at-96-pixels.svg",
+      "board": "Logo",
+      "label": "Icon at 96 pixels",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Logo_04_icon-at-48-pixels.svg",
+      "board": "Logo",
+      "label": "Icon at 48 pixels",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Logo_05_favicon-at-32-pixels.svg",
+      "board": "Logo",
+      "label": "Favicon at 32 pixels",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Logo_06_emblem-on-light-background.svg",
+      "board": "Logo",
+      "label": "Emblem on light background",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Logo_07_emblem.svg",
+      "board": "Logo",
+      "label": "Emblem",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Logo_08_one-color-emblem.svg",
+      "board": "Logo",
+      "label": "One-color emblem",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/MiniBosses_01_cinder-crab-a-lava-crab-with-two-big-cla.svg",
+      "board": "MiniBosses",
+      "label": "Cinder Crab, a lava crab with two big claws",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/MiniBosses_02_spore-mother-a-pulsing-pod-with-tendrils.svg",
+      "board": "MiniBosses",
+      "label": "Spore Mother, a pulsing pod with tendrils",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/MiniBosses_03_rail-cruiser-a-long-warship-with-a-front.svg",
+      "board": "MiniBosses",
+      "label": "Rail Cruiser, a long warship with a front cannon",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/MiniBosses_04_rift-warden-an-armored-knight-beside-two.svg",
+      "board": "MiniBosses",
+      "label": "Rift Warden, an armored knight beside two portals",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/ModeSelect_01_ayan.svg",
+      "board": "ModeSelect",
+      "label": "Ayan",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/ModeSelect_02_aarav.svg",
+      "board": "ModeSelect",
+      "label": "Aarav",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/ModeSelect_03_ayan.svg",
+      "board": "ModeSelect",
+      "label": "Ayan",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/ModeSelect_04_aarav.svg",
+      "board": "ModeSelect",
+      "label": "Aarav",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/PairFight_01_rockmaw.svg",
+      "board": "PairFight",
+      "label": "Rockmaw",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/PairFight_02_sentinel-prime-aegis.svg",
+      "board": "PairFight",
+      "label": "Sentinel Prime Aegis",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/PowerCurve_01_chart-player-power-rises-from-100-to-abo.svg",
+      "board": "PowerCurve",
+      "label": "Chart: player power rises from 100 to about 198 while challenge rating rises from 100 to about 475 over 100 stages",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Profiles_01_ayan-profile-picture.svg",
+      "board": "Profiles",
+      "label": "Ayan profile picture",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Profiles_02_aarav-profile-picture.svg",
+      "board": "Profiles",
+      "label": "Aarav profile picture",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector01_01_rockmaw.svg",
+      "board": "Sector01",
+      "label": "Rockmaw",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector01_02_hive-queen-zyra.svg",
+      "board": "Sector01",
+      "label": "Hive Queen Zyra",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector01_03_dreadnought-9.svg",
+      "board": "Sector01",
+      "label": "Dreadnought Ω-9",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector01_04_void-emperor-kaal.svg",
+      "board": "Sector01",
+      "label": "Void Emperor Kaal",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector01_05_frost-colossus-glacius.svg",
+      "board": "Sector01",
+      "label": "Frost Colossus Glacius",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector01_06_storm-serpent-voltra.svg",
+      "board": "Sector01",
+      "label": "Storm Serpent Voltra",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector01_07_clockwork-titan-tikka.svg",
+      "board": "Sector01",
+      "label": "Clockwork Titan Tikka",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector01_08_mirror-mantis-spectra.svg",
+      "board": "Sector01",
+      "label": "Mirror Mantis Spectra",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector01_09_tidal-kraken-maelo.svg",
+      "board": "Sector01",
+      "label": "Tidal Kraken Maelo",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector01_10_comet-king-blazar.svg",
+      "board": "Sector01",
+      "label": "Comet King Blazar",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector02_01_rockmaw.svg",
+      "board": "Sector02",
+      "label": "Rockmaw",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector02_02_hive-queen-zyra.svg",
+      "board": "Sector02",
+      "label": "Hive Queen Zyra",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector02_03_dreadnought-9.svg",
+      "board": "Sector02",
+      "label": "Dreadnought Ω-9",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector02_04_void-emperor-kaal.svg",
+      "board": "Sector02",
+      "label": "Void Emperor Kaal",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector02_05_frost-colossus-glacius.svg",
+      "board": "Sector02",
+      "label": "Frost Colossus Glacius",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector02_06_storm-serpent-voltra.svg",
+      "board": "Sector02",
+      "label": "Storm Serpent Voltra",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector02_07_clockwork-titan-tikka.svg",
+      "board": "Sector02",
+      "label": "Clockwork Titan Tikka",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector02_08_mirror-mantis-spectra.svg",
+      "board": "Sector02",
+      "label": "Mirror Mantis Spectra",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector02_09_tidal-kraken-maelo.svg",
+      "board": "Sector02",
+      "label": "Tidal Kraken Maelo",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector02_10_comet-king-blazar.svg",
+      "board": "Sector02",
+      "label": "Comet King Blazar",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector03_01_sentinel-prime-aegis.svg",
+      "board": "Sector03",
+      "label": "Sentinel Prime Aegis",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector03_02_plasma-weaver-arachna.svg",
+      "board": "Sector03",
+      "label": "Plasma Weaver Arachna",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector03_03_gravity-golem-massa.svg",
+      "board": "Sector03",
+      "label": "Gravity Golem Massa",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector03_04_phantom-admiral-noctis.svg",
+      "board": "Sector03",
+      "label": "Phantom Admiral Noctis",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector03_05_magnet-lord-ferrox.svg",
+      "board": "Sector03",
+      "label": "Magnet Lord Ferrox",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector03_06_sludge-leviathan-bog.svg",
+      "board": "Sector03",
+      "label": "Sludge Leviathan Bog",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector03_07_prism-dragon-chroma.svg",
+      "board": "Sector03",
+      "label": "Prism Dragon Chroma",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector03_08_time-warden-chronos.svg",
+      "board": "Sector03",
+      "label": "Time Warden Chronos",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector03_09_siege-fortress-bastion.svg",
+      "board": "Sector03",
+      "label": "Siege Fortress Bastion",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector03_10_star-reaper-falx.svg",
+      "board": "Sector03",
+      "label": "Star Reaper Falx",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector04_01_sentinel-prime-aegis.svg",
+      "board": "Sector04",
+      "label": "Sentinel Prime Aegis",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector04_02_plasma-weaver-arachna.svg",
+      "board": "Sector04",
+      "label": "Plasma Weaver Arachna",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector04_03_gravity-golem-massa.svg",
+      "board": "Sector04",
+      "label": "Gravity Golem Massa",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector04_04_phantom-admiral-noctis.svg",
+      "board": "Sector04",
+      "label": "Phantom Admiral Noctis",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector04_05_magnet-lord-ferrox.svg",
+      "board": "Sector04",
+      "label": "Magnet Lord Ferrox",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector04_06_sludge-leviathan-bog.svg",
+      "board": "Sector04",
+      "label": "Sludge Leviathan Bog",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector04_07_prism-dragon-chroma.svg",
+      "board": "Sector04",
+      "label": "Prism Dragon Chroma",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector04_08_time-warden-chronos.svg",
+      "board": "Sector04",
+      "label": "Time Warden Chronos",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector04_09_siege-fortress-bastion.svg",
+      "board": "Sector04",
+      "label": "Siege Fortress Bastion",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector04_10_star-reaper-falx.svg",
+      "board": "Sector04",
+      "label": "Star Reaper Falx",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector05_01_hydra-core-hydrax.svg",
+      "board": "Sector05",
+      "label": "Hydra Core Hydrax",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector05_02_meteor-queen-rubia.svg",
+      "board": "Sector05",
+      "label": "Meteor Queen Rubia",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector05_03_eclipse-wraith-umbra.svg",
+      "board": "Sector05",
+      "label": "Eclipse Wraith Umbra",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector05_04_drone-mother-legion.svg",
+      "board": "Sector05",
+      "label": "Drone Mother Legion",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector05_05_lava-colossus-magmor.svg",
+      "board": "Sector05",
+      "label": "Lava Colossus Magmor",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector05_06_cyber-scorpion-stingra.svg",
+      "board": "Sector05",
+      "label": "Cyber Scorpion Stingra",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector05_07_frozen-empress-glacira.svg",
+      "board": "Sector05",
+      "label": "Frozen Empress Glacira",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector05_08_chaos-jester-wildcard.svg",
+      "board": "Sector05",
+      "label": "Chaos Jester Wildcard",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector05_09_neutron-behemoth-atlas.svg",
+      "board": "Sector05",
+      "label": "Neutron Behemoth Atlas",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector05_10_nebula-overlord-zorak.svg",
+      "board": "Sector05",
+      "label": "Nebula Overlord Zorak",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector06_01_hydra-core-hydrax.svg",
+      "board": "Sector06",
+      "label": "Hydra Core Hydrax",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector06_02_meteor-queen-rubia.svg",
+      "board": "Sector06",
+      "label": "Meteor Queen Rubia",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector06_03_eclipse-wraith-umbra.svg",
+      "board": "Sector06",
+      "label": "Eclipse Wraith Umbra",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector06_04_drone-mother-legion.svg",
+      "board": "Sector06",
+      "label": "Drone Mother Legion",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector06_05_lava-colossus-magmor.svg",
+      "board": "Sector06",
+      "label": "Lava Colossus Magmor",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector06_06_cyber-scorpion-stingra.svg",
+      "board": "Sector06",
+      "label": "Cyber Scorpion Stingra",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector06_07_frozen-empress-glacira.svg",
+      "board": "Sector06",
+      "label": "Frozen Empress Glacira",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector06_08_chaos-jester-wildcard.svg",
+      "board": "Sector06",
+      "label": "Chaos Jester Wildcard",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector06_09_neutron-behemoth-atlas.svg",
+      "board": "Sector06",
+      "label": "Neutron Behemoth Atlas",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector06_10_nebula-overlord-zorak.svg",
+      "board": "Sector06",
+      "label": "Nebula Overlord Zorak",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector07_01_black-hole-sovereign-singula.svg",
+      "board": "Sector07",
+      "label": "Black Hole Sovereign Singula",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector07_02_supernova-phoenix-solara.svg",
+      "board": "Sector07",
+      "label": "Supernova Phoenix Solara",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector07_03_dimension-splitter-riftor.svg",
+      "board": "Sector07",
+      "label": "Dimension Splitter Riftor",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector07_04_mecha-leviathan-prime.svg",
+      "board": "Sector07",
+      "label": "Mecha Leviathan Ω-Prime",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector07_05_quantum-mage-qubit.svg",
+      "board": "Sector07",
+      "label": "Quantum Mage Qubit",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector07_06_void-kraken-abyssa.svg",
+      "board": "Sector07",
+      "label": "Void Kraken Abyssa",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector07_07_thunder-god-tempest.svg",
+      "board": "Sector07",
+      "label": "Thunder God Tempest",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector07_08_crystal-titan-geode.svg",
+      "board": "Sector07",
+      "label": "Crystal Titan Geode",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector07_09_mind-eater-cortex.svg",
+      "board": "Sector07",
+      "label": "Mind Eater Cortex",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector07_10_cosmic-emperor-galaxor.svg",
+      "board": "Sector07",
+      "label": "Cosmic Emperor Galaxor",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector08_01_black-hole-sovereign-singula.svg",
+      "board": "Sector08",
+      "label": "Black Hole Sovereign Singula",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector08_02_supernova-phoenix-solara.svg",
+      "board": "Sector08",
+      "label": "Supernova Phoenix Solara",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector08_03_dimension-splitter-riftor.svg",
+      "board": "Sector08",
+      "label": "Dimension Splitter Riftor",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector08_04_mecha-leviathan-prime.svg",
+      "board": "Sector08",
+      "label": "Mecha Leviathan Ω-Prime",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector08_05_quantum-mage-qubit.svg",
+      "board": "Sector08",
+      "label": "Quantum Mage Qubit",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector08_06_void-kraken-abyssa.svg",
+      "board": "Sector08",
+      "label": "Void Kraken Abyssa",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector08_07_thunder-god-tempest.svg",
+      "board": "Sector08",
+      "label": "Thunder God Tempest",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector08_08_crystal-titan-geode.svg",
+      "board": "Sector08",
+      "label": "Crystal Titan Geode",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector08_09_mind-eater-cortex.svg",
+      "board": "Sector08",
+      "label": "Mind Eater Cortex",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector08_10_cosmic-emperor-galaxor.svg",
+      "board": "Sector08",
+      "label": "Cosmic Emperor Galaxor",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector09_01_rockmaw.svg",
+      "board": "Sector09",
+      "label": "Rockmaw",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector09_02_sentinel-prime-aegis.svg",
+      "board": "Sector09",
+      "label": "Sentinel Prime Aegis",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector09_03_hive-queen-zyra.svg",
+      "board": "Sector09",
+      "label": "Hive Queen Zyra",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector09_04_plasma-weaver-arachna.svg",
+      "board": "Sector09",
+      "label": "Plasma Weaver Arachna",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector09_05_dreadnought-9.svg",
+      "board": "Sector09",
+      "label": "Dreadnought Ω-9",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector09_06_gravity-golem-massa.svg",
+      "board": "Sector09",
+      "label": "Gravity Golem Massa",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector09_07_void-emperor-kaal.svg",
+      "board": "Sector09",
+      "label": "Void Emperor Kaal",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector09_08_phantom-admiral-noctis.svg",
+      "board": "Sector09",
+      "label": "Phantom Admiral Noctis",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector09_09_frost-colossus-glacius.svg",
+      "board": "Sector09",
+      "label": "Frost Colossus Glacius",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector09_10_magnet-lord-ferrox.svg",
+      "board": "Sector09",
+      "label": "Magnet Lord Ferrox",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector09_11_storm-serpent-voltra.svg",
+      "board": "Sector09",
+      "label": "Storm Serpent Voltra",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector09_12_sludge-leviathan-bog.svg",
+      "board": "Sector09",
+      "label": "Sludge Leviathan Bog",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector09_13_clockwork-titan-tikka.svg",
+      "board": "Sector09",
+      "label": "Clockwork Titan Tikka",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector09_14_prism-dragon-chroma.svg",
+      "board": "Sector09",
+      "label": "Prism Dragon Chroma",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector09_15_mirror-mantis-spectra.svg",
+      "board": "Sector09",
+      "label": "Mirror Mantis Spectra",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector09_16_time-warden-chronos.svg",
+      "board": "Sector09",
+      "label": "Time Warden Chronos",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector09_17_tidal-kraken-maelo.svg",
+      "board": "Sector09",
+      "label": "Tidal Kraken Maelo",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector09_18_siege-fortress-bastion.svg",
+      "board": "Sector09",
+      "label": "Siege Fortress Bastion",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector09_19_comet-king-blazar.svg",
+      "board": "Sector09",
+      "label": "Comet King Blazar",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector09_20_star-reaper-falx.svg",
+      "board": "Sector09",
+      "label": "Star Reaper Falx",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector10_01_hydra-core-hydrax.svg",
+      "board": "Sector10",
+      "label": "Hydra Core Hydrax",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector10_02_black-hole-sovereign-singula.svg",
+      "board": "Sector10",
+      "label": "Black Hole Sovereign Singula",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector10_03_meteor-queen-rubia.svg",
+      "board": "Sector10",
+      "label": "Meteor Queen Rubia",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector10_04_supernova-phoenix-solara.svg",
+      "board": "Sector10",
+      "label": "Supernova Phoenix Solara",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector10_05_eclipse-wraith-umbra.svg",
+      "board": "Sector10",
+      "label": "Eclipse Wraith Umbra",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector10_06_dimension-splitter-riftor.svg",
+      "board": "Sector10",
+      "label": "Dimension Splitter Riftor",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector10_07_drone-mother-legion.svg",
+      "board": "Sector10",
+      "label": "Drone Mother Legion",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector10_08_mecha-leviathan-prime.svg",
+      "board": "Sector10",
+      "label": "Mecha Leviathan Ω-Prime",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector10_09_lava-colossus-magmor.svg",
+      "board": "Sector10",
+      "label": "Lava Colossus Magmor",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector10_10_quantum-mage-qubit.svg",
+      "board": "Sector10",
+      "label": "Quantum Mage Qubit",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector10_11_cyber-scorpion-stingra.svg",
+      "board": "Sector10",
+      "label": "Cyber Scorpion Stingra",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector10_12_void-kraken-abyssa.svg",
+      "board": "Sector10",
+      "label": "Void Kraken Abyssa",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector10_13_frozen-empress-glacira.svg",
+      "board": "Sector10",
+      "label": "Frozen Empress Glacira",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector10_14_thunder-god-tempest.svg",
+      "board": "Sector10",
+      "label": "Thunder God Tempest",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector10_15_chaos-jester-wildcard.svg",
+      "board": "Sector10",
+      "label": "Chaos Jester Wildcard",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector10_16_crystal-titan-geode.svg",
+      "board": "Sector10",
+      "label": "Crystal Titan Geode",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector10_17_neutron-behemoth-atlas.svg",
+      "board": "Sector10",
+      "label": "Neutron Behemoth Atlas",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector10_18_mind-eater-cortex.svg",
+      "board": "Sector10",
+      "label": "Mind Eater Cortex",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector10_19_nebula-overlord-zorak.svg",
+      "board": "Sector10",
+      "label": "Nebula Overlord Zorak",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Sector10_20_cosmic-emperor-galaxor.svg",
+      "board": "Sector10",
+      "label": "Cosmic Emperor Galaxor",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/SectorClear_01_star-earned.svg",
+      "board": "SectorClear",
+      "label": "Star earned",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/SectorClear_02_star-earned.svg",
+      "board": "SectorClear",
+      "label": "Star earned",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/SectorClear_03_star-not-earned.svg",
+      "board": "SectorClear",
+      "label": "Star not earned",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/SectorMap_01_rockmaw.svg",
+      "board": "SectorMap",
+      "label": "Rockmaw",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/SectorMap_02_rockmaw.svg",
+      "board": "SectorMap",
+      "label": "Rockmaw",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/SectorMap_03_sentinel-prime-aegis.svg",
+      "board": "SectorMap",
+      "label": "Sentinel Prime Aegis",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/SectorMap_04_sentinel-prime-aegis.svg",
+      "board": "SectorMap",
+      "label": "Sentinel Prime Aegis",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/SectorMap_05_hydra-core-hydrax.svg",
+      "board": "SectorMap",
+      "label": "Hydra Core Hydrax",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/SectorMap_06_hydra-core-hydrax.svg",
+      "board": "SectorMap",
+      "label": "Hydra Core Hydrax",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/SectorMap_07_black-hole-sovereign-singula.svg",
+      "board": "SectorMap",
+      "label": "Black Hole Sovereign Singula",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/SectorMap_08_black-hole-sovereign-singula.svg",
+      "board": "SectorMap",
+      "label": "Black Hole Sovereign Singula",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/SectorMap_09_rockmaw.svg",
+      "board": "SectorMap",
+      "label": "Rockmaw",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/SectorMap_10_sentinel-prime-aegis.svg",
+      "board": "SectorMap",
+      "label": "Sentinel Prime Aegis",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/SectorMap_11_hydra-core-hydrax.svg",
+      "board": "SectorMap",
+      "label": "Hydra Core Hydrax",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/SectorMap_12_black-hole-sovereign-singula.svg",
+      "board": "SectorMap",
+      "label": "Black Hole Sovereign Singula",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Specials_01_ayan-s-focus-shot-a-thick-cyan-beam-pier.svg",
+      "board": "Specials",
+      "label": "Ayan's Focus Shot: a thick cyan beam piercing three enemies in a line",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Specials_02_aarav-s-shield-burst-orange-rings-expand.svg",
+      "board": "Specials",
+      "label": "Aarav's Shield Burst: orange rings expanding from the jet, enemy bullets turning into sparks",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Specials_03_a-burst-cyan-and-orange-beams-twisting-t.svg",
+      "board": "Specials",
+      "label": "A² Burst: cyan and orange beams twisting together into one huge pink and gold beam",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage01_01_rockmaw.svg",
+      "board": "Stage01",
+      "label": "Rockmaw",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage01_02_rockmaw.svg",
+      "board": "Stage01",
+      "label": "Rockmaw",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage02_01_hive-queen-zyra.svg",
+      "board": "Stage02",
+      "label": "Hive Queen Zyra",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage02_02_hive-queen-zyra.svg",
+      "board": "Stage02",
+      "label": "Hive Queen Zyra",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage03_01_dreadnought-9.svg",
+      "board": "Stage03",
+      "label": "Dreadnought Ω-9",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage03_02_dreadnought-9.svg",
+      "board": "Stage03",
+      "label": "Dreadnought Ω-9",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage04_01_void-emperor-kaal.svg",
+      "board": "Stage04",
+      "label": "Void Emperor Kaal",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage04_02_void-emperor-kaal.svg",
+      "board": "Stage04",
+      "label": "Void Emperor Kaal",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage05_01_frost-colossus-glacius.svg",
+      "board": "Stage05",
+      "label": "Frost Colossus Glacius",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage05_02_frost-colossus-glacius.svg",
+      "board": "Stage05",
+      "label": "Frost Colossus Glacius",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage06_01_storm-serpent-voltra.svg",
+      "board": "Stage06",
+      "label": "Storm Serpent Voltra",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage06_02_storm-serpent-voltra.svg",
+      "board": "Stage06",
+      "label": "Storm Serpent Voltra",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage07_01_clockwork-titan-tikka.svg",
+      "board": "Stage07",
+      "label": "Clockwork Titan Tikka",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage07_02_clockwork-titan-tikka.svg",
+      "board": "Stage07",
+      "label": "Clockwork Titan Tikka",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage08_01_mirror-mantis-spectra.svg",
+      "board": "Stage08",
+      "label": "Mirror Mantis Spectra",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage08_02_mirror-mantis-spectra.svg",
+      "board": "Stage08",
+      "label": "Mirror Mantis Spectra",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage09_01_tidal-kraken-maelo.svg",
+      "board": "Stage09",
+      "label": "Tidal Kraken Maelo",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage09_02_tidal-kraken-maelo.svg",
+      "board": "Stage09",
+      "label": "Tidal Kraken Maelo",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage10_01_comet-king-blazar.svg",
+      "board": "Stage10",
+      "label": "Comet King Blazar",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage10_02_comet-king-blazar.svg",
+      "board": "Stage10",
+      "label": "Comet King Blazar",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage21_01_sentinel-prime-aegis.svg",
+      "board": "Stage21",
+      "label": "Sentinel Prime Aegis",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage21_02_sentinel-prime-aegis.svg",
+      "board": "Stage21",
+      "label": "Sentinel Prime Aegis",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage22_01_plasma-weaver-arachna.svg",
+      "board": "Stage22",
+      "label": "Plasma Weaver Arachna",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage22_02_plasma-weaver-arachna.svg",
+      "board": "Stage22",
+      "label": "Plasma Weaver Arachna",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage23_01_gravity-golem-massa.svg",
+      "board": "Stage23",
+      "label": "Gravity Golem Massa",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage23_02_gravity-golem-massa.svg",
+      "board": "Stage23",
+      "label": "Gravity Golem Massa",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage24_01_phantom-admiral-noctis.svg",
+      "board": "Stage24",
+      "label": "Phantom Admiral Noctis",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage24_02_phantom-admiral-noctis.svg",
+      "board": "Stage24",
+      "label": "Phantom Admiral Noctis",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage25_01_magnet-lord-ferrox.svg",
+      "board": "Stage25",
+      "label": "Magnet Lord Ferrox",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage25_02_magnet-lord-ferrox.svg",
+      "board": "Stage25",
+      "label": "Magnet Lord Ferrox",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage26_01_sludge-leviathan-bog.svg",
+      "board": "Stage26",
+      "label": "Sludge Leviathan Bog",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage26_02_sludge-leviathan-bog.svg",
+      "board": "Stage26",
+      "label": "Sludge Leviathan Bog",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage27_01_prism-dragon-chroma.svg",
+      "board": "Stage27",
+      "label": "Prism Dragon Chroma",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage27_02_prism-dragon-chroma.svg",
+      "board": "Stage27",
+      "label": "Prism Dragon Chroma",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage28_01_time-warden-chronos.svg",
+      "board": "Stage28",
+      "label": "Time Warden Chronos",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage28_02_time-warden-chronos.svg",
+      "board": "Stage28",
+      "label": "Time Warden Chronos",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage29_01_siege-fortress-bastion.svg",
+      "board": "Stage29",
+      "label": "Siege Fortress Bastion",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage29_02_siege-fortress-bastion.svg",
+      "board": "Stage29",
+      "label": "Siege Fortress Bastion",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage30_01_star-reaper-falx.svg",
+      "board": "Stage30",
+      "label": "Star Reaper Falx",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage30_02_star-reaper-falx.svg",
+      "board": "Stage30",
+      "label": "Star Reaper Falx",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage41_01_hydra-core-hydrax.svg",
+      "board": "Stage41",
+      "label": "Hydra Core Hydrax",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage41_02_hydra-core-hydrax.svg",
+      "board": "Stage41",
+      "label": "Hydra Core Hydrax",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage42_01_meteor-queen-rubia.svg",
+      "board": "Stage42",
+      "label": "Meteor Queen Rubia",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage42_02_meteor-queen-rubia.svg",
+      "board": "Stage42",
+      "label": "Meteor Queen Rubia",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage43_01_eclipse-wraith-umbra.svg",
+      "board": "Stage43",
+      "label": "Eclipse Wraith Umbra",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage43_02_eclipse-wraith-umbra.svg",
+      "board": "Stage43",
+      "label": "Eclipse Wraith Umbra",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage44_01_drone-mother-legion.svg",
+      "board": "Stage44",
+      "label": "Drone Mother Legion",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage44_02_drone-mother-legion.svg",
+      "board": "Stage44",
+      "label": "Drone Mother Legion",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage45_01_lava-colossus-magmor.svg",
+      "board": "Stage45",
+      "label": "Lava Colossus Magmor",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage45_02_lava-colossus-magmor.svg",
+      "board": "Stage45",
+      "label": "Lava Colossus Magmor",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage46_01_cyber-scorpion-stingra.svg",
+      "board": "Stage46",
+      "label": "Cyber Scorpion Stingra",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage46_02_cyber-scorpion-stingra.svg",
+      "board": "Stage46",
+      "label": "Cyber Scorpion Stingra",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage47_01_frozen-empress-glacira.svg",
+      "board": "Stage47",
+      "label": "Frozen Empress Glacira",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage47_02_frozen-empress-glacira.svg",
+      "board": "Stage47",
+      "label": "Frozen Empress Glacira",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage48_01_chaos-jester-wildcard.svg",
+      "board": "Stage48",
+      "label": "Chaos Jester Wildcard",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage48_02_chaos-jester-wildcard.svg",
+      "board": "Stage48",
+      "label": "Chaos Jester Wildcard",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage49_01_neutron-behemoth-atlas.svg",
+      "board": "Stage49",
+      "label": "Neutron Behemoth Atlas",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage49_02_neutron-behemoth-atlas.svg",
+      "board": "Stage49",
+      "label": "Neutron Behemoth Atlas",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage50_01_nebula-overlord-zorak.svg",
+      "board": "Stage50",
+      "label": "Nebula Overlord Zorak",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage50_02_nebula-overlord-zorak.svg",
+      "board": "Stage50",
+      "label": "Nebula Overlord Zorak",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage61_01_black-hole-sovereign-singula.svg",
+      "board": "Stage61",
+      "label": "Black Hole Sovereign Singula",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage61_02_black-hole-sovereign-singula.svg",
+      "board": "Stage61",
+      "label": "Black Hole Sovereign Singula",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage62_01_supernova-phoenix-solara.svg",
+      "board": "Stage62",
+      "label": "Supernova Phoenix Solara",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage62_02_supernova-phoenix-solara.svg",
+      "board": "Stage62",
+      "label": "Supernova Phoenix Solara",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage63_01_dimension-splitter-riftor.svg",
+      "board": "Stage63",
+      "label": "Dimension Splitter Riftor",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage63_02_dimension-splitter-riftor.svg",
+      "board": "Stage63",
+      "label": "Dimension Splitter Riftor",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage64_01_mecha-leviathan-prime.svg",
+      "board": "Stage64",
+      "label": "Mecha Leviathan Ω-Prime",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage64_02_mecha-leviathan-prime.svg",
+      "board": "Stage64",
+      "label": "Mecha Leviathan Ω-Prime",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage65_01_quantum-mage-qubit.svg",
+      "board": "Stage65",
+      "label": "Quantum Mage Qubit",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage65_02_quantum-mage-qubit.svg",
+      "board": "Stage65",
+      "label": "Quantum Mage Qubit",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage66_01_void-kraken-abyssa.svg",
+      "board": "Stage66",
+      "label": "Void Kraken Abyssa",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage66_02_void-kraken-abyssa.svg",
+      "board": "Stage66",
+      "label": "Void Kraken Abyssa",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage67_01_thunder-god-tempest.svg",
+      "board": "Stage67",
+      "label": "Thunder God Tempest",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage67_02_thunder-god-tempest.svg",
+      "board": "Stage67",
+      "label": "Thunder God Tempest",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage68_01_crystal-titan-geode.svg",
+      "board": "Stage68",
+      "label": "Crystal Titan Geode",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage68_02_crystal-titan-geode.svg",
+      "board": "Stage68",
+      "label": "Crystal Titan Geode",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage69_01_mind-eater-cortex.svg",
+      "board": "Stage69",
+      "label": "Mind Eater Cortex",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage69_02_mind-eater-cortex.svg",
+      "board": "Stage69",
+      "label": "Mind Eater Cortex",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage70_01_cosmic-emperor-galaxor.svg",
+      "board": "Stage70",
+      "label": "Cosmic Emperor Galaxor",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Stage70_02_cosmic-emperor-galaxor.svg",
+      "board": "Stage70",
+      "label": "Cosmic Emperor Galaxor",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Story_01_a-black-hole-swallowing-a-planet-while-t.svg",
+      "board": "Story",
+      "label": "A black hole swallowing a planet while two glowing eyes watch",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Story_02_ayan-and-aarav-in-the-hangar-talking.svg",
+      "board": "Story",
+      "label": "Ayan and Aarav in the hangar, talking",
+      "has_template_vars": false
+    },
+    {
+      "file": "art/boards/Story_03_two-jets-launching-side-by-side-toward-a.svg",
+      "board": "Story",
+      "label": "Two jets launching side by side toward a glowing rift",
+      "has_template_vars": false
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+STAGE 70 · TIER 4
+THRONE OF STARS
+The home of the Cosmic Emperor. The hardest stage of the set.
+SAME STAGE, TINTED, IN
+MK II · STAGE 80
+PAIR · STAGE 100
+STAR GUARD
+ENEMY · 12 HITS
+Uses attacks from all four tiers.
+COSMIC SIGIL
+HAZARD · UNBREAKABLE
+Opens into bullet rings at fixed spots.
+ROYAL GATE
+OBSTACLE · UNBREAKABLE
+Opens and closes to a beat.
+CROWN TURRET
+ENEMY · 12 HITS
+Fires 3 bullet types at once.
+BOSS 70
+HP 41,500 · 4 PHASES
+Cosmic Emperor Galaxor
+MK II in stage 80
+HP 62,250
+FIGHTS · Four phases using every kind of attack.
+WEAK POINT · Core diamond. Opens in each new phase.
+MK II ADDS · Faster pattern mixing and shorter pauses between phases.
+MID-STAGE · Mini-boss Star Guard
+First clear up to +300 credits
+Repeat clear +1

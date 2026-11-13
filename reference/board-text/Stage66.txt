@@ -1,0 +1,29 @@
+STAGE 66 · TIER 4
+ABYSSAL VOID
+A pitch-black deep with watching eyes.
+SAME STAGE, TINTED, IN
+MK II · STAGE 76
+PAIR · STAGE 96
+INK CLOUD
+HAZARD · UNBREAKABLE
+Hides enemy bullets for 2 seconds.
+TENTACLE TIP
+ENEMY · 8 HITS
+Reaches in from the edge and lashes.
+EYE POD
+OBSTACLE · 10 HITS
+A floating eye that fires slow beams.
+DEEP LURE
+ENEMY · 6 HITS
+A bright light that drags you in with a beam.
+BOSS 66
+HP 35,500 · 4 PHASES
+Void Kraken Abyssa
+MK II in stage 76
+HP 53,250
+FIGHTS · Tentacles from every edge. Ink clouds hide targets.
+WEAK POINT · Pupil between ink bursts.
+MK II ADDS · Ink clouds linger longer.
+MID-STAGE · Mini-boss Ink Squid
+First clear up to +300 credits
+Repeat clear +1

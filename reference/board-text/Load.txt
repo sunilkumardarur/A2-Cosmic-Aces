@@ -1,0 +1,39 @@
+MENU
+LOAD GAME
+Saves for profile AYAN. Credits, shop items and achievements belong to the profile and work in every save.
+SLOT 1 · SOLO
+AYAN · NOVA STRIKER
+Stage 3 · Iron Fleet — not started
+SCORE
+0048900
+PLAY TIME
+1h 12m
+SAVED
+Nov 8, 2026
+LOAD
+DELETE
+SLOT 2 · CO-OP
+AYAN + AARAV
+Stage 1 · Ember Belt — in progress
+SCORE
+0012450
+PLAY TIME
+0h 18m
+SAVED
+Nov 6, 2026
+LOAD
+DELETE
+SLOT 3
+EMPTY SLOT
+NEW GAME
+AUTOSAVE
+LAST CHECKPOINT
+Stage 2 · Venom Nebula — before boss
+SCORE
+0041200
+PLAY TIME
+1h 06m
+SAVED
+Nov 8, 2026
+LOAD
+Sample save data shown. Saves are stored on this device — see the Tech Plan board.

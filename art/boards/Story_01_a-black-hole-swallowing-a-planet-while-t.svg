@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A black hole swallowing a planet while two glowing eyes watch" viewBox="0 0 380 380" style="position: absolute; inset: 0; width: 380px; height: 380px">
+          <circle cx="260" cy="130" r="120" fill="url(#bh)"/>
+          <defs><radialGradient id="bh"><stop offset="0" stop-color="#000"/><stop offset=".35" stop-color="#000"/><stop offset=".42" stop-color="#B26BFF" stop-opacity=".8"/><stop offset="1" stop-color="#06030C" stop-opacity="0"/></radialGradient></defs>
+          <circle cx="90" cy="250" r="56" fill="#2F5A3A" stroke="#7CFF6B" stroke-width="3"/>
+          <path d="M120 230 Q190 190 240 150" stroke="#7CFF6B" stroke-width="10" fill="none" stroke-dasharray="4 14" stroke-linecap="round" opacity=".6"/>
+          <path d="M48 330 L150 330 M30 350 L110 350" stroke="#FFFFFF" stroke-width="2" opacity=".2"/>
+          <path d="M150 290 L186 306 L150 312 Z M250 290 L214 306 L250 312 Z" fill="#2DE2FF" transform="translate(0 20) scale(1 1)"/>
+        </svg>

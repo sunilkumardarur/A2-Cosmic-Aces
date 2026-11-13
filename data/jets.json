@@ -1,0 +1,66 @@
+{
+  "jets": [
+    {
+      "id": "nova_striker",
+      "name": "NOVA STRIKER",
+      "role": "ALL-ROUNDER",
+      "color": "#2DE2FF",
+      "bars": {
+        "speed": 70,
+        "armor": 60,
+        "firepower": 70
+      },
+      "weapon": "Twin pulse cannons",
+      "bullet": "Twin cyan pulses",
+      "unlock": "From start",
+      "src": "Hangar, Effects, Progression"
+    },
+    {
+      "id": "phantom_x",
+      "name": "PHANTOM X",
+      "role": "STEALTH INTERCEPTOR",
+      "color": "#B26BFF",
+      "bars": {
+        "speed": 95,
+        "armor": 35,
+        "firepower": 60
+      },
+      "weapon": "Phase dash - 1s invisible",
+      "bullet": "Thin violet needles",
+      "special_note": "Special is Phase Dash: 1 second invisible and untouchable (Specials board).",
+      "unlock": "From start",
+      "src": "Hangar, Effects, Specials, Progression"
+    },
+    {
+      "id": "titan_bulwark",
+      "name": "TITAN BULWARK",
+      "role": "HEAVY GUNSHIP",
+      "color": "#FF9A3D",
+      "bars": {
+        "speed": 40,
+        "armor": 95,
+        "firepower": 85
+      },
+      "weapon": "Starts every sector with a shield",
+      "bullet": "Fat orange plasma",
+      "unlock": "Clear Sector 3 (shown LOCKED in the Hangar until then)",
+      "src": "Hangar, Effects, Progression"
+    },
+    {
+      "id": "viper_lance",
+      "name": "VIPER LANCE",
+      "role": "RAPID STRIKER",
+      "color": "#7CFF6B",
+      "bars": {
+        "speed": 80,
+        "armor": 45,
+        "firepower": 90
+      },
+      "weapon": "Fastest fire rate in the fleet",
+      "bullet": "Rapid green darts",
+      "unlock": "Clear Sector 2 (SectorClear shows NEW JET UNLOCKED)",
+      "src": "Hangar, Effects, Progression, SectorClear"
+    }
+  ],
+  "note": "Bars are 0-100 as drawn on the Hangar board. Real numbers per jet: balance.json jets."
+}

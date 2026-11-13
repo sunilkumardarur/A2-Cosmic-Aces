@@ -1,0 +1,1394 @@
+{
+  "_note": "Boss 1-10 Tier1, 21-30 Tier2, 41-50 Tier3, 61-70 Tier4. Mk II appears at stage+10. Boss numbers 11-20,31-40,51-60,71-80 do NOT exist as separate bosses; those stages use Mk II. Stage 81-100 pair fights see stages.json.",
+  "mk2_rules": {
+    "hp_mult": 1.5,
+    "bullet_speed_mult": 1.2,
+    "extra_attack": 1,
+    "look": "gold trim"
+  },
+  "mk3_pair_rules": {
+    "hp": "Mk II HP each",
+    "bullet_speed_mult": 1.4,
+    "shared_pair_attack": true,
+    "enrage": "When one boss falls, the other gets +30% speed for 10 s",
+    "bullet_cap": 120
+  },
+  "tier_hp": {
+    "T1": [
+      1200,
+      2000,
+      3200,
+      5000,
+      5500,
+      6000,
+      6500,
+      7000,
+      7500,
+      8000
+    ],
+    "T2": "9000+750*k (k=0..9)",
+    "T3": "17000+1000*k",
+    "T4": "28000+1500*k"
+  },
+  "phases_by_tier": {
+    "T1": 2,
+    "T1_boss4": 3,
+    "T2": 3,
+    "T3": 3,
+    "T4": 4
+  },
+  "bosses": [
+    {
+      "id": 1,
+      "name": "Rockmaw",
+      "tier": 1,
+      "tier_color": "#2DE2FF",
+      "kind_art": "rock",
+      "color": "#FF8A3D",
+      "hp_mk1": 1200,
+      "hp_mk2": 1800,
+      "phases": 2,
+      "attack_summary": "Rams down the screen and spits rock chunks in fans.",
+      "attacks_detail": [
+        {
+          "name": "Boulder Barrage",
+          "text": "Spits 5 rocks in a fan."
+        },
+        {
+          "name": "Drill Charge",
+          "text": "Dives at your lane with both drills."
+        },
+        {
+          "name": "Magma Spit",
+          "text": "Lava pools that block space for 3s."
+        }
+      ],
+      "subtitle": "The Mining Colossus - an old mining machine fused with the asteroid it was digging.",
+      "weak_point": "Magma core in its mouth - opens after each Magma Spit.",
+      "mk2_change": "Rock rain from above, faster ram.",
+      "stages": {
+        "mk1": 1,
+        "mk2": 11,
+        "pair_stages": [
+          81
+        ]
+      },
+      "art": {
+        "mk1": "art/bosses/boss01_mk1.svg",
+        "mk2": "art/bosses/boss01_mk2.svg"
+      },
+      "numbers": "See balance.json boss_attack_defaults and phase_thresholds"
+    },
+    {
+      "id": 2,
+      "name": "Hive Queen Zyra",
+      "tier": 1,
+      "tier_color": "#2DE2FF",
+      "kind_art": "queen",
+      "color": "#7CFF6B",
+      "hp_mk1": 2000,
+      "hp_mk2": 3000,
+      "phases": 2,
+      "attack_summary": "Spawns drones in waves and fires acid arcs.",
+      "attacks_detail": [
+        {
+          "name": "Larva Spawn",
+          "text": "Releases 6 Stingers that chase you."
+        },
+        {
+          "name": "Acid Spiral",
+          "text": "Spinning spiral of acid shots."
+        },
+        {
+          "name": "Wing Gust",
+          "text": "Wind pushes your jet to the screen edge."
+        }
+      ],
+      "subtitle": "Mother of every swarm in the nebula. She guards the path to the Iron Fleet.",
+      "weak_point": "Crown eye - only opens right after Larva Spawn.",
+      "mk2_change": "Drones come back once after dying.",
+      "stages": {
+        "mk1": 2,
+        "mk2": 12,
+        "pair_stages": [
+          82
+        ]
+      },
+      "art": {
+        "mk1": "art/bosses/boss02_mk1.svg",
+        "mk2": "art/bosses/boss02_mk2.svg"
+      },
+      "numbers": "See balance.json boss_attack_defaults and phase_thresholds"
+    },
+    {
+      "id": 3,
+      "name": "Dreadnought Ω-9",
+      "tier": 1,
+      "tier_color": "#2DE2FF",
+      "kind_art": "ship",
+      "color": "#4DA3FF",
+      "hp_mk1": 3200,
+      "hp_mk2": 4800,
+      "phases": 2,
+      "attack_summary": "Armored hull with missile barrages and laser gates.",
+      "attacks_detail": [
+        {
+          "name": "Broadside",
+          "text": "All 4 turrets fire walls of shells."
+        },
+        {
+          "name": "Mega Beam",
+          "text": "Core beam sweeps left to right."
+        },
+        {
+          "name": "Missile Pods",
+          "text": "8 homing missiles - shoot them down."
+        }
+      ],
+      "subtitle": "Flagship of the Iron Fleet. Phase 1: knock out 4 turrets. Phase 2: the core opens.",
+      "weak_point": "4 turrets first, then the blue reactor core.",
+      "mk2_change": "Adds a sweeping laser wall.",
+      "stages": {
+        "mk1": 3,
+        "mk2": 13,
+        "pair_stages": [
+          83
+        ]
+      },
+      "art": {
+        "mk1": "art/bosses/boss03_mk1.svg",
+        "mk2": "art/bosses/boss03_mk2.svg"
+      },
+      "numbers": "See balance.json boss_attack_defaults and phase_thresholds"
+    },
+    {
+      "id": 4,
+      "name": "Void Emperor Kaal",
+      "tier": 1,
+      "tier_color": "#2DE2FF",
+      "kind_art": "emperor",
+      "color": "#B26BFF",
+      "hp_mk1": 5000,
+      "hp_mk2": 7500,
+      "phases": 3,
+      "attack_summary": "Pulls bullets inward and makes shadow clones.",
+      "attacks_detail": [
+        {
+          "name": "Black Hole Orb",
+          "text": "Slow orb that sucks in everything nearby."
+        },
+        {
+          "name": "Shadow Legion",
+          "text": "Summons 3 Shadow Aces at once."
+        },
+        {
+          "name": "Star Collapse",
+          "text": "Shrinking ring of fire - find the gap."
+        }
+      ],
+      "subtitle": "Ruler of the black hole and the one behind every attack. Beat him to save the galaxy.",
+      "weak_point": "Heart crystal - exposed when both hand orbs are destroyed.",
+      "mk2_change": "Two clones fire at once.",
+      "stages": {
+        "mk1": 4,
+        "mk2": 14,
+        "pair_stages": [
+          84
+        ]
+      },
+      "art": {
+        "mk1": "art/bosses/boss04_mk1.svg",
+        "mk2": "art/bosses/boss04_mk2.svg"
+      },
+      "numbers": "See balance.json boss_attack_defaults and phase_thresholds"
+    },
+    {
+      "id": 5,
+      "name": "Frost Colossus Glacius",
+      "tier": 1,
+      "tier_color": "#2DE2FF",
+      "kind_art": "crystal",
+      "color": "#8FE8FF",
+      "hp_mk1": 5500,
+      "hp_mk2": 8250,
+      "phases": 2,
+      "attack_summary": "Ice fields slow your jet. Icicle volleys.",
+      "attacks_detail": [
+        {
+          "name": null,
+          "text": "Ice fields slow your jet. Icicle volleys."
+        }
+      ],
+      "subtitle": null,
+      "weak_point": "Chest crystal after a fist slam.",
+      "mk2_change": "Fields cover half the screen.",
+      "stages": {
+        "mk1": 5,
+        "mk2": 15,
+        "pair_stages": [
+          85
+        ]
+      },
+      "art": {
+        "mk1": "art/bosses/boss05_mk1.svg",
+        "mk2": "art/bosses/boss05_mk2.svg"
+      },
+      "numbers": "See balance.json boss_attack_defaults and phase_thresholds"
+    },
+    {
+      "id": 6,
+      "name": "Storm Serpent Voltra",
+      "tier": 1,
+      "tier_color": "#2DE2FF",
+      "kind_art": "serpent",
+      "color": "#FFC83D",
+      "hp_mk1": 6000,
+      "hp_mk2": 9000,
+      "phases": 2,
+      "attack_summary": "Lightning chains jump between warning orbs.",
+      "attacks_detail": [
+        {
+          "name": null,
+          "text": "Lightning chains jump between warning orbs."
+        }
+      ],
+      "subtitle": null,
+      "weak_point": "Head, right after each lightning chain.",
+      "mk2_change": "Chains bounce off the screen edges.",
+      "stages": {
+        "mk1": 6,
+        "mk2": 16,
+        "pair_stages": [
+          86
+        ]
+      },
+      "art": {
+        "mk1": "art/bosses/boss06_mk1.svg",
+        "mk2": "art/bosses/boss06_mk2.svg"
+      },
+      "numbers": "See balance.json boss_attack_defaults and phase_thresholds"
+    },
+    {
+      "id": 7,
+      "name": "Clockwork Titan Tikka",
+      "tier": 1,
+      "tier_color": "#2DE2FF",
+      "kind_art": "gear",
+      "color": "#FF9A3D",
+      "hp_mk1": 6500,
+      "hp_mk2": 9750,
+      "phases": 2,
+      "attack_summary": "Spinning gear blades. Bullets come in a rhythm.",
+      "attacks_detail": [
+        {
+          "name": null,
+          "text": "Spinning gear blades. Bullets come in a rhythm."
+        }
+      ],
+      "subtitle": null,
+      "weak_point": "Clock face when the gears pause.",
+      "mk2_change": "Rhythm changes mid-attack.",
+      "stages": {
+        "mk1": 7,
+        "mk2": 17,
+        "pair_stages": [
+          87
+        ]
+      },
+      "art": {
+        "mk1": "art/bosses/boss07_mk1.svg",
+        "mk2": "art/bosses/boss07_mk2.svg"
+      },
+      "numbers": "See balance.json boss_attack_defaults and phase_thresholds"
+    },
+    {
+      "id": 8,
+      "name": "Mirror Mantis Spectra",
+      "tier": 1,
+      "tier_color": "#2DE2FF",
+      "kind_art": "mantis",
+      "color": "#FF3EA5",
+      "hp_mk1": 7000,
+      "hp_mk2": 10500,
+      "phases": 2,
+      "attack_summary": "Reflects your shots and copies your last move.",
+      "attacks_detail": [
+        {
+          "name": null,
+          "text": "Reflects your shots and copies your last move."
+        }
+      ],
+      "subtitle": null,
+      "weak_point": "Back of the neck. Front is reflective.",
+      "mk2_change": "Reflects at wider angles.",
+      "stages": {
+        "mk1": 8,
+        "mk2": 18,
+        "pair_stages": [
+          88
+        ]
+      },
+      "art": {
+        "mk1": "art/bosses/boss08_mk1.svg",
+        "mk2": "art/bosses/boss08_mk2.svg"
+      },
+      "numbers": "See balance.json boss_attack_defaults and phase_thresholds"
+    },
+    {
+      "id": 9,
+      "name": "Tidal Kraken Maelo",
+      "tier": 1,
+      "tier_color": "#2DE2FF",
+      "kind_art": "kraken",
+      "color": "#2DE2FF",
+      "hp_mk1": 7500,
+      "hp_mk2": 11250,
+      "phases": 2,
+      "attack_summary": "Tentacles sweep in from the sides. Bubble bullets.",
+      "attacks_detail": [
+        {
+          "name": null,
+          "text": "Tentacles sweep in from the sides. Bubble bullets."
+        }
+      ],
+      "subtitle": null,
+      "weak_point": "Eyes when the tentacles retreat.",
+      "mk2_change": "Adds a whirlpool that pulls you in.",
+      "stages": {
+        "mk1": 9,
+        "mk2": 19,
+        "pair_stages": [
+          89
+        ]
+      },
+      "art": {
+        "mk1": "art/bosses/boss09_mk1.svg",
+        "mk2": "art/bosses/boss09_mk2.svg"
+      },
+      "numbers": "See balance.json boss_attack_defaults and phase_thresholds"
+    },
+    {
+      "id": 10,
+      "name": "Comet King Blazar",
+      "tier": 1,
+      "tier_color": "#2DE2FF",
+      "kind_art": "comet",
+      "color": "#FF6A3D",
+      "hp_mk1": 8000,
+      "hp_mk2": 12000,
+      "phases": 2,
+      "attack_summary": "Dashes across the screen leaving fire trails.",
+      "attacks_detail": [
+        {
+          "name": null,
+          "text": "Dashes across the screen leaving fire trails."
+        }
+      ],
+      "subtitle": null,
+      "weak_point": "Head at the end of each dash.",
+      "mk2_change": "Double dash. Trails last longer.",
+      "stages": {
+        "mk1": 10,
+        "mk2": 20,
+        "pair_stages": [
+          90
+        ]
+      },
+      "art": {
+        "mk1": "art/bosses/boss10_mk1.svg",
+        "mk2": "art/bosses/boss10_mk2.svg"
+      },
+      "numbers": "See balance.json boss_attack_defaults and phase_thresholds"
+    },
+    {
+      "id": 21,
+      "name": "Sentinel Prime Aegis",
+      "tier": 2,
+      "tier_color": "#7CFF6B",
+      "kind_art": "shield",
+      "color": "#4DA3FF",
+      "hp_mk1": 9000,
+      "hp_mk2": 13500,
+      "phases": 3,
+      "attack_summary": "Rotating shield plates. Only the back is open.",
+      "attacks_detail": [
+        {
+          "name": null,
+          "text": "Rotating shield plates. Only the back is open."
+        }
+      ],
+      "subtitle": null,
+      "weak_point": "Back plate once the shields rotate away.",
+      "mk2_change": "Plates break off and fly at you.",
+      "stages": {
+        "mk1": 21,
+        "mk2": 31,
+        "pair_stages": [
+          81
+        ]
+      },
+      "art": {
+        "mk1": "art/bosses/boss21_mk1.svg",
+        "mk2": "art/bosses/boss21_mk2.svg"
+      },
+      "numbers": "See balance.json boss_attack_defaults and phase_thresholds"
+    },
+    {
+      "id": 22,
+      "name": "Plasma Weaver Arachna",
+      "tier": 2,
+      "tier_color": "#7CFF6B",
+      "kind_art": "spider",
+      "color": "#B26BFF",
+      "hp_mk1": 9750,
+      "hp_mk2": 14625,
+      "phases": 3,
+      "attack_summary": "Laser webs close in like a grid.",
+      "attacks_detail": [
+        {
+          "name": null,
+          "text": "Laser webs close in like a grid."
+        }
+      ],
+      "subtitle": null,
+      "weak_point": "Hourglass mark on the abdomen.",
+      "mk2_change": "Web moves and closes faster.",
+      "stages": {
+        "mk1": 22,
+        "mk2": 32,
+        "pair_stages": [
+          82
+        ]
+      },
+      "art": {
+        "mk1": "art/bosses/boss22_mk1.svg",
+        "mk2": "art/bosses/boss22_mk2.svg"
+      },
+      "numbers": "See balance.json boss_attack_defaults and phase_thresholds"
+    },
+    {
+      "id": 23,
+      "name": "Gravity Golem Massa",
+      "tier": 2,
+      "tier_color": "#7CFF6B",
+      "kind_art": "rock",
+      "color": "#FF9A3D",
+      "hp_mk1": 10500,
+      "hp_mk2": 15750,
+      "phases": 3,
+      "attack_summary": "Gravity wells pull bullets and your jet.",
+      "attacks_detail": [
+        {
+          "name": null,
+          "text": "Gravity wells pull bullets and your jet."
+        }
+      ],
+      "subtitle": null,
+      "weak_point": "Chest vortex when the wells close.",
+      "mk2_change": "Wells last longer and can stack.",
+      "stages": {
+        "mk1": 23,
+        "mk2": 33,
+        "pair_stages": [
+          83
+        ]
+      },
+      "art": {
+        "mk1": "art/bosses/boss23_mk1.svg",
+        "mk2": "art/bosses/boss23_mk2.svg"
+      },
+      "numbers": "See balance.json boss_attack_defaults and phase_thresholds"
+    },
+    {
+      "id": 24,
+      "name": "Phantom Admiral Noctis",
+      "tier": 2,
+      "tier_color": "#7CFF6B",
+      "kind_art": "wraith",
+      "color": "#C99BFF",
+      "hp_mk1": 11250,
+      "hp_mk2": 16875,
+      "phases": 3,
+      "attack_summary": "Cloaks, teleports and strikes from behind.",
+      "attacks_detail": [
+        {
+          "name": null,
+          "text": "Cloaks, teleports and strikes from behind."
+        }
+      ],
+      "subtitle": null,
+      "weak_point": "Skull face right after a teleport.",
+      "mk2_change": "Leaves decoys that explode.",
+      "stages": {
+        "mk1": 24,
+        "mk2": 34,
+        "pair_stages": [
+          84
+        ]
+      },
+      "art": {
+        "mk1": "art/bosses/boss24_mk1.svg",
+        "mk2": "art/bosses/boss24_mk2.svg"
+      },
+      "numbers": "See balance.json boss_attack_defaults and phase_thresholds"
+    },
+    {
+      "id": 25,
+      "name": "Magnet Lord Ferrox",
+      "tier": 2,
+      "tier_color": "#7CFF6B",
+      "kind_art": "magnet",
+      "color": "#FF4D5E",
+      "hp_mk1": 12000,
+      "hp_mk2": 18000,
+      "phases": 3,
+      "attack_summary": "Pulls you toward him and flings metal scrap.",
+      "attacks_detail": [
+        {
+          "name": null,
+          "text": "Pulls you toward him and flings metal scrap."
+        }
+      ],
+      "subtitle": null,
+      "weak_point": "Both pole tips at the same time.",
+      "mk2_change": "Pull flips to push without warning.",
+      "stages": {
+        "mk1": 25,
+        "mk2": 35,
+        "pair_stages": [
+          85
+        ]
+      },
+      "art": {
+        "mk1": "art/bosses/boss25_mk1.svg",
+        "mk2": "art/bosses/boss25_mk2.svg"
+      },
+      "numbers": "See balance.json boss_attack_defaults and phase_thresholds"
+    },
+    {
+      "id": 26,
+      "name": "Sludge Leviathan Bog",
+      "tier": 2,
+      "tier_color": "#7CFF6B",
+      "kind_art": "blob",
+      "color": "#7CFF6B",
+      "hp_mk1": 12750,
+      "hp_mk2": 19125,
+      "phases": 3,
+      "attack_summary": "Leaves toxic pools that stay on screen.",
+      "attacks_detail": [
+        {
+          "name": null,
+          "text": "Leaves toxic pools that stay on screen."
+        }
+      ],
+      "subtitle": null,
+      "weak_point": "Central mouth while it is open.",
+      "mk2_change": "Pools split into small slimes.",
+      "stages": {
+        "mk1": 26,
+        "mk2": 36,
+        "pair_stages": [
+          86
+        ]
+      },
+      "art": {
+        "mk1": "art/bosses/boss26_mk1.svg",
+        "mk2": "art/bosses/boss26_mk2.svg"
+      },
+      "numbers": "See balance.json boss_attack_defaults and phase_thresholds"
+    },
+    {
+      "id": 27,
+      "name": "Prism Dragon Chroma",
+      "tier": 2,
+      "tier_color": "#7CFF6B",
+      "kind_art": "dragon",
+      "color": "#FF3EA5",
+      "hp_mk1": 13500,
+      "hp_mk2": 20250,
+      "phases": 3,
+      "attack_summary": "Rainbow beams fire in a fixed colour order.",
+      "attacks_detail": [
+        {
+          "name": null,
+          "text": "Rainbow beams fire in a fixed colour order."
+        }
+      ],
+      "subtitle": null,
+      "weak_point": "Forehead jewel between beam colours.",
+      "mk2_change": "Random order, wider beams.",
+      "stages": {
+        "mk1": 27,
+        "mk2": 37,
+        "pair_stages": [
+          87
+        ]
+      },
+      "art": {
+        "mk1": "art/bosses/boss27_mk1.svg",
+        "mk2": "art/bosses/boss27_mk2.svg"
+      },
+      "numbers": "See balance.json boss_attack_defaults and phase_thresholds"
+    },
+    {
+      "id": 28,
+      "name": "Time Warden Chronos",
+      "tier": 2,
+      "tier_color": "#7CFF6B",
+      "kind_art": "clock",
+      "color": "#2DE2FF",
+      "hp_mk1": 14250,
+      "hp_mk2": 21375,
+      "phases": 3,
+      "attack_summary": "Slows your bullets and rewinds his own.",
+      "attacks_detail": [
+        {
+          "name": null,
+          "text": "Slows your bullets and rewinds his own."
+        }
+      ],
+      "subtitle": null,
+      "weak_point": "Eye at the neck when the clock stops.",
+      "mk2_change": "Rewinds your jet once per phase.",
+      "stages": {
+        "mk1": 28,
+        "mk2": 38,
+        "pair_stages": [
+          88
+        ]
+      },
+      "art": {
+        "mk1": "art/bosses/boss28_mk1.svg",
+        "mk2": "art/bosses/boss28_mk2.svg"
+      },
+      "numbers": "See balance.json boss_attack_defaults and phase_thresholds"
+    },
+    {
+      "id": 29,
+      "name": "Siege Fortress Bastion",
+      "tier": 2,
+      "tier_color": "#7CFF6B",
+      "kind_art": "fortress",
+      "color": "#A9B4D0",
+      "hp_mk1": 15000,
+      "hp_mk2": 22500,
+      "phases": 3,
+      "attack_summary": "Six turrets to break, then the core opens.",
+      "attacks_detail": [
+        {
+          "name": null,
+          "text": "Six turrets to break, then the core opens."
+        }
+      ],
+      "subtitle": null,
+      "weak_point": "Core inside the gate after the 6 turrets.",
+      "mk2_change": "Turrets repair unless broken together.",
+      "stages": {
+        "mk1": 29,
+        "mk2": 39,
+        "pair_stages": [
+          89
+        ]
+      },
+      "art": {
+        "mk1": "art/bosses/boss29_mk1.svg",
+        "mk2": "art/bosses/boss29_mk2.svg"
+      },
+      "numbers": "See balance.json boss_attack_defaults and phase_thresholds"
+    },
+    {
+      "id": 30,
+      "name": "Star Reaper Falx",
+      "tier": 2,
+      "tier_color": "#7CFF6B",
+      "kind_art": "scythe",
+      "color": "#FFC83D",
+      "hp_mk1": 15750,
+      "hp_mk2": 23625,
+      "phases": 3,
+      "attack_summary": "Huge scythe arcs sweep across the screen.",
+      "attacks_detail": [
+        {
+          "name": null,
+          "text": "Huge scythe arcs sweep across the screen."
+        }
+      ],
+      "subtitle": null,
+      "weak_point": "Skull under the hood after each sweep.",
+      "mk2_change": "Arcs leave star bullets behind.",
+      "stages": {
+        "mk1": 30,
+        "mk2": 40,
+        "pair_stages": [
+          90
+        ]
+      },
+      "art": {
+        "mk1": "art/bosses/boss30_mk1.svg",
+        "mk2": "art/bosses/boss30_mk2.svg"
+      },
+      "numbers": "See balance.json boss_attack_defaults and phase_thresholds"
+    },
+    {
+      "id": 41,
+      "name": "Hydra Core Hydrax",
+      "tier": 3,
+      "tier_color": "#B26BFF",
+      "kind_art": "hydra",
+      "color": "#7CFF6B",
+      "hp_mk1": 17000,
+      "hp_mk2": 25500,
+      "phases": 3,
+      "attack_summary": "Three heads, each with its own attack.",
+      "attacks_detail": [
+        {
+          "name": null,
+          "text": "Three heads, each with its own attack."
+        }
+      ],
+      "subtitle": null,
+      "weak_point": "Core, once the 3 heads are down.",
+      "mk2_change": "Heads grow back once, faster.",
+      "stages": {
+        "mk1": 41,
+        "mk2": 51,
+        "pair_stages": [
+          91
+        ]
+      },
+      "art": {
+        "mk1": "art/bosses/boss41_mk1.svg",
+        "mk2": "art/bosses/boss41_mk2.svg"
+      },
+      "numbers": "See balance.json boss_attack_defaults and phase_thresholds"
+    },
+    {
+      "id": 42,
+      "name": "Meteor Queen Rubia",
+      "tier": 3,
+      "tier_color": "#B26BFF",
+      "kind_art": "queen",
+      "color": "#FF4D5E",
+      "hp_mk1": 18000,
+      "hp_mk2": 27000,
+      "phases": 3,
+      "attack_summary": "Marked spots get hit by falling meteors.",
+      "attacks_detail": [
+        {
+          "name": null,
+          "text": "Marked spots get hit by falling meteors."
+        }
+      ],
+      "subtitle": null,
+      "weak_point": "Crown stones. Break all three.",
+      "mk2_change": "Meteors split into three.",
+      "stages": {
+        "mk1": 42,
+        "mk2": 52,
+        "pair_stages": [
+          92
+        ]
+      },
+      "art": {
+        "mk1": "art/bosses/boss42_mk1.svg",
+        "mk2": "art/bosses/boss42_mk2.svg"
+      },
+      "numbers": "See balance.json boss_attack_defaults and phase_thresholds"
+    },
+    {
+      "id": 43,
+      "name": "Eclipse Wraith Umbra",
+      "tier": 3,
+      "tier_color": "#B26BFF",
+      "kind_art": "wraith",
+      "color": "#B26BFF",
+      "hp_mk1": 19000,
+      "hp_mk2": 28500,
+      "phases": 3,
+      "attack_summary": "Switches light and dark. Only hurt in light.",
+      "attacks_detail": [
+        {
+          "name": null,
+          "text": "Switches light and dark. Only hurt in light."
+        }
+      ],
+      "subtitle": null,
+      "weak_point": "Face, only while the light side is up.",
+      "mk2_change": "Switches faster. Bullets match the phase.",
+      "stages": {
+        "mk1": 43,
+        "mk2": 53,
+        "pair_stages": [
+          93
+        ]
+      },
+      "art": {
+        "mk1": "art/bosses/boss43_mk1.svg",
+        "mk2": "art/bosses/boss43_mk2.svg"
+      },
+      "numbers": "See balance.json boss_attack_defaults and phase_thresholds"
+    },
+    {
+      "id": 44,
+      "name": "Drone Mother Legion",
+      "tier": 3,
+      "tier_color": "#B26BFF",
+      "kind_art": "swarm",
+      "color": "#4DA3FF",
+      "hp_mk1": 20000,
+      "hp_mk2": 30000,
+      "phases": 3,
+      "attack_summary": "Hundreds of tiny drones fly in formations.",
+      "attacks_detail": [
+        {
+          "name": null,
+          "text": "Hundreds of tiny drones fly in formations."
+        }
+      ],
+      "subtitle": null,
+      "weak_point": "Central eye while drones are out.",
+      "mk2_change": "Formations chase the pilot.",
+      "stages": {
+        "mk1": 44,
+        "mk2": 54,
+        "pair_stages": [
+          94
+        ]
+      },
+      "art": {
+        "mk1": "art/bosses/boss44_mk1.svg",
+        "mk2": "art/bosses/boss44_mk2.svg"
+      },
+      "numbers": "See balance.json boss_attack_defaults and phase_thresholds"
+    },
+    {
+      "id": 45,
+      "name": "Lava Colossus Magmor",
+      "tier": 3,
+      "tier_color": "#B26BFF",
+      "kind_art": "rock",
+      "color": "#FF8A3D",
+      "hp_mk1": 21000,
+      "hp_mk2": 31500,
+      "phases": 3,
+      "attack_summary": "Lava rises from below. Eruption columns.",
+      "attacks_detail": [
+        {
+          "name": null,
+          "text": "Lava rises from below. Eruption columns."
+        }
+      ],
+      "subtitle": null,
+      "weak_point": "Lava cracks on the chest.",
+      "mk2_change": "Lava fills half the screen.",
+      "stages": {
+        "mk1": 45,
+        "mk2": 55,
+        "pair_stages": [
+          95
+        ]
+      },
+      "art": {
+        "mk1": "art/bosses/boss45_mk1.svg",
+        "mk2": "art/bosses/boss45_mk2.svg"
+      },
+      "numbers": "See balance.json boss_attack_defaults and phase_thresholds"
+    },
+    {
+      "id": 46,
+      "name": "Cyber Scorpion Stingra",
+      "tier": 3,
+      "tier_color": "#B26BFF",
+      "kind_art": "scorpion",
+      "color": "#2DE2FF",
+      "hp_mk1": 22000,
+      "hp_mk2": 33000,
+      "phases": 3,
+      "attack_summary": "Tail laser sweeps. Claws snap across lanes.",
+      "attacks_detail": [
+        {
+          "name": null,
+          "text": "Tail laser sweeps. Claws snap across lanes."
+        }
+      ],
+      "subtitle": null,
+      "weak_point": "Stinger at the tail tip.",
+      "mk2_change": "Tail fires twice per sweep.",
+      "stages": {
+        "mk1": 46,
+        "mk2": 56,
+        "pair_stages": [
+          96
+        ]
+      },
+      "art": {
+        "mk1": "art/bosses/boss46_mk1.svg",
+        "mk2": "art/bosses/boss46_mk2.svg"
+      },
+      "numbers": "See balance.json boss_attack_defaults and phase_thresholds"
+    },
+    {
+      "id": 47,
+      "name": "Frozen Empress Glacira",
+      "tier": 3,
+      "tier_color": "#B26BFF",
+      "kind_art": "crystal",
+      "color": "#8FE8FF",
+      "hp_mk1": 23000,
+      "hp_mk2": 34500,
+      "phases": 3,
+      "attack_summary": "Freeze beams block your Special for 3 seconds.",
+      "attacks_detail": [
+        {
+          "name": null,
+          "text": "Freeze beams block your Special for 3 seconds."
+        }
+      ],
+      "subtitle": null,
+      "weak_point": "Snowflake chest gem when she opens her wings.",
+      "mk2_change": "Also blocks your bombs.",
+      "stages": {
+        "mk1": 47,
+        "mk2": 57,
+        "pair_stages": [
+          97
+        ]
+      },
+      "art": {
+        "mk1": "art/bosses/boss47_mk1.svg",
+        "mk2": "art/bosses/boss47_mk2.svg"
+      },
+      "numbers": "See balance.json boss_attack_defaults and phase_thresholds"
+    },
+    {
+      "id": 48,
+      "name": "Chaos Jester Wildcard",
+      "tier": 3,
+      "tier_color": "#B26BFF",
+      "kind_art": "jester",
+      "color": "#FF3EA5",
+      "hp_mk1": 24000,
+      "hp_mk2": 36000,
+      "phases": 3,
+      "attack_summary": "Picks a random attack every few seconds.",
+      "attacks_detail": [
+        {
+          "name": null,
+          "text": "Picks a random attack every few seconds."
+        }
+      ],
+      "subtitle": null,
+      "weak_point": "The half-mask. Hit it after each trick.",
+      "mk2_change": "Chains two attacks together.",
+      "stages": {
+        "mk1": 48,
+        "mk2": 58,
+        "pair_stages": [
+          98
+        ]
+      },
+      "art": {
+        "mk1": "art/bosses/boss48_mk1.svg",
+        "mk2": "art/bosses/boss48_mk2.svg"
+      },
+      "numbers": "See balance.json boss_attack_defaults and phase_thresholds"
+    },
+    {
+      "id": 49,
+      "name": "Neutron Behemoth Atlas",
+      "tier": 3,
+      "tier_color": "#B26BFF",
+      "kind_art": "orb",
+      "color": "#FFC83D",
+      "hp_mk1": 25000,
+      "hp_mk2": 37500,
+      "phases": 3,
+      "attack_summary": "Rolls across the screen with shockwave rings.",
+      "attacks_detail": [
+        {
+          "name": null,
+          "text": "Rolls across the screen with shockwave rings."
+        }
+      ],
+      "subtitle": null,
+      "weak_point": "Single eye between shockwaves.",
+      "mk2_change": "Rings bounce back from the walls.",
+      "stages": {
+        "mk1": 49,
+        "mk2": 59,
+        "pair_stages": [
+          99
+        ]
+      },
+      "art": {
+        "mk1": "art/bosses/boss49_mk1.svg",
+        "mk2": "art/bosses/boss49_mk2.svg"
+      },
+      "numbers": "See balance.json boss_attack_defaults and phase_thresholds"
+    },
+    {
+      "id": 50,
+      "name": "Nebula Overlord Zorak",
+      "tier": 3,
+      "tier_color": "#B26BFF",
+      "kind_art": "emperor",
+      "color": "#B26BFF",
+      "hp_mk1": 26000,
+      "hp_mk2": 39000,
+      "phases": 3,
+      "attack_summary": "Uses a move from three earlier bosses.",
+      "attacks_detail": [
+        {
+          "name": null,
+          "text": "Uses a move from three earlier bosses."
+        }
+      ],
+      "subtitle": null,
+      "weak_point": "Third eye on the forehead.",
+      "mk2_change": "Uses moves from five earlier bosses.",
+      "stages": {
+        "mk1": 50,
+        "mk2": 60,
+        "pair_stages": [
+          100
+        ]
+      },
+      "art": {
+        "mk1": "art/bosses/boss50_mk1.svg",
+        "mk2": "art/bosses/boss50_mk2.svg"
+      },
+      "numbers": "See balance.json boss_attack_defaults and phase_thresholds"
+    },
+    {
+      "id": 61,
+      "name": "Black Hole Sovereign Singula",
+      "tier": 4,
+      "tier_color": "#FF4D5E",
+      "kind_art": "orb",
+      "color": "#B26BFF",
+      "hp_mk1": 28000,
+      "hp_mk2": 42000,
+      "phases": 4,
+      "attack_summary": "Drags the arena inward. Bullet rings orbit.",
+      "attacks_detail": [
+        {
+          "name": null,
+          "text": "Drags the arena inward. Bullet rings orbit."
+        }
+      ],
+      "subtitle": null,
+      "weak_point": "Slit eye when the disc slows.",
+      "mk2_change": "Ring spin reverses.",
+      "stages": {
+        "mk1": 61,
+        "mk2": 71,
+        "pair_stages": [
+          91
+        ]
+      },
+      "art": {
+        "mk1": "art/bosses/boss61_mk1.svg",
+        "mk2": "art/bosses/boss61_mk2.svg"
+      },
+      "numbers": "See balance.json boss_attack_defaults and phase_thresholds"
+    },
+    {
+      "id": 62,
+      "name": "Supernova Phoenix Solara",
+      "tier": 4,
+      "tier_color": "#FF4D5E",
+      "kind_art": "phoenix",
+      "color": "#FF9A3D",
+      "hp_mk1": 29500,
+      "hp_mk2": 44250,
+      "phases": 4,
+      "attack_summary": "Bursts into flames and rises once from defeat.",
+      "attacks_detail": [
+        {
+          "name": null,
+          "text": "Bursts into flames and rises once from defeat."
+        }
+      ],
+      "subtitle": null,
+      "weak_point": "Chest star, then again after she rises.",
+      "mk2_change": "Rises twice.",
+      "stages": {
+        "mk1": 62,
+        "mk2": 72,
+        "pair_stages": [
+          92
+        ]
+      },
+      "art": {
+        "mk1": "art/bosses/boss62_mk1.svg",
+        "mk2": "art/bosses/boss62_mk2.svg"
+      },
+      "numbers": "See balance.json boss_attack_defaults and phase_thresholds"
+    },
+    {
+      "id": 63,
+      "name": "Dimension Splitter Riftor",
+      "tier": 4,
+      "tier_color": "#FF4D5E",
+      "kind_art": "rift",
+      "color": "#FF3EA5",
+      "hp_mk1": 31000,
+      "hp_mk2": 46500,
+      "phases": 4,
+      "attack_summary": "Splits the screen in two. Portals link the halves.",
+      "attacks_detail": [
+        {
+          "name": null,
+          "text": "Splits the screen in two. Portals link the halves."
+        }
+      ],
+      "subtitle": null,
+      "weak_point": "Both portal eyes at the same time.",
+      "mk2_change": "Portals move and swap sides.",
+      "stages": {
+        "mk1": 63,
+        "mk2": 73,
+        "pair_stages": [
+          93
+        ]
+      },
+      "art": {
+        "mk1": "art/bosses/boss63_mk1.svg",
+        "mk2": "art/bosses/boss63_mk2.svg"
+      },
+      "numbers": "See balance.json boss_attack_defaults and phase_thresholds"
+    },
+    {
+      "id": 64,
+      "name": "Mecha Leviathan Ω-Prime",
+      "tier": 4,
+      "tier_color": "#FF4D5E",
+      "kind_art": "ship",
+      "color": "#4DA3FF",
+      "hp_mk1": 32500,
+      "hp_mk2": 48750,
+      "phases": 4,
+      "attack_summary": "Modules fire missiles, lasers and mines together.",
+      "attacks_detail": [
+        {
+          "name": null,
+          "text": "Modules fire missiles, lasers and mines together."
+        }
+      ],
+      "subtitle": null,
+      "weak_point": "Head cannon when the jaw opens.",
+      "mk2_change": "Modules repair each other.",
+      "stages": {
+        "mk1": 64,
+        "mk2": 74,
+        "pair_stages": [
+          94
+        ]
+      },
+      "art": {
+        "mk1": "art/bosses/boss64_mk1.svg",
+        "mk2": "art/bosses/boss64_mk2.svg"
+      },
+      "numbers": "See balance.json boss_attack_defaults and phase_thresholds"
+    },
+    {
+      "id": 65,
+      "name": "Quantum Mage Qubit",
+      "tier": 4,
+      "tier_color": "#FF4D5E",
+      "kind_art": "hood",
+      "color": "#2DE2FF",
+      "hp_mk1": 34000,
+      "hp_mk2": 51000,
+      "phases": 4,
+      "attack_summary": "Makes three copies. Only one is real.",
+      "attacks_detail": [
+        {
+          "name": null,
+          "text": "Makes three copies. Only one is real."
+        }
+      ],
+      "subtitle": null,
+      "weak_point": "The real one has no shadow.",
+      "mk2_change": "Five copies that swap places.",
+      "stages": {
+        "mk1": 65,
+        "mk2": 75,
+        "pair_stages": [
+          95
+        ]
+      },
+      "art": {
+        "mk1": "art/bosses/boss65_mk1.svg",
+        "mk2": "art/bosses/boss65_mk2.svg"
+      },
+      "numbers": "See balance.json boss_attack_defaults and phase_thresholds"
+    },
+    {
+      "id": 66,
+      "name": "Void Kraken Abyssa",
+      "tier": 4,
+      "tier_color": "#FF4D5E",
+      "kind_art": "kraken",
+      "color": "#B26BFF",
+      "hp_mk1": 35500,
+      "hp_mk2": 53250,
+      "phases": 4,
+      "attack_summary": "Tentacles from every edge. Ink clouds hide targets.",
+      "attacks_detail": [
+        {
+          "name": null,
+          "text": "Tentacles from every edge. Ink clouds hide targets."
+        }
+      ],
+      "subtitle": null,
+      "weak_point": "Pupil between ink bursts.",
+      "mk2_change": "Ink clouds linger longer.",
+      "stages": {
+        "mk1": 66,
+        "mk2": 76,
+        "pair_stages": [
+          96
+        ]
+      },
+      "art": {
+        "mk1": "art/bosses/boss66_mk1.svg",
+        "mk2": "art/bosses/boss66_mk2.svg"
+      },
+      "numbers": "See balance.json boss_attack_defaults and phase_thresholds"
+    },
+    {
+      "id": 67,
+      "name": "Thunder God Tempest",
+      "tier": 4,
+      "tier_color": "#FF4D5E",
+      "kind_art": "bolt",
+      "color": "#FFC83D",
+      "hp_mk1": 37000,
+      "hp_mk2": 55500,
+      "phases": 4,
+      "attack_summary": "Screen-wide lightning after a red warning line.",
+      "attacks_detail": [
+        {
+          "name": null,
+          "text": "Screen-wide lightning after a red warning line."
+        }
+      ],
+      "subtitle": null,
+      "weak_point": "Crown bolts when he raises the hammer.",
+      "mk2_change": "Shorter warning, lines come in pairs.",
+      "stages": {
+        "mk1": 67,
+        "mk2": 77,
+        "pair_stages": [
+          97
+        ]
+      },
+      "art": {
+        "mk1": "art/bosses/boss67_mk1.svg",
+        "mk2": "art/bosses/boss67_mk2.svg"
+      },
+      "numbers": "See balance.json boss_attack_defaults and phase_thresholds"
+    },
+    {
+      "id": 68,
+      "name": "Crystal Titan Geode",
+      "tier": 4,
+      "tier_color": "#FF4D5E",
+      "kind_art": "crystal",
+      "color": "#2DE2FF",
+      "hp_mk1": 38500,
+      "hp_mk2": 57750,
+      "phases": 4,
+      "attack_summary": "Shards bounce between walls and split on hit.",
+      "attacks_detail": [
+        {
+          "name": null,
+          "text": "Shards bounce between walls and split on hit."
+        }
+      ],
+      "subtitle": null,
+      "weak_point": "Purple geode core in the chest.",
+      "mk2_change": "Shards return after bouncing.",
+      "stages": {
+        "mk1": 68,
+        "mk2": 78,
+        "pair_stages": [
+          98
+        ]
+      },
+      "art": {
+        "mk1": "art/bosses/boss68_mk1.svg",
+        "mk2": "art/bosses/boss68_mk2.svg"
+      },
+      "numbers": "See balance.json boss_attack_defaults and phase_thresholds"
+    },
+    {
+      "id": 69,
+      "name": "Mind Eater Cortex",
+      "tier": 4,
+      "tier_color": "#FF4D5E",
+      "kind_art": "brain",
+      "color": "#FF3EA5",
+      "hp_mk1": 40000,
+      "hp_mk2": 60000,
+      "phases": 4,
+      "attack_summary": "Flips your controls for 2 seconds at a time.",
+      "attacks_detail": [
+        {
+          "name": null,
+          "text": "Flips your controls for 2 seconds at a time."
+        }
+      ],
+      "subtitle": null,
+      "weak_point": "Open mouth after the control flip ends.",
+      "mk2_change": "Flips mid-dodge for 3 seconds.",
+      "stages": {
+        "mk1": 69,
+        "mk2": 79,
+        "pair_stages": [
+          99
+        ]
+      },
+      "art": {
+        "mk1": "art/bosses/boss69_mk1.svg",
+        "mk2": "art/bosses/boss69_mk2.svg"
+      },
+      "numbers": "See balance.json boss_attack_defaults and phase_thresholds"
+    },
+    {
+      "id": 70,
+      "name": "Cosmic Emperor Galaxor",
+      "tier": 4,
+      "tier_color": "#FF4D5E",
+      "kind_art": "emperor",
+      "color": "#FFC83D",
+      "hp_mk1": 41500,
+      "hp_mk2": 62250,
+      "phases": 4,
+      "attack_summary": "Four phases using every kind of attack.",
+      "attacks_detail": [
+        {
+          "name": null,
+          "text": "Four phases using every kind of attack."
+        }
+      ],
+      "subtitle": null,
+      "weak_point": "Core diamond. Opens in each new phase.",
+      "mk2_change": "Faster pattern mixing and shorter pauses between phases.",
+      "stages": {
+        "mk1": 70,
+        "mk2": 80,
+        "pair_stages": [
+          100
+        ]
+      },
+      "art": {
+        "mk1": "art/bosses/boss70_mk1.svg",
+        "mk2": "art/bosses/boss70_mk2.svg"
+      },
+      "numbers": "See balance.json boss_attack_defaults and phase_thresholds"
+    }
+  ]
+}

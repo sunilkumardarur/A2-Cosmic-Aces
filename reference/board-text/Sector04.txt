@@ -1,0 +1,75 @@
+‹ SECTORS
+SECTOR 4 · IRON EXPANSE
+The Tier 2 bosses return, stronger. Stages 31–40 · Tier 2 · Mk II. Pick a stage to play it.
+STAGE 31
+LOCKED
+AEGIS STATION
+Sentinel Prime Aegis
+MK II
+HP 13,500
++180
+STAGE 32
+LOCKED
+SILK NEBULA
+Plasma Weaver Arachna
+MK II
+HP 14,625
++180
+STAGE 33
+LOCKED
+HEAVY ORBIT
+Gravity Golem Massa
+MK II
+HP 15,750
++180
+STAGE 34
+LOCKED
+GHOST FLEET GRAVEYARD
+Phantom Admiral Noctis
+MK II
+HP 16,875
++180
+STAGE 35
+LOCKED
+SCRAPYARD BELT
+Magnet Lord Ferrox
+MK II
+HP 18,000
++180
+STAGE 36
+LOCKED
+TOXIC SWAMP MOON
+Sludge Leviathan Bog
+MK II
+HP 19,125
++180
+STAGE 37
+LOCKED
+RAINBOW REEF
+Prism Dragon Chroma
+MK II
+HP 20,250
++180
+STAGE 38
+LOCKED
+CLOCK TOWER VOID
+Time Warden Chronos
+MK II
+HP 21,375
++180
+STAGE 39
+LOCKED
+SIEGE LINE
+Siege Fortress Bastion
+MK II
+HP 22,500
++180
+STAGE 40
+LOCKED
+STARFALL FIELDS
+Star Reaper Falx
+MK II
+HP 23,625
++180
+Mk II bosses: 1.5× health, bullets 20% faster, one extra attack, gold trim.
+First clear pays the credits shown. Clearing the same stage again pays +1.

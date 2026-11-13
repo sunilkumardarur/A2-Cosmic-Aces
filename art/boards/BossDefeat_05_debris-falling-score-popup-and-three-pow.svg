@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Debris falling, score popup and three power-up orbs" viewBox="0 0 200 270" style="position: absolute; inset: 0; width: 100%; height: 100%">
+          <path d="M24 30 L40 40 L30 54 Z M160 50 L176 56 L166 72 Z M84 80 L98 92 L82 100 Z M130 20 L142 30 L128 38 Z" fill="#5A4636" stroke="#FF8A3D" stroke-width="2" opacity=".6"/>
+          <text x="100" y="116" text-anchor="middle" font-family="Orbitron, sans-serif" font-weight="900" font-size="26" fill="#FFC83D">+5,000</text>
+          <text x="100" y="140" text-anchor="middle" font-family="Orbitron, sans-serif" font-weight="700" font-size="13" letter-spacing="3" fill="#FFFFFF">BOSS DOWN!</text>
+          <circle cx="52" cy="200" r="20" fill="rgba(255,154,61,.35)" stroke="#FF9A3D" stroke-width="3"/><text x="52" y="207" text-anchor="middle" font-family="Orbitron, sans-serif" font-weight="900" font-size="18" fill="#FFFFFF">S</text>
+          <circle cx="100" cy="226" r="20" fill="rgba(124,255,107,.35)" stroke="#7CFF6B" stroke-width="3"/><path d="M100 216 V236 M90 226 H110" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+          <circle cx="148" cy="200" r="20" fill="rgba(255,62,165,.35)" stroke="#FF3EA5" stroke-width="3"/><path d="M148 190 L151 197 L158 200 L151 203 L148 210 L145 203 L138 200 L145 197 Z" fill="#FFFFFF"/>
+        </svg>

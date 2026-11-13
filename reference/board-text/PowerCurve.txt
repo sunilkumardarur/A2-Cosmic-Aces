@@ -1,0 +1,108 @@
+POWER CURVE
+The shop makes you stronger, but never fast enough to make later stages easy.
+━ Player power (typical shop progress)
+━ Challenge rating (boss, enemies, bullets)
+0
+100
+200
+300
+400
+500
+1–10
+11–20
+21–30
+31–40
+41–50
+51–60
+61–70
+71–80
+81–90
+91–100
+replay stage 1 with a maxed shop: power 198 vs challenge 100
+REPLAYING EARLY STAGES
+With the full shop you are about twice as strong at stage 1, so it is easier, but the boss still shoots the same bullets and pays +1 credit.
+GOING FORWARD
+Challenge grows faster than power. At stage 100 the challenge is 2.4× your power, so skill, power-ups and Damage Boost matter.
+POWER AND CHALLENGE BY BLOCK
+STAGES
+POWER
+CHALLENGE
+RATIO
+1–10
+100
+100
+1.00
+11–20
+106
+121
+1.15
+21–30
+112
+146
+1.30
+31–40
+121
+175
+1.45
+41–50
+131
+209
+1.60
+51–60
+143
+250
+1.75
+61–70
+157
+299
+1.90
+71–80
+174
+357
+2.05
+81–90
+193
+426
+2.20
+91–100
+198
+475
+2.40
+WHAT EACH SHOP TIER ADDS TO POWER (MAX +98%)
+SHOP POWER
+I
+II
+III
+Shield Start
++4%
++7%
++10%
+Damage Head Start
++6%
++12%
++18%
+Bomb Stock
++3%
++5%
++8%
+Pickup Magnet
++1%
++2%
++3%
+Wingman Drone
++10%
++18%
++26%
+Lucky Orb
++2%
++4%
++6%
+Extra Hull Bar
++6%
++12%
++18%
+Special Charge
++3%
++6%
++9%
+Power 100 = new profile, nothing bought. These gains raise base stats: bullet damage, hull, shield hits, bombs, drones, special charge and pickups.

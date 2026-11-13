@@ -1,0 +1,29 @@
+STAGE 05 · TIER 1
+FROST REACH
+A frozen belt of icebergs. The cold slows everything, including you.
+SAME STAGE, TINTED, IN
+MK II · STAGE 15
+PAIR · STAGE 85
+ICICLE SHARD
+OBSTACLE · 2 HITS
+Hangs in place and drops when you fly under it.
+FROST SPRITE
+ENEMY · 2 HITS
+Fires slow blue shots that chill your jet.
+SNOW CLOUD
+HAZARD · UNBREAKABLE
+Slows your jet while you are inside.
+ICE TURRET
+ENEMY · 4 HITS
+Fires bursts of 3 icicles.
+BOSS 5
+HP 5,500 · 2 PHASES
+Frost Colossus Glacius
+MK II in stage 15
+HP 8,250
+FIGHTS · Ice fields slow your jet. Icicle volleys.
+WEAK POINT · Chest crystal after a fist slam.
+MK II ADDS · Fields cover half the screen.
+MID-STAGE · Mini-boss Ice Warden
+First clear up to +100 credits
+Repeat clear +1

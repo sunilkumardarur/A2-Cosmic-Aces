@@ -1,0 +1,29 @@
+STAGE 48 · TIER 3
+CARNIVAL OF CHAOS
+A floating circus. Nothing happens the same way twice.
+SAME STAGE, TINTED, IN
+MK II · STAGE 58
+PAIR · STAGE 98
+JACK-IN-BOX
+ENEMY · 5 HITS
+Pops open and fires in a random direction.
+CARD BLADE
+HAZARD · 1 HIT
+Spinning card that bounces on the edges.
+TRICK BALLOON
+OBSTACLE · 3 HITS
+Pops into a surprise: shots, coins or nothing.
+CIRCUS CANNON
+ENEMY · 8 HITS
+Fires confetti bullets in random patterns.
+BOSS 48
+HP 24,000 · 3 PHASES
+Chaos Jester Wildcard
+MK II in stage 58
+HP 36,000
+FIGHTS · Picks a random attack every few seconds.
+WEAK POINT · The half-mask. Hit it after each trick.
+MK II ADDS · Chains two attacks together.
+MID-STAGE · Mini-boss Card Dealer
+First clear up to +220 credits
+Repeat clear +1

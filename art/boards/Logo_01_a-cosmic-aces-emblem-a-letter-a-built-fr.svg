@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A² Cosmic Aces emblem: a letter A built from a cyan and an orange stroke with a pink crossbar and a gold star" viewBox="0 0 200 200" style="width: 260px; height: 260px; filter: drop-shadow(0 0 24px rgba(45,226,255,.45))">
+        <circle cx="100" cy="100" r="92" fill="#0A1224" stroke="#2DE2FF" stroke-width="4"/>
+        <path d="M54 156 L100 54" stroke="#2DE2FF" stroke-width="18" stroke-linecap="round"/>
+        <path d="M146 156 L100 54" stroke="#FF9A3D" stroke-width="18" stroke-linecap="round"/>
+        <path d="M76 124 H124" stroke="#FF3EA5" stroke-width="12" stroke-linecap="round"/>
+        <path d="M100 18 L106 32 L120 34 L109 43 L112 57 L100 50 L88 57 L91 43 L80 34 L94 32 Z" fill="#FFC83D"/>
+        <text x="152" y="62" font-family="Orbitron, sans-serif" font-weight="900" font-size="34" fill="#FF3EA5">2</text>
+      </svg>

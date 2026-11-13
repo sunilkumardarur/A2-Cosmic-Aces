@@ -1,0 +1,75 @@
+‹ SECTORS
+SECTOR 6 · NIGHT DEEP
+The Tier 3 bosses return, stronger. Stages 51–60 · Tier 3 · Mk II. Pick a stage to play it.
+STAGE 51
+LOCKED
+HYDRA LAGOON
+Hydra Core Hydrax
+MK II
+HP 25,500
++260
+STAGE 52
+LOCKED
+METEOR THRONE
+Meteor Queen Rubia
+MK II
+HP 27,000
++260
+STAGE 53
+LOCKED
+ECLIPSE GATE
+Eclipse Wraith Umbra
+MK II
+HP 28,500
++260
+STAGE 54
+LOCKED
+LEGION DOCK
+Drone Mother Legion
+MK II
+HP 30,000
++260
+STAGE 55
+LOCKED
+MAGMA CORE
+Lava Colossus Magmor
+MK II
+HP 31,500
++260
+STAGE 56
+LOCKED
+CYBER DUNES
+Cyber Scorpion Stingra
+MK II
+HP 33,000
++260
+STAGE 57
+LOCKED
+FROZEN THRONE
+Frozen Empress Glacira
+MK II
+HP 34,500
++260
+STAGE 58
+LOCKED
+CARNIVAL OF CHAOS
+Chaos Jester Wildcard
+MK II
+HP 36,000
++260
+STAGE 59
+LOCKED
+NEUTRON FIELD
+Neutron Behemoth Atlas
+MK II
+HP 37,500
++260
+STAGE 60
+LOCKED
+NEBULA COURT
+Nebula Overlord Zorak
+MK II
+HP 39,000
++260
+Mk II bosses: 1.5× health, bullets 20% faster, one extra attack, gold trim.
+First clear pays the credits shown. Clearing the same stage again pays +1.

@@ -1,0 +1,85 @@
+‹ SECTORS
+SECTOR 10 · CROWN GATE
+Two bosses at once. Tier 3 + Tier 4. Stages 91–100 · Pair fights. Pick a stage to play it.
+STAGE 91
+LOCKED
+HYDRA LAGOON
+Hydra Core Hydrax
++ Black Hole Sovereign Singula
+PAIR
+HP 25,500 + 42,000
++450
+STAGE 92
+LOCKED
+METEOR THRONE
+Meteor Queen Rubia
++ Supernova Phoenix Solara
+PAIR
+HP 27,000 + 44,250
++450
+STAGE 93
+LOCKED
+ECLIPSE GATE
+Eclipse Wraith Umbra
++ Dimension Splitter Riftor
+PAIR
+HP 28,500 + 46,500
++450
+STAGE 94
+LOCKED
+LEGION DOCK
+Drone Mother Legion
++ Mecha Leviathan Ω-Prime
+PAIR
+HP 30,000 + 48,750
++450
+STAGE 95
+LOCKED
+MAGMA CORE
+Lava Colossus Magmor
++ Quantum Mage Qubit
+PAIR
+HP 31,500 + 51,000
++450
+STAGE 96
+LOCKED
+CYBER DUNES
+Cyber Scorpion Stingra
++ Void Kraken Abyssa
+PAIR
+HP 33,000 + 53,250
++450
+STAGE 97
+LOCKED
+FROZEN THRONE
+Frozen Empress Glacira
++ Thunder God Tempest
+PAIR
+HP 34,500 + 55,500
++450
+STAGE 98
+LOCKED
+CARNIVAL OF CHAOS
+Chaos Jester Wildcard
++ Crystal Titan Geode
+PAIR
+HP 36,000 + 57,750
++450
+STAGE 99
+LOCKED
+NEUTRON FIELD
+Neutron Behemoth Atlas
++ Mind Eater Cortex
+PAIR
+HP 37,500 + 60,000
++450
+STAGE 100
+LOCKED
+NEBULA COURT
+Nebula Overlord Zorak
++ Cosmic Emperor Galaxor
+PAIR
+HP 39,000 + 62,250
++450
+Two bosses fight together: Mk II health each, bullets 40% faster, a shared pair attack. When one falls, the other speeds up 30% for 10 s.
+First clear pays the credits shown. Clearing the same stage again pays +1.

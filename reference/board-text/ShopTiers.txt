@@ -1,0 +1,97 @@
+MENU
+SHOP · UPGRADE TIERS
+Buy Tier I first. Tier II and III unlock one after another. A higher tier replaces the lower one, it does not stack.
+340
+TIER I
+TIER II
+TIER III
+SH
+Shield Start
+TIER I
+300
+Blocks 3 hits
+TIER II
+LOCKED · 450
+Blocks 5 hits
+TIER III
+LOCKED · 700
+Blocks 7 hits
+D2
+Damage Head Start
+TIER I
+OWNED
+Start at Damage Lv 2
+TIER II
+500
+Start at Damage Lv 3
+TIER III
+LOCKED · 800
+Start at Damage Lv 4
+B2
+Bomb Stock
+TIER I
+OWNED
+Start with 2 bombs
+TIER II
+400
+Start with 3 bombs
+TIER III
+LOCKED · 650
+Start with 4 bombs
+MG
+Pickup Magnet
+TIER I
+OWNED
+Short pull range
+TIER II
+250
+Wide pull range
+TIER III
+LOCKED · 400
+Pulls from the whole screen
+WM
+Wingman Drone
+TIER I
+900
+1 drone
+TIER II
+LOCKED · 1200
+2 drones
+TIER III
+LOCKED · 1600
+2 drones that also fire missiles
+LK
+Lucky Orb
+TIER I
+450
++25% power-up drops
+TIER II
+LOCKED · 650
++50% power-up drops
+TIER III
+LOCKED · 900
++75% power-up drops
+HP
+Extra Hull Bar
+TIER I
+800
++1 hull bar
+TIER II
+LOCKED · 1100
++2 hull bars
+TIER III
+LOCKED · 1500
++3 hull bars
+SC
+Special Charge
+TIER I
+250
+Bar fills 20% faster
+TIER II
+LOCKED · 400
+Bar fills 40% faster
+TIER III
+LOCKED · 600
+Bar fills 60% faster
+Green = owned · gold price = next tier you can buy · greyed = locked until the tier before it is owned. Shown for profile AYAN.
+Cost to max everything: 15,500 credits

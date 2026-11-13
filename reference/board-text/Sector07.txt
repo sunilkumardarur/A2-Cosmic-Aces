@@ -1,0 +1,75 @@
+‹ SECTORS
+SECTOR 7 · OMEGA REACH
+The ten toughest single bosses. Stages 61–70 · Tier 4 · Mk I. Pick a stage to play it.
+STAGE 61
+LOCKED
+EVENT HORIZON
+Black Hole Sovereign Singula
+MK I
+HP 28,000
++300
+STAGE 62
+LOCKED
+SOLAR FORGE
+Supernova Phoenix Solara
+MK I
+HP 29,500
++300
+STAGE 63
+LOCKED
+BROKEN DIMENSION
+Dimension Splitter Riftor
+MK I
+HP 31,000
++300
+STAGE 64
+LOCKED
+MECHA ABYSS
+Mecha Leviathan Ω-Prime
+MK I
+HP 32,500
++300
+STAGE 65
+LOCKED
+QUANTUM LAB
+Quantum Mage Qubit
+MK I
+HP 34,000
++300
+STAGE 66
+LOCKED
+ABYSSAL VOID
+Void Kraken Abyssa
+MK I
+HP 35,500
++300
+STAGE 67
+LOCKED
+STORM CITADEL
+Thunder God Tempest
+MK I
+HP 37,000
++300
+STAGE 68
+LOCKED
+CRYSTAL CAVERNS
+Crystal Titan Geode
+MK I
+HP 38,500
++300
+STAGE 69
+LOCKED
+MIND MAZE
+Mind Eater Cortex
+MK I
+HP 40,000
++300
+STAGE 70
+LOCKED
+THRONE OF STARS
+Cosmic Emperor Galaxor
+MK I
+HP 41,500
++300
+Each stage ends with its own boss.
+First clear pays the credits shown. Clearing the same stage again pays +1.

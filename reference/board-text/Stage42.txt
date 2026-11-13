@@ -1,0 +1,29 @@
+STAGE 42 · TIER 3
+METEOR THRONE
+A burning throne room in the middle of a meteor storm.
+SAME STAGE, TINTED, IN
+MK II · STAGE 52
+PAIR · STAGE 92
+TARGET MARK
+HAZARD · UNBREAKABLE
+A red ring. A meteor lands there in 1 second.
+ROCK KNIGHT
+ENEMY · 6 HITS
+Armoured with rock. Hit the glowing joint.
+FALLING MOON
+OBSTACLE · 10 HITS
+Huge rock that breaks into 4.
+EMBER TURRET
+ENEMY · 8 HITS
+Fires a slow fire spiral.
+BOSS 42
+HP 18,000 · 3 PHASES
+Meteor Queen Rubia
+MK II in stage 52
+HP 27,000
+FIGHTS · Marked spots get hit by falling meteors.
+WEAK POINT · Crown stones. Break all three.
+MK II ADDS · Meteors split into three.
+MID-STAGE · Mini-boss Rock Courtier
+First clear up to +220 credits
+Repeat clear +1

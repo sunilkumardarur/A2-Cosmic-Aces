@@ -1,0 +1,29 @@
+STAGE 28 · TIER 2
+CLOCK TOWER VOID
+A tower of clocks floating in empty space.
+SAME STAGE, TINTED, IN
+MK II · STAGE 38
+PAIR · STAGE 88
+PENDULUM
+OBSTACLE · UNBREAKABLE
+Swings across the screen on a steady beat.
+TICK DRONE
+ENEMY · 3 HITS
+Fires one shot every second, always on time.
+SLOW FIELD
+HAZARD · UNBREAKABLE
+A ring that slows your bullets inside.
+CLOCK BOMB
+HAZARD · 1 HIT
+Counts down from 3 and explodes.
+BOSS 28
+HP 14,250 · 3 PHASES
+Time Warden Chronos
+MK II in stage 38
+HP 21,375
+FIGHTS · Slows your bullets and rewinds his own.
+WEAK POINT · Eye at the neck when the clock stops.
+MK II ADDS · Rewinds your jet once per phase.
+MID-STAGE · Mini-boss Pendulum
+First clear up to +150 credits
+Repeat clear +1

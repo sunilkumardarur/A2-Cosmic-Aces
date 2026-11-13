@@ -1,0 +1,29 @@
+STAGE 50 · TIER 3
+NEBULA COURT
+The home of the Nebula Overlord. All earlier tricks return.
+SAME STAGE, TINTED, IN
+MK II · STAGE 60
+PAIR · STAGE 100
+COURT GUARD
+ENEMY · 8 HITS
+Uses a move from an earlier stage.
+MAGIC SIGIL
+HAZARD · UNBREAKABLE
+Glows, then bursts into spirals.
+NEBULA GATE
+OBSTACLE · UNBREAKABLE
+Opens and closes in a pattern.
+ARCANE TURRET
+ENEMY · 9 HITS
+Fires 4 different bullet types in a loop.
+BOSS 50
+HP 26,000 · 3 PHASES
+Nebula Overlord Zorak
+MK II in stage 60
+HP 39,000
+FIGHTS · Uses a move from three earlier bosses.
+WEAK POINT · Third eye on the forehead.
+MK II ADDS · Uses moves from five earlier bosses.
+MID-STAGE · Mini-boss Court Mage
+First clear up to +220 credits
+Repeat clear +1

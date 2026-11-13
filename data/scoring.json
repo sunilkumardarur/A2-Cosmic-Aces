@@ -1,0 +1,86 @@
+{
+  "enemy_points": [
+    {
+      "points": 50,
+      "enemies": [
+        "Asteroid",
+        "Spore",
+        "Crystal"
+      ]
+    },
+    {
+      "points": 100,
+      "enemies": [
+        "Stinger",
+        "Scout Drone",
+        "Kamikaze"
+      ]
+    },
+    {
+      "points": 250,
+      "enemies": [
+        "Turret",
+        "Wraith",
+        "Leech Pod"
+      ]
+    },
+    {
+      "points": 500,
+      "enemies": [
+        "Gunship",
+        "Shadow Ace",
+        "Eel"
+      ]
+    }
+  ],
+  "mini_boss": 2000,
+  "boss": 5000,
+  "powerup_collected": 25,
+  "combo": {
+    "rule": "Each kill within 3 seconds of the last raises the multiplier. Take a hit or wait 3 seconds and it drops back to x1.",
+    "steps": [
+      {
+        "mult": 1,
+        "kills": 0
+      },
+      {
+        "mult": 2,
+        "kills": 5
+      },
+      {
+        "mult": 4,
+        "kills": 10
+      },
+      {
+        "mult": 6,
+        "kills": 20
+      },
+      {
+        "mult": 8,
+        "kills": 35
+      }
+    ],
+    "max": 8,
+    "note": "Steps: 5, 10, 20 and 35 kills in a row. Max x8. Progression board shows five bars x1,x2,x4,x6,x8."
+  },
+  "stars": [
+    {
+      "stars": 1,
+      "rule": "Defeat the boss."
+    },
+    {
+      "stars": 2,
+      "rule": "Also destroy 80% of enemies."
+    },
+    {
+      "stars": 3,
+      "rule": "95% of enemies and no continues used."
+    }
+  ],
+  "boss_end_bonuses": {
+    "boss_bonus": 5000,
+    "no_continue_bonus": 2000,
+    "note": "SectorClear board sample: Boss bonus +5,000, No-continue bonus +2,000."
+  },
+  "src": "Progression, SectorClear"
+}

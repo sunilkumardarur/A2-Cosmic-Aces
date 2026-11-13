@@ -1,0 +1,31 @@
+PICKUPS DROP FROM DESTROYED ENEMIES
+POWER-UPS
+Each pickup is a glowing orb that spins and pulses. Fly into it to collect. Top row = how it looks floating, scene = how it looks in use.
+S
+SPREAD SHOT
+WEAPON · 12s
+Fires 5 shots in a fan. Great for swarms and asteroid fields.
+L
+PLASMA LASER
+WEAPON · 8s
+A non-stop beam that melts anything in a straight line. Best vs bosses.
+ENERGY SHIELD
+DEFENSE · 3 HITS
+Blue bubble around the jet. Flashes white on each hit, cracks on the last.
+M
+HOMING MISSILES
+WEAPON · 6 MISSILES
+Red missiles curve on their own to the nearest enemies.
+TURBO BOOST
+MOVEMENT · 10s
++50% speed with a golden afterimage trail and long engine flames.
+W
+WINGMAN DRONES
+SUPPORT · 15s
+Two green drones orbit your jet, shoot with you and block bullets.
+REPAIR KIT
+INSTANT · +1 HULL
+Green sparkles rise as the jet flashes green and one hull bar refills.
+NOVA BOMB
+STORED · PRESS B
+Pink shockwave clears all enemies and bullets; deals big damage to bosses.

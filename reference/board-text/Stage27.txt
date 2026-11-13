@@ -1,0 +1,29 @@
+STAGE 27 · TIER 2
+RAINBOW REEF
+Crystal coral that glows in every colour.
+SAME STAGE, TINTED, IN
+MK II · STAGE 37
+PAIR · STAGE 87
+PRISM CRYSTAL
+OBSTACLE · 5 HITS
+Splits your bullets into 3 colours.
+COLOUR SPRITE
+ENEMY · 3 HITS
+Fires red, yellow, green, blue shots in order.
+BEAM CORAL
+HAZARD · UNBREAKABLE
+Short beams that blink on and off.
+REEF RAY
+ENEMY · 5 HITS
+Glides in a wide arc and fires fans.
+BOSS 27
+HP 13,500 · 3 PHASES
+Prism Dragon Chroma
+MK II in stage 37
+HP 20,250
+FIGHTS · Rainbow beams fire in a fixed colour order.
+WEAK POINT · Forehead jewel between beam colours.
+MK II ADDS · Random order, wider beams.
+MID-STAGE · Mini-boss Colour Sprite
+First clear up to +150 credits
+Repeat clear +1

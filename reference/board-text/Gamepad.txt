@@ -1,0 +1,54 @@
+MENU
+GAMEPAD PROMPTS
+Button icons shown on screen for each controller family.
+ACTION
+XBOX STYLE
+PLAYSTATION STYLE
+SWITCH STYLE
+Move
+Fire is automatic
+LEFT STICK
+D-PAD
+LEFT STICK
+D-PAD
+LEFT STICK
+D-PAD
+Special
+Both pilots press it for A² Burst
+X
+□
+Y
+Nova Bomb
+Count shown on the HUD
+Y
+△
+X
+Confirm
+Menus
+A
+✕
+B
+Back
+Menus and closing dialogs
+B
+○
+A
+Pause
+Same button opens and closes
+MENU
+OPTIONS
++
+Manual fire
+Hold to shoot
+A
+only if turned on in Settings
+✕
+B
+AUTO-SWITCH
+Button hints on every screen follow the last device used: keyboard, Xbox, PlayStation or Switch style.
+CO-OP · TWO PADS
+Pad 1 is Player 1 (cyan). Pad 2 is Player 2 (orange). Each HUD shows its own colour.
+MENUS
+Stick or D-pad moves focus. Confirm and Back as listed. First press joins the game.
+DISCONNECT
+If a pad drops, the game pauses and shows "Reconnect controller".

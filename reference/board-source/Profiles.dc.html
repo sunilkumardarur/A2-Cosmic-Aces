@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>A² Cosmic Aces — Profiles</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&amp;family=Exo+2:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#2DE2FF}a:hover{color:#FFFFFF}
+.pf:hover{filter:brightness(1.2)}
+</style>
+</helmet>
+<div style="width: 1280px; height: 720px; position: relative; overflow: hidden; box-sizing: border-box; padding: 32px 56px; background: #05060F; font-family: 'Exo 2', sans-serif; color: #FFFFFF; display: flex; flex-direction: column; gap: 20px">
+  <sc-for list="{{stars}}" as="s" hint-placeholder-count="20">
+    <div style="position: absolute; left: {{s.x}}px; top: {{s.y}}px; width: 2px; height: 2px; border-radius: 50%; background: #FFFFFF; opacity: {{s.o}}"></div>
+  </sc-for>
+  <header style="position: relative; display: flex; align-items: center; gap: 20px">
+    <a href="Main.dc.html" style="display: flex; align-items: center; gap: 8px; height: 44px; padding: 0 16px; border: 2px solid rgba(169,180,208,.4); color: #D7DEF0; text-decoration: none; font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 13px; letter-spacing: 2px"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg>MENU</a>
+    <div style="display: flex; flex-direction: column; gap: 2px"><h1 style="margin: 0; font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 32px; letter-spacing: 3px; text-shadow: 0 0 16px rgba(45,226,255,.5)">WHO'S PLAYING?</h1><div style="font-size: 14px; color: #A9B4D0">Credits, shop powers, unlocks, high scores and achievements are saved to your profile.</div></div>
+  </header>
+
+  <div style="position: relative; display: flex; gap: 24px">
+
+    <div style="flex: 1; padding: 22px; border: 3px solid #2DE2FF; background: rgba(45,226,255,.07); display: flex; flex-direction: column; gap: 14px">
+      <div style="display: flex; align-items: center; gap: 16px">
+        <svg role="img" aria-label="Ayan profile picture" viewBox="0 0 120 120" style="width: 88px; height: 88px; flex: none"><circle cx="60" cy="60" r="56" fill="#0E1A2E"/><circle cx="60" cy="64" r="44" fill="#16223C" stroke="#2DE2FF" stroke-width="4"/><ellipse cx="60" cy="74" rx="27" ry="28" fill="#B9794E"/><path d="M33 66 L38 50 L44 58 L50 46 L56 56 L62 44 L68 56 L74 46 L80 58 L86 52 L87 66 Q60 54 33 66 Z" fill="#1B1210"/><ellipse cx="50" cy="76" rx="4" ry="5" fill="#1B1210"/><ellipse cx="70" cy="76" rx="4" ry="5" fill="#1B1210"/><path d="M49 88 Q60 97 71 88" stroke="#1B1210" stroke-width="3" fill="none" stroke-linecap="round"/><rect x="34" y="22" width="52" height="16" rx="8" fill="#2DE2FF"/></svg>
+        <div style="display: flex; flex-direction: column; gap: 3px"><div style="font-size: 11px; letter-spacing: 3px; color: #7CFF6B">LAST PLAYED</div><div style="font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 28px; letter-spacing: 3px; color: #2DE2FF">AYAN</div></div>
+      </div>
+      <div style="display: grid; grid-template-columns: 1fr auto; gap: 8px 12px; font-size: 14px">
+        <span style="color: #D7DEF0">Credits</span><b style="display: flex; align-items: center; gap: 6px; color: #FFC83D"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#FFC83D"/><circle cx="12" cy="12" r="6" fill="none" stroke="#7A5A00" stroke-width="2"/></svg>340</b>
+        <span style="color: #D7DEF0">Shop powers owned</span><b>3 / 8</b>
+        <span style="color: #D7DEF0">Stars</span><b>5 / 12</b>
+        <span style="color: #D7DEF0">Achievements</span><b>4 / 12</b>
+        <span style="color: #D7DEF0">Best score</span><b style="font-family: 'Orbitron', sans-serif">0048900</b>
+        <span style="color: #D7DEF0">Play time</span><b>1h 30m</b>
+      </div>
+      <a class="pf" href="Main.dc.html" style="margin-top: auto; display: flex; align-items: center; justify-content: center; height: 52px; background: #2DE2FF; color: #05060F; text-decoration: none; font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 15px; letter-spacing: 3px; clip-path: polygon(12px 0, 100% 0, calc(100% - 12px) 100%, 0 100%)">PLAY AS AYAN</a>
+    </div>
+
+    <div style="flex: 1; padding: 22px; border: 2px solid rgba(255,154,61,.6); background: rgba(255,154,61,.05); display: flex; flex-direction: column; gap: 14px">
+      <div style="display: flex; align-items: center; gap: 16px">
+        <svg role="img" aria-label="Aarav profile picture" viewBox="0 0 120 120" style="width: 88px; height: 88px; flex: none"><circle cx="60" cy="60" r="56" fill="#1E140C"/><circle cx="60" cy="64" r="44" fill="#2A1C12" stroke="#FF9A3D" stroke-width="4"/><ellipse cx="60" cy="74" rx="27" ry="28" fill="#A86A42"/><path d="M33 68 Q36 48 60 46 Q84 46 87 64 Q72 56 52 58 Q42 60 33 68 Z" fill="#14100E"/><circle cx="49" cy="77" r="8" fill="none" stroke="#FFC83D" stroke-width="2.5"/><circle cx="71" cy="77" r="8" fill="none" stroke="#FFC83D" stroke-width="2.5"/><circle cx="49" cy="77" r="3.5" fill="#14100E"/><circle cx="71" cy="77" r="3.5" fill="#14100E"/><path d="M50 90 Q60 96 70 90" stroke="#14100E" stroke-width="3" fill="none" stroke-linecap="round"/><rect x="34" y="22" width="52" height="16" rx="8" fill="#FF9A3D"/></svg>
+        <div style="display: flex; flex-direction: column; gap: 3px"><div style="font-size: 11px; letter-spacing: 3px; color: #A9B4D0">PROFILE</div><div style="font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 28px; letter-spacing: 3px; color: #FF9A3D">AARAV</div></div>
+      </div>
+      <div style="display: grid; grid-template-columns: 1fr auto; gap: 8px 12px; font-size: 14px">
+        <span style="color: #D7DEF0">Credits</span><b style="display: flex; align-items: center; gap: 6px; color: #FFC83D"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#FFC83D"/><circle cx="12" cy="12" r="6" fill="none" stroke="#7A5A00" stroke-width="2"/></svg>120</b>
+        <span style="color: #D7DEF0">Shop powers owned</span><b>1 / 8</b>
+        <span style="color: #D7DEF0">Stars</span><b>2 / 12</b>
+        <span style="color: #D7DEF0">Achievements</span><b>2 / 12</b>
+        <span style="color: #D7DEF0">Best score</span><b style="font-family: 'Orbitron', sans-serif">0012450</b>
+        <span style="color: #D7DEF0">Play time</span><b>0h 40m</b>
+      </div>
+      <a class="pf" href="Main.dc.html" style="margin-top: auto; display: flex; align-items: center; justify-content: center; height: 52px; border: 2px solid #FF9A3D; color: #FF9A3D; text-decoration: none; font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 15px; letter-spacing: 3px">PLAY AS AARAV</a>
+    </div>
+
+    <div style="flex: 1; padding: 22px; border: 2px dashed rgba(169,180,208,.5); background: rgba(255,255,255,.02); display: flex; flex-direction: column; gap: 14px; align-items: center; justify-content: center; text-align: center">
+      <div style="width: 88px; height: 88px; border-radius: 50%; border: 3px dashed rgba(169,180,208,.6); display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#D7DEF0" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></div>
+      <div style="font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 22px; letter-spacing: 3px">NEW PROFILE</div>
+      <label for="pname" style="font-size: 12px; letter-spacing: 3px; color: #A9B4D0">NAME</label>
+      <input id="pname" type="text" placeholder="Type a name" maxlength="12" style="width: 220px; height: 44px; box-sizing: border-box; padding: 0 14px; background: #0A0C1A; border: 2px solid rgba(169,180,208,.5); color: #FFFFFF; font-family: 'Exo 2', sans-serif; font-size: 16px; text-align: center">
+      <a class="pf" href="Main.dc.html" style="display: flex; align-items: center; justify-content: center; width: 220px; height: 46px; border: 2px solid #2DE2FF; color: #2DE2FF; text-decoration: none; font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 13px; letter-spacing: 3px">CREATE</a>
+    </div>
+  </div>
+
+  <div style="position: relative; display: flex; gap: 20px">
+    <div style="flex: 1; padding: 14px 18px; border: 1px solid rgba(255,62,165,.45); background: rgba(5,6,15,.85); font-size: 14px; line-height: 1.55; color: #E6EAF5"><b style="color: #FF3EA5">Co-op:</b> Player 2 picks a profile too. Each pilot brings their own shop powers and earns their own credits.</div>
+    <div style="flex: 1; padding: 14px 18px; border: 1px solid rgba(255,200,61,.45); background: rgba(5,6,15,.85); font-size: 14px; line-height: 1.55; color: #E6EAF5"><b style="color: #FFC83D">Backup:</b> up to 4 profiles per device. Each profile has 3 save slots + 1 autosave. Export a profile as a code to move it to another device.</div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":720}}'>
+class Component extends DCLogic {
+  renderVals() {
+    let s = 89;
+    const r = () => { s = (s * 9301 + 49297) % 233280; return s / 233280; };
+    const stars = [];
+    for (let i = 0; i < 80; i++) stars.push({ x: Math.round(r() * 1280), y: Math.round(r() * 720), o: (0.15 + r() * 0.5).toFixed(2) });
+    return { stars };
+  }
+}
+</script>
+</body>
+</html>

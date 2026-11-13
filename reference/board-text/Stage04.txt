@@ -1,0 +1,29 @@
+STAGE 04 · TIER 1
+VOID RIFT
+The edge of a black hole where light bends. Gravity pulls you and your bullets.
+SAME STAGE, TINTED, IN
+MK II · STAGE 14
+PAIR · STAGE 84
+VOID WRAITH
+ENEMY · 3 HITS
+Fades in and out. You can only hit it while its eyes glow.
+GRAVITY WELL
+HAZARD · UNBREAKABLE
+Pulls your jet and bends your bullets toward its center.
+SHADOW ACE
+ENEMY FLIGHT · 10 HITS
+A dark copy of YOUR chosen jet. Mirrors your moves and shots.
+RIFT CRYSTAL
+OBSTACLE · 4 HITS
+Shatters into 4 homing shards. Keep moving after you break it.
+BOSS 4
+HP 5,000 · 3 PHASES
+Void Emperor Kaal
+MK II in stage 14
+HP 7,500
+FIGHTS · Pulls bullets inward and makes shadow clones.
+WEAK POINT · Heart crystal. Exposed when both hand orbs are destroyed.
+MK II ADDS · Two clones fire at once.
+MID-STAGE · Mini-boss Rift Warden
+First clear up to +100 credits
+Repeat clear +1

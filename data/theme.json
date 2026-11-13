@@ -1,0 +1,41 @@
+{
+  "canvas": {
+    "width": 1280,
+    "height": 720,
+    "aspect": "16:9",
+    "note": "Game canvas 1280x720, scales to fit (TechPlan board)."
+  },
+  "fonts": {
+    "display": "Orbitron (500,700,900)",
+    "body": "Exo 2 (400,500,600,700)",
+    "source": "Google Fonts, all boards"
+  },
+  "colors": {
+    "background": "#05060F",
+    "cyan": "#2DE2FF",
+    "pink": "#FF3EA5",
+    "orange": "#FF9A3D",
+    "green": "#7CFF6B",
+    "yellow": "#FFC83D",
+    "purple": "#B26BFF",
+    "red": "#FF4D5E",
+    "blue": "#4DA3FF",
+    "textMuted": "#A9B4D0",
+    "textLight": "#D7DEF0"
+  },
+  "sectorColors": {
+    "1": "#FF8A3D",
+    "2": "#7CFF6B",
+    "3": "#4DA3FF",
+    "4": "#B26BFF"
+  },
+  "style": "Neon arcade, desktop landscape, kid pilots, custom look (not an existing design system).",
+  "parallaxLayers": [
+    "Deep space + far stars (slowest)",
+    "Sector nebula / planet tinted per level",
+    "Near stars + speed streaks",
+    "Gameplay layer: ships, enemies, bullets, pickups"
+  ],
+  "hudNote": "HUD sits on top and never scrolls.",
+  "src": "Canvas notes + all boards"
+}

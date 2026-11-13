@@ -1,0 +1,29 @@
+STAGE 10 · TIER 1
+COMET RUN
+A fast lane through a comet shower. The last stage of the first set.
+SAME STAGE, TINTED, IN
+MK II · STAGE 20
+PAIR · STAGE 90
+FIRE COMET
+HAZARD · UNBREAKABLE
+Warning line first, then a fast streak.
+CINDER DRONE
+ENEMY · 3 HITS
+Leaves a short fire trail as it flies.
+MAGMA ROCK
+OBSTACLE · 5 HITS
+Splits into 3 burning pieces.
+FLARE TURRET
+ENEMY · 5 HITS
+Fires a fan of 5 fireballs.
+BOSS 10
+HP 8,000 · 2 PHASES
+Comet King Blazar
+MK II in stage 20
+HP 12,000
+FIGHTS · Dashes across the screen leaving fire trails.
+WEAK POINT · Head at the end of each dash.
+MK II ADDS · Double dash. Trails last longer.
+MID-STAGE · Mini-boss Meteor Hound
+First clear up to +100 credits
+Repeat clear +1

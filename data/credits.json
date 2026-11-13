@@ -1,0 +1,36 @@
+{
+  "block_multipliers": [
+    1,
+    1.2,
+    1.5,
+    1.8,
+    2.2,
+    2.6,
+    3,
+    3.5,
+    4,
+    4.5
+  ],
+  "formula": {
+    "clear": "round(30*m)",
+    "stars_max": "round(30*m) (10*m per star, 3 stars)",
+    "boss": "round(40*m)",
+    "per_stage_total": "clear+stars+boss",
+    "m": "block multiplier by (stage-1)//10"
+  },
+  "repeat_clear": 1,
+  "repeat_notes": "Repeat clear of an already-cleared stage = +1 credit total. No stars, boss, coins or achievement credits on repeats.",
+  "difficulty_first_clear_multiplier": {
+    "easy": 0.5,
+    "normal": 1.0,
+    "hard": 1.5
+  },
+  "achievements_total": 600,
+  "all_100_stages_total": 25300,
+  "shop_max": 15500,
+  "expected_shop_complete": "~stage 83 for a typical player (88% stars)",
+  "gold_coin": "Pays on new stages only.",
+  "mini_boss": "Pays score only (2,000), no credits.",
+  "per_star": "1 star=round(10m), 2=round(20m), 3=round(30m); see rules_decided.json",
+  "difficulty_applies": "to whole first-clear total"
+}

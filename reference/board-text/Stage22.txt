@@ -1,0 +1,29 @@
+STAGE 22 · TIER 2
+SILK NEBULA
+A purple cloud full of glowing threads.
+SAME STAGE, TINTED, IN
+MK II · STAGE 32
+PAIR · STAGE 82
+WEB NODE
+OBSTACLE · 4 HITS
+Anchors a line of web. Break it to open the path.
+THREAD SPIDER
+ENEMY · 4 HITS
+Drops down on a line and sprays small shots.
+SILK STRAND
+HAZARD · UNBREAKABLE
+A glowing line that burns on touch.
+COCOON POD
+OBSTACLE · 5 HITS
+Hatches 3 baby spiders when shot.
+BOSS 22
+HP 9,750 · 3 PHASES
+Plasma Weaver Arachna
+MK II in stage 32
+HP 14,625
+FIGHTS · Laser webs close in like a grid.
+WEAK POINT · Hourglass mark on the abdomen.
+MK II ADDS · Web moves and closes faster.
+MID-STAGE · Mini-boss Thread Spinner
+First clear up to +150 credits
+Repeat clear +1

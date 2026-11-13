@@ -1,0 +1,39 @@
+EFFECTS SHEET
+PLAYER BULLETS
+Nova Striker
+Twin cyan pulses
+Phantom X
+Thin violet needles
+Titan Bulwark
+Fat orange plasma
+Viper Lance
+Rapid green darts
+ENEMY BULLETS
+Red orb
+Acid drop
+Missile
+Laser
+Enemy shots are always warm colors with a soft ring, so they never look like yours (cool colors, no ring).
+EXPLOSIONS & HITS
+Small
+Medium
+Large
+Hit flash
+Each explosion plays 6 frames in 0.4 s, then leaves 6 fading sparks.
+ENGINE TRAILS
+Nova
+Phantom
+Titan
+Viper
+Flames grow longer with Turbo Boost
+SHIELD BREAK
+Full
+Cracked
+Shatter
+SCREEN EFFECTS
+Shake · small on explosions, big on bosses
+White flash · Nova Bomb and boss defeat
+Slow motion · 30% speed during boss shudder
+Red edge glow · pulses when hull is on its last bar
+Pickup burst · ring of 8 sparks in the power-up color
+Score pop · numbers float up and fade in 0.8 s

@@ -1,0 +1,29 @@
+STAGE 69 · TIER 4
+MIND MAZE
+A maze of floating thoughts. Controls may flip.
+SAME STAGE, TINTED, IN
+MK II · STAGE 79
+PAIR · STAGE 99
+THOUGHT BUBBLE
+HAZARD · 1 HIT
+Pop it and your controls flip for 1 second.
+MEMORY WISP
+ENEMY · 6 HITS
+Repeats your last 3 moves as attacks.
+NEURON WALL
+OBSTACLE · 12 HITS
+Pulses with light and blocks the lane.
+DREAM TURRET
+ENEMY · 10 HITS
+Fires bullets that curve toward you.
+BOSS 69
+HP 40,000 · 4 PHASES
+Mind Eater Cortex
+MK II in stage 79
+HP 60,000
+FIGHTS · Flips your controls for 2 seconds at a time.
+WEAK POINT · Open mouth after the control flip ends.
+MK II ADDS · Flips mid-dodge for 3 seconds.
+MID-STAGE · Mini-boss Thought Eater
+First clear up to +300 credits
+Repeat clear +1

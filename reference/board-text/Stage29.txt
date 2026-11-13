@@ -1,0 +1,29 @@
+STAGE 29 · TIER 2
+SIEGE LINE
+A battle line of walls and cannons. Break through.
+SAME STAGE, TINTED, IN
+MK II · STAGE 39
+PAIR · STAGE 89
+WALL SEGMENT
+OBSTACLE · 8 HITS
+Blocks a lane until it is destroyed.
+SIEGE CANNON
+ENEMY · 7 HITS
+Fires slow, huge shells.
+SHIELD CARRIER
+ENEMY · 5 HITS
+Protects nearby enemies with a bubble.
+BARRAGE MINE
+HAZARD · 2 HITS
+Bursts into 6 slow shells.
+BOSS 29
+HP 15,000 · 3 PHASES
+Siege Fortress Bastion
+MK II in stage 39
+HP 22,500
+FIGHTS · Six turrets to break, then the core opens.
+WEAK POINT · Core inside the gate after the 6 turrets.
+MK II ADDS · Turrets repair unless broken together.
+MID-STAGE · Mini-boss Gate Crusher
+First clear up to +150 credits
+Repeat clear +1

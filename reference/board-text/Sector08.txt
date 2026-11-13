@@ -1,0 +1,75 @@
+‹ SECTORS
+SECTOR 8 · FINAL REACH
+The Tier 4 bosses return, stronger. Stages 71–80 · Tier 4 · Mk II. Pick a stage to play it.
+STAGE 71
+LOCKED
+EVENT HORIZON
+Black Hole Sovereign Singula
+MK II
+HP 42,000
++350
+STAGE 72
+LOCKED
+SOLAR FORGE
+Supernova Phoenix Solara
+MK II
+HP 44,250
++350
+STAGE 73
+LOCKED
+BROKEN DIMENSION
+Dimension Splitter Riftor
+MK II
+HP 46,500
++350
+STAGE 74
+LOCKED
+MECHA ABYSS
+Mecha Leviathan Ω-Prime
+MK II
+HP 48,750
++350
+STAGE 75
+LOCKED
+QUANTUM LAB
+Quantum Mage Qubit
+MK II
+HP 51,000
++350
+STAGE 76
+LOCKED
+ABYSSAL VOID
+Void Kraken Abyssa
+MK II
+HP 53,250
++350
+STAGE 77
+LOCKED
+STORM CITADEL
+Thunder God Tempest
+MK II
+HP 55,500
++350
+STAGE 78
+LOCKED
+CRYSTAL CAVERNS
+Crystal Titan Geode
+MK II
+HP 57,750
++350
+STAGE 79
+LOCKED
+MIND MAZE
+Mind Eater Cortex
+MK II
+HP 60,000
++350
+STAGE 80
+LOCKED
+THRONE OF STARS
+Cosmic Emperor Galaxor
+MK II
+HP 62,250
++350
+Mk II bosses: 1.5× health, bullets 20% faster, one extra attack, gold trim.
+First clear pays the credits shown. Clearing the same stage again pays +1.

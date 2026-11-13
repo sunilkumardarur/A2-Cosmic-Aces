@@ -1,0 +1,23 @@
+BOSS DEFEAT SEQUENCE
+Shown with Rockmaw. Every boss uses the same five beats in its own colors. Total: about 4 seconds, then Stage Clear.
+1 · FINAL HIT
+0.0 s
+Last shot lands. Boss flashes pure white, the game freezes for 0.15 s, and the music cuts.
+2 · SHUDDER
+0.15 – 1.2 s
+Slow motion at 30%. Boss shakes, cracks glow, smoke pours out. All enemy bullets vanish.
+3 · CHAIN BLASTS
+1.2 – 2.4 s
+Small explosions pop across the body one after another, each with a tiny screen shake and a boom.
+4 · MEGA BLAST
+2.4 – 3.0 s
+One huge white-gold blast, a pink shockwave ring, full-screen flash and a big shake. Time returns to normal.
++5,000
+BOSS DOWN!
+S
+5 · DEBRIS & LOOT
+3.0 – 4.0 s
+Fragments fall away, the score pops up, and 3 pickups drop. Magnet pulls them in, then Stage Clear starts.
+Sound: hit crack → low rumble → boom stack → silence → fanfare
+Camera: shake grows each beat, biggest at beat 4
+Accessibility: white flashes can be turned off in Settings

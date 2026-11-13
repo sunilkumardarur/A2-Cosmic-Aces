@@ -1,0 +1,73 @@
+BOSSES 1 · STAGES 1–20
+Ten different bosses. Large art is Mk I, small gold art is Mk II (same boss, stronger). Stages: white first fight, gold Mk II, pink pair fight.
+TIER 1
+BOSS 1
+MK II
+STAGES 1 · 11 · 81
+Rockmaw
+Rams down the screen and spits rock chunks in fans.
+MK II · Rock rain from above, faster ram.
+HP 1,200 → 1,800
+BOSS 2
+MK II
+STAGES 2 · 12 · 82
+Hive Queen Zyra
+Spawns drones in waves and fires acid arcs.
+MK II · Drones come back once after dying.
+HP 2,000 → 3,000
+BOSS 3
+MK II
+STAGES 3 · 13 · 83
+Dreadnought Ω-9
+Armored hull with missile barrages and laser gates.
+MK II · Adds a sweeping laser wall.
+HP 3,200 → 4,800
+BOSS 4
+MK II
+STAGES 4 · 14 · 84
+Void Emperor Kaal
+Pulls bullets inward and makes shadow clones.
+MK II · Two clones fire at once.
+HP 5,000 → 7,500
+BOSS 5
+MK II
+STAGES 5 · 15 · 85
+Frost Colossus Glacius
+Ice fields slow your jet. Icicle volleys.
+MK II · Fields cover half the screen.
+HP 5,500 → 8,250
+BOSS 6
+MK II
+STAGES 6 · 16 · 86
+Storm Serpent Voltra
+Lightning chains jump between warning orbs.
+MK II · Chains bounce off the screen edges.
+HP 6,000 → 9,000
+BOSS 7
+MK II
+STAGES 7 · 17 · 87
+Clockwork Titan Tikka
+Spinning gear blades. Bullets come in a rhythm.
+MK II · Rhythm changes mid-attack.
+HP 6,500 → 9,750
+BOSS 8
+MK II
+STAGES 8 · 18 · 88
+Mirror Mantis Spectra
+Reflects your shots and copies your last move.
+MK II · Reflects at wider angles.
+HP 7,000 → 10,500
+BOSS 9
+MK II
+STAGES 9 · 19 · 89
+Tidal Kraken Maelo
+Tentacles sweep in from the sides. Bubble bullets.
+MK II · Adds a whirlpool that pulls you in.
+HP 7,500 → 11,250
+BOSS 10
+MK II
+STAGES 10 · 20 · 90
+Comet King Blazar
+Dashes across the screen leaving fire trails.
+MK II · Double dash. Trails last longer.
+HP 8,000 → 12,000

@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>A² Cosmic Aces — Stage Clear</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&amp;family=Exo+2:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#2DE2FF}a:hover{color:#FFFFFF}
+.cb:hover{filter:brightness(1.25)}
+</style>
+</helmet>
+<div style="width: 1280px; height: 720px; position: relative; overflow: hidden; background: #050A08; font-family: 'Exo 2', sans-serif; color: #FFFFFF">
+  <sc-for list="{{stars}}" as="s" hint-placeholder-count="20">
+    <div style="position: absolute; left: {{s.x}}px; top: {{s.y}}px; width: 2px; height: 2px; border-radius: 50%; background: #DFFFE0; opacity: {{s.o}}"></div>
+  </sc-for>
+  <div style="position: absolute; left: 200px; top: -200px; width: 880px; height: 600px; border-radius: 50%; background: radial-gradient(ellipse, rgba(124,255,107,.18), rgba(255,200,61,.06) 45%, rgba(5,10,8,0) 68%)"></div>
+
+  <div style="position: absolute; left: 0; right: 0; top: 44px; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 4px">
+    <div style="font-size: 13px; letter-spacing: 8px; color: #7CFF6B">VENOM NEBULA</div>
+    <h1 style="margin: 0; font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 64px; letter-spacing: 5px; text-shadow: 0 0 28px rgba(124,255,107,.6)">STAGE 2 CLEAR</h1>
+  </div>
+
+  <div style="position: absolute; left: 0; right: 0; top: 168px; display: flex; justify-content: center; align-items: flex-end; gap: 28px">
+    <svg role="img" aria-label="Star earned" viewBox="0 0 100 100" style="width: 96px; height: 96px; filter: drop-shadow(0 0 14px rgba(255,200,61,.8))"><path d="M50 4 L62 36 L96 38 L70 60 L79 94 L50 75 L21 94 L30 60 L4 38 L38 36 Z" fill="#FFC83D" stroke="#FFF3D6" stroke-width="3" stroke-linejoin="round"/></svg>
+    <svg role="img" aria-label="Star earned" viewBox="0 0 100 100" style="width: 128px; height: 128px; filter: drop-shadow(0 0 18px rgba(255,200,61,.9))"><path d="M50 4 L62 36 L96 38 L70 60 L79 94 L50 75 L21 94 L30 60 L4 38 L38 36 Z" fill="#FFC83D" stroke="#FFF3D6" stroke-width="3" stroke-linejoin="round"/></svg>
+    <svg role="img" aria-label="Star not earned" viewBox="0 0 100 100" style="width: 96px; height: 96px"><path d="M50 4 L62 36 L96 38 L70 60 L79 94 L50 75 L21 94 L30 60 L4 38 L38 36 Z" fill="rgba(255,255,255,.06)" stroke="#6B7A72" stroke-width="3" stroke-linejoin="round" stroke-dasharray="6 5"/></svg>
+  </div>
+
+  <div style="position: absolute; left: 90px; top: 330px; width: 480px; display: flex; flex-direction: column; gap: 10px; padding: 22px 26px; border: 2px solid rgba(124,255,107,.55); background: rgba(5,10,8,.8)">
+    <div style="display: flex; justify-content: space-between; align-items: baseline"><span style="font-size: 12px; letter-spacing: 3px; color: #B8CCC0">SCORE</span><b style="font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 32px">0048900</b></div>
+    <div style="display: flex; justify-content: space-between; font-size: 14px"><span style="color: #B8CCC0">Enemies destroyed</span><b>58 / 64</b></div>
+    <div style="display: flex; justify-content: space-between; font-size: 14px"><span style="color: #B8CCC0">Accuracy</span><b>74%</b></div>
+    <div style="display: flex; justify-content: space-between; font-size: 14px"><span style="color: #B8CCC0">Boss bonus · Hive Queen Zyra</span><b style="color: #FFC83D">+5,000</b></div>
+    <div style="display: flex; justify-content: space-between; font-size: 14px"><span style="color: #B8CCC0">No-continue bonus</span><b style="color: #FFC83D">+2,000</b></div>
+    <div style="height: 1px; background: rgba(255,255,255,.15)"></div>
+    <div style="display: flex; justify-content: space-between; font-size: 14px"><span style="color: #B8CCC0">Credits earned (added to your profile)</span><b style="color: #FFC83D">+110</b></div>
+    <div style="font-size: 12px; letter-spacing: 1px; color: #FF7A86">First clear only. Clearing this stage again pays +1.</div>
+    <div style="font-size: 12px; letter-spacing: 1px; color: #B8CCC0; margin-top: 2px">3 stars need 95% of enemies destroyed. You had 90.6%.</div>
+  </div>
+
+  <div style="position: absolute; right: 90px; top: 330px; width: 480px; display: flex; flex-direction: column; gap: 12px">
+    <div style="padding: 16px 20px; border: 1px solid rgba(255,200,61,.5); background: rgba(5,10,8,.8); display: flex; gap: 16px; align-items: center">
+      <svg aria-hidden="true" viewBox="0 0 100 120" style="width: 64px; height: 76px; flex: none; filter: drop-shadow(0 0 8px rgba(255,200,61,.6))"><path d="M45 100 L50 116 L55 100 Z" fill="#FFC83D"/><path d="M50 2 L56 50 L80 36 L86 44 L60 76 L58 100 L42 100 L40 76 L14 44 L20 36 L44 50 Z" fill="#0C1E10" stroke="#7CFF6B" stroke-width="3" stroke-linejoin="round"/><path d="M50 14 L53 46 L50 56 L47 46 Z" fill="#7CFF6B"/></svg>
+      <div style="display: flex; flex-direction: column; gap: 3px"><div style="font-size: 11px; letter-spacing: 3px; color: #FFC83D">NEW JET UNLOCKED</div><div style="font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 20px">VIPER LANCE</div><div style="font-size: 13px; color: #B8CCC0">Rapid striker — pick it in the Hangar.</div></div>
+    </div>
+    <div style="padding: 16px 20px; border: 1px solid rgba(124,255,107,.35); background: rgba(5,10,8,.8); display: flex; gap: 16px; align-items: center">
+      <div style="width: 64px; height: 64px; flex: none; border-radius: 50%; border: 3px solid #4DA3FF; box-shadow: 0 0 16px rgba(77,163,255,.6); display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linejoin="round"><path d="M12 2l8 3v6c0 5-3.5 9-8 11-4.5-2-8-6-8-11V5z"/></svg></div>
+      <div style="display: flex; flex-direction: column; gap: 3px"><div style="font-size: 11px; letter-spacing: 3px; color: #7CFF6B">NEXT STAGE</div><div style="font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 20px; color: #4DA3FF">3 · IRON FLEET</div><div style="font-size: 13px; color: #B8CCC0">Difficulty: Hard. Boss: Dreadnought Ω-9.</div></div>
+    </div>
+  </div>
+
+  <div style="position: absolute; left: 0; right: 0; bottom: 48px; display: flex; justify-content: center; gap: 20px">
+    <a class="cb" href="SectorMap.dc.html" style="display: flex; align-items: center; justify-content: center; width: 320px; height: 58px; background: #7CFF6B; color: #05060F; text-decoration: none; font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 17px; letter-spacing: 3px; clip-path: polygon(14px 0, 100% 0, calc(100% - 14px) 100%, 0 100%)">NEXT STAGE</a>
+    <a class="cb" href="Gameplay.dc.html" style="display: flex; align-items: center; justify-content: center; width: 220px; height: 58px; box-sizing: border-box; border: 2px solid #7CFF6B; color: #7CFF6B; text-decoration: none; font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 15px; letter-spacing: 3px">REPLAY</a>
+    <a class="cb" href="Main.dc.html" style="display: flex; align-items: center; justify-content: center; width: 220px; height: 58px; box-sizing: border-box; border: 2px solid rgba(169,180,208,.5); color: #D7DEF0; text-decoration: none; font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 15px; letter-spacing: 3px">MAIN MENU</a>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":720}}'>
+class Component extends DCLogic {
+  renderVals() {
+    let s = 13;
+    const r = () => { s = (s * 9301 + 49297) % 233280; return s / 233280; };
+    const stars = [];
+    for (let i = 0; i < 90; i++) stars.push({ x: Math.round(r() * 1280), y: Math.round(r() * 720), o: (0.15 + r() * 0.5).toFixed(2) });
+    return { stars };
+  }
+}
+</script>
+</body>
+</html>

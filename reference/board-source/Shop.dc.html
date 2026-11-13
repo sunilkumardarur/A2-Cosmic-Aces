@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>A² Cosmic Aces — Shop</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&amp;family=Exo+2:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#2DE2FF}a:hover{color:#FFFFFF}
+button{font-family:inherit}
+.buy:not(:disabled){cursor:pointer}
+.buy:not(:disabled):hover{filter:brightness(1.2)}
+</style>
+</helmet>
+<div style="width: 1280px; height: 720px; position: relative; overflow: hidden; box-sizing: border-box; padding: 28px 48px; background: #05060F; font-family: 'Exo 2', sans-serif; color: #FFFFFF; display: flex; flex-direction: column; gap: 16px">
+  <sc-for list="{{stars}}" as="s" hint-placeholder-count="20">
+    <div style="position: absolute; left: {{s.x}}px; top: {{s.y}}px; width: 2px; height: 2px; border-radius: 50%; background: #FFFFFF; opacity: {{s.o}}"></div>
+  </sc-for>
+  <header style="position: relative; display: flex; align-items: center; justify-content: space-between">
+    <div style="display: flex; align-items: center; gap: 20px">
+      <a href="Main.dc.html" style="display: flex; align-items: center; gap: 8px; height: 44px; padding: 0 16px; border: 2px solid rgba(169,180,208,.4); color: #D7DEF0; text-decoration: none; font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 13px; letter-spacing: 2px"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg>MENU</a>
+      <div style="display: flex; flex-direction: column; gap: 2px"><h1 style="margin: 0; font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 32px; letter-spacing: 3px; text-shadow: 0 0 16px rgba(255,200,61,.5)">SHOP</h1><div style="font-size: 14px; color: #A9B4D0">Buy a power once and it is yours for good — every stage, every mode.</div></div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 12px">
+      <div style="display: flex; align-items: center; gap: 10px; height: 44px; padding: 0 16px; border: 2px solid rgba(45,226,255,.6); font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 12px; letter-spacing: 2px; color: #2DE2FF">PROFILE · AYAN</div>
+      <div style="display: flex; align-items: center; gap: 10px; height: 44px; padding: 0 18px; border: 2px solid #FFC83D; background: rgba(255,200,61,.08)"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#FFC83D"/><circle cx="12" cy="12" r="6" fill="none" stroke="#7A5A00" stroke-width="2"/></svg><span style="font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 22px; color: #FFC83D">{{credits}}</span></div>
+    </div>
+  </header>
+
+  <div style="position: relative; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; flex: 1">
+    <sc-for list="{{items}}" as="it" hint-placeholder-count="8">
+      <div style="padding: 14px; border: 2px solid {{it.border}}; background: {{it.bg}}; display: flex; flex-direction: column; gap: 8px">
+        <div style="display: flex; align-items: center; gap: 12px">
+          <div style="width: 52px; height: 52px; flex: none; border-radius: 50%; border: 3px solid {{it.color}}; background: rgba(255,255,255,.06); box-shadow: 0 0 14px {{it.color}}; display: flex; align-items: center; justify-content: center; font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 15px">{{it.tag}}</div>
+          <div style="font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 14px; line-height: 1.25">{{it.name}}</div>
+        </div>
+        <div style="font-size: 13px; line-height: 1.5; color: #D7DEF0; flex: 1">{{it.desc}}</div>
+        <div style="display: flex; align-items: center; gap: 6px; font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 15px; color: {{it.priceColor}}"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#FFC83D"/><circle cx="12" cy="12" r="6" fill="none" stroke="#7A5A00" stroke-width="2"/></svg>{{it.price}}</div>
+        <button type="button" class="buy" disabled="{{it.disabled}}" onClick="{{it.buy}}" style="height: 44px; border: 2px solid {{it.btnBorder}}; background: {{it.btnBg}}; color: {{it.btnFg}}; font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 12px; letter-spacing: 2px">{{it.btnLabel}}</button>
+      </div>
+    </sc-for>
+  </div>
+
+  <div style="position: relative; display: flex; justify-content: space-between; align-items: center; gap: 20px">
+    <div style="font-size: 13px; line-height: 1.5; color: #D7DEF0">Credits are rare: first clears of stages, bosses and achievements. Repeat clears pay only +1. Higher tiers (II, III) of each power appear after you buy the first.</div>
+    <button type="button" onClick="{{reset}}" style="flex: none; height: 38px; padding: 0 16px; background: transparent; border: 1px solid rgba(169,180,208,.5); color: #D7DEF0; font-size: 12px; letter-spacing: 2px; cursor: pointer">RESET DEMO</button>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":720}}'>
+class Component extends DCLogic {
+  renderVals() {
+    let s = 97;
+    const r = () => { s = (s * 9301 + 49297) % 233280; return s / 233280; };
+    const stars = [];
+    for (let i = 0; i < 80; i++) stars.push({ x: Math.round(r() * 1280), y: Math.round(r() * 720), o: (0.15 + r() * 0.5).toFixed(2) });
+    const st = this.state || {};
+    const credits = st.credits !== undefined ? st.credits : 340;
+    const owned = st.owned || ['dmg', 'bomb', 'magnet'];
+    const defs = [
+      { id: 'shield', tag: 'SH', name: 'Shield Start', desc: 'Begin every stage with an Energy Shield that blocks 3 hits.', price: 300, color: '#4DA3FF' },
+      { id: 'dmg', tag: 'D2', name: 'Damage Head Start', desc: 'Begin every stage at Damage Level 2 instead of Level 1.', price: 300, color: '#B26BFF' },
+      { id: 'bomb', tag: 'B2', name: 'Bomb Stock', desc: 'Start every stage with 2 Nova Bombs instead of 1.', price: 250, color: '#FF3EA5' },
+      { id: 'magnet', tag: 'MG', name: 'Pickup Magnet', desc: 'Power-ups and gold coins drift toward your jet.', price: 150, color: '#FFC83D' },
+      { id: 'drone', tag: 'WM', name: 'Wingman Drone', desc: 'One drone always orbits your jet and shoots with you.', price: 900, color: '#7CFF6B' },
+      { id: 'lucky', tag: 'LK', name: 'Lucky Orb', desc: '25% more power-up drops from destroyed enemies.', price: 450, color: '#2DE2FF' },
+      { id: 'hull', tag: 'HP', name: 'Extra Hull Bar', desc: 'Start every stage with one more hull bar.', price: 800, color: '#FF9A3D' },
+      { id: 'charge', tag: 'SC', name: 'Special Charge', desc: 'Your special move bar fills 20% faster.', price: 250, color: '#FF4D5E' }
+    ];
+    const items = defs.map((d) => {
+      const has = owned.indexOf(d.id) >= 0;
+      const can = !has && credits >= d.price;
+      const need = d.price - credits;
+      return {
+        tag: d.tag, name: d.name, desc: d.desc, price: d.price, color: d.color,
+        border: has ? '#7CFF6B' : (can ? d.color : 'rgba(169,180,208,.3)'),
+        bg: has ? 'rgba(124,255,107,.07)' : 'rgba(5,6,15,.85)',
+        priceColor: has ? '#A9B4D0' : (can ? '#FFC83D' : '#FF7A86'),
+        disabled: !can,
+        btnLabel: has ? 'OWNED' : (can ? 'BUY' : 'NEED ' + need + ' MORE'),
+        btnBg: can ? d.color : 'transparent',
+        btnFg: can ? '#05060F' : (has ? '#7CFF6B' : '#A9B4D0'),
+        btnBorder: has ? '#7CFF6B' : (can ? d.color : 'rgba(169,180,208,.4)'),
+        buy: () => {
+          if (has || credits < d.price) return;
+          this.setState({ credits: credits - d.price, owned: owned.concat([d.id]) });
+        }
+      };
+    });
+    return { stars, credits, items, reset: () => this.setState({ credits: 340, owned: ['dmg', 'bomb', 'magnet'] }) };
+  }
+}
+</script>
+</body>
+</html>

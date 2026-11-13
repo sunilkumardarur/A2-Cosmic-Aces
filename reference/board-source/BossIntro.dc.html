@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>A² Cosmic Aces — Boss Intro</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&amp;family=Exo+2:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>body{margin:0}</style>
+</helmet>
+<div style="width: 1280px; height: 720px; position: relative; overflow: hidden; background: #050A08; font-family: 'Exo 2', sans-serif; color: #FFFFFF">
+  <sc-for list="{{stars}}" as="s" hint-placeholder-count="20">
+    <div style="position: absolute; left: {{s.x}}px; top: {{s.y}}px; width: 2px; height: 2px; border-radius: 50%; background: #DFFFE0; opacity: {{s.o}}"></div>
+  </sc-for>
+  <div style="position: absolute; left: 280px; top: -120px; width: 720px; height: 620px; border-radius: 50%; background: radial-gradient(ellipse, rgba(124,255,107,.20), rgba(255,62,165,.10) 45%, rgba(5,10,8,0) 70%)"></div>
+
+  <svg role="img" aria-label="Hive Queen Zyra descending from the top of the screen" viewBox="0 0 320 230" style="position: absolute; left: 340px; top: 20px; width: 600px; height: 431px; filter: drop-shadow(0 0 30px rgba(124,255,107,.5))">
+    <path d="M140 80 Q60 10 12 40 Q30 90 130 110 Z" fill="#7CFF6B" opacity=".25" stroke="#7CFF6B" stroke-width="2.5"/>
+    <path d="M180 80 Q260 10 308 40 Q290 90 190 110 Z" fill="#7CFF6B" opacity=".25" stroke="#7CFF6B" stroke-width="2.5"/>
+    <path d="M136 120 Q60 140 30 190 Q90 190 140 140 Z" fill="#FF3EA5" opacity=".22" stroke="#FF3EA5" stroke-width="2.5"/>
+    <path d="M184 120 Q260 140 290 190 Q230 190 180 140 Z" fill="#FF3EA5" opacity=".22" stroke="#FF3EA5" stroke-width="2.5"/>
+    <ellipse cx="160" cy="160" rx="30" ry="56" fill="#1F3D2A" stroke="#7CFF6B" stroke-width="3"/>
+    <path d="M134 150 H186 M132 170 H188 M138 190 H182" stroke="#7CFF6B" stroke-width="2" opacity=".7"/>
+    <ellipse cx="160" cy="90" rx="34" ry="30" fill="#2F5A3A" stroke="#7CFF6B" stroke-width="3"/>
+    <path d="M132 64 L138 34 L150 56 L160 26 L170 56 L182 34 L188 64 Z" fill="#FF3EA5" stroke="#FF3EA5" stroke-width="2" stroke-linejoin="round"/>
+    <circle cx="160" cy="58" r="8" fill="#C6FF3D"/><circle cx="160" cy="58" r="3" fill="#050A08"/>
+    <ellipse cx="146" cy="88" rx="8" ry="10" fill="#FF3EA5"/><ellipse cx="174" cy="88" rx="8" ry="10" fill="#FF3EA5"/>
+    <path d="M146 112 Q140 126 130 128 M174 112 Q180 126 190 128" stroke="#C6FF3D" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </svg>
+
+  <div style="position: absolute; left: 0; right: 0; top: 262px; height: 96px; transform: rotate(-3deg); background: repeating-linear-gradient(135deg, #FF4D5E 0 22px, #2A0E12 22px 44px); opacity: .95"></div>
+  <div style="position: absolute; left: 0; right: 0; top: 276px; height: 68px; transform: rotate(-3deg); background: #0A0408; display: flex; align-items: center; justify-content: center; gap: 24px; border-top: 3px solid #FF4D5E; border-bottom: 3px solid #FF4D5E">
+    <svg aria-hidden="true" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#FF4D5E" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"><path d="M12 3L2 21h20z"/><path d="M12 10v5M12 18v.5"/></svg>
+    <span style="font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 38px; letter-spacing: 14px; color: #FF4D5E; text-shadow: 0 0 18px rgba(255,77,94,.8)">WARNING</span>
+    <svg aria-hidden="true" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#FF4D5E" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"><path d="M12 3L2 21h20z"/><path d="M12 10v5M12 18v.5"/></svg>
+  </div>
+
+  <div style="position: absolute; left: 0; right: 0; top: 440px; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 6px">
+    <div style="font-size: 13px; letter-spacing: 8px; color: #FF3EA5">STAGE 2 BOSS</div>
+    <h1 style="margin: 0; font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 56px; letter-spacing: 5px; color: #7CFF6B; text-shadow: 0 0 26px rgba(124,255,107,.6)">HIVE QUEEN ZYRA</h1>
+    <div style="font-size: 17px; color: #D2E2D8">Mother of every swarm. Shoot her crown eye right after she spawns larvae.</div>
+  </div>
+
+  <div style="position: absolute; left: 240px; right: 240px; bottom: 90px; display: flex; flex-direction: column; gap: 6px">
+    <div style="display: flex; justify-content: space-between; font-size: 11px; letter-spacing: 3px; color: #B8CCC0"><span>BOSS HULL</span><span>2,000 / 2,000</span></div>
+    <div style="height: 14px; background: rgba(255,255,255,.12); border: 1px solid rgba(255,62,165,.6)"><div style="width: 100%; height: 14px; background: linear-gradient(90deg, #FF3EA5, #FF4D5E)"></div></div>
+  </div>
+
+  <svg aria-hidden="true" viewBox="0 0 100 120" style="position: absolute; left: 600px; top: 596px; width: 80px; height: 96px; filter: drop-shadow(0 0 12px rgba(45,226,255,.7))"><path d="M44 96 L50 120 L56 96 Z" fill="#FF3EA5"/><path d="M50 4 L60 40 L92 74 L92 86 L62 80 L58 96 L42 96 L38 80 L8 86 L8 74 L40 40 Z" fill="#0E1A2E" stroke="#2DE2FF" stroke-width="2.5" stroke-linejoin="round"/><path d="M50 18 L55 44 L50 58 L45 44 Z" fill="#2DE2FF"/></svg>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":720}}'>
+class Component extends DCLogic {
+  renderVals() {
+    let s = 17;
+    const r = () => { s = (s * 9301 + 49297) % 233280; return s / 233280; };
+    const stars = [];
+    for (let i = 0; i < 100; i++) stars.push({ x: Math.round(r() * 1280), y: Math.round(r() * 720), o: (0.15 + r() * 0.5).toFixed(2) });
+    return { stars };
+  }
+}
+</script>
+</body>
+</html>

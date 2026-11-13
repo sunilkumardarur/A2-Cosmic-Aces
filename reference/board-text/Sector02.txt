@@ -1,0 +1,75 @@
+‹ SECTORS
+SECTOR 2 · RED FRONTIER
+The same ten bosses return, stronger. Stages 11–20 · Tier 1 · Mk II. Pick a stage to play it.
+STAGE 11
+LOCKED
+EMBER BELT
+Rockmaw
+MK II
+HP 1,800
++120
+STAGE 12
+LOCKED
+VENOM NEBULA
+Hive Queen Zyra
+MK II
+HP 3,000
++120
+STAGE 13
+LOCKED
+IRON FLEET
+Dreadnought Ω-9
+MK II
+HP 4,800
++120
+STAGE 14
+LOCKED
+VOID RIFT
+Void Emperor Kaal
+MK II
+HP 7,500
++120
+STAGE 15
+LOCKED
+FROST REACH
+Frost Colossus Glacius
+MK II
+HP 8,250
++120
+STAGE 16
+LOCKED
+STORM VEIL
+Storm Serpent Voltra
+MK II
+HP 9,000
++120
+STAGE 17
+LOCKED
+GEAR YARD
+Clockwork Titan Tikka
+MK II
+HP 9,750
++120
+STAGE 18
+LOCKED
+MIRROR MAZE
+Mirror Mantis Spectra
+MK II
+HP 10,500
++120
+STAGE 19
+LOCKED
+TIDE GATE
+Tidal Kraken Maelo
+MK II
+HP 11,250
++120
+STAGE 20
+LOCKED
+COMET RUN
+Comet King Blazar
+MK II
+HP 12,000
++120
+Mk II bosses: 1.5× health, bullets 20% faster, one extra attack, gold trim.
+First clear pays the credits shown. Clearing the same stage again pays +1.

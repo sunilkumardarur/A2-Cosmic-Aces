@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>A² Cosmic Aces — Mini-bosses</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&amp;family=Exo+2:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>body{margin:0}</style>
+</helmet>
+<div style="width: 1280px; height: 720px; position: relative; overflow: hidden; box-sizing: border-box; padding: 28px 48px; background: #05060F; font-family: 'Exo 2', sans-serif; color: #FFFFFF; display: flex; flex-direction: column; gap: 18px">
+  <header style="display: flex; flex-direction: column; gap: 2px">
+    <h1 style="margin: 0; font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 30px; letter-spacing: 3px; text-shadow: 0 0 16px rgba(45,226,255,.5)">STAGE FLOW &amp; MINI-BOSSES</h1>
+    <div style="font-size: 14px; color: #A9B4D0">Every stage runs the same shape: waves, a mid-stage mini-boss, more waves, then the boss.</div>
+  </header>
+
+  <section style="padding: 16px 18px; border: 1px solid rgba(45,226,255,.35); background: rgba(5,6,15,.85); display: flex; flex-direction: column; gap: 10px">
+    <div style="display: flex; height: 46px; gap: 3px">
+      <div style="flex: 20; background: rgba(45,226,255,.25); display: flex; align-items: center; justify-content: center; font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 12px; letter-spacing: 2px">WAVE 1</div>
+      <div style="flex: 20; background: rgba(45,226,255,.35); display: flex; align-items: center; justify-content: center; font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 12px; letter-spacing: 2px">WAVE 2</div>
+      <div style="flex: 12; background: #FF9A3D; color: #05060F; display: flex; align-items: center; justify-content: center; font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 12px; letter-spacing: 2px">MINI-BOSS</div>
+      <div style="flex: 20; background: rgba(45,226,255,.45); display: flex; align-items: center; justify-content: center; font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 12px; letter-spacing: 2px">WAVE 3</div>
+      <div style="flex: 16; background: rgba(45,226,255,.55); display: flex; align-items: center; justify-content: center; font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 12px; letter-spacing: 2px">WAVE 4</div>
+      <div style="flex: 12; background: #FF3EA5; color: #05060F; display: flex; align-items: center; justify-content: center; font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 12px; letter-spacing: 2px">BOSS</div>
+    </div>
+    <div style="display: flex; justify-content: space-between; font-size: 12px; color: #A9B4D0"><span>Start · pickups appear from Wave 1</span><span>Mini-boss drops a guaranteed power-up + checkpoint</span><span>Boss warning banner</span></div>
+  </section>
+
+  <div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; flex: 1">
+
+    <div style="padding: 14px; border: 1px solid rgba(255,138,61,.5); background: rgba(5,6,15,.85); display: flex; flex-direction: column; gap: 8px">
+      <div style="font-size: 11px; letter-spacing: 3px; color: #FF8A3D">STAGE 1 · EMBER BELT</div>
+      <svg role="img" aria-label="Cinder Crab, a lava crab with two big claws" viewBox="0 0 220 130" style="width: 100%; height: 130px; background: #0B0605">
+        <path d="M70 60 L30 40 L10 70 L30 90 L60 80 Z" fill="#4A3A2E" stroke="#FF8A3D" stroke-width="3" stroke-linejoin="round"/><path d="M150 60 L190 40 L210 70 L190 90 L160 80 Z" fill="#4A3A2E" stroke="#FF8A3D" stroke-width="3" stroke-linejoin="round"/>
+        <path d="M10 70 L30 50 L40 66 Z M210 70 L190 50 L180 66 Z" fill="#C9B8AA"/>
+        <ellipse cx="110" cy="70" rx="48" ry="34" fill="#5A4636" stroke="#FF8A3D" stroke-width="3.5"/>
+        <circle cx="94" cy="56" r="7" fill="#FFC83D"/><circle cx="126" cy="56" r="7" fill="#FFC83D"/><circle cx="94" cy="56" r="3" fill="#05060F"/><circle cx="126" cy="56" r="3" fill="#05060F"/>
+        <path d="M84 84 Q110 98 136 84" stroke="#FF8A3D" stroke-width="3" fill="none"/><path d="M70 100 L60 118 M90 104 L88 122 M130 104 L132 122 M150 100 L160 118" stroke="#FF8A3D" stroke-width="3" stroke-linecap="round"/>
+      </svg>
+      <div style="font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 17px">CINDER CRAB</div>
+      <div style="font-size: 12px; letter-spacing: 2px; color: #FF8A3D">HP 400 · REWARD 2,000</div>
+      <div style="font-size: 13px; line-height: 1.5; color: #D9CCC2">Slams its claws to send a shockwave along the screen. Dodge in the gap, then shoot its eyes.</div>
+    </div>
+
+    <div style="padding: 14px; border: 1px solid rgba(124,255,107,.5); background: rgba(5,6,15,.85); display: flex; flex-direction: column; gap: 8px">
+      <div style="font-size: 11px; letter-spacing: 3px; color: #7CFF6B">STAGE 2 · VENOM NEBULA</div>
+      <svg role="img" aria-label="Spore Mother, a pulsing pod with tendrils" viewBox="0 0 220 130" style="width: 100%; height: 130px; background: #050A08">
+        <path d="M110 70 Q60 100 30 120 M110 70 Q80 110 70 128 M110 70 Q140 110 150 128 M110 70 Q160 100 190 120" stroke="#2F5A3A" stroke-width="8" fill="none" stroke-linecap="round"/>
+        <circle cx="110" cy="56" r="40" fill="#2F5A3A" stroke="#C6FF3D" stroke-width="3.5"/>
+        <circle cx="94" cy="44" r="9" fill="#C6FF3D" opacity=".7"/><circle cx="124" cy="66" r="11" fill="#C6FF3D" opacity=".5"/><circle cx="112" cy="36" r="5" fill="#C6FF3D" opacity=".9"/>
+        <circle cx="110" cy="58" r="12" fill="#FF3EA5"/><circle cx="110" cy="58" r="5" fill="#050A08"/>
+        <circle cx="42" cy="30" r="9" fill="#2F5A3A" stroke="#C6FF3D" stroke-width="2"/><circle cx="178" cy="30" r="9" fill="#2F5A3A" stroke="#C6FF3D" stroke-width="2"/>
+      </svg>
+      <div style="font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 17px">SPORE MOTHER</div>
+      <div style="font-size: 12px; letter-spacing: 2px; color: #7CFF6B">HP 600 · REWARD 2,000</div>
+      <div style="font-size: 13px; line-height: 1.5; color: #D2E2D8">Lets out a ring of 6 acid spores that drift toward you. Pop them early, then hit the pink eye.</div>
+    </div>
+
+    <div style="padding: 14px; border: 1px solid rgba(77,163,255,.5); background: rgba(5,6,15,.85); display: flex; flex-direction: column; gap: 8px">
+      <div style="font-size: 11px; letter-spacing: 3px; color: #4DA3FF">STAGE 3 · IRON FLEET</div>
+      <svg role="img" aria-label="Rail Cruiser, a long warship with a front cannon" viewBox="0 0 220 130" style="width: 100%; height: 130px; background: #04070D">
+        <path d="M110 120 V64" stroke="#FF4D5E" stroke-width="2" stroke-dasharray="5 5"/>
+        <path d="M14 56 L50 34 L170 34 L206 56 L170 78 L50 78 Z" fill="#1A2638" stroke="#4DA3FF" stroke-width="3.5" stroke-linejoin="round"/>
+        <rect x="96" y="12" width="28" height="26" fill="#2A3A52" stroke="#8FA3BF" stroke-width="2"/><rect x="104" y="64" width="12" height="32" fill="#8FA3BF" stroke="#4DA3FF" stroke-width="2"/>
+        <circle cx="60" cy="56" r="7" fill="#FF4D5E"/><circle cx="160" cy="56" r="7" fill="#FF4D5E"/><circle cx="110" cy="52" r="8" fill="#4DA3FF"/>
+      </svg>
+      <div style="font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 17px">RAIL CRUISER</div>
+      <div style="font-size: 12px; letter-spacing: 2px; color: #4DA3FF">HP 900 · REWARD 2,000</div>
+      <div style="font-size: 13px; line-height: 1.5; color: #D2DCEC">Sweeps across the top. A red line shows where its rail beam will fire a second later.</div>
+    </div>
+
+    <div style="padding: 14px; border: 1px solid rgba(178,107,255,.5); background: rgba(5,6,15,.85); display: flex; flex-direction: column; gap: 8px">
+      <div style="font-size: 11px; letter-spacing: 3px; color: #C99BFF">STAGE 4 · VOID RIFT</div>
+      <svg role="img" aria-label="Rift Warden, an armored knight beside two portals" viewBox="0 0 220 130" style="width: 100%; height: 130px; background: #06030C">
+        <ellipse cx="34" cy="64" rx="16" ry="34" fill="#000" stroke="#B26BFF" stroke-width="3"/><ellipse cx="186" cy="64" rx="16" ry="34" fill="#000" stroke="#2DE2FF" stroke-width="3"/>
+        <path d="M110 12 L140 34 L146 78 L128 118 L92 118 L74 78 L80 34 Z" fill="#3A2560" stroke="#F2E9FF" stroke-width="3" stroke-linejoin="round"/>
+        <path d="M96 52 L106 58 L96 62 Z M124 52 L114 58 L124 62 Z" fill="#2DE2FF"/><path d="M100 20 L110 4 L120 20 Z" fill="#F2E9FF"/>
+        <path d="M80 80 L58 96 M140 80 L162 96" stroke="#B26BFF" stroke-width="4" stroke-linecap="round"/>
+      </svg>
+      <div style="font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 17px">RIFT WARDEN</div>
+      <div style="font-size: 12px; letter-spacing: 2px; color: #C99BFF">HP 1,200 · REWARD 2,000</div>
+      <div style="font-size: 13px; line-height: 1.5; color: #DDD3EE">Jumps between two portals and fires from the one you are not watching. Shoot it as it steps out.</div>
+    </div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":720}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

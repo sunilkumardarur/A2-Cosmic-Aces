@@ -1,0 +1,29 @@
+STAGE 62 · TIER 4
+SOLAR FORGE
+The inside of a star. Heat waves and fire birds.
+SAME STAGE, TINTED, IN
+MK II · STAGE 72
+PAIR · STAGE 92
+FLARE WAVE
+HAZARD · UNBREAKABLE
+Wall of fire with one gap.
+FIRE FINCH
+ENEMY · 6 HITS
+Dives from above in a V shape.
+SOLAR PLATE
+OBSTACLE · 12 HITS
+Melts after 3 seconds if not shot.
+FORGE CANNON
+ENEMY · 10 HITS
+Fires molten spirals.
+BOSS 62
+HP 29,500 · 4 PHASES
+Supernova Phoenix Solara
+MK II in stage 72
+HP 44,250
+FIGHTS · Bursts into flames and rises once from defeat.
+WEAK POINT · Chest star, then again after she rises.
+MK II ADDS · Rises twice.
+MID-STAGE · Mini-boss Ember Bird
+First clear up to +300 credits
+Repeat clear +1

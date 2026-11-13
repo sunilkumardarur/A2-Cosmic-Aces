@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Phone in landscape with a left move stick, right fire button and two small buttons" viewBox="0 0 300 160" style="width: 100%; height: 150px">
+        <rect x="6" y="6" width="288" height="148" rx="20" fill="#0E1018" stroke="#8A95B3" stroke-width="3"/>
+        <circle cx="64" cy="102" r="32" fill="rgba(124,255,107,.12)" stroke="#7CFF6B" stroke-width="3"/><circle cx="64" cy="102" r="12" fill="#7CFF6B"/>
+        <text x="236" y="108" text-anchor="middle" font-family="Orbitron, sans-serif" font-size="10" font-weight="900" fill="#7CFF6B">AUTO-FIRE</text>
+        <circle cx="196" cy="60" r="16" fill="rgba(45,226,255,.15)" stroke="#2DE2FF" stroke-width="2.5"/><text x="196" y="64" text-anchor="middle" font-family="Orbitron, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">SP</text>
+        <circle cx="246" cy="52" r="14" fill="rgba(255,200,61,.15)" stroke="#FFC83D" stroke-width="2.5"/><path d="M246 44 L249 51 L256 52 L249 55 L246 62 L243 55 L236 52 L243 51 Z" fill="#FFC83D"/>
+        <rect x="136" y="14" width="28" height="8" rx="4" fill="#8A95B3"/>
+        <path d="M150 40 L158 56 L150 52 L142 56 Z" fill="#2DE2FF" opacity=".7"/>
+      </svg>

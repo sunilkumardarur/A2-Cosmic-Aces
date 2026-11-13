@@ -1,0 +1,29 @@
+STAGE 03 · TIER 1
+IRON FLEET
+A robot armada parked around a giant space station. Fly between hulls, turrets and laser gates.
+SAME STAGE, TINTED, IN
+MK II · STAGE 13
+PAIR · STAGE 83
+HULL TURRET
+ENEMY · 4 HITS
+Bolted onto ship hulls. Turns to aim at you and fires bursts of 3.
+LASER GATE
+OBSTACLE · DESTROY BOTH POSTS
+A red beam blinks on and off (ON 2s, OFF 1.5s). Time your pass or shoot the posts.
+KAMIKAZE BOT
+ENEMY · 1 HIT
+Locks on (red target on you) for 1s, then rockets straight at you.
+IRON GUNSHIP
+ENEMY FLIGHT · 8 HITS
+Heavy fighter facing down at you. Fires a 3-way spread every 2s.
+BOSS 3
+HP 3,200 · 2 PHASES
+Dreadnought Ω-9
+MK II in stage 13
+HP 4,800
+FIGHTS · Armored hull with missile barrages and laser gates.
+WEAK POINT · Four turrets first, then the blue reactor core.
+MK II ADDS · Adds a sweeping laser wall.
+MID-STAGE · Mini-boss Rail Cruiser
+First clear up to +100 credits
+Repeat clear +1

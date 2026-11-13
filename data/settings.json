@@ -1,0 +1,55 @@
+{
+  "audio": {
+    "music": 70,
+    "sfx": 85,
+    "voice": 60
+  },
+  "toggles": [
+    {
+      "id": "fullscreen",
+      "label": "Fullscreen",
+      "desc": "Fill the whole screen",
+      "default": false
+    },
+    {
+      "id": "screen_shake",
+      "label": "Screen shake",
+      "desc": "Camera shakes on big explosions",
+      "default": true
+    },
+    {
+      "id": "flash_effects",
+      "label": "Flash effects",
+      "desc": "Turn off to reduce bright flashes",
+      "default": true
+    },
+    {
+      "id": "colorblind_bullets",
+      "label": "Colorblind-friendly bullets",
+      "desc": "Enemy shots get a white outline",
+      "default": false
+    },
+    {
+      "id": "manual_fire",
+      "label": "Manual fire",
+      "desc": "Off = your jet shoots by itself (default). On = shoot with Space or A",
+      "default": false
+    },
+    {
+      "id": "pilot_subtitles",
+      "label": "Pilot subtitles",
+      "desc": "Show text for Ayan and Aarav voice lines",
+      "default": true
+    }
+  ],
+  "difficulty_default": "normal",
+  "touch": [
+    "Left-hand swap",
+    "Button size S / M / L",
+    "Vibration on hit and special"
+  ],
+  "buttons": [
+    "VIEW & REMAP CONTROLS"
+  ],
+  "src": "Settings, Touch"
+}

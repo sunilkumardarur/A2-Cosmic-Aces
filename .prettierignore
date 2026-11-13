@@ -1,0 +1,12 @@
+node_modules/
+dist/
+public/
+reference/
+art/
+data/
+docs/
+Claude outputs/
+test-results/
+playwright-report/
+package-lock.json
+*.md

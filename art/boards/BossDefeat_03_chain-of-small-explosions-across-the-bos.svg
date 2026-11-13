@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Chain of small explosions across the boss" viewBox="0 0 200 270" style="position: absolute; inset: 0; width: 100%; height: 100%">
+          <path d="M60 60 L120 40 L150 80 L156 150 L130 210 L70 210 L44 150 L50 80 Z" fill="#3E3026" stroke="#FF8A3D" stroke-width="4"/>
+          <circle cx="78" cy="84" r="22" fill="#FF8A3D"/><circle cx="78" cy="84" r="12" fill="#FFC83D"/>
+          <circle cx="132" cy="120" r="26" fill="#FF8A3D"/><circle cx="132" cy="120" r="14" fill="#FFF3D6"/>
+          <circle cx="86" cy="164" r="20" fill="#FF4D5E"/><circle cx="86" cy="164" r="10" fill="#FFC83D"/>
+          <circle cx="120" cy="190" r="16" fill="#FF8A3D"/><circle cx="108" cy="62" r="14" fill="#FFC83D"/>
+          <path d="M20 40 L40 60 M180 50 L160 70 M24 220 L48 204" stroke="#FFC83D" stroke-width="3" stroke-linecap="round"/>
+        </svg>

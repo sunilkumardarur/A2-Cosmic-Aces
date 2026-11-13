@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Four engine flames: cyan jet pink flame, violet jet cyan flame, orange jet twin pink flames, green jet yellow flame" viewBox="0 0 360 140" style="width: 100%; height: 140px; background: #0A0C1A">
+          <path d="M46 20 L56 56 L66 20 Q56 4 46 20 Z" fill="#FF3EA5"/><path d="M52 20 L56 40 L60 20 Z" fill="#FFF3D6"/><text x="56" y="82" text-anchor="middle" font-family="Exo 2, sans-serif" font-size="11" fill="#D7DEF0">Nova</text>
+          <path d="M126 20 L134 72 L142 20 Q134 6 126 20 Z" fill="#2DE2FF"/><path d="M131 20 L134 46 L137 20 Z" fill="#FFFFFF"/><text x="134" y="94" text-anchor="middle" font-family="Exo 2, sans-serif" font-size="11" fill="#D7DEF0">Phantom</text>
+          <path d="M200 20 L206 52 L212 20 Q206 8 200 20 Z M220 20 L226 52 L232 20 Q226 8 220 20 Z" fill="#FF3EA5"/><text x="216" y="74" text-anchor="middle" font-family="Exo 2, sans-serif" font-size="11" fill="#D7DEF0">Titan</text>
+          <path d="M296 20 L304 64 L312 20 Q304 4 296 20 Z" fill="#FFC83D"/><path d="M301 20 L304 42 L307 20 Z" fill="#FFFFFF"/><text x="304" y="86" text-anchor="middle" font-family="Exo 2, sans-serif" font-size="11" fill="#D7DEF0">Viper</text>
+          <text x="180" y="128" text-anchor="middle" font-family="Exo 2, sans-serif" font-size="11" fill="#A9B4D0">Flames grow longer with Turbo Boost</text>
+        </svg>

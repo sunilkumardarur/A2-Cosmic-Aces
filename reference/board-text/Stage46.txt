@@ -1,0 +1,29 @@
+STAGE 46 · TIER 3
+CYBER DUNES
+A desert of metal sand and robot nests.
+SAME STAGE, TINTED, IN
+MK II · STAGE 56
+PAIR · STAGE 96
+SAND SPIKE
+HAZARD · 1 HIT
+Rises out of the sand after a ripple.
+SCRAP SCORPION
+ENEMY · 6 HITS
+Curls its tail and fires a laser.
+BURIED MINE
+HAZARD · 2 HITS
+Pops up when you pass over it.
+DUNE TURRET
+ENEMY · 8 HITS
+Rotates and fires a rolling stream.
+BOSS 46
+HP 22,000 · 3 PHASES
+Cyber Scorpion Stingra
+MK II in stage 56
+HP 33,000
+FIGHTS · Tail laser sweeps. Claws snap across lanes.
+WEAK POINT · Stinger at the tail tip.
+MK II ADDS · Tail fires twice per sweep.
+MID-STAGE · Mini-boss Sand Stinger
+First clear up to +220 credits
+Repeat clear +1

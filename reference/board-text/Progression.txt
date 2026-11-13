@@ -1,0 +1,86 @@
+SCORING, STARS, UNLOCKS & UPGRADES
+All numbers are starting values to tune while playtesting.
+SCORING
+Asteroid / Spore / Crystal
+50
+Stinger · Scout Drone · Kamikaze
+100
+Turret · Wraith · Leech Pod
+250
+Gunship · Shadow Ace · Eel
+500
+Mini-boss
+2,000
+Boss
+5,000
+Power-up collected
++25
+COMBO
+Each kill within 3 seconds of the last raises the multiplier. Take a hit or wait 3 seconds and it drops back to ×1.
+×1
+×2
+×4
+×6
+×8
+Steps: 5, 10, 20 and 35 kills in a row. Max ×8.
+STARS PER STAGE
+Defeat the boss.
+Also destroy 80% of enemies.
+95% of enemies and no continues used.
+UNLOCKS
+Nova Striker · Phantom X · Ayan · Aarav
+From start
+Stage 2
+Clear Stage 1
+Viper Lance jet
+Clear Stage 2
+Stage 3
+Clear Stage 2
+Titan Bulwark jet
+Clear Stage 3
+Stage 4
+Clear Stage 3
+Gold jet skins
+3 stars in all stages
+CREDITS ARE RARE
+Spend them in the Shop. Purchases are permanent, work in every stage and mode, and belong to your profile.
+First clear of a stage (+10 per star)
++30 at stage 1
+Boss, first time
++40 at stage 1
+Repeat clear of the same stage
++1 only
+Gold coin (new stages only)
++1
+Achievement
++25 to +100
+Later stages pay more
+See Credits by Stage
+DIFFICULTY
+EASY
+NORMAL
+HARD
+Enemy HP
+×0.7
+×1
+×1.4
+Bullet speed
+×0.8
+×1
+×1.25
+Power-up drops
+×1.5
+×1
+×0.7
+Score
+×1
+×1.2
+×1.5
+Continues
+5
+3
+1
+Starting hull
+6
+5
+4

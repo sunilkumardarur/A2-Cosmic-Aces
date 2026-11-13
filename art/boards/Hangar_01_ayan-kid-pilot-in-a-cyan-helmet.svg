@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ayan, kid pilot in a cyan helmet" viewBox="0 0 120 120" style="width: 120px; height: 120px; flex: none">
+          <circle cx="60" cy="60" r="56" fill="#0E1A2E"/>
+          <circle cx="60" cy="64" r="44" fill="#16223C" stroke="#2DE2FF" stroke-width="4"/>
+          <rect x="12" y="56" width="10" height="26" rx="4" fill="#2DE2FF"/>
+          <rect x="98" y="56" width="10" height="26" rx="4" fill="#2DE2FF"/>
+          <ellipse cx="60" cy="74" rx="27" ry="28" fill="#B9794E"/>
+          <path d="M33 66 L38 50 L44 58 L50 46 L56 56 L62 44 L68 56 L74 46 L80 58 L86 52 L87 66 Q60 54 33 66 Z" fill="#1B1210"/>
+          <ellipse cx="50" cy="76" rx="4" ry="5" fill="#1B1210"/><ellipse cx="70" cy="76" rx="4" ry="5" fill="#1B1210"/>
+          <circle cx="51.5" cy="74" r="1.5" fill="#FFFFFF"/><circle cx="71.5" cy="74" r="1.5" fill="#FFFFFF"/>
+          <path d="M49 88 Q60 97 71 88" stroke="#1B1210" stroke-width="3" fill="none" stroke-linecap="round"/>
+          <rect x="34" y="22" width="52" height="16" rx="8" fill="#2DE2FF"/>
+          <path d="M60 25 L62 29 L66 29.5 L63 32 L64 36 L60 34 L56 36 L57 32 L54 29.5 L58 29 Z" fill="#05060F"/>
+        </svg>

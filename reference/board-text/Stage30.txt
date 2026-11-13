@@ -1,0 +1,29 @@
+STAGE 30 · TIER 2
+STARFALL FIELDS
+Falling stars everywhere. Some are bullets.
+SAME STAGE, TINTED, IN
+MK II · STAGE 40
+PAIR · STAGE 90
+FALLING STAR
+HAZARD · 1 HIT
+Streaks down in fast groups of 3.
+STAR SCYTHE
+ENEMY · 4 HITS
+Sweeps in an arc and leaves star bullets.
+NOVA ROCK
+OBSTACLE · 6 HITS
+Bursts into 5 stars when destroyed.
+SKY LANTERN
+ENEMY · 5 HITS
+Floats up slowly and fires in all directions.
+BOSS 30
+HP 15,750 · 3 PHASES
+Star Reaper Falx
+MK II in stage 40
+HP 23,625
+FIGHTS · Huge scythe arcs sweep across the screen.
+WEAK POINT · Skull under the hood after each sweep.
+MK II ADDS · Arcs leave star bullets behind.
+MID-STAGE · Mini-boss Dusk Reaper
+First clear up to +150 credits
+Repeat clear +1

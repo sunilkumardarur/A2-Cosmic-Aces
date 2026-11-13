@@ -1,0 +1,42 @@
+MENU
+HANGAR
+Choose your flight and your fighter, then launch.
+1 · FLIGHT
+NOVA STRIKER
+ALL-ROUNDER
+SPEED
+ARMOR
+FIREPOWER
+Twin pulse cannons
+PHANTOM X
+STEALTH INTERCEPTOR
+SPEED
+ARMOR
+FIREPOWER
+Phase dash — 1s invisible
+TITAN BULWARK · LOCKED
+Clear Stage 3 to unlock
+TITAN BULWARK
+HEAVY GUNSHIP
+SPEED
+ARMOR
+FIREPOWER
+Starts every stage with a shield
+VIPER LANCE
+RAPID STRIKER
+SPEED
+ARMOR
+FIREPOWER
+Fastest fire rate in the fleet
+2 · FIGHTER
+AYAN
+THE SHARPSHOOTER
+Special · Focus Shot
+Charged beam that pierces every enemy in a line.
+AARAV
+THE DEFENDER
+Special · Shield Burst
+Shockwave that wipes out nearby enemy bullets.
+READY — PICK YOUR SECTOR
+{{jetName}} · {{pilotName}}
+CHOOSE SECTOR

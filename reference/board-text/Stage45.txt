@@ -1,0 +1,29 @@
+STAGE 45 · TIER 3
+MAGMA CORE
+Inside a living volcano. The floor is lava.
+SAME STAGE, TINTED, IN
+MK II · STAGE 55
+PAIR · STAGE 95
+LAVA COLUMN
+HAZARD · UNBREAKABLE
+Warning glow, then a tall eruption.
+MAGMA IMP
+ENEMY · 5 HITS
+Hops across lava and throws embers.
+OBSIDIAN SLAB
+OBSTACLE · 10 HITS
+Hard rock plates that block the lane.
+CINDER CANNON
+ENEMY · 8 HITS
+Fires a 7 ball fan then reloads.
+BOSS 45
+HP 21,000 · 3 PHASES
+Lava Colossus Magmor
+MK II in stage 55
+HP 31,500
+FIGHTS · Lava rises from below. Eruption columns.
+WEAK POINT · Lava cracks on the chest.
+MK II ADDS · Lava fills half the screen.
+MID-STAGE · Mini-boss Ember Giant
+First clear up to +220 credits
+Repeat clear +1

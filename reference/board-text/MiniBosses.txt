@@ -1,0 +1,27 @@
+STAGE FLOW & MINI-BOSSES
+Every stage runs the same shape: waves, a mid-stage mini-boss, more waves, then the boss.
+WAVE 1
+WAVE 2
+MINI-BOSS
+WAVE 3
+WAVE 4
+BOSS
+Start · pickups appear from Wave 1
+Mini-boss drops a guaranteed power-up + checkpoint
+Boss warning banner
+STAGE 1 · EMBER BELT
+CINDER CRAB
+HP 400 · REWARD 2,000
+Slams its claws to send a shockwave along the screen. Dodge in the gap, then shoot its eyes.
+STAGE 2 · VENOM NEBULA
+SPORE MOTHER
+HP 600 · REWARD 2,000
+Lets out a ring of 6 acid spores that drift toward you. Pop them early, then hit the pink eye.
+STAGE 3 · IRON FLEET
+RAIL CRUISER
+HP 900 · REWARD 2,000
+Sweeps across the top. A red line shows where its rail beam will fire a second later.
+STAGE 4 · VOID RIFT
+RIFT WARDEN
+HP 1,200 · REWARD 2,000
+Jumps between two portals and fires from the one you are not watching. Shoot it as it steps out.

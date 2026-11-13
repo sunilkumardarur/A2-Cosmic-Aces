@@ -1,0 +1,78 @@
+{
+  "note": "Each pays credits once. Names/text copied from Achievements board. Stage mapping: rules_decided.json achievements_mapping.",
+  "items": [
+    {
+      "id": "first-flight",
+      "name": "First Flight",
+      "text": "Finish the Sector 1 tips.",
+      "credits": 25
+    },
+    {
+      "id": "ember-conqueror",
+      "name": "Ember Conqueror",
+      "text": "Clear Sector 1.",
+      "credits": 25
+    },
+    {
+      "id": "venom-slayer",
+      "name": "Venom Slayer",
+      "text": "Clear Sector 2.",
+      "credits": 25
+    },
+    {
+      "id": "combo-starter",
+      "name": "Combo Starter",
+      "text": "Reach a x4 combo.",
+      "credits": 25
+    },
+    {
+      "id": "iron-breaker",
+      "name": "Iron Breaker",
+      "text": "Clear Sector 3.",
+      "credits": 50
+    },
+    {
+      "id": "void-walker",
+      "name": "Void Walker",
+      "text": "Clear Sector 4.",
+      "credits": 100
+    },
+    {
+      "id": "max-power",
+      "name": "Max Power",
+      "text": "Reach Damage Level 5.",
+      "credits": 50
+    },
+    {
+      "id": "untouchable",
+      "name": "Untouchable",
+      "text": "Beat a boss without being hit.",
+      "credits": 75
+    },
+    {
+      "id": "combo-master",
+      "name": "Combo Master",
+      "text": "Reach a x8 combo.",
+      "credits": 50
+    },
+    {
+      "id": "good-teammate",
+      "name": "Good Teammate",
+      "text": "Revive your partner in co-op.",
+      "credits": 25
+    },
+    {
+      "id": "double-trouble",
+      "name": "Double Trouble",
+      "text": "Fire an A2 Burst.",
+      "credits": 50
+    },
+    {
+      "id": "shopaholic",
+      "name": "Shopaholic",
+      "text": "Own all 8 shop powers.",
+      "credits": 100
+    }
+  ],
+  "total": 600
+}

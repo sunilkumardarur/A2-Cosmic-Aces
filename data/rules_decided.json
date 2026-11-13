@@ -1,0 +1,35 @@
+{
+  "_note": "Rules the boards left open, decided for the build.",
+  "unlocks": {
+    "sector": "Sector n opens when stage 10 of sector n-1 is first cleared (same as stage unlock rule); sector 1 always open",
+    "stage": "Stage n unlocks when stage n-1 is cleared (first stage always open)",
+    "viper_lance": "unlocks on first clear of stage 2",
+    "titan_bulwark": "unlocks on first clear of stage 3",
+    "nova_striker": "start",
+    "phantom_x": "start"
+  },
+  "achievements_mapping": {
+    "first_flight": "Finish the stage 1 tips",
+    "ember_conqueror": "First clear of stage 1",
+    "venom_slayer": "First clear of stage 2",
+    "iron_breaker": "First clear of stage 3",
+    "void_walker": "First clear of stage 4",
+    "others": "as written"
+  },
+  "credits_per_star": {
+    "rule": "1 star = round(10*m), 2 stars = round(20*m), 3 stars = round(30*m); only the stars newly earned beyond previous best pay"
+  },
+  "keys_solo": "Solo accepts both WASD and arrows for move; Special = L SHIFT or R SHIFT; Bomb = B or R CTRL; Pause ESC",
+  "exit_button": "Shows a confirm dialog from the Confirms board; on yes calls window.close(); if the browser blocks it, stay on Home",
+  "controls_remap": "Settings 'VIEW & REMAP CONTROLS' opens a read-only view of the Controls board in v1 (no remap)",
+  "coop": {
+    "profile_pick": "After mode select, Player 1 then Player 2 pick a profile on the Profiles screen; each earns own credits and first-clear status",
+    "manual_fire": "Manual fire setting applies to both pilots"
+  },
+  "delete_profile": "Delete shows the Confirms board dialog; yes removes the profile and its slots",
+  "tooling": "Do not install electron or capacitor yet (remove from package.json until step 11). Use installed Google Chrome for Playwright if Smart App Control blocks Chromium.",
+  "reference_pngs": "All reference/screens PNGs were re-captured with Orbitron and Exo 2 loaded; text in them is now final.",
+  "naming": "SECTOR = 10 stages (10 sectors). STAGE = one level with one boss (or pair). Stage theme = environment (Ember Belt, Venom Nebula ...). Boards were updated to this; copy board text exactly",
+  "music_for_stages": "Stage uses music track ((theme_ref-1) mod 4)+1 of the four stage tracks (Ember Belt, Venom Nebula, Iron Fleet, Void Rift); Boss Theme during the boss",
+  "after_stage_100": "Out of scope"
+}

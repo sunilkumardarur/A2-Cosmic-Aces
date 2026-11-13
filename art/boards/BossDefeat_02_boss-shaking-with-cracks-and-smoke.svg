@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Boss shaking with cracks and smoke" viewBox="0 0 200 270" style="position: absolute; inset: 0; width: 100%; height: 100%">
+          <circle cx="100" cy="130" r="86" fill="#FF4D5E" opacity=".15"/>
+          <path d="M56 62 L116 42 L146 82 L152 152 L126 212 L66 212 L40 152 L46 82 Z" fill="#5A4636" opacity=".4"/>
+          <path d="M60 60 L120 40 L150 80 L156 150 L130 210 L70 210 L44 150 L50 80 Z" fill="#5A4636" stroke="#FF8A3D" stroke-width="4"/>
+          <path d="M96 70 L110 100 L96 124 L112 160 M70 120 L92 130 M130 100 L112 110" stroke="#FFC83D" stroke-width="3" fill="none" stroke-linecap="round"/>
+          <circle cx="100" cy="126" r="12" fill="#FF8A3D"/><circle cx="100" cy="126" r="5" fill="#FFF3D6"/>
+          <circle cx="60" cy="40" r="14" fill="#3A2A30" opacity=".7"/><circle cx="138" cy="30" r="18" fill="#3A2A30" opacity=".6"/><circle cx="100" cy="14" r="12" fill="#3A2A30" opacity=".5"/>
+        </svg>

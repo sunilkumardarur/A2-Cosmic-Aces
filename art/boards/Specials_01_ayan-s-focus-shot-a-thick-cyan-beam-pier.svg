@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ayan's Focus Shot: a thick cyan beam piercing three enemies in a line" viewBox="0 0 400 360" style="position: absolute; inset: 0; width: 100%; height: 100%">
+          <rect x="176" y="0" width="48" height="270" fill="#2DE2FF" opacity=".2"/>
+          <rect x="186" y="0" width="28" height="270" fill="#2DE2FF" opacity=".6"/>
+          <rect x="194" y="0" width="12" height="270" fill="#FFFFFF"/>
+          <g transform="translate(176 28)"><path d="M24 2 L44 16 L38 40 L10 40 L4 16 Z" fill="#1A1E2C" stroke="#FF4D5E" stroke-width="3"/><circle cx="24" cy="22" r="6" fill="#FFFFFF"/></g>
+          <g transform="translate(176 100)"><path d="M24 2 L44 16 L38 40 L10 40 L4 16 Z" fill="#1A1E2C" stroke="#FF4D5E" stroke-width="3"/><circle cx="24" cy="22" r="6" fill="#FFFFFF"/></g>
+          <g transform="translate(176 172)"><path d="M24 2 L44 16 L38 40 L10 40 L4 16 Z" fill="#1A1E2C" stroke="#FF4D5E" stroke-width="3"/><circle cx="24" cy="22" r="6" fill="#FFFFFF"/></g>
+          <path d="M150 40 L168 52 M250 40 L232 52 M150 112 L168 124 M250 112 L232 124 M150 184 L168 196 M250 184 L232 196" stroke="#FFC83D" stroke-width="3" stroke-linecap="round"/>
+          <circle cx="200" cy="296" r="40" fill="none" stroke="#2DE2FF" stroke-width="3" stroke-dasharray="6 6"/><circle cx="200" cy="296" r="24" fill="#2DE2FF" opacity=".4"/>
+          <g transform="translate(160 262) scale(0.8)"><path d="M44 96 L50 120 L56 96 Z" fill="#FF3EA5"/><path d="M50 4 L60 40 L92 74 L92 86 L62 80 L58 96 L42 96 L38 80 L8 86 L8 74 L40 40 Z" fill="#0E1A2E" stroke="#2DE2FF" stroke-width="3" stroke-linejoin="round"/><path d="M50 18 L55 44 L50 58 L45 44 Z" fill="#2DE2FF"/></g>
+        </svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Spore Mother, a pulsing pod with tendrils" viewBox="0 0 220 130" style="width: 100%; height: 130px; background: #050A08">
+        <path d="M110 70 Q60 100 30 120 M110 70 Q80 110 70 128 M110 70 Q140 110 150 128 M110 70 Q160 100 190 120" stroke="#2F5A3A" stroke-width="8" fill="none" stroke-linecap="round"/>
+        <circle cx="110" cy="56" r="40" fill="#2F5A3A" stroke="#C6FF3D" stroke-width="3.5"/>
+        <circle cx="94" cy="44" r="9" fill="#C6FF3D" opacity=".7"/><circle cx="124" cy="66" r="11" fill="#C6FF3D" opacity=".5"/><circle cx="112" cy="36" r="5" fill="#C6FF3D" opacity=".9"/>
+        <circle cx="110" cy="58" r="12" fill="#FF3EA5"/><circle cx="110" cy="58" r="5" fill="#050A08"/>
+        <circle cx="42" cy="30" r="9" fill="#2F5A3A" stroke="#C6FF3D" stroke-width="2"/><circle cx="178" cy="30" r="9" fill="#2F5A3A" stroke="#C6FF3D" stroke-width="2"/>
+      </svg>

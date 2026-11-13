@@ -1,0 +1,29 @@
+STAGE 24 · TIER 2
+GHOST FLEET GRAVEYARD
+Broken warships drift in the fog. Some are not empty.
+SAME STAGE, TINTED, IN
+MK II · STAGE 34
+PAIR · STAGE 84
+WRECK HULL
+OBSTACLE · UNBREAKABLE
+Drifting ship pieces. Slip between them.
+GHOST FIGHTER
+ENEMY · 3 HITS
+Fades out and attacks from behind.
+SOUL LANTERN
+HAZARD · 1 HIT
+Follows you slowly and explodes in a ring.
+CURSED CANNON
+ENEMY · 6 HITS
+Fires purple shots that fade then return.
+BOSS 24
+HP 11,250 · 3 PHASES
+Phantom Admiral Noctis
+MK II in stage 34
+HP 16,875
+FIGHTS · Cloaks, teleports and strikes from behind.
+WEAK POINT · Skull face right after a teleport.
+MK II ADDS · Leaves decoys that explode.
+MID-STAGE · Mini-boss Wreck Reaper
+First clear up to +150 credits
+Repeat clear +1

@@ -1,0 +1,29 @@
+STAGE 61 · TIER 4
+EVENT HORIZON
+The edge of a black hole. Everything leans inward.
+SAME STAGE, TINTED, IN
+MK II · STAGE 71
+PAIR · STAGE 91
+ACCRETION RING
+HAZARD · UNBREAKABLE
+Spinning ring of light that burns on touch.
+DEBRIS SWARM
+OBSTACLE · 3 HITS
+Fast rocks pulled into the centre.
+GRAVITY EEL
+ENEMY · 8 HITS
+Swims in spirals and fires pulses.
+SINGULARITY POD
+HAZARD · 3 HITS
+Opens a small pull zone for 3 seconds.
+BOSS 61
+HP 28,000 · 4 PHASES
+Black Hole Sovereign Singula
+MK II in stage 71
+HP 42,000
+FIGHTS · Drags the arena inward. Bullet rings orbit.
+WEAK POINT · Slit eye when the disc slows.
+MK II ADDS · Ring spin reverses.
+MID-STAGE · Mini-boss Gravity Eel
+First clear up to +300 credits
+Repeat clear +1

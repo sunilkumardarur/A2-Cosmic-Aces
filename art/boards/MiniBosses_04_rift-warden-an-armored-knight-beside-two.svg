@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Rift Warden, an armored knight beside two portals" viewBox="0 0 220 130" style="width: 100%; height: 130px; background: #06030C">
+        <ellipse cx="34" cy="64" rx="16" ry="34" fill="#000" stroke="#B26BFF" stroke-width="3"/><ellipse cx="186" cy="64" rx="16" ry="34" fill="#000" stroke="#2DE2FF" stroke-width="3"/>
+        <path d="M110 12 L140 34 L146 78 L128 118 L92 118 L74 78 L80 34 Z" fill="#3A2560" stroke="#F2E9FF" stroke-width="3" stroke-linejoin="round"/>
+        <path d="M96 52 L106 58 L96 62 Z M124 52 L114 58 L124 62 Z" fill="#2DE2FF"/><path d="M100 20 L110 4 L120 20 Z" fill="#F2E9FF"/>
+        <path d="M80 80 L58 96 M140 80 L162 96" stroke="#B26BFF" stroke-width="4" stroke-linecap="round"/>
+      </svg>

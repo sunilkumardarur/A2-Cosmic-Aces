@@ -1,0 +1,29 @@
+STAGE 23 · TIER 2
+HEAVY ORBIT
+Giant moons with strong pull. Bullets curve.
+SAME STAGE, TINTED, IN
+MK II · STAGE 33
+PAIR · STAGE 83
+GRAVITY WELL
+HAZARD · UNBREAKABLE
+Bends your bullets and your jet toward it.
+MOON CHUNK
+OBSTACLE · 8 HITS
+Heavy rock that drifts in an orbit.
+TETHER DRONE
+ENEMY · 4 HITS
+Pulls you with a beam. Shoot the line.
+ORBIT CANNON
+ENEMY · 6 HITS
+Circles a moon and fires inward.
+BOSS 23
+HP 10,500 · 3 PHASES
+Gravity Golem Massa
+MK II in stage 33
+HP 15,750
+FIGHTS · Gravity wells pull bullets and your jet.
+WEAK POINT · Chest vortex when the wells close.
+MK II ADDS · Wells last longer and can stack.
+MID-STAGE · Mini-boss Moon Smasher
+First clear up to +150 credits
+Repeat clear +1

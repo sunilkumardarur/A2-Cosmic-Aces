@@ -1,0 +1,23 @@
+MENU
+TOUCH CONTROLS
+Phone and tablet layout, landscape. Desktop stays the main target.
+0012450
+II
+MOVE ZONE · TOUCH ANYWHERE
+SPECIAL
+BOMB
+AUTO-FIRE ON
+MOVE
+Touch anywhere in the left half. A floating stick appears under the thumb. Setting: drag the jet directly instead.
+SPECIAL
+Big button, lower right. Dim until the bar is full, then glows gold and pulses.
+BOMB
+Smaller button next to it. Shows a count badge. Dim at 0 bombs.
+PAUSE
+Small button top right. Also opens when the app goes to the background.
+FIRING
+Automatic, same as desktop. No fire button.
+OPTIONS
+Left-handed swap. Button size S / M / L. Vibration on hit and special.
+Sizes: every button is at least 64 px across with 12 px spacing, so a thumb never hits two.
+Limits: landscape only (a rotate prompt shows in portrait). Co-op is keyboard or gamepad only in this version.

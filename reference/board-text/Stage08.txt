@@ -1,0 +1,29 @@
+STAGE 08 · TIER 1
+MIRROR MAZE
+Walls of glass bounce every shot. Aim with care.
+SAME STAGE, TINTED, IN
+MK II · STAGE 18
+PAIR · STAGE 88
+MIRROR PANEL
+OBSTACLE · UNBREAKABLE
+Bounces your shots back at an angle.
+REFLECTION DRONE
+ENEMY · 2 HITS
+Copies your left and right moves.
+SHARD RAIN
+HAZARD · 1 HIT
+Glass falls from the top in a zig-zag.
+PRISM TURRET
+ENEMY · 4 HITS
+Splits one shot into three beams.
+BOSS 8
+HP 7,000 · 2 PHASES
+Mirror Mantis Spectra
+MK II in stage 18
+HP 10,500
+FIGHTS · Reflects your shots and copies your last move.
+WEAK POINT · Back of the neck. Front is reflective.
+MK II ADDS · Reflects at wider angles.
+MID-STAGE · Mini-boss Glass Twin
+First clear up to +100 credits
+Repeat clear +1

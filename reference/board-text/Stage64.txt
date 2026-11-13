@@ -1,0 +1,29 @@
+STAGE 64 · TIER 4
+MECHA ABYSS
+A giant machine ocean with steel sea monsters.
+SAME STAGE, TINTED, IN
+MK II · STAGE 74
+PAIR · STAGE 94
+TORPEDO
+ENEMY · 3 HITS
+Locks on and chases you for 3 seconds.
+SEA MINE CHAIN
+HAZARD · 2 HITS
+Chains of mines that explode one by one.
+STEEL KELP
+OBSTACLE · UNBREAKABLE
+Sways side to side and blocks lanes.
+SONAR TURRET
+ENEMY · 10 HITS
+Sends rings that reveal hidden mines.
+BOSS 64
+HP 32,500 · 4 PHASES
+Mecha Leviathan Ω-Prime
+MK II in stage 74
+HP 48,750
+FIGHTS · Modules fire missiles, lasers and mines together.
+WEAK POINT · Head cannon when the jaw opens.
+MK II ADDS · Modules repair each other.
+MID-STAGE · Mini-boss Torpedo Tank
+First clear up to +300 credits
+Repeat clear +1

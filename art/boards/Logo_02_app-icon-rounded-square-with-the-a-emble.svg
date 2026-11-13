@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="App icon: rounded square with the A² emblem" viewBox="0 0 200 200" style="width: 180px; height: 180px">
+            <rect width="200" height="200" rx="44" fill="#0A1224"/>
+            <rect x="6" y="6" width="188" height="188" rx="40" fill="none" stroke="#2DE2FF" stroke-width="3" opacity=".6"/>
+            <path d="M54 158 L100 56" stroke="#2DE2FF" stroke-width="20" stroke-linecap="round"/>
+            <path d="M146 158 L100 56" stroke="#FF9A3D" stroke-width="20" stroke-linecap="round"/>
+            <path d="M76 126 H124" stroke="#FF3EA5" stroke-width="13" stroke-linecap="round"/>
+            <path d="M100 20 L106 34 L120 36 L109 45 L112 59 L100 52 L88 59 L91 45 L80 36 L94 34 Z" fill="#FFC83D"/>
+            <text x="150" y="64" font-family="Orbitron, sans-serif" font-weight="900" font-size="36" fill="#FF3EA5">2</text>
+          </svg>

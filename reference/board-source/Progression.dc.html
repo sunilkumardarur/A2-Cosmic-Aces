@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>A² Cosmic Aces — Progression</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&amp;family=Exo+2:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>body{margin:0}</style>
+</helmet>
+<div style="width: 1280px; height: 720px; position: relative; overflow: hidden; box-sizing: border-box; padding: 28px 48px; background: #05060F; font-family: 'Exo 2', sans-serif; color: #FFFFFF; display: flex; flex-direction: column; gap: 16px">
+  <header style="display: flex; justify-content: space-between; align-items: flex-end">
+    <h1 style="margin: 0; font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 30px; letter-spacing: 3px; text-shadow: 0 0 16px rgba(45,226,255,.5)">SCORING, STARS, UNLOCKS &amp; UPGRADES</h1>
+    <div style="font-size: 13px; color: #A9B4D0">All numbers are starting values to tune while playtesting.</div>
+  </header>
+
+  <div style="display: flex; gap: 18px; flex: 1">
+
+    <div style="flex: 1; display: flex; flex-direction: column; gap: 16px">
+      <section style="padding: 16px 18px; border: 1px solid rgba(45,226,255,.4); background: rgba(5,6,15,.85); display: flex; flex-direction: column; gap: 8px">
+        <h2 style="margin: 0; font-family: 'Orbitron', sans-serif; font-size: 12px; letter-spacing: 4px; color: #2DE2FF">SCORING</h2>
+        <div style="display: grid; grid-template-columns: 1fr auto; gap: 5px 12px; font-size: 13px">
+          <span style="color: #D7DEF0">Asteroid / Spore / Crystal</span><b>50</b>
+          <span style="color: #D7DEF0">Stinger · Scout Drone · Kamikaze</span><b>100</b>
+          <span style="color: #D7DEF0">Turret · Wraith · Leech Pod</span><b>250</b>
+          <span style="color: #D7DEF0">Gunship · Shadow Ace · Eel</span><b>500</b>
+          <span style="color: #D7DEF0">Mini-boss</span><b style="color: #FFC83D">2,000</b>
+          <span style="color: #D7DEF0">Boss</span><b style="color: #FFC83D">5,000</b>
+          <span style="color: #D7DEF0">Power-up collected</span><b>+25</b>
+        </div>
+      </section>
+      <section style="padding: 16px 18px; border: 1px solid rgba(255,200,61,.4); background: rgba(5,6,15,.85); display: flex; flex-direction: column; gap: 10px; flex: 1">
+        <h2 style="margin: 0; font-family: 'Orbitron', sans-serif; font-size: 12px; letter-spacing: 4px; color: #FFC83D">COMBO</h2>
+        <div style="font-size: 13px; line-height: 1.5; color: #D7DEF0">Each kill within 3 seconds of the last raises the multiplier. Take a hit or wait 3 seconds and it drops back to ×1.</div>
+        <div style="display: flex; gap: 6px; align-items: flex-end">
+          <div style="flex: 1; height: 20px; background: rgba(255,200,61,.2); display: flex; align-items: center; justify-content: center; font-family: 'Orbitron', sans-serif; font-size: 11px; font-weight: 700">×1</div>
+          <div style="flex: 1; height: 30px; background: rgba(255,200,61,.35); display: flex; align-items: center; justify-content: center; font-family: 'Orbitron', sans-serif; font-size: 11px; font-weight: 700">×2</div>
+          <div style="flex: 1; height: 40px; background: rgba(255,200,61,.5); display: flex; align-items: center; justify-content: center; font-family: 'Orbitron', sans-serif; font-size: 11px; font-weight: 700">×4</div>
+          <div style="flex: 1; height: 52px; background: rgba(255,200,61,.7); display: flex; align-items: center; justify-content: center; font-family: 'Orbitron', sans-serif; font-size: 11px; font-weight: 700; color: #05060F">×6</div>
+          <div style="flex: 1; height: 64px; background: #FFC83D; display: flex; align-items: center; justify-content: center; font-family: 'Orbitron', sans-serif; font-size: 11px; font-weight: 900; color: #05060F">×8</div>
+        </div>
+        <div style="font-size: 12px; color: #A9B4D0">Steps: 5, 10, 20 and 35 kills in a row. Max ×8.</div>
+      </section>
+    </div>
+
+    <div style="flex: 1; display: flex; flex-direction: column; gap: 16px">
+      <section style="padding: 16px 18px; border: 1px solid rgba(255,200,61,.4); background: rgba(5,6,15,.85); display: flex; flex-direction: column; gap: 10px">
+        <h2 style="margin: 0; font-family: 'Orbitron', sans-serif; font-size: 12px; letter-spacing: 4px; color: #FFC83D">STARS PER STAGE</h2>
+        <div style="display: flex; gap: 12px; align-items: center"><span style="display: flex; gap: 2px; flex: none"><svg aria-hidden="true" viewBox="0 0 100 100" style="width: 20px; height: 20px"><path d="M50 4 L62 36 L96 38 L70 60 L79 94 L50 75 L21 94 L30 60 L4 38 L38 36 Z" fill="#FFC83D"/></svg></span><span style="font-size: 13px; color: #E6EAF5">Defeat the boss.</span></div>
+        <div style="display: flex; gap: 12px; align-items: center"><span style="display: flex; gap: 2px; flex: none"><svg aria-hidden="true" viewBox="0 0 100 100" style="width: 20px; height: 20px"><path d="M50 4 L62 36 L96 38 L70 60 L79 94 L50 75 L21 94 L30 60 L4 38 L38 36 Z" fill="#FFC83D"/></svg><svg aria-hidden="true" viewBox="0 0 100 100" style="width: 20px; height: 20px"><path d="M50 4 L62 36 L96 38 L70 60 L79 94 L50 75 L21 94 L30 60 L4 38 L38 36 Z" fill="#FFC83D"/></svg></span><span style="font-size: 13px; color: #E6EAF5">Also destroy 80% of enemies.</span></div>
+        <div style="display: flex; gap: 12px; align-items: center"><span style="display: flex; gap: 2px; flex: none"><svg aria-hidden="true" viewBox="0 0 100 100" style="width: 20px; height: 20px"><path d="M50 4 L62 36 L96 38 L70 60 L79 94 L50 75 L21 94 L30 60 L4 38 L38 36 Z" fill="#FFC83D"/></svg><svg aria-hidden="true" viewBox="0 0 100 100" style="width: 20px; height: 20px"><path d="M50 4 L62 36 L96 38 L70 60 L79 94 L50 75 L21 94 L30 60 L4 38 L38 36 Z" fill="#FFC83D"/></svg><svg aria-hidden="true" viewBox="0 0 100 100" style="width: 20px; height: 20px"><path d="M50 4 L62 36 L96 38 L70 60 L79 94 L50 75 L21 94 L30 60 L4 38 L38 36 Z" fill="#FFC83D"/></svg></span><span style="font-size: 13px; color: #E6EAF5">95% of enemies and no continues used.</span></div>
+      </section>
+      <section style="padding: 16px 18px; border: 1px solid rgba(124,255,107,.4); background: rgba(5,6,15,.85); display: flex; flex-direction: column; gap: 8px; flex: 1">
+        <h2 style="margin: 0; font-family: 'Orbitron', sans-serif; font-size: 12px; letter-spacing: 4px; color: #7CFF6B">UNLOCKS</h2>
+        <div style="display: grid; grid-template-columns: 1fr auto; gap: 6px 12px; font-size: 13px">
+          <span style="color: #D7DEF0">Nova Striker · Phantom X · Ayan · Aarav</span><b style="color: #7CFF6B">From start</b>
+          <span style="color: #D7DEF0">Stage 2</span><b>Clear Stage 1</b>
+          <span style="color: #D7DEF0">Viper Lance jet</span><b>Clear Stage 2</b>
+          <span style="color: #D7DEF0">Stage 3</span><b>Clear Stage 2</b>
+          <span style="color: #D7DEF0">Titan Bulwark jet</span><b>Clear Stage 3</b>
+          <span style="color: #D7DEF0">Stage 4</span><b>Clear Stage 3</b>
+          <span style="color: #D7DEF0">Gold jet skins</span><b>3 stars in all stages</b>
+        </div>
+      </section>
+    </div>
+
+    <div style="flex: 1; display: flex; flex-direction: column; gap: 16px">
+      <section style="padding: 16px 18px; border: 1px solid rgba(255,154,61,.4); background: rgba(5,6,15,.85); display: flex; flex-direction: column; gap: 8px">
+        <h2 style="margin: 0; font-family: 'Orbitron', sans-serif; font-size: 12px; letter-spacing: 4px; color: #FF9A3D">CREDITS ARE RARE</h2>
+        <div style="font-size: 12px; color: #A9B4D0">Spend them in the Shop. Purchases are permanent, work in every stage and mode, and belong to your profile.</div>
+        <div style="display: grid; grid-template-columns: 1fr auto; gap: 6px 12px; font-size: 13px">
+          <span style="color: #D7DEF0">First clear of a stage (+10 per star)</span><b>+30 at stage 1</b>
+          <span style="color: #D7DEF0">Boss, first time</span><b>+40 at stage 1</b>
+          <span style="color: #D7DEF0">Repeat clear of the same stage</span><b style="color: #FF7A86">+1 only</b>
+          <span style="color: #D7DEF0">Gold coin (new stages only)</span><b>+1</b>
+          <span style="color: #D7DEF0">Achievement</span><b>+25 to +100</b>
+          <span style="color: #D7DEF0">Later stages pay more</span><b>See Credits by Stage</b>
+        </div>
+      </section>
+      <section style="padding: 16px 18px; border: 1px solid rgba(255,62,165,.4); background: rgba(5,6,15,.85); display: flex; flex-direction: column; gap: 8px; flex: 1">
+        <h2 style="margin: 0; font-family: 'Orbitron', sans-serif; font-size: 12px; letter-spacing: 4px; color: #FF3EA5">DIFFICULTY</h2>
+        <div style="display: grid; grid-template-columns: 1.1fr repeat(3, minmax(0, 1fr)); gap: 6px 8px; font-size: 12px; align-items: center">
+          <span></span><b style="color: #7CFF6B">EASY</b><b style="color: #2DE2FF">NORMAL</b><b style="color: #FF4D5E">HARD</b>
+          <span style="color: #D7DEF0">Enemy HP</span><span>×0.7</span><span>×1</span><span>×1.4</span>
+          <span style="color: #D7DEF0">Bullet speed</span><span>×0.8</span><span>×1</span><span>×1.25</span>
+          <span style="color: #D7DEF0">Power-up drops</span><span>×1.5</span><span>×1</span><span>×0.7</span>
+          <span style="color: #D7DEF0">Score</span><span>×1</span><span>×1.2</span><span>×1.5</span>
+          <span style="color: #D7DEF0">Continues</span><span>5</span><span>3</span><span>1</span>
+          <span style="color: #D7DEF0">Starting hull</span><span>6</span><span>5</span><span>4</span>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":720}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

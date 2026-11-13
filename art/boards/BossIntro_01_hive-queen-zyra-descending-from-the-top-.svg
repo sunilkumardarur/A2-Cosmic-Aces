@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hive Queen Zyra descending from the top of the screen" viewBox="0 0 320 230" style="position: absolute; left: 340px; top: 20px; width: 600px; height: 431px; filter: drop-shadow(0 0 30px rgba(124,255,107,.5))">
+    <path d="M140 80 Q60 10 12 40 Q30 90 130 110 Z" fill="#7CFF6B" opacity=".25" stroke="#7CFF6B" stroke-width="2.5"/>
+    <path d="M180 80 Q260 10 308 40 Q290 90 190 110 Z" fill="#7CFF6B" opacity=".25" stroke="#7CFF6B" stroke-width="2.5"/>
+    <path d="M136 120 Q60 140 30 190 Q90 190 140 140 Z" fill="#FF3EA5" opacity=".22" stroke="#FF3EA5" stroke-width="2.5"/>
+    <path d="M184 120 Q260 140 290 190 Q230 190 180 140 Z" fill="#FF3EA5" opacity=".22" stroke="#FF3EA5" stroke-width="2.5"/>
+    <ellipse cx="160" cy="160" rx="30" ry="56" fill="#1F3D2A" stroke="#7CFF6B" stroke-width="3"/>
+    <path d="M134 150 H186 M132 170 H188 M138 190 H182" stroke="#7CFF6B" stroke-width="2" opacity=".7"/>
+    <ellipse cx="160" cy="90" rx="34" ry="30" fill="#2F5A3A" stroke="#7CFF6B" stroke-width="3"/>
+    <path d="M132 64 L138 34 L150 56 L160 26 L170 56 L182 34 L188 64 Z" fill="#FF3EA5" stroke="#FF3EA5" stroke-width="2" stroke-linejoin="round"/>
+    <circle cx="160" cy="58" r="8" fill="#C6FF3D"/><circle cx="160" cy="58" r="3" fill="#050A08"/>
+    <ellipse cx="146" cy="88" rx="8" ry="10" fill="#FF3EA5"/><ellipse cx="174" cy="88" rx="8" ry="10" fill="#FF3EA5"/>
+    <path d="M146 112 Q140 126 130 128 M174 112 Q180 126 190 128" stroke="#C6FF3D" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </svg>

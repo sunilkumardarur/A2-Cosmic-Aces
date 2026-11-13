@@ -1,0 +1,21 @@
+POWER-UP · STACKS UP TO LEVEL 5
+DAMAGE BOOST
+Every purple orb you collect raises your damage by one level. Bullets get bigger, change color and hit harder.
+LV {{L.lv}}
+{{L.mult}}
+{{L.note}}
+WHEN YOU PICK IT UP
+DMG +1
+LEVEL 3
+The jet flashes the new level color, a short ring pulses out, and the DMG bar in the corner fills one more pip.
+RULES (STARTING VALUES)
+You start every stage at Level 1. Each orb is +1 level, up to Level 5.
+Each level adds +25% damage, so Level 5 deals double (×2.0).
+Taking a hull hit drops 1 level. It never goes below Level 1.
+Works with every weapon: normal shots, Spread, Laser and Missiles. It does not change the Nova Bomb.
+At Level 5 an extra orb gives +500 points instead.
+Orbs drop from tough enemies and always from mini-bosses.
+HUD DISPLAY
+DMG
+Five pips under the Focus bar. Pips take the level color. At Level 5 they glow pink and pulse.
+In co-op each pilot has their own Damage level.

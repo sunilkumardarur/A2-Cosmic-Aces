@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>A² Cosmic Aces — Gameplay</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&amp;family=Exo+2:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#2DE2FF}a:hover{color:#FFFFFF}
+</style>
+</helmet>
+<div style="width: 1280px; height: 720px; position: relative; overflow: hidden; background: #04050C; font-family: 'Exo 2', sans-serif; color: #FFFFFF">
+  <sc-for list="{{far}}" as="s" hint-placeholder-count="20">
+    <div style="position: absolute; left: {{s.x}}px; top: {{s.y}}px; width: 1px; height: 1px; background: #C9D4FF; opacity: {{s.o}}"></div>
+  </sc-for>
+  <div style="position: absolute; left: 180px; top: -120px; width: 900px; height: 520px; border-radius: 50%; background: radial-gradient(ellipse at center, rgba(255,138,61,.22) 0%, rgba(255,62,165,.10) 40%, rgba(4,5,12,0) 70%)"></div>
+  <div style="position: absolute; left: 980px; top: 60px; width: 220px; height: 220px; border-radius: 50%; background: radial-gradient(circle at 30% 30%, #8A4A2A 0%, #4A2416 50%, #1A0C08 80%); box-shadow: 0 0 60px rgba(255,138,61,.25)"></div>
+  <sc-for list="{{streaks}}" as="s" hint-placeholder-count="20">
+    <div style="position: absolute; left: {{s.x}}px; top: {{s.y}}px; width: 2px; height: {{s.h}}px; border-radius: 1px; background: linear-gradient(180deg, rgba(255,255,255,0), rgba(255,255,255,.8)); opacity: {{s.o}}"></div>
+  </sc-for>
+
+  <svg aria-hidden="true" viewBox="0 0 100 100" style="position: absolute; left: 230px; top: 150px; width: 120px; height: 120px; transform: rotate(20deg)">
+    <path d="M30 8 L66 6 L92 30 L94 64 L72 92 L34 94 L8 70 L6 34 Z" fill="#5A4636" stroke="#FF8A3D" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="38" cy="36" r="9" fill="#3E3026"/><circle cx="64" cy="60" r="12" fill="#3E3026"/><circle cx="34" cy="70" r="5" fill="#3E3026"/>
+  </svg>
+  <svg aria-hidden="true" viewBox="0 0 100 100" style="position: absolute; left: 860px; top: 300px; width: 70px; height: 70px; transform: rotate(-30deg)">
+    <path d="M24 10 L70 8 L92 40 L80 84 L36 92 L8 60 Z" fill="#5A4636" stroke="#FF8A3D" stroke-width="3" stroke-linejoin="round"/>
+    <circle cx="44" cy="40" r="10" fill="#3E3026"/>
+  </svg>
+
+  <svg aria-hidden="true" viewBox="0 0 60 60" style="position: absolute; left: 540px; top: 120px; width: 54px; height: 54px; filter: drop-shadow(0 0 6px rgba(255,77,94,.8))">
+    <path d="M30 4 L54 22 L46 50 L14 50 L6 22 Z" fill="#1A1E2C" stroke="#FF4D5E" stroke-width="2.5"/>
+    <circle cx="30" cy="30" r="7" fill="#FF4D5E"/>
+  </svg>
+  <svg aria-hidden="true" viewBox="0 0 60 60" style="position: absolute; left: 640px; top: 90px; width: 54px; height: 54px; filter: drop-shadow(0 0 6px rgba(255,77,94,.8))">
+    <path d="M30 4 L54 22 L46 50 L14 50 L6 22 Z" fill="#1A1E2C" stroke="#FF4D5E" stroke-width="2.5"/>
+    <circle cx="30" cy="30" r="7" fill="#FF4D5E"/>
+  </svg>
+  <svg aria-hidden="true" viewBox="0 0 60 60" style="position: absolute; left: 740px; top: 120px; width: 54px; height: 54px; filter: drop-shadow(0 0 6px rgba(255,77,94,.8))">
+    <path d="M30 4 L54 22 L46 50 L14 50 L6 22 Z" fill="#1A1E2C" stroke="#FF4D5E" stroke-width="2.5"/>
+    <circle cx="30" cy="30" r="7" fill="#FF4D5E"/>
+  </svg>
+  <div style="position: absolute; left: 560px; top: 196px; width: 10px; height: 10px; border-radius: 50%; background: #FF4D5E; box-shadow: 0 0 10px #FF4D5E"></div>
+  <div style="position: absolute; left: 600px; top: 250px; width: 10px; height: 10px; border-radius: 50%; background: #FF4D5E; box-shadow: 0 0 10px #FF4D5E"></div>
+  <div style="position: absolute; left: 770px; top: 214px; width: 10px; height: 10px; border-radius: 50%; background: #FF4D5E; box-shadow: 0 0 10px #FF4D5E"></div>
+
+  <svg aria-hidden="true" viewBox="0 0 60 60" style="position: absolute; left: 380px; top: 340px; width: 46px; height: 46px">
+    <path d="M30 2 V12 M30 48 V58 M2 30 H12 M48 30 H58 M10 10 L17 17 M43 43 L50 50 M50 10 L43 17 M10 50 L17 43" stroke="#FFC83D" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="30" cy="30" r="15" fill="#2A2018" stroke="#FFC83D" stroke-width="3"/>
+    <circle cx="30" cy="30" r="5" fill="#FF4D5E"/>
+  </svg>
+
+  <svg aria-hidden="true" viewBox="0 0 100 100" style="position: absolute; left: 690px; top: 230px; width: 110px; height: 110px">
+    <path d="M50 2 L58 34 L90 18 L68 46 L98 56 L64 62 L76 94 L50 70 L24 94 L36 62 L2 56 L32 46 L10 18 L42 34 Z" fill="#FF8A3D"/>
+    <path d="M50 22 L56 42 L76 38 L62 52 L72 70 L50 60 L28 70 L38 52 L24 38 L44 42 Z" fill="#FFC83D"/>
+    <circle cx="50" cy="50" r="9" fill="#FFFFFF"/>
+  </svg>
+
+  <div style="position: absolute; left: 960px; top: 430px; width: 52px; height: 52px; border-radius: 50%; border: 3px solid #FF9A3D; background: radial-gradient(circle, rgba(255,154,61,.45), rgba(255,154,61,.1)); box-shadow: 0 0 20px rgba(255,154,61,.8); display: flex; align-items: center; justify-content: center; font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 22px; color: #FFFFFF">S</div>
+
+  <div style="position: absolute; left: 616px; top: 280px; width: 4px; height: 40px; background: #2DE2FF; border-radius: 2px; box-shadow: 0 0 10px #2DE2FF"></div>
+  <div style="position: absolute; left: 660px; top: 300px; width: 4px; height: 40px; background: #2DE2FF; border-radius: 2px; box-shadow: 0 0 10px #2DE2FF"></div>
+  <div style="position: absolute; left: 616px; top: 380px; width: 4px; height: 40px; background: #2DE2FF; border-radius: 2px; box-shadow: 0 0 10px #2DE2FF"></div>
+  <div style="position: absolute; left: 660px; top: 400px; width: 4px; height: 40px; background: #2DE2FF; border-radius: 2px; box-shadow: 0 0 10px #2DE2FF"></div>
+  <div style="position: absolute; left: 580px; top: 410px; width: 4px; height: 36px; background: #FF9A3D; border-radius: 2px; box-shadow: 0 0 10px #FF9A3D; transform: rotate(-18deg)"></div>
+  <div style="position: absolute; left: 696px; top: 410px; width: 4px; height: 36px; background: #FF9A3D; border-radius: 2px; box-shadow: 0 0 10px #FF9A3D; transform: rotate(18deg)"></div>
+
+  <svg aria-hidden="true" viewBox="0 0 100 120" style="position: absolute; left: 590px; top: 470px; width: 100px; height: 120px; filter: drop-shadow(0 0 14px rgba(45,226,255,.7))">
+    <path d="M44 96 L50 120 L56 96 Z" fill="#FF3EA5"/>
+    <path d="M38 96 L41 112 L44 96 Z M56 96 L59 112 L62 96 Z" fill="#FFC83D"/>
+    <path d="M50 4 L60 40 L92 74 L92 86 L62 80 L58 96 L42 96 L38 80 L8 86 L8 74 L40 40 Z" fill="#0E1A2E" stroke="#2DE2FF" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M50 18 L55 44 L50 58 L45 44 Z" fill="#2DE2FF"/>
+    <path d="M16 78 L40 56 M84 78 L60 56" stroke="#FF3EA5" stroke-width="2" stroke-linecap="round"/>
+  </svg>
+  <div style="position: absolute; left: 560px; top: 640px; width: 160px; height: 12px; border-radius: 50%; background: radial-gradient(ellipse, rgba(45,226,255,.35), rgba(45,226,255,0) 70%)"></div>
+
+  <div style="position: absolute; left: 24px; top: 20px; display: flex; gap: 12px; align-items: center; padding: 10px 14px 10px 10px; background: rgba(4,5,12,.72); border: 1px solid rgba(45,226,255,.35)">
+    <svg role="img" aria-label="Ayan" viewBox="0 0 120 120" style="width: 52px; height: 52px">
+      <circle cx="60" cy="64" r="48" fill="#16223C" stroke="#2DE2FF" stroke-width="5"/>
+      <ellipse cx="60" cy="74" rx="27" ry="28" fill="#B9794E"/>
+      <path d="M33 66 L38 50 L44 58 L50 46 L56 56 L62 44 L68 56 L74 46 L80 58 L86 52 L87 66 Q60 54 33 66 Z" fill="#1B1210"/>
+      <ellipse cx="50" cy="76" rx="4" ry="5" fill="#1B1210"/><ellipse cx="70" cy="76" rx="4" ry="5" fill="#1B1210"/>
+      <path d="M49 88 Q60 97 71 88" stroke="#1B1210" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <rect x="34" y="18" width="52" height="16" rx="8" fill="#2DE2FF"/>
+    </svg>
+    <div style="display: flex; flex-direction: column; gap: 6px">
+      <div style="font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 13px; letter-spacing: 2px; color: #2DE2FF">AYAN · NOVA STRIKER</div>
+      <div style="display: flex; gap: 3px; align-items: center">
+        <span style="font-size: 11px; color: #A9B4D0; width: 44px">HULL</span>
+        <div style="width: 26px; height: 8px; background: #7CFF6B"></div><div style="width: 26px; height: 8px; background: #7CFF6B"></div><div style="width: 26px; height: 8px; background: #7CFF6B"></div><div style="width: 26px; height: 8px; background: rgba(255,255,255,.15)"></div><div style="width: 26px; height: 8px; background: rgba(255,255,255,.15)"></div>
+      </div>
+      <div style="display: flex; gap: 3px; align-items: center">
+        <span style="font-size: 11px; color: #A9B4D0; width: 44px">FOCUS</span>
+        <div style="width: 142px; height: 8px; background: rgba(255,255,255,.15)"><div style="width: 72%; height: 8px; background: #2DE2FF"></div></div>
+      </div>
+      <div style="display: flex; gap: 3px; align-items: center">
+        <span style="font-size: 11px; color: #A9B4D0; width: 44px">DMG</span>
+        <div style="width: 26px; height: 8px; background: #FFC83D"></div><div style="width: 26px; height: 8px; background: #FFC83D"></div><div style="width: 26px; height: 8px; background: #FFC83D"></div><div style="width: 26px; height: 8px; background: rgba(255,255,255,.15)"></div><div style="width: 26px; height: 8px; background: rgba(255,255,255,.15)"></div>
+      </div>
+    </div>
+  </div>
+
+  <div style="position: absolute; left: 440px; top: 20px; width: 400px; display: flex; flex-direction: column; align-items: center; gap: 8px">
+    <div style="font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 14px; letter-spacing: 4px; color: #FF8A3D">STAGE 1 · EMBER BELT</div>
+    <div style="position: relative; width: 400px; height: 6px; background: rgba(255,255,255,.15)">
+      <div style="width: 58%; height: 6px; background: #FF8A3D"></div>
+      <div style="position: absolute; right: -8px; top: -6px; width: 18px; height: 18px; border-radius: 50%; background: #FF4D5E; border: 2px solid #04050C"></div>
+    </div>
+    <div style="font-size: 11px; letter-spacing: 2px; color: #A9B4D0">BOSS AHEAD · ROCKMAW</div>
+  </div>
+
+  <div style="position: absolute; right: 24px; top: 20px; display: flex; flex-direction: column; align-items: flex-end; gap: 6px; padding: 10px 14px; background: rgba(4,5,12,.72); border: 1px solid rgba(255,62,165,.35)">
+    <div style="font-size: 11px; letter-spacing: 3px; color: #A9B4D0">SCORE</div>
+    <div style="font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 26px; letter-spacing: 2px">0012450</div>
+    <div style="display: flex; gap: 10px; align-items: center">
+      <span style="font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 13px; color: #FFC83D">×4 COMBO</span>
+      <svg role="img" aria-label="3 lives" viewBox="0 0 66 20" style="width: 66px; height: 20px">
+        <path d="M10 1 L13 9 L19 15 L13 14 L10 19 L7 14 L1 15 L7 9 Z" fill="#2DE2FF"/>
+        <path d="M33 1 L36 9 L42 15 L36 14 L33 19 L30 14 L24 15 L30 9 Z" fill="#2DE2FF"/>
+        <path d="M56 1 L59 9 L65 15 L59 14 L56 19 L53 14 L47 15 L53 9 Z" fill="#2DE2FF"/>
+      </svg>
+    </div>
+  </div>
+
+  <div style="position: absolute; left: 24px; bottom: 20px; display: flex; gap: 12px; align-items: center; padding: 10px 14px; background: rgba(4,5,12,.72); border: 1px solid rgba(255,154,61,.45)">
+    <div style="width: 36px; height: 36px; border-radius: 50%; border: 2px solid #FF9A3D; display: flex; align-items: center; justify-content: center; font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 16px">S</div>
+    <div style="display: flex; flex-direction: column; gap: 4px">
+      <div style="font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 12px; letter-spacing: 2px; color: #FF9A3D">SPREAD SHOT</div>
+      <div style="width: 140px; height: 6px; background: rgba(255,255,255,.15)"><div style="width: 66%; height: 6px; background: #FF9A3D"></div></div>
+    </div>
+    <div style="font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 16px">08s</div>
+  </div>
+
+  <div style="position: absolute; right: 24px; bottom: 20px; display: flex; gap: 10px; align-items: center; padding: 10px 14px; background: rgba(4,5,12,.72); border: 1px solid rgba(255,62,165,.45)">
+    <span style="font-size: 11px; letter-spacing: 2px; color: #A9B4D0">NOVA BOMB</span>
+    <svg aria-hidden="true" viewBox="0 0 24 24" style="width: 22px; height: 22px"><path d="M12 1 L14.5 9.5 L23 12 L14.5 14.5 L12 23 L9.5 14.5 L1 12 L9.5 9.5 Z" fill="#FF3EA5"/></svg>
+    <svg aria-hidden="true" viewBox="0 0 24 24" style="width: 22px; height: 22px"><path d="M12 1 L14.5 9.5 L23 12 L14.5 14.5 L12 23 L9.5 14.5 L1 12 L9.5 9.5 Z" fill="#FF3EA5"/></svg>
+    <span style="font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 14px">×2</span>
+  </div>
+
+  <div style="position: absolute; left: 0; right: 0; bottom: 30px; text-align: center; font-size: 12px; letter-spacing: 2px; color: #8A95B3">ARROWS / WASD MOVE · FIRING IS AUTOMATIC · SHIFT SPECIAL · B BOMB · ESC PAUSE</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":720}}'>
+class Component extends DCLogic {
+  renderVals() {
+    let s = 3;
+    const r = () => { s = (s * 9301 + 49297) % 233280; return s / 233280; };
+    const far = [];
+    for (let i = 0; i < 220; i++) far.push({ x: Math.round(r() * 1280), y: Math.round(r() * 720), o: (0.2 + r() * 0.6).toFixed(2) });
+    const streaks = [];
+    for (let i = 0; i < 26; i++) streaks.push({ x: Math.round(r() * 1280), y: Math.round(r() * 700), h: Math.round(18 + r() * 40), o: (0.15 + r() * 0.35).toFixed(2) });
+    return { far, streaks };
+  }
+}
+</script>
+</body>
+</html>

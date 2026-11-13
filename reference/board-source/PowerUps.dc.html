@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>A² Cosmic Aces — Power-ups</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&amp;family=Exo+2:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#2DE2FF}a:hover{color:#FFFFFF}
+</style>
+</helmet>
+<div style="width: 1280px; height: 880px; position: relative; overflow: hidden; box-sizing: border-box; padding: 36px 48px; background: #05060F; font-family: 'Exo 2', sans-serif; color: #FFFFFF; display: flex; flex-direction: column; gap: 22px">
+  <sc-for list="{{stars}}" as="s" hint-placeholder-count="20">
+    <div style="position: absolute; left: {{s.x}}px; top: {{s.y}}px; width: 2px; height: 2px; border-radius: 50%; background: #FFFFFF; opacity: {{s.o}}"></div>
+  </sc-for>
+
+  <header style="position: relative; display: flex; justify-content: space-between; align-items: flex-end">
+    <div style="display: flex; flex-direction: column; gap: 4px">
+      <div style="font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 13px; letter-spacing: 5px; color: #FF3EA5">PICKUPS DROP FROM DESTROYED ENEMIES</div>
+      <h1 style="margin: 0; font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 40px; letter-spacing: 2px; text-shadow: 0 0 18px rgba(45,226,255,.5)">POWER-UPS</h1>
+    </div>
+    <div style="font-size: 14px; line-height: 1.5; color: #A9B4D0; max-width: 460px; text-align: right">Each pickup is a glowing orb that spins and pulses. Fly into it to collect. Top row = how it looks floating, scene = how it looks in use.</div>
+  </header>
+
+  <div style="position: relative; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; flex: 1">
+
+    <div style="padding: 14px; border: 1px solid rgba(255,154,61,.45); background: rgba(5,6,15,.75); display: flex; flex-direction: column; gap: 10px">
+      <div style="display: flex; gap: 12px; align-items: center">
+        <div style="width: 52px; height: 52px; flex: none; border-radius: 50%; border: 3px solid #FF9A3D; background: radial-gradient(circle, rgba(255,154,61,.5), rgba(255,154,61,.08)); box-shadow: 0 0 18px rgba(255,154,61,.7); display: flex; align-items: center; justify-content: center; font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 22px">S</div>
+        <div style="display: flex; flex-direction: column; gap: 2px"><div style="font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 15px">SPREAD SHOT</div><div style="font-size: 11px; letter-spacing: 2px; color: #FF9A3D">WEAPON · 12s</div></div>
+      </div>
+      <svg aria-hidden="true" viewBox="0 0 200 130" style="width: 100%; height: 130px; background: #0A0C1A">
+        <path d="M100 66 L100 10 M100 66 L70 14 M100 66 L130 14 M100 66 L44 28 M100 66 L156 28" stroke="#FF9A3D" stroke-width="4" stroke-linecap="round" stroke-dasharray="12 10"/>
+        <g transform="translate(82 70) scale(0.36)"><path d="M50 4 L60 40 L92 74 L92 86 L62 80 L58 96 L42 96 L38 80 L8 86 L8 74 L40 40 Z" fill="#0E1A2E" stroke="#2DE2FF" stroke-width="5" stroke-linejoin="round"/><path d="M50 18 L55 44 L50 58 L45 44 Z" fill="#2DE2FF"/></g>
+      </svg>
+      <div style="font-size: 13px; line-height: 1.45; color: #D7DEF0">Fires 5 shots in a fan. Great for swarms and asteroid fields.</div>
+    </div>
+
+    <div style="padding: 14px; border: 1px solid rgba(45,226,255,.45); background: rgba(5,6,15,.75); display: flex; flex-direction: column; gap: 10px">
+      <div style="display: flex; gap: 12px; align-items: center">
+        <div style="width: 52px; height: 52px; flex: none; border-radius: 50%; border: 3px solid #2DE2FF; background: radial-gradient(circle, rgba(45,226,255,.5), rgba(45,226,255,.08)); box-shadow: 0 0 18px rgba(45,226,255,.7); display: flex; align-items: center; justify-content: center; font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 22px">L</div>
+        <div style="display: flex; flex-direction: column; gap: 2px"><div style="font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 15px">PLASMA LASER</div><div style="font-size: 11px; letter-spacing: 2px; color: #2DE2FF">WEAPON · 8s</div></div>
+      </div>
+      <svg aria-hidden="true" viewBox="0 0 200 130" style="width: 100%; height: 130px; background: #0A0C1A">
+        <rect x="88" y="0" width="24" height="72" fill="#2DE2FF" opacity=".25"/>
+        <rect x="94" y="0" width="12" height="72" fill="#2DE2FF" opacity=".7"/>
+        <rect x="98" y="0" width="4" height="72" fill="#FFFFFF"/>
+        <circle cx="100" cy="72" r="9" fill="#FFFFFF" opacity=".9"/>
+        <g transform="translate(82 70) scale(0.36)"><path d="M50 4 L60 40 L92 74 L92 86 L62 80 L58 96 L42 96 L38 80 L8 86 L8 74 L40 40 Z" fill="#0E1A2E" stroke="#2DE2FF" stroke-width="5" stroke-linejoin="round"/><path d="M50 18 L55 44 L50 58 L45 44 Z" fill="#2DE2FF"/></g>
+      </svg>
+      <div style="font-size: 13px; line-height: 1.45; color: #D7DEF0">A non-stop beam that melts anything in a straight line. Best vs bosses.</div>
+    </div>
+
+    <div style="padding: 14px; border: 1px solid rgba(77,163,255,.5); background: rgba(5,6,15,.75); display: flex; flex-direction: column; gap: 10px">
+      <div style="display: flex; gap: 12px; align-items: center">
+        <div style="width: 52px; height: 52px; flex: none; border-radius: 50%; border: 3px solid #4DA3FF; background: radial-gradient(circle, rgba(77,163,255,.5), rgba(77,163,255,.08)); box-shadow: 0 0 18px rgba(77,163,255,.7); display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linejoin="round"><path d="M12 2l8 3v6c0 5-3.5 9-8 11-4.5-2-8-6-8-11V5z"/></svg></div>
+        <div style="display: flex; flex-direction: column; gap: 2px"><div style="font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 15px">ENERGY SHIELD</div><div style="font-size: 11px; letter-spacing: 2px; color: #4DA3FF">DEFENSE · 3 HITS</div></div>
+      </div>
+      <svg aria-hidden="true" viewBox="0 0 200 130" style="width: 100%; height: 130px; background: #0A0C1A">
+        <circle cx="100" cy="88" r="36" fill="#4DA3FF" opacity=".14"/>
+        <circle cx="100" cy="88" r="36" fill="none" stroke="#4DA3FF" stroke-width="3"/>
+        <path d="M100 52 L108 60 M120 58 L126 68 M80 58 L74 68" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+        <circle cx="132" cy="44" r="5" fill="#FF4D5E"/><circle cx="62" cy="40" r="5" fill="#FF4D5E"/>
+        <path d="M126 50 L118 56 M66 46 L74 54" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+        <g transform="translate(82 70) scale(0.36)"><path d="M50 4 L60 40 L92 74 L92 86 L62 80 L58 96 L42 96 L38 80 L8 86 L8 74 L40 40 Z" fill="#0E1A2E" stroke="#2DE2FF" stroke-width="5" stroke-linejoin="round"/><path d="M50 18 L55 44 L50 58 L45 44 Z" fill="#2DE2FF"/></g>
+      </svg>
+      <div style="font-size: 13px; line-height: 1.45; color: #D7DEF0">Blue bubble around the jet. Flashes white on each hit, cracks on the last.</div>
+    </div>
+
+    <div style="padding: 14px; border: 1px solid rgba(255,77,94,.5); background: rgba(5,6,15,.75); display: flex; flex-direction: column; gap: 10px">
+      <div style="display: flex; gap: 12px; align-items: center">
+        <div style="width: 52px; height: 52px; flex: none; border-radius: 50%; border: 3px solid #FF4D5E; background: radial-gradient(circle, rgba(255,77,94,.5), rgba(255,77,94,.08)); box-shadow: 0 0 18px rgba(255,77,94,.7); display: flex; align-items: center; justify-content: center; font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 22px">M</div>
+        <div style="display: flex; flex-direction: column; gap: 2px"><div style="font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 15px">HOMING MISSILES</div><div style="font-size: 11px; letter-spacing: 2px; color: #FF7A86">WEAPON · 6 MISSILES</div></div>
+      </div>
+      <svg aria-hidden="true" viewBox="0 0 200 130" style="width: 100%; height: 130px; background: #0A0C1A">
+        <path d="M30 26 L42 16 L54 26 L50 40 L34 40 Z" fill="#1A1E2C" stroke="#FF4D5E" stroke-width="2"/>
+        <path d="M150 20 L162 10 L174 20 L170 34 L154 34 Z" fill="#1A1E2C" stroke="#FF4D5E" stroke-width="2"/>
+        <path d="M90 80 Q50 70 44 44" stroke="#FFFFFF" stroke-width="1.5" fill="none" stroke-dasharray="3 4" opacity=".7"/>
+        <path d="M110 80 Q150 70 160 38" stroke="#FFFFFF" stroke-width="1.5" fill="none" stroke-dasharray="3 4" opacity=".7"/>
+        <path d="M100 70 Q96 50 100 30" stroke="#FFFFFF" stroke-width="1.5" fill="none" stroke-dasharray="3 4" opacity=".7"/>
+        <rect x="42" y="44" width="6" height="14" rx="3" fill="#FF4D5E" transform="rotate(-30 45 51)"/>
+        <rect x="156" y="40" width="6" height="14" rx="3" fill="#FF4D5E" transform="rotate(25 159 47)"/>
+        <rect x="97" y="26" width="6" height="14" rx="3" fill="#FF4D5E"/>
+        <g transform="translate(82 70) scale(0.36)"><path d="M50 4 L60 40 L92 74 L92 86 L62 80 L58 96 L42 96 L38 80 L8 86 L8 74 L40 40 Z" fill="#0E1A2E" stroke="#2DE2FF" stroke-width="5" stroke-linejoin="round"/><path d="M50 18 L55 44 L50 58 L45 44 Z" fill="#2DE2FF"/></g>
+      </svg>
+      <div style="font-size: 13px; line-height: 1.45; color: #D7DEF0">Red missiles curve on their own to the nearest enemies.</div>
+    </div>
+
+    <div style="padding: 14px; border: 1px solid rgba(255,200,61,.5); background: rgba(5,6,15,.75); display: flex; flex-direction: column; gap: 10px">
+      <div style="display: flex; gap: 12px; align-items: center">
+        <div style="width: 52px; height: 52px; flex: none; border-radius: 50%; border: 3px solid #FFC83D; background: radial-gradient(circle, rgba(255,200,61,.5), rgba(255,200,61,.08)); box-shadow: 0 0 18px rgba(255,200,61,.7); display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 13l6-6 6 6M6 19l6-6 6 6"/></svg></div>
+        <div style="display: flex; flex-direction: column; gap: 2px"><div style="font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 15px">TURBO BOOST</div><div style="font-size: 11px; letter-spacing: 2px; color: #FFC83D">MOVEMENT · 10s</div></div>
+      </div>
+      <svg aria-hidden="true" viewBox="0 0 200 130" style="width: 100%; height: 130px; background: #0A0C1A">
+        <path d="M40 10 V50 M60 30 V80 M150 14 V60 M168 40 V96" stroke="#FFFFFF" stroke-width="2" opacity=".35" stroke-linecap="round"/>
+        <g transform="translate(82 88) scale(0.36)" opacity=".2"><path d="M50 4 L60 40 L92 74 L92 86 L62 80 L58 96 L42 96 L38 80 L8 86 L8 74 L40 40 Z" fill="#FFC83D"/></g>
+        <g transform="translate(82 78) scale(0.36)" opacity=".35"><path d="M50 4 L60 40 L92 74 L92 86 L62 80 L58 96 L42 96 L38 80 L8 86 L8 74 L40 40 Z" fill="#FFC83D"/></g>
+        <path d="M94 104 L100 130 L106 104 Z" fill="#FFC83D"/>
+        <g transform="translate(82 64) scale(0.36)"><path d="M50 4 L60 40 L92 74 L92 86 L62 80 L58 96 L42 96 L38 80 L8 86 L8 74 L40 40 Z" fill="#0E1A2E" stroke="#2DE2FF" stroke-width="5" stroke-linejoin="round"/><path d="M50 18 L55 44 L50 58 L45 44 Z" fill="#2DE2FF"/></g>
+      </svg>
+      <div style="font-size: 13px; line-height: 1.45; color: #D7DEF0">+50% speed with a golden afterimage trail and long engine flames.</div>
+    </div>
+
+    <div style="padding: 14px; border: 1px solid rgba(124,255,107,.5); background: rgba(5,6,15,.75); display: flex; flex-direction: column; gap: 10px">
+      <div style="display: flex; gap: 12px; align-items: center">
+        <div style="width: 52px; height: 52px; flex: none; border-radius: 50%; border: 3px solid #7CFF6B; background: radial-gradient(circle, rgba(124,255,107,.5), rgba(124,255,107,.08)); box-shadow: 0 0 18px rgba(124,255,107,.7); display: flex; align-items: center; justify-content: center; font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 22px">W</div>
+        <div style="display: flex; flex-direction: column; gap: 2px"><div style="font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 15px">WINGMAN DRONES</div><div style="font-size: 11px; letter-spacing: 2px; color: #7CFF6B">SUPPORT · 15s</div></div>
+      </div>
+      <svg aria-hidden="true" viewBox="0 0 200 130" style="width: 100%; height: 130px; background: #0A0C1A">
+        <circle cx="100" cy="88" r="40" fill="none" stroke="#7CFF6B" stroke-width="1" stroke-dasharray="3 6" opacity=".6"/>
+        <path d="M60 76 V20 M140 76 V20" stroke="#7CFF6B" stroke-width="3" stroke-dasharray="8 8" stroke-linecap="round"/>
+        <circle cx="60" cy="84" r="9" fill="#0C1E10" stroke="#7CFF6B" stroke-width="3"/><circle cx="60" cy="84" r="3" fill="#7CFF6B"/>
+        <circle cx="140" cy="84" r="9" fill="#0C1E10" stroke="#7CFF6B" stroke-width="3"/><circle cx="140" cy="84" r="3" fill="#7CFF6B"/>
+        <g transform="translate(82 70) scale(0.36)"><path d="M50 4 L60 40 L92 74 L92 86 L62 80 L58 96 L42 96 L38 80 L8 86 L8 74 L40 40 Z" fill="#0E1A2E" stroke="#2DE2FF" stroke-width="5" stroke-linejoin="round"/><path d="M50 18 L55 44 L50 58 L45 44 Z" fill="#2DE2FF"/></g>
+      </svg>
+      <div style="font-size: 13px; line-height: 1.45; color: #D7DEF0">Two green drones orbit your jet, shoot with you and block bullets.</div>
+    </div>
+
+    <div style="padding: 14px; border: 1px solid rgba(124,255,107,.5); background: rgba(5,6,15,.75); display: flex; flex-direction: column; gap: 10px">
+      <div style="display: flex; gap: 12px; align-items: center">
+        <div style="width: 52px; height: 52px; flex: none; border-radius: 50%; border: 3px solid #FFFFFF; background: radial-gradient(circle, rgba(124,255,107,.55), rgba(124,255,107,.1)); box-shadow: 0 0 18px rgba(124,255,107,.7); display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round"><path d="M12 4v16M4 12h16"/></svg></div>
+        <div style="display: flex; flex-direction: column; gap: 2px"><div style="font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 15px">REPAIR KIT</div><div style="font-size: 11px; letter-spacing: 2px; color: #7CFF6B">INSTANT · +1 HULL</div></div>
+      </div>
+      <svg aria-hidden="true" viewBox="0 0 200 130" style="width: 100%; height: 130px; background: #0A0C1A">
+        <path d="M70 60 v10 M65 65 h10 M132 50 v10 M127 55 h10 M100 40 v12 M94 46 h12 M80 30 v8 M76 34 h8 M124 22 v8 M120 26 h8" stroke="#7CFF6B" stroke-width="3" stroke-linecap="round"/>
+        <circle cx="100" cy="88" r="30" fill="#7CFF6B" opacity=".12"/>
+        <g transform="translate(82 70) scale(0.36)"><path d="M50 4 L60 40 L92 74 L92 86 L62 80 L58 96 L42 96 L38 80 L8 86 L8 74 L40 40 Z" fill="#0E1A2E" stroke="#7CFF6B" stroke-width="5" stroke-linejoin="round"/><path d="M50 18 L55 44 L50 58 L45 44 Z" fill="#7CFF6B"/></g>
+        <rect x="14" y="112" width="18" height="8" fill="#7CFF6B"/><rect x="35" y="112" width="18" height="8" fill="#7CFF6B"/><rect x="56" y="112" width="18" height="8" fill="#7CFF6B"/><rect x="77" y="112" width="18" height="8" fill="#FFFFFF"/>
+      </svg>
+      <div style="font-size: 13px; line-height: 1.45; color: #D7DEF0">Green sparkles rise as the jet flashes green and one hull bar refills.</div>
+    </div>
+
+    <div style="padding: 14px; border: 1px solid rgba(255,62,165,.55); background: rgba(5,6,15,.75); display: flex; flex-direction: column; gap: 10px">
+      <div style="display: flex; gap: 12px; align-items: center">
+        <div style="width: 52px; height: 52px; flex: none; border-radius: 50%; border: 3px solid #FF3EA5; background: radial-gradient(circle, rgba(255,62,165,.5), rgba(255,62,165,.08)); box-shadow: 0 0 18px rgba(255,62,165,.7); display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24"><path d="M12 1 L14.5 9.5 L23 12 L14.5 14.5 L12 23 L9.5 14.5 L1 12 L9.5 9.5 Z" fill="#FFFFFF"/></svg></div>
+        <div style="display: flex; flex-direction: column; gap: 2px"><div style="font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 15px">NOVA BOMB</div><div style="font-size: 11px; letter-spacing: 2px; color: #FF6FBE">STORED · PRESS B</div></div>
+      </div>
+      <svg aria-hidden="true" viewBox="0 0 200 130" style="width: 100%; height: 130px; background: #0A0C1A">
+        <circle cx="100" cy="76" r="70" fill="none" stroke="#FF3EA5" stroke-width="4" opacity=".5"/>
+        <circle cx="100" cy="76" r="48" fill="#FF3EA5" opacity=".12"/>
+        <circle cx="100" cy="76" r="48" fill="none" stroke="#FF3EA5" stroke-width="3"/>
+        <path d="M100 30 L106 66 L140 76 L106 86 L100 122 L94 86 L60 76 L94 66 Z" fill="#FFFFFF" opacity=".9"/>
+        <path d="M24 20 L30 26 M176 20 L170 26 M20 116 L28 110 M180 116 L172 110" stroke="#FFC83D" stroke-width="3" stroke-linecap="round"/>
+      </svg>
+      <div style="font-size: 13px; line-height: 1.45; color: #D7DEF0">Pink shockwave clears all enemies and bullets; deals big damage to bosses.</div>
+    </div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":880}}'>
+class Component extends DCLogic {
+  renderVals() {
+    let s = 67;
+    const r = () => { s = (s * 9301 + 49297) % 233280; return s / 233280; };
+    const stars = [];
+    for (let i = 0; i < 120; i++) stars.push({ x: Math.round(r() * 1280), y: Math.round(r() * 880), o: (0.15 + r() * 0.5).toFixed(2) });
+    return { stars };
+  }
+}
+</script>
+</body>
+</html>

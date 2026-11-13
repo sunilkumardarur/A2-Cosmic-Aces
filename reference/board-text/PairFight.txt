@@ -1,0 +1,8 @@
+Rockmaw
+BOSS 1
+Sentinel Prime Aegis
+BOSS 21
+STAGE 81 · PAIR FIGHT · BOTH MUST FALL
+ENRAGE · When one boss falls, the other flashes red and fires 30% faster for 10 seconds.
+PAIR ATTACK · Every 20 seconds both bosses fire one shared pattern that fills the screen. A red warning shows 1.5 seconds before.
+Bullets on screen are capped at 120 so the screen stays readable.

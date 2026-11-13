@@ -1,0 +1,72 @@
+TECH PLAN
+Recommended defaults. You pick the final engine and platform.
+ENGINE OPTIONS
+Phaser 3 · TypeScript + Vite
+RECOMMENDED
+Runs in any browser from a link. Fastest to build and share. Can be wrapped for PC (Electron) and phone (Capacitor) later.
+Godot 4
+Free, light, exports to PC, web and phone from one project. Good if you want app stores.
+Unity
+Most tools and store support, but heavier than a 2D shooter needs.
+PLATFORM & SCREEN
+Launch: desktop browser, 16:9, game canvas 1280 × 720 that scales to fit.
+Next: phone landscape with touch controls (solo only).
+Later: installable PC app and app stores.
+Art: SVG shapes in these boards become sprite sheets (PNG) at 2× size.
+Stack: TypeScript, Phaser 3, Vite. Tests: Vitest (logic and data), Playwright (screens and play-through). PC app: Electron. Phone: Capacitor.
+SAVING
+Each profile keeps its own credits, shop items, unlocks, high scores and achievements, plus 3 save slots + 1 autosave per profile (up to 4 profiles per device), in the browser (localStorage). An Export code button copies the save as text for backup or moving devices. Online cloud saves can be added later.
+{
+  "slot": 1, "mode": "solo",
+  "profile": "ayan", "jet": "nova_striker",
+  "stage": 41, "score": 48900,
+  "stars": [3,3,2, ... 100 values, 0-3 each],
+  "cleared": [1,1,1, ... 100 values, 0 or 1],
+  "stage_unlocked": 42,
+  "difficulty": "normal",
+  "savedAt": "2026-11-08T19:20:00Z"
+}
+GAME DATA FILES
+jets.json · speed, fire rate, damage, hull
+pilots.json · Ayan, Aarav, special moves
+bosses.json · 40 bosses, HP, phases, attacks
+stages.json · 100 stages, bosses, credits
+stage_themes.json · enemies, hazards, mini-bosses
+waves.json · spawn timing per stage
+balance.json · drops, damage, enemy scaling
+powerups.json · type, time, drop weight
+Tuning numbers lives here, not in code, so you can balance without a programmer.
+SCREEN FLOW
+HOME
+→
+MODE
+→
+HANGAR
+→
+MAP
+→
+STORY
+→
+LOADING
+→
+PLAY
+→
+BOSS
+→
+CLEAR
+/
+GAME OVER
+Pause, Settings, Load and Credits open from Home or Play.
+BUILD ORDER
+1
+Fly, shoot, one enemy type, hit and die.
+2
+Stage 1 complete with waves, Cinder Crab, Rockmaw and power-ups.
+3
+Menus, Hangar, pilots, jets, pause, game over, saving.
+4
+Stages 2 to 100 with their enemies and 40 bosses, all driven by the data files.
+5
+Two-player co-op and A² Burst.
+6
+Music, sound, effects, touch controls, polish.

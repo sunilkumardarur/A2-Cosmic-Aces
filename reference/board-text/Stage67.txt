@@ -1,0 +1,29 @@
+STAGE 67 · TIER 4
+STORM CITADEL
+A castle on the cloud top. Lightning strikes in lines.
+SAME STAGE, TINTED, IN
+MK II · STAGE 77
+PAIR · STAGE 97
+WARNING LINE
+HAZARD · UNBREAKABLE
+A red line. Lightning hits it in 1 second.
+THUNDER KNIGHT
+ENEMY · 10 HITS
+Throws a spinning lightning axe.
+TOWER SHIELD
+OBSTACLE · 14 HITS
+Blocks bullets. Break it from the top.
+TESLA COIL
+ENEMY · 10 HITS
+Arcs between two coils in a line.
+BOSS 67
+HP 37,000 · 4 PHASES
+Thunder God Tempest
+MK II in stage 77
+HP 55,500
+FIGHTS · Screen-wide lightning after a red warning line.
+WEAK POINT · Crown bolts when he raises the hammer.
+MK II ADDS · Shorter warning, lines come in pairs.
+MID-STAGE · Mini-boss Lightning Guard
+First clear up to +300 credits
+Repeat clear +1

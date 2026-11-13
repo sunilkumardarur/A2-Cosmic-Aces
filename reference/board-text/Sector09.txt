@@ -1,0 +1,85 @@
+‹ SECTORS
+SECTOR 9 · TWIN GATE
+Two bosses at once. Tier 1 + Tier 2. Stages 81–90 · Pair fights. Pick a stage to play it.
+STAGE 81
+LOCKED
+EMBER BELT
+Rockmaw
++ Sentinel Prime Aegis
+PAIR
+HP 1,800 + 13,500
++400
+STAGE 82
+LOCKED
+VENOM NEBULA
+Hive Queen Zyra
++ Plasma Weaver Arachna
+PAIR
+HP 3,000 + 14,625
++400
+STAGE 83
+LOCKED
+IRON FLEET
+Dreadnought Ω-9
++ Gravity Golem Massa
+PAIR
+HP 4,800 + 15,750
++400
+STAGE 84
+LOCKED
+VOID RIFT
+Void Emperor Kaal
++ Phantom Admiral Noctis
+PAIR
+HP 7,500 + 16,875
++400
+STAGE 85
+LOCKED
+FROST REACH
+Frost Colossus Glacius
++ Magnet Lord Ferrox
+PAIR
+HP 8,250 + 18,000
++400
+STAGE 86
+LOCKED
+STORM VEIL
+Storm Serpent Voltra
++ Sludge Leviathan Bog
+PAIR
+HP 9,000 + 19,125
++400
+STAGE 87
+LOCKED
+GEAR YARD
+Clockwork Titan Tikka
++ Prism Dragon Chroma
+PAIR
+HP 9,750 + 20,250
++400
+STAGE 88
+LOCKED
+MIRROR MAZE
+Mirror Mantis Spectra
++ Time Warden Chronos
+PAIR
+HP 10,500 + 21,375
++400
+STAGE 89
+LOCKED
+TIDE GATE
+Tidal Kraken Maelo
++ Siege Fortress Bastion
+PAIR
+HP 11,250 + 22,500
++400
+STAGE 90
+LOCKED
+COMET RUN
+Comet King Blazar
++ Star Reaper Falx
+PAIR
+HP 12,000 + 23,625
++400
+Two bosses fight together: Mk II health each, bullets 40% faster, a shared pair attack. When one falls, the other speeds up 30% for 10 s.
+First clear pays the credits shown. Clearing the same stage again pays +1.

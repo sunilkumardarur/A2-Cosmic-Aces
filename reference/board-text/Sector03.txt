@@ -1,0 +1,75 @@
+‹ SECTORS
+SECTOR 3 · STEEL EXPANSE
+Ten new bosses with new ways to fight. Stages 21–30 · Tier 2 · Mk I. Pick a stage to play it.
+STAGE 21
+LOCKED
+AEGIS STATION
+Sentinel Prime Aegis
+MK I
+HP 9,000
++150
+STAGE 22
+LOCKED
+SILK NEBULA
+Plasma Weaver Arachna
+MK I
+HP 9,750
++150
+STAGE 23
+LOCKED
+HEAVY ORBIT
+Gravity Golem Massa
+MK I
+HP 10,500
++150
+STAGE 24
+LOCKED
+GHOST FLEET GRAVEYARD
+Phantom Admiral Noctis
+MK I
+HP 11,250
++150
+STAGE 25
+LOCKED
+SCRAPYARD BELT
+Magnet Lord Ferrox
+MK I
+HP 12,000
++150
+STAGE 26
+LOCKED
+TOXIC SWAMP MOON
+Sludge Leviathan Bog
+MK I
+HP 12,750
++150
+STAGE 27
+LOCKED
+RAINBOW REEF
+Prism Dragon Chroma
+MK I
+HP 13,500
++150
+STAGE 28
+LOCKED
+CLOCK TOWER VOID
+Time Warden Chronos
+MK I
+HP 14,250
++150
+STAGE 29
+LOCKED
+SIEGE LINE
+Siege Fortress Bastion
+MK I
+HP 15,000
++150
+STAGE 30
+LOCKED
+STARFALL FIELDS
+Star Reaper Falx
+MK I
+HP 15,750
++150
+Each stage ends with its own boss.
+First clear pays the credits shown. Clearing the same stage again pays +1.

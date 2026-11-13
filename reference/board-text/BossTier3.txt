@@ -1,0 +1,73 @@
+BOSSES 3 · STAGES 41–60
+Ten different bosses. Large art is Mk I, small gold art is Mk II (same boss, stronger). Stages: white first fight, gold Mk II, pink pair fight.
+TIER 3
+BOSS 41
+MK II
+STAGES 41 · 51 · 91
+Hydra Core Hydrax
+Three heads, each with its own attack.
+MK II · Heads grow back once, faster.
+HP 17,000 → 25,500
+BOSS 42
+MK II
+STAGES 42 · 52 · 92
+Meteor Queen Rubia
+Marked spots get hit by falling meteors.
+MK II · Meteors split into three.
+HP 18,000 → 27,000
+BOSS 43
+MK II
+STAGES 43 · 53 · 93
+Eclipse Wraith Umbra
+Switches light and dark. Only hurt in light.
+MK II · Switches faster. Bullets match the phase.
+HP 19,000 → 28,500
+BOSS 44
+MK II
+STAGES 44 · 54 · 94
+Drone Mother Legion
+Hundreds of tiny drones fly in formations.
+MK II · Formations chase the pilot.
+HP 20,000 → 30,000
+BOSS 45
+MK II
+STAGES 45 · 55 · 95
+Lava Colossus Magmor
+Lava rises from below. Eruption columns.
+MK II · Lava fills half the screen.
+HP 21,000 → 31,500
+BOSS 46
+MK II
+STAGES 46 · 56 · 96
+Cyber Scorpion Stingra
+Tail laser sweeps. Claws snap across lanes.
+MK II · Tail fires twice per sweep.
+HP 22,000 → 33,000
+BOSS 47
+MK II
+STAGES 47 · 57 · 97
+Frozen Empress Glacira
+Freeze beams block your Special for 3 seconds.
+MK II · Also blocks your bombs.
+HP 23,000 → 34,500
+BOSS 48
+MK II
+STAGES 48 · 58 · 98
+Chaos Jester Wildcard
+Picks a random attack every few seconds.
+MK II · Chains two attacks together.
+HP 24,000 → 36,000
+BOSS 49
+MK II
+STAGES 49 · 59 · 99
+Neutron Behemoth Atlas
+Rolls across the screen with shockwave rings.
+MK II · Rings bounce back from the walls.
+HP 25,000 → 37,500
+BOSS 50
+MK II
+STAGES 50 · 60 · 100
+Nebula Overlord Zorak
+Uses a move from three earlier bosses.
+MK II · Uses moves from five earlier bosses.
+HP 26,000 → 39,000

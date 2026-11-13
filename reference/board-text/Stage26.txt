@@ -1,0 +1,29 @@
+STAGE 26 · TIER 2
+TOXIC SWAMP MOON
+A green moon covered in swamp and sludge.
+SAME STAGE, TINTED, IN
+MK II · STAGE 36
+PAIR · STAGE 86
+SLIME BLOB
+ENEMY · 3 HITS
+Splits into two smaller blobs when shot.
+TOXIC POOL
+HAZARD · UNBREAKABLE
+Stays on screen and burns on touch.
+SPORE POD
+OBSTACLE · 4 HITS
+Pops into a cloud of 8 slow spores.
+BOG TURRET
+ENEMY · 6 HITS
+Spits goo that leaves a small puddle.
+BOSS 26
+HP 12,750 · 3 PHASES
+Sludge Leviathan Bog
+MK II in stage 36
+HP 19,125
+FIGHTS · Leaves toxic pools that stay on screen.
+WEAK POINT · Central mouth while it is open.
+MK II ADDS · Pools split into small slimes.
+MID-STAGE · Mini-boss Slime Mother
+First clear up to +150 credits
+Repeat clear +1

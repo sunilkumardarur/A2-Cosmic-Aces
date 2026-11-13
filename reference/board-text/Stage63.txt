@@ -1,0 +1,29 @@
+STAGE 63 · TIER 4
+BROKEN DIMENSION
+Space is torn in pieces. Portals link the halves.
+SAME STAGE, TINTED, IN
+MK II · STAGE 73
+PAIR · STAGE 93
+RIFT PORTAL
+HAZARD · UNBREAKABLE
+Pulls you through to the other half.
+RIFT HOUND
+ENEMY · 8 HITS
+Jumps through portals to surprise you.
+SPLIT WALL
+OBSTACLE · UNBREAKABLE
+A wall that exists in only one half.
+TEAR TURRET
+ENEMY · 10 HITS
+Fires from one half to the other.
+BOSS 63
+HP 31,000 · 4 PHASES
+Dimension Splitter Riftor
+MK II in stage 73
+HP 46,500
+FIGHTS · Splits the screen in two. Portals link the halves.
+WEAK POINT · Both portal eyes at the same time.
+MK II ADDS · Portals move and swap sides.
+MID-STAGE · Mini-boss Rift Hound
+First clear up to +300 credits
+Repeat clear +1

@@ -1,0 +1,29 @@
+STAGE 47 · TIER 3
+FROZEN THRONE
+A palace of ice. The cold blocks your special move.
+SAME STAGE, TINTED, IN
+MK II · STAGE 57
+PAIR · STAGE 97
+FREEZE FIELD
+HAZARD · UNBREAKABLE
+Locks your Special bar while you are in it.
+ICE GUARD
+ENEMY · 6 HITS
+Throws ice spears in a fan.
+CRYSTAL PILLAR
+OBSTACLE · 12 HITS
+Reflects your bullets sideways.
+BLIZZARD VENT
+HAZARD · UNBREAKABLE
+Pushes you across the screen.
+BOSS 47
+HP 23,000 · 3 PHASES
+Frozen Empress Glacira
+MK II in stage 57
+HP 34,500
+FIGHTS · Freeze beams block your Special for 3 seconds.
+WEAK POINT · Snowflake chest gem when she opens her wings.
+MK II ADDS · Also blocks your bombs.
+MID-STAGE · Mini-boss Frost Maiden
+First clear up to +220 credits
+Repeat clear +1

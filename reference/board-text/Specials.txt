@@ -1,0 +1,13 @@
+SPECIAL MOVES & A² BURST
+The special bar fills as you shoot and destroy enemies. When it is full, press Shift (or X on gamepad). Using it empties the bar.
+AYAN
+FOCUS SHOT
+Half-second charge ring, then a thick beam fires straight up for 1 second. It pierces every enemy in the line. Strong against bosses.
+AARAV
+SHIELD BURST
+A round shockwave grows from the jet. Every enemy bullet it touches turns into gold sparks, and enemies inside freeze for 1 second.
+AYAN + AARAV · CO-OP ONLY
+A² BURST
+With the A² meter full, both pilots press Special within 1 second. Their beams twist into one giant beam for 2 seconds, clearing all bullets and hitting everything on screen. Bosses lose 15% of their health.
+Phantom X · special is Phase Dash: 1 second invisible and untouchable.
+Special bar · fills in about 40 seconds of normal play. Shop "Special Charge" makes it 20% faster.

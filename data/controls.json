@@ -1,0 +1,46 @@
+{
+  "keyboard": {
+    "p1_ayan": {
+      "move": "W A S D",
+      "special": "L SHIFT",
+      "bomb": "B"
+    },
+    "p2_aarav": {
+      "move": "Arrow keys",
+      "special": "R SHIFT",
+      "bomb": "R CTRL"
+    },
+    "pause": "ESC",
+    "fire": "automatic",
+    "a2_burst": "Both Special keys within 1 second",
+    "solo_note": "Tutorial says 'arrow keys or WASD'. Solo special/bomb keys: use P1 keys (L SHIFT / B). Confirm with design owner."
+  },
+  "gamepad": {
+    "move": "Left stick (D-pad in menus)",
+    "special": "X (Xbox) / square (PS) / Y (Switch)",
+    "bomb": "Y (Xbox) / triangle (PS) / X (Switch)",
+    "confirm": "A / cross / B",
+    "back": "B / circle / A",
+    "pause": "Start / Options / +",
+    "manual_fire_if_enabled": "A / cross / B",
+    "second_pad": "joins as Player 2 automatically; Pad 1 cyan, Pad 2 orange",
+    "disconnect": "game pauses, shows 'Reconnect controller'",
+    "hints": "Button hints follow last device used"
+  },
+  "touch": {
+    "move": "Floating stick, touch anywhere in left half (option: drag jet directly)",
+    "special": "Big button lower right, dim until full, then gold pulse",
+    "bomb": "Smaller button next to it, count badge",
+    "pause": "Small top right; also opens when app goes to background",
+    "fire": "automatic",
+    "options": [
+      "Left-handed swap",
+      "Button size S / M / L",
+      "Vibration on hit and special"
+    ],
+    "min_button_px": 64,
+    "spacing_px": 12,
+    "limits": "Landscape only; solo only",
+    "source_of_truth": "Touch board (Controls board text was patched to match)"
+  }
+}

@@ -1,0 +1,86 @@
+‹ HANGAR
+SELECT SECTOR
+10 sectors, 10 stages each. Pick a sector to see its stages. A sector opens when you clear stage 10 of the sector before it.
+SECTOR 1
+PLAYING
+DAWN FRONTIER
+STAGES 1–10
+Tier 1 · Mk I
+5 / 10 cleared
+★ 18 / 30
+1,000 first-clear credits
+SECTOR 2
+LOCKED
+RED FRONTIER
+STAGES 11–20
+Tier 1 · Mk II
+0 / 10 cleared
+★ 0 / 30
+1,200 first-clear credits
+SECTOR 3
+LOCKED
+STEEL EXPANSE
+STAGES 21–30
+Tier 2 · Mk I
+0 / 10 cleared
+★ 0 / 30
+1,500 first-clear credits
+SECTOR 4
+LOCKED
+IRON EXPANSE
+STAGES 31–40
+Tier 2 · Mk II
+0 / 10 cleared
+★ 0 / 30
+1,800 first-clear credits
+SECTOR 5
+LOCKED
+SHADOW DEEP
+STAGES 41–50
+Tier 3 · Mk I
+0 / 10 cleared
+★ 0 / 30
+2,200 first-clear credits
+SECTOR 6
+LOCKED
+NIGHT DEEP
+STAGES 51–60
+Tier 3 · Mk II
+0 / 10 cleared
+★ 0 / 30
+2,600 first-clear credits
+SECTOR 7
+LOCKED
+OMEGA REACH
+STAGES 61–70
+Tier 4 · Mk I
+0 / 10 cleared
+★ 0 / 30
+3,000 first-clear credits
+SECTOR 8
+LOCKED
+FINAL REACH
+STAGES 71–80
+Tier 4 · Mk II
+0 / 10 cleared
+★ 0 / 30
+3,500 first-clear credits
+SECTOR 9
+LOCKED
+TWIN GATE
+STAGES 81–90
+Pair fights
+0 / 10 cleared
+★ 0 / 30
+4,000 first-clear credits
+SECTOR 10
+LOCKED
+CROWN GATE
+STAGES 91–100
+Pair fights
+0 / 10 cleared
+★ 0 / 30
+4,500 first-clear credits
+Sectors 1–8 · Tier 1 to Tier 4, each tier once as Mk I and once as Mk II
+Sectors 9–10 · pair fights, two bosses together
+All 100 stages · 25,300 credits on first clears

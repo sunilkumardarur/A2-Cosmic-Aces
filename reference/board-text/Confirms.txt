@@ -1,0 +1,30 @@
+MENU
+CONFIRM DIALOGS
+Every action that cannot be undone asks first. The cancel button is always on the left and is focused by default.
+LEAVE THE GAME?
+Your profile and saves are already stored. Nothing is lost.
+Progress is saved automatically.
+STAY
+EXIT
+DELETE PROFILE?
+This removes AARAV with 120 credits, 1 shop power, 2 achievements and all saves. It cannot be undone.
+Type AARAV to confirm
+CANCEL
+DELETE
+RENAME PROFILE
+Credits, shop powers and saves stay with the profile. Only the name changes.
+AYAN
+CANCEL
+SAVE NAME
+DELETE SAVE?
+Slot 2 · Stage 3 · 0041200 · 38 min. The profile, credits and shop powers are not touched.
+CANCEL
+DELETE SAVE
+OVERWRITE SAVE?
+Slot 1 already has a save from Stage 2. Saving here replaces it.
+CANCEL
+OVERWRITE
+REPLACE PROFILE?
+A profile named AARAV already exists on this device. Importing replaces its credits, shop powers and saves with the code's.
+KEEP CURRENT
+REPLACE

@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>A² Cosmic Aces — Settings</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&amp;family=Exo+2:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#2DE2FF}a:hover{color:#FFFFFF}
+button{font-family:inherit;color:inherit;cursor:pointer}
+input[type=range]{accent-color:#2DE2FF;width:100%;height:24px;margin:0}
+</style>
+</helmet>
+<div style="width: 1280px; height: 720px; position: relative; overflow: hidden; box-sizing: border-box; padding: 32px 56px; background: #05060F; font-family: 'Exo 2', sans-serif; color: #FFFFFF; display: flex; flex-direction: column; gap: 20px">
+  <sc-for list="{{stars}}" as="s" hint-placeholder-count="20">
+    <div style="position: absolute; left: {{s.x}}px; top: {{s.y}}px; width: 2px; height: 2px; border-radius: 50%; background: #FFFFFF; opacity: {{s.o}}"></div>
+  </sc-for>
+  <header style="position: relative; display: flex; align-items: center; gap: 20px">
+    <a href="Main.dc.html" style="display: flex; align-items: center; gap: 8px; height: 44px; padding: 0 16px; border: 2px solid rgba(169,180,208,.4); color: #D7DEF0; text-decoration: none; font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 13px; letter-spacing: 2px"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg>BACK</a>
+    <h1 style="margin: 0; font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 32px; letter-spacing: 3px; text-shadow: 0 0 16px rgba(45,226,255,.5)">SETTINGS</h1>
+  </header>
+
+  <div style="position: relative; display: flex; gap: 28px; flex: 1">
+    <div style="flex: 1; display: flex; flex-direction: column; gap: 20px">
+      <section style="padding: 22px 24px; border: 1px solid rgba(45,226,255,.35); background: rgba(5,6,15,.8); display: flex; flex-direction: column; gap: 16px">
+        <h2 style="margin: 0; font-family: 'Orbitron', sans-serif; font-size: 13px; letter-spacing: 4px; color: #2DE2FF">AUDIO</h2>
+        <div style="display: grid; grid-template-columns: 130px 1fr 48px; gap: 12px; align-items: center">
+          <label for="vm" style="font-size: 14px">Music</label><input id="vm" type="range" min="0" max="100" value="70"><b style="text-align: right">70</b>
+          <label for="vs" style="font-size: 14px">Sound effects</label><input id="vs" type="range" min="0" max="100" value="85"><b style="text-align: right">85</b>
+          <label for="vv" style="font-size: 14px">Pilot voices</label><input id="vv" type="range" min="0" max="100" value="60"><b style="text-align: right">60</b>
+        </div>
+      </section>
+      <section style="padding: 22px 24px; border: 1px solid rgba(45,226,255,.35); background: rgba(5,6,15,.8); display: flex; flex-direction: column; gap: 14px">
+        <h2 style="margin: 0; font-family: 'Orbitron', sans-serif; font-size: 13px; letter-spacing: 4px; color: #2DE2FF">DISPLAY &amp; ACCESSIBILITY</h2>
+        <sc-for list="{{toggles}}" as="t" hint-placeholder-count="4">
+          <div style="display: flex; align-items: center; justify-content: space-between; gap: 16px">
+            <div style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 15px; font-weight: 600">{{t.label}}</span><span style="font-size: 12px; color: #A9B4D0">{{t.desc}}</span></div>
+            <button type="button" role="switch" aria-checked="{{t.on}}" aria-label="{{t.label}}" onClick="{{t.toggle}}" style="position: relative; flex: none; width: 56px; height: 30px; padding: 0; border-radius: 15px; border: 2px solid {{t.color}}; background: {{t.track}}"><span style="position: absolute; top: 3px; left: {{t.knob}}px; width: 20px; height: 20px; border-radius: 50%; background: {{t.color}}"></span></button>
+          </div>
+        </sc-for>
+      </section>
+    </div>
+
+    <div style="flex: 1; display: flex; flex-direction: column; gap: 20px">
+      <section style="padding: 22px 24px; border: 1px solid rgba(255,62,165,.4); background: rgba(5,6,15,.8); display: flex; flex-direction: column; gap: 16px">
+        <h2 style="margin: 0; font-family: 'Orbitron', sans-serif; font-size: 13px; letter-spacing: 4px; color: #FF3EA5">DIFFICULTY</h2>
+        <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px">
+          <sc-for list="{{diffs}}" as="d" hint-placeholder-count="3">
+            <button type="button" onClick="{{d.pick}}" aria-pressed="{{d.on}}" style="height: 52px; border: 2px solid {{d.color}}; background: {{d.bg}}; color: {{d.fg}}; font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 14px; letter-spacing: 3px">{{d.name}}</button>
+          </sc-for>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 6px; padding: 14px 16px; background: rgba(255,255,255,.04); min-height: 84px">
+          <div style="font-size: 14px; line-height: 1.5; color: #E6EAF5">{{diffDesc}}</div>
+          <div style="font-size: 12px; letter-spacing: 1px; color: #FFC83D">{{diffStats}}</div>
+        </div>
+      </section>
+      <section style="padding: 22px 24px; border: 1px solid rgba(255,62,165,.4); background: rgba(5,6,15,.8); display: flex; flex-direction: column; gap: 14px">
+        <h2 style="margin: 0; font-family: 'Orbitron', sans-serif; font-size: 13px; letter-spacing: 4px; color: #FF3EA5">GAMEPLAY &amp; CONTROLS</h2>
+        <sc-for list="{{gtoggles}}" as="t" hint-placeholder-count="2">
+          <div style="display: flex; align-items: center; justify-content: space-between; gap: 16px">
+            <div style="display: flex; flex-direction: column; gap: 2px"><span style="font-size: 15px; font-weight: 600">{{t.label}}</span><span style="font-size: 12px; color: #A9B4D0">{{t.desc}}</span></div>
+            <button type="button" role="switch" aria-checked="{{t.on}}" aria-label="{{t.label}}" onClick="{{t.toggle}}" style="position: relative; flex: none; width: 56px; height: 30px; padding: 0; border-radius: 15px; border: 2px solid {{t.color}}; background: {{t.track}}"><span style="position: absolute; top: 3px; left: {{t.knob}}px; width: 20px; height: 20px; border-radius: 50%; background: {{t.color}}"></span></button>
+          </div>
+        </sc-for>
+        <a href="Controls.dc.html" style="display: flex; align-items: center; justify-content: center; height: 48px; border: 2px solid #2DE2FF; color: #2DE2FF; text-decoration: none; font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 13px; letter-spacing: 3px">VIEW &amp; REMAP CONTROLS</a>
+      </section>
+    </div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":720}}'>
+class Component extends DCLogic {
+  renderVals() {
+    let s = 37;
+    const r = () => { s = (s * 9301 + 49297) % 233280; return s / 233280; };
+    const stars = [];
+    for (let i = 0; i < 80; i++) stars.push({ x: Math.round(r() * 1280), y: Math.round(r() * 720), o: (0.15 + r() * 0.5).toFixed(2) });
+    const st = this.state || {};
+    const flags = { fs: st.fs !== undefined ? st.fs : false, shake: st.shake !== undefined ? st.shake : true, cb: st.cb !== undefined ? st.cb : false, flash: st.flash !== undefined ? st.flash : true, auto: st.auto !== undefined ? st.auto : false, subs: st.subs !== undefined ? st.subs : true };
+    const mk = (key, label, desc, accent) => ({
+      label, desc, on: flags[key],
+      color: flags[key] ? accent : '#A9B4D0',
+      track: flags[key] ? 'rgba(45,226,255,.18)' : 'transparent',
+      knob: flags[key] ? 28 : 3,
+      toggle: () => this.setState({ [key]: !flags[key] })
+    });
+    const toggles = [
+      mk('fs', 'Fullscreen', 'Fill the whole screen', '#2DE2FF'),
+      mk('shake', 'Screen shake', 'Camera shakes on big explosions', '#2DE2FF'),
+      mk('flash', 'Flash effects', 'Turn off to reduce bright flashes', '#2DE2FF'),
+      mk('cb', 'Colorblind-friendly bullets', 'Enemy shots get a white outline', '#2DE2FF')
+    ];
+    const gtoggles = [
+      mk('auto', 'Manual fire', 'Off = your jet shoots by itself (default). On = shoot with Space or A', '#FF3EA5'),
+      mk('subs', 'Pilot subtitles', 'Show text for Ayan and Aarav voice lines', '#FF3EA5')
+    ];
+    const diff = st.diff !== undefined ? st.diff : 1;
+    const dd = [
+      { name: 'EASY', color: '#7CFF6B', desc: 'Relaxed ride. Enemies are weaker and slower, and power-ups drop more often.', stats: 'Enemy HP ×0.7 · Bullet speed ×0.8 · Drops ×1.5 · Score ×1' },
+      { name: 'NORMAL', color: '#2DE2FF', desc: 'The intended game. A fair fight for new pilots and seasoned aces alike.', stats: 'Enemy HP ×1 · Bullet speed ×1 · Drops ×1 · Score ×1.2' },
+      { name: 'HARD', color: '#FF4D5E', desc: 'Tougher enemies, faster bullets and fewer pickups. For true Cosmic Aces.', stats: 'Enemy HP ×1.4 · Bullet speed ×1.25 · Drops ×0.7 · Score ×1.5' }
+    ];
+    const diffs = dd.map((d, i) => ({ name: d.name, on: i === diff, color: d.color, bg: i === diff ? d.color : 'transparent', fg: i === diff ? '#05060F' : d.color, pick: () => this.setState({ diff: i }) }));
+    return { stars, toggles, gtoggles, diffs, diffDesc: dd[diff].desc, diffStats: dd[diff].stats };
+  }
+}
+</script>
+</body>
+</html>

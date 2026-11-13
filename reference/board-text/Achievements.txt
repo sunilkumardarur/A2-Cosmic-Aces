@@ -1,0 +1,28 @@
+MENU
+TROPHIES
+High scores and achievements for profile AYAN. Each achievement pays credits once.
+4 / 12 UNLOCKED
+100 of 600 credits earned
+TOP SCORES BY STAGE
+1 · EMBER BELT
+1.
+0031820
+2.
+0028400
+3.
+0024100
+2 · VENOM NEBULA
+1.
+0048900
+2.
+0041200
+3.
+0036000
+3 · IRON FLEET
+No scores yet. Clear Stage 2 to play it.
+4 · VOID RIFT
+Locked.
+ACHIEVEMENTS
+{{a.name}}
+{{a.desc}}
+{{a.reward}}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ayan and Aarav in the hangar, talking" viewBox="0 0 380 380" style="position: absolute; inset: 0; width: 380px; height: 380px">
+          <rect x="0" y="300" width="380" height="80" fill="#0E1A2E"/>
+          <path d="M0 300 H380 M60 300 L20 380 M190 300 V380 M320 300 L360 380" stroke="#2DE2FF" stroke-width="1.5" opacity=".35"/>
+          <g transform="translate(14 120) scale(1.4)"><circle cx="60" cy="64" r="44" fill="#16223C" stroke="#2DE2FF" stroke-width="4"/><ellipse cx="60" cy="74" rx="27" ry="28" fill="#B9794E"/><path d="M33 66 L38 50 L44 58 L50 46 L56 56 L62 44 L68 56 L74 46 L80 58 L86 52 L87 66 Q60 54 33 66 Z" fill="#1B1210"/><ellipse cx="50" cy="76" rx="4" ry="5" fill="#1B1210"/><ellipse cx="70" cy="76" rx="4" ry="5" fill="#1B1210"/><path d="M49 88 Q60 97 71 88" stroke="#1B1210" stroke-width="3" fill="none" stroke-linecap="round"/><rect x="34" y="22" width="52" height="16" rx="8" fill="#2DE2FF"/></g>
+          <g transform="translate(190 130) scale(1.4)"><circle cx="60" cy="64" r="44" fill="#2A1C12" stroke="#FF9A3D" stroke-width="4"/><ellipse cx="60" cy="74" rx="27" ry="28" fill="#A86A42"/><path d="M33 68 Q36 48 60 46 Q84 46 87 64 Q72 56 52 58 Q42 60 33 68 Z" fill="#14100E"/><circle cx="49" cy="77" r="8" fill="none" stroke="#FFC83D" stroke-width="2.5"/><circle cx="71" cy="77" r="8" fill="none" stroke="#FFC83D" stroke-width="2.5"/><circle cx="49" cy="77" r="3.5" fill="#14100E"/><circle cx="71" cy="77" r="3.5" fill="#14100E"/><path d="M50 90 Q60 96 70 90" stroke="#14100E" stroke-width="3" fill="none" stroke-linecap="round"/><rect x="34" y="22" width="52" height="16" rx="8" fill="#FF9A3D"/></g>
+          <rect x="16" y="16" width="170" height="64" rx="14" fill="#FFFFFF"/><path d="M60 80 L50 100 L84 80 Z" fill="#FFFFFF"/>
+          <text x="101" y="44" text-anchor="middle" font-family="Exo 2, sans-serif" font-weight="700" font-size="17" fill="#05060F">Ready, Aarav?</text>
+          <text x="101" y="64" text-anchor="middle" font-family="Exo 2, sans-serif" font-size="13" fill="#3A4560">— Ayan</text>
+          <rect x="190" y="30" width="176" height="76" rx="14" fill="#FFC83D"/><path d="M300 106 L316 126 L282 106 Z" fill="#FFC83D"/>
+          <text x="278" y="56" text-anchor="middle" font-family="Exo 2, sans-serif" font-weight="700" font-size="16" fill="#05060F">Born ready. Let's clear</text>
+          <text x="278" y="76" text-anchor="middle" font-family="Exo 2, sans-serif" font-weight="700" font-size="16" fill="#05060F">this galaxy!</text>
+          <text x="278" y="96" text-anchor="middle" font-family="Exo 2, sans-serif" font-size="13" fill="#4A3A10">— Aarav</text>
+        </svg>

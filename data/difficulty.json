@@ -1,0 +1,38 @@
+{
+  "levels": [
+    {
+      "id": "easy",
+      "enemy_hp": 0.7,
+      "bullet_speed": 0.8,
+      "powerup_drops": 1.5,
+      "score": 1.0,
+      "continues": 5,
+      "starting_hull": 6,
+      "desc": "Relaxed ride. Enemies are weaker and slower, and power-ups drop more often.",
+      "credits_first_clear": 0.5
+    },
+    {
+      "id": "normal",
+      "enemy_hp": 1.0,
+      "bullet_speed": 1.0,
+      "powerup_drops": 1.0,
+      "score": 1.2,
+      "continues": 3,
+      "starting_hull": 5,
+      "desc": "The intended game. A fair fight for new pilots and seasoned aces alike.",
+      "credits_first_clear": 1.0
+    },
+    {
+      "id": "hard",
+      "enemy_hp": 1.4,
+      "bullet_speed": 1.25,
+      "powerup_drops": 0.7,
+      "score": 1.5,
+      "continues": 1,
+      "starting_hull": 4,
+      "desc": "Tougher enemies, faster bullets and fewer pickups. For true Cosmic Aces.",
+      "credits_first_clear": 1.5
+    }
+  ],
+  "note": "Hard x1.5 / Easy x0.5 apply to FIRST-clear credits. enemy_hp and bullet_speed apply to enemies, mini-bosses and bosses."
+}

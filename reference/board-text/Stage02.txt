@@ -1,0 +1,29 @@
+STAGE 02 · TIER 1
+VENOM NEBULA
+A toxic green cloud where an alien hive breeds swarms. Enemies come in packs.
+SAME STAGE, TINTED, IN
+MK II · STAGE 12
+PAIR · STAGE 82
+STINGER SWARM
+ENEMY FLIGHT · 1 HIT EACH
+Bug fighters in V-formation. They break apart and dive when hit.
+ACID SPORE
+HAZARD · 2 HITS
+Floats slowly. Pops into 8 acid droplets - shoot it from far away.
+NEBULA EEL
+ENEMY · 6 HITS (HEAD ONLY)
+Long serpent that weaves in a wave. Its body blocks your bullets.
+LEECH POD
+ENEMY · 3 HITS
+Grabs your jet and slows it by 40% until you shake it off.
+BOSS 2
+HP 2,000 · 2 PHASES
+Hive Queen Zyra
+MK II in stage 12
+HP 3,000
+FIGHTS · Spawns drones in waves and fires acid arcs.
+WEAK POINT · Crown eye. Only opens right after Larva Spawn.
+MK II ADDS · Drones come back once after dying.
+MID-STAGE · Mini-boss Spore Mother
+First clear up to +100 credits
+Repeat clear +1

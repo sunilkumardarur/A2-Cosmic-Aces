@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>A² Cosmic Aces — Touch Controls</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&amp;family=Exo+2:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#2DE2FF}a:hover{color:#FFFFFF}
+</style>
+</helmet>
+<div style="width: 1280px; height: 720px; position: relative; overflow: hidden; box-sizing: border-box; padding: 26px 40px; background: #05060F; font-family: 'Exo 2', sans-serif; color: #FFFFFF; display: flex; flex-direction: column; gap: 14px">
+  <sc-for list="{{stars}}" as="s" hint-placeholder-count="20">
+    <div style="position: absolute; left: {{s.x}}px; top: {{s.y}}px; width: 2px; height: 2px; border-radius: 50%; background: #FFFFFF; opacity: {{s.o}}"></div>
+  </sc-for>
+<header style="position: relative; display: flex; align-items: center; justify-content: space-between"><div style="display: flex; align-items: center; gap: 20px"><a href="Main.dc.html" style="display: flex; align-items: center; gap: 8px; height: 44px; padding: 0 16px; border: 2px solid rgba(169,180,208,.4); color: #D7DEF0; text-decoration: none; font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 13px; letter-spacing: 2px"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg>MENU</a><div style="display: flex; flex-direction: column; gap: 2px"><h1 style="margin: 0; font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 28px; letter-spacing: 3px; text-shadow: 0 0 16px rgba(45,226,255,.5)">TOUCH CONTROLS</h1><div style="font-size: 14px; color: #A9B4D0">Phone and tablet layout, landscape. Desktop stays the main target.</div></div></div></header><div style="position:relative;display:flex;gap:24px;flex:1;align-items:flex-start"><div style="position:relative;width:760px;height:342px;flex:none;border:6px solid #2A3050;border-radius:34px;background:#0A0C1A;overflow:hidden;box-sizing:content-box">
+<div style="position:absolute;left:14px;top:12px;display:flex;gap:3px"><span style="width:18px;height:8px;background:#2DE2FF"></span><span style="width:18px;height:8px;background:#2DE2FF"></span><span style="width:18px;height:8px;background:#2DE2FF"></span><span style="width:18px;height:8px;background:rgba(255,255,255,.15)"></span></div>
+<div style="position:absolute;left:0;right:0;top:8px;text-align:center;font-family: 'Orbitron', sans-serif;font-weight:900;font-size:15px">0012450</div>
+<div style="position:absolute;left:680px;top:14px;width:40px;height:40px;box-sizing:border-box;border-radius:50%;border:3px solid #A9B4D0;background:rgba(255,255,255,.06);opacity:0.6;display:flex;align-items:center;justify-content:center;font-family: 'Orbitron', sans-serif;font-weight:900;font-size:12px;letter-spacing:1px;color:#A9B4D0;text-align:center">II</div>
+<svg aria-hidden="true" viewBox="0 0 100 120" style="position:absolute;left:350px;top:190px;width:50px;height:60px"><path d="M44 96 L50 120 L56 96 Z" fill="#FF3EA5"/><path d="M50 4 L60 40 L92 74 L92 86 L62 80 L58 96 L42 96 L38 80 L8 86 L8 74 L40 40 Z" fill="#0E1A2E" stroke="#2DE2FF" stroke-width="3" stroke-linejoin="round"/><path d="M50 18 L55 44 L50 58 L45 44 Z" fill="#2DE2FF"/></svg>
+<div style="position:absolute;left:372px;top:110px;width:4px;height:36px;background:#2DE2FF;border-radius:2px"></div><div style="position:absolute;left:372px;top:60px;width:4px;height:36px;background:#2DE2FF;border-radius:2px"></div>
+<div style="position:absolute;left:0;top:50px;width:380px;height:292px;border-right:2px dashed rgba(45,226,255,.3);background:rgba(45,226,255,.04)"></div>
+<div style="position:absolute;left:14px;top:62px;font-size:10px;letter-spacing:2px;color:#2DE2FF">MOVE ZONE · TOUCH ANYWHERE</div>
+<div style="position:absolute;left:62px;top:182px;width:116px;height:116px;box-sizing:border-box;border-radius:50%;border:3px solid #2DE2FF;background:rgba(45,226,255,.08);opacity:0.9;display:flex;align-items:center;justify-content:center;font-family: 'Orbitron', sans-serif;font-weight:900;font-size:0px;letter-spacing:1px;color:#2DE2FF;text-align:center"></div><div style="position:absolute;left:96px;top:216px;width:48px;height:48px;box-sizing:border-box;border-radius:50%;border:3px solid #2DE2FF;background:rgba(45,226,255,.45);opacity:1;display:flex;align-items:center;justify-content:center;font-family: 'Orbitron', sans-serif;font-weight:900;font-size:0px;letter-spacing:1px;color:#2DE2FF;text-align:center"></div>
+<div style="position:absolute;left:614px;top:190px;width:92px;height:92px;box-sizing:border-box;border-radius:50%;border:3px solid #FFC83D;background:rgba(255,200,61,.14);opacity:1;display:flex;align-items:center;justify-content:center;font-family: 'Orbitron', sans-serif;font-weight:900;font-size:11px;letter-spacing:1px;color:#FFC83D;text-align:center">SPECIAL</div><div style="position:absolute;left:526px;top:250px;width:68px;height:68px;box-sizing:border-box;border-radius:50%;border:3px solid #FF3EA5;background:rgba(255,62,165,.12);opacity:1;display:flex;align-items:center;justify-content:center;font-family: 'Orbitron', sans-serif;font-weight:900;font-size:10px;letter-spacing:1px;color:#FF3EA5;text-align:center">BOMB</div>
+<div style="position:absolute;right:20px;bottom:12px;font-size:10px;color:#A9B4D0">AUTO-FIRE ON</div>
+</div><div style="flex:1;display:flex;flex-direction:column;gap:8px"><div style="padding:9px 14px;border-left:4px solid #2DE2FF;background:rgba(255,255,255,.03)"><b style="font-family: 'Orbitron', sans-serif;font-size:12px;letter-spacing:2px;color:#2DE2FF">MOVE</b><div style="font-size:13px;line-height:1.45;color:#D7DEF0;margin-top:2px">Touch anywhere in the left half. A floating stick appears under the thumb. Setting: drag the jet directly instead.</div></div><div style="padding:9px 14px;border-left:4px solid #FFC83D;background:rgba(255,255,255,.03)"><b style="font-family: 'Orbitron', sans-serif;font-size:12px;letter-spacing:2px;color:#FFC83D">SPECIAL</b><div style="font-size:13px;line-height:1.45;color:#D7DEF0;margin-top:2px">Big button, lower right. Dim until the bar is full, then glows gold and pulses.</div></div><div style="padding:9px 14px;border-left:4px solid #FF3EA5;background:rgba(255,255,255,.03)"><b style="font-family: 'Orbitron', sans-serif;font-size:12px;letter-spacing:2px;color:#FF3EA5">BOMB</b><div style="font-size:13px;line-height:1.45;color:#D7DEF0;margin-top:2px">Smaller button next to it. Shows a count badge. Dim at 0 bombs.</div></div><div style="padding:9px 14px;border-left:4px solid #A9B4D0;background:rgba(255,255,255,.03)"><b style="font-family: 'Orbitron', sans-serif;font-size:12px;letter-spacing:2px;color:#A9B4D0">PAUSE</b><div style="font-size:13px;line-height:1.45;color:#D7DEF0;margin-top:2px">Small button top right. Also opens when the app goes to the background.</div></div><div style="padding:9px 14px;border-left:4px solid #7CFF6B;background:rgba(255,255,255,.03)"><b style="font-family: 'Orbitron', sans-serif;font-size:12px;letter-spacing:2px;color:#7CFF6B">FIRING</b><div style="font-size:13px;line-height:1.45;color:#D7DEF0;margin-top:2px">Automatic, same as desktop. No fire button.</div></div><div style="padding:9px 14px;border-left:4px solid #B26BFF;background:rgba(255,255,255,.03)"><b style="font-family: 'Orbitron', sans-serif;font-size:12px;letter-spacing:2px;color:#B26BFF">OPTIONS</b><div style="font-size:13px;line-height:1.45;color:#D7DEF0;margin-top:2px">Left-handed swap. Button size S / M / L. Vibration on hit and special.</div></div></div></div><div style="position:relative;display:flex;gap:14px"><div style="flex:1;padding:10px 14px;border:1px solid rgba(169,180,208,.3);font-size:13px;color:#D7DEF0"><b style="color:#FFC83D">Sizes:</b> every button is at least 64 px across with 12 px spacing, so a thumb never hits two.</div><div style="flex:1;padding:10px 14px;border:1px solid rgba(169,180,208,.3);font-size:13px;color:#D7DEF0"><b style="color:#FF4D5E">Limits:</b> landscape only (a rotate prompt shows in portrait). Co-op is keyboard or gamepad only in this version.</div></div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":720}}'>
+class Component extends DCLogic {
+  renderVals() {
+    let s = 151;
+    const r = () => { s = (s * 9301 + 49297) % 233280; return s / 233280; };
+    const stars = [];
+    for (let i = 0; i < 80; i++) stars.push({ x: Math.round(r() * 1280), y: Math.round(r() * 720), o: (0.15 + r() * 0.5).toFixed(2) });
+    return { stars };
+  }
+}
+</script>
+</body>
+</html>

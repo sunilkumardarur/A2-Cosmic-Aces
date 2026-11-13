@@ -1,0 +1,73 @@
+BOSSES 2 · STAGES 21–40
+Ten different bosses. Large art is Mk I, small gold art is Mk II (same boss, stronger). Stages: white first fight, gold Mk II, pink pair fight.
+TIER 2
+BOSS 21
+MK II
+STAGES 21 · 31 · 81
+Sentinel Prime Aegis
+Rotating shield plates. Only the back is open.
+MK II · Plates break off and fly at you.
+HP 9,000 → 13,500
+BOSS 22
+MK II
+STAGES 22 · 32 · 82
+Plasma Weaver Arachna
+Laser webs close in like a grid.
+MK II · Web moves and closes faster.
+HP 9,750 → 14,625
+BOSS 23
+MK II
+STAGES 23 · 33 · 83
+Gravity Golem Massa
+Gravity wells pull bullets and your jet.
+MK II · Wells last longer and can stack.
+HP 10,500 → 15,750
+BOSS 24
+MK II
+STAGES 24 · 34 · 84
+Phantom Admiral Noctis
+Cloaks, teleports and strikes from behind.
+MK II · Leaves decoys that explode.
+HP 11,250 → 16,875
+BOSS 25
+MK II
+STAGES 25 · 35 · 85
+Magnet Lord Ferrox
+Pulls you toward him and flings metal scrap.
+MK II · Pull flips to push without warning.
+HP 12,000 → 18,000
+BOSS 26
+MK II
+STAGES 26 · 36 · 86
+Sludge Leviathan Bog
+Leaves toxic pools that stay on screen.
+MK II · Pools split into small slimes.
+HP 12,750 → 19,125
+BOSS 27
+MK II
+STAGES 27 · 37 · 87
+Prism Dragon Chroma
+Rainbow beams fire in a fixed colour order.
+MK II · Random order, wider beams.
+HP 13,500 → 20,250
+BOSS 28
+MK II
+STAGES 28 · 38 · 88
+Time Warden Chronos
+Slows your bullets and rewinds his own.
+MK II · Rewinds your jet once per phase.
+HP 14,250 → 21,375
+BOSS 29
+MK II
+STAGES 29 · 39 · 89
+Siege Fortress Bastion
+Six turrets to break, then the core opens.
+MK II · Turrets repair unless broken together.
+HP 15,000 → 22,500
+BOSS 30
+MK II
+STAGES 30 · 40 · 90
+Star Reaper Falx
+Huge scythe arcs sweep across the screen.
+MK II · Arcs leave star bullets behind.
+HP 15,750 → 23,625

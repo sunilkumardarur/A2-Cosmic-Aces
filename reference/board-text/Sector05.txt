@@ -1,0 +1,75 @@
+‹ SECTORS
+SECTOR 5 · SHADOW DEEP
+Ten harder bosses. Tricks and traps. Stages 41–50 · Tier 3 · Mk I. Pick a stage to play it.
+STAGE 41
+LOCKED
+HYDRA LAGOON
+Hydra Core Hydrax
+MK I
+HP 17,000
++220
+STAGE 42
+LOCKED
+METEOR THRONE
+Meteor Queen Rubia
+MK I
+HP 18,000
++220
+STAGE 43
+LOCKED
+ECLIPSE GATE
+Eclipse Wraith Umbra
+MK I
+HP 19,000
++220
+STAGE 44
+LOCKED
+LEGION DOCK
+Drone Mother Legion
+MK I
+HP 20,000
++220
+STAGE 45
+LOCKED
+MAGMA CORE
+Lava Colossus Magmor
+MK I
+HP 21,000
++220
+STAGE 46
+LOCKED
+CYBER DUNES
+Cyber Scorpion Stingra
+MK I
+HP 22,000
++220
+STAGE 47
+LOCKED
+FROZEN THRONE
+Frozen Empress Glacira
+MK I
+HP 23,000
++220
+STAGE 48
+LOCKED
+CARNIVAL OF CHAOS
+Chaos Jester Wildcard
+MK I
+HP 24,000
++220
+STAGE 49
+LOCKED
+NEUTRON FIELD
+Neutron Behemoth Atlas
+MK I
+HP 25,000
++220
+STAGE 50
+LOCKED
+NEBULA COURT
+Nebula Overlord Zorak
+MK I
+HP 26,000
++220
+Each stage ends with its own boss.
+First clear pays the credits shown. Clearing the same stage again pays +1.

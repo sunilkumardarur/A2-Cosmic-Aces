@@ -1,0 +1,89 @@
+{
+  "scale": 2,
+  "sprites": {
+    "jet_nova_striker": {
+      "file": "sprites/jet_nova_striker.png",
+      "width": 100,
+      "height": 120,
+      "pad": 14,
+      "note": "Nova Striker in flight (same markup as the Gameplay board jet)"
+    },
+    "bullet_nova_striker": {
+      "file": "sprites/bullet_nova_striker.png",
+      "width": 4,
+      "height": 40,
+      "pad": 10,
+      "note": "Twin cyan pulse, one bullet, Gameplay board"
+    },
+    "enemy_scout_drone": {
+      "file": "sprites/enemy_scout_drone.png",
+      "width": 54,
+      "height": 54,
+      "pad": 6,
+      "note": "Scout Drone as drawn on the Gameplay board"
+    },
+    "enemy_bullet_red_orb": {
+      "file": "sprites/enemy_bullet_red_orb.png",
+      "width": 50,
+      "height": 50,
+      "pad": 0,
+      "note": "Effects board: enemy bullet \"Red orb\""
+    },
+    "fx_explosion_small": {
+      "file": "sprites/fx_explosion_small.png",
+      "width": 60,
+      "height": 60,
+      "pad": 0,
+      "note": "Effects board: explosion Small"
+    },
+    "fx_explosion_large": {
+      "file": "sprites/fx_explosion_large.png",
+      "width": 60,
+      "height": 60,
+      "pad": 0,
+      "note": "Effects board: explosion Large"
+    },
+    "fx_hit_flash": {
+      "file": "sprites/fx_hit_flash.png",
+      "width": 60,
+      "height": 60,
+      "pad": 0,
+      "note": "Effects board: Hit flash"
+    },
+    "hud_pilot_ayan": {
+      "file": "sprites/hud_pilot_ayan.png",
+      "width": 52,
+      "height": 52,
+      "pad": 0,
+      "note": "Gameplay board HUD portrait"
+    },
+    "hud_lives_icon": {
+      "file": "sprites/hud_lives_icon.png",
+      "width": 66,
+      "height": 20,
+      "pad": 0,
+      "note": "Gameplay board HUD \"3 lives\" icon row"
+    },
+    "hud_bomb_star": {
+      "file": "sprites/hud_bomb_star.png",
+      "width": 22,
+      "height": 22,
+      "pad": 0,
+      "note": "Gameplay board HUD Nova Bomb star"
+    },
+    "logo_favicon": {
+      "file": "sprites/logo_favicon.png",
+      "width": 24,
+      "height": 24,
+      "pad": 0,
+      "note": "Logo board: favicon at 32 pixels (browser tab icon)"
+    }
+  },
+  "backgrounds": {
+    "stage_theme_1": {
+      "file": "bg/stage_theme_1.png",
+      "width": 1280,
+      "height": 720
+    }
+  }
+}

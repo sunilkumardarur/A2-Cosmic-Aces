@@ -1,0 +1,29 @@
+STAGE 43 · TIER 3
+ECLIPSE GATE
+A gate where light and dark take turns.
+SAME STAGE, TINTED, IN
+MK II · STAGE 53
+PAIR · STAGE 93
+LIGHT ORB
+HAZARD · 1 HIT
+Only harms you while the field is dark.
+SHADE FIGHTER
+ENEMY · 5 HITS
+Can be hit only while the field is light.
+PHASE WALL
+OBSTACLE · UNBREAKABLE
+Solid in one phase, ghost in the other.
+ECLIPSE EYE
+ENEMY · 8 HITS
+Opens when the field changes and fires a ring.
+BOSS 43
+HP 19,000 · 3 PHASES
+Eclipse Wraith Umbra
+MK II in stage 53
+HP 28,500
+FIGHTS · Switches light and dark. Only hurt in light.
+WEAK POINT · Face, only while the light side is up.
+MK II ADDS · Switches faster. Bullets match the phase.
+MID-STAGE · Mini-boss Dusk Moth
+First clear up to +220 credits
+Repeat clear +1

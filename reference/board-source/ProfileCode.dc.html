@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>A² Cosmic Aces — Profile Backup</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&amp;family=Exo+2:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#2DE2FF}a:hover{color:#FFFFFF}
+</style>
+</helmet>
+<div style="width: 1280px; height: 720px; position: relative; overflow: hidden; box-sizing: border-box; padding: 28px 48px; background: #05060F; font-family: 'Exo 2', sans-serif; color: #FFFFFF; display: flex; flex-direction: column; gap: 16px">
+  <sc-for list="{{stars}}" as="s" hint-placeholder-count="20">
+    <div style="position: absolute; left: {{s.x}}px; top: {{s.y}}px; width: 2px; height: 2px; border-radius: 50%; background: #FFFFFF; opacity: {{s.o}}"></div>
+  </sc-for>
+<header style="position: relative; display: flex; align-items: center; justify-content: space-between"><div style="display: flex; align-items: center; gap: 20px"><a href="Main.dc.html" style="display: flex; align-items: center; gap: 8px; height: 44px; padding: 0 16px; border: 2px solid rgba(169,180,208,.4); color: #D7DEF0; text-decoration: none; font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 13px; letter-spacing: 2px"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg>MENU</a><div style="display: flex; flex-direction: column; gap: 2px"><h1 style="margin: 0; font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 28px; letter-spacing: 3px; text-shadow: 0 0 16px rgba(45,226,255,.5)">PROFILE BACKUP</h1><div style="font-size: 14px; color: #A9B4D0">Move a profile to another device with a code or a file.</div></div></div><div style="display:flex;align-items:center;height:44px;padding:0 16px;border:2px solid rgba(45,226,255,.6);font-family: 'Orbitron', sans-serif;font-weight:700;font-size:12px;letter-spacing:2px;color:#2DE2FF">PROFILES · 2 / 4</div></header><div style="position:relative;display:flex;gap:20px;flex:1"><section style="flex:1;padding:18px 20px;border:2px solid #2DE2FF;background:rgba(5,6,15,.85);display:flex;flex-direction:column;gap:12px"><h2 style="margin:0;font-family: 'Orbitron', sans-serif;font-size:13px;letter-spacing:4px;color:#2DE2FF">EXPORT PROFILE</h2><div style="font-size:14px;color:#D7DEF0">Profile <b style="color:#2DE2FF">AYAN</b> as a code. Keep it somewhere safe.</div>
+<div style="padding:16px;background:#0A0C1A;border:2px solid rgba(45,226,255,.5);font-family:monospace;font-size:20px;letter-spacing:2px;line-height:1.7;color:#FFFFFF;word-break:break-all">A2CA-AYAN-7F3K-92QD-M4XP-18ZT-C6HW-0VNB</div>
+<div style="display:flex;gap:12px"><div style="display:flex;align-items:center;justify-content:center;height:46px;padding:0 22px;font-family: 'Orbitron', sans-serif;font-weight:900;font-size:13px;letter-spacing:3px;background:#2DE2FF;color:#05060F">COPY CODE</div><div style="display:flex;align-items:center;justify-content:center;height:46px;padding:0 22px;font-family: 'Orbitron', sans-serif;font-weight:900;font-size:13px;letter-spacing:3px;border:2px solid #2DE2FF;color:#2DE2FF">SAVE AS FILE</div></div>
+<div style="font-size:13px;color:#7CFF6B">Code copied.</div>
+<div style="font-size:12px;letter-spacing:3px;color:#A9B4D0;margin-top:4px">WHAT THE CODE CARRIES</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:6px 14px;font-size:13px;color:#D7DEF0"><span>Name and picture</span><span>Credits (340)</span><span>Shop powers and tiers</span><span>Unlocked jets</span><span>Stars and high scores</span><span>Achievements</span><span>Play time</span><span>Game saves (3 slots + auto)</span></div>
+<div style="font-size:12px;color:#A9B4D0;margin-top:auto">Settings stay on the device and are not in the code.</div></section><section style="flex:1;padding:18px 20px;border:2px solid #FFC83D;background:rgba(5,6,15,.85);display:flex;flex-direction:column;gap:12px"><h2 style="margin:0;font-family: 'Orbitron', sans-serif;font-size:13px;letter-spacing:4px;color:#FFC83D">IMPORT PROFILE</h2><div style="font-size:14px;color:#D7DEF0">Paste a code from another device.</div>
+<div style="padding:16px;height:84px;box-sizing:border-box;background:#0A0C1A;border:2px solid rgba(255,200,61,.6);font-family:monospace;font-size:20px;letter-spacing:2px;color:#FFFFFF">A2CA-AARAV-3M9Q-…<span style="color:#FFC83D">|</span></div>
+<div style="display:flex;gap:12px"><div style="display:flex;align-items:center;justify-content:center;height:46px;padding:0 22px;font-family: 'Orbitron', sans-serif;font-weight:900;font-size:13px;letter-spacing:3px;background:#FFC83D;color:#05060F">IMPORT</div><div style="display:flex;align-items:center;justify-content:center;height:46px;padding:0 22px;font-family: 'Orbitron', sans-serif;font-weight:900;font-size:13px;letter-spacing:3px;border:2px solid #FFC83D;color:#FFC83D">LOAD FROM FILE</div></div>
+<div style="font-size:12px;letter-spacing:3px;color:#A9B4D0;margin-top:4px">RESULT MESSAGES</div>
+<div style="padding:10px 14px;border-left:4px solid #7CFF6B;background:rgba(124,255,107,.07);font-size:13px"><b style="color:#7CFF6B">Profile found.</b> AARAV · 120 credits · 1 / 8 shop powers · 2 achievements</div>
+<div style="padding:10px 14px;border-left:4px solid #FFC83D;background:rgba(255,200,61,.07);font-size:13px"><b style="color:#FFC83D">Name already exists.</b> Replace the profile on this device, or import under a new name.</div>
+<div style="padding:10px 14px;border-left:4px solid #FF4D5E;background:rgba(255,77,94,.07);font-size:13px"><b style="color:#FF4D5E">Code not valid.</b> Check for a missing or extra character and try again.</div>
+<div style="padding:10px 14px;border-left:4px solid #FF4D5E;background:rgba(255,77,94,.07);font-size:13px"><b style="color:#FF4D5E">Device is full.</b> 4 of 4 profiles used. Delete one first.</div></section></div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":720}}'>
+class Component extends DCLogic {
+  renderVals() {
+    let s = 137;
+    const r = () => { s = (s * 9301 + 49297) % 233280; return s / 233280; };
+    const stars = [];
+    for (let i = 0; i < 80; i++) stars.push({ x: Math.round(r() * 1280), y: Math.round(r() * 720), o: (0.15 + r() * 0.5).toFixed(2) });
+    return { stars };
+  }
+}
+</script>
+</body>
+</html>

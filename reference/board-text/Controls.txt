@@ -1,0 +1,50 @@
+CONTROLS
+Keyboard, gamepad and touch. In co-op, Player 1 uses WASD and Player 2 uses the arrow keys on the same keyboard.
+KEYBOARD
+P1 · AYAN
+P2 · AARAV
+Move
+W
+A
+S
+D
+Fire
+AUTOMATIC — no key needed
+Special
+L SHIFT
+R SHIFT
+Nova bomb
+B
+R CTRL
+Pause
+ESC
+Shared
+A² Burst: press both Special keys within 1 second.
+GAMEPAD
+Y
+X
+B
+A
+Move
+Left stick
+Fire
+Automatic
+Special
+X
+Nova bomb
+Y
+Pause
+Start
+A second gamepad joins as Player 2 automatically.
+TOUCH · PHONE & TABLET
+AUTO-FIRE
+SP
+Move
+Drag left side
+Fire
+Automatic
+Special
+SP button
+Nova bomb
+Star button
+Touch is solo only. Buttons are at least 64 px with 12 px spacing. Left-hand swap and button size S / M / L are in Settings.

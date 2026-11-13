@@ -1,0 +1,115 @@
+{
+  "music": [
+    {
+      "name": "Main Menu",
+      "mood": "Heroic, hopeful synth",
+      "bpm": 110
+    },
+    {
+      "name": "Hangar",
+      "mood": "Calm, building energy",
+      "bpm": 95
+    },
+    {
+      "name": "Sector 1 · Ember Belt",
+      "mood": "Driving, drums and bass",
+      "bpm": 130
+    },
+    {
+      "name": "Sector 2 · Venom Nebula",
+      "mood": "Weird, bubbly, tense",
+      "bpm": 125
+    },
+    {
+      "name": "Sector 3 · Iron Fleet",
+      "mood": "Heavy, metallic march",
+      "bpm": 138
+    },
+    {
+      "name": "Sector 4 · Void Rift",
+      "mood": "Dark, huge, choir pads",
+      "bpm": 120
+    },
+    {
+      "name": "Boss Theme (per boss remix)",
+      "mood": "Fast, urgent, big hits",
+      "bpm": 150
+    },
+    {
+      "name": "Sector Clear",
+      "mood": "Short victory fanfare",
+      "length_s": 4
+    },
+    {
+      "name": "Game Over",
+      "mood": "Slow sad sting",
+      "length_s": 6
+    },
+    {
+      "name": "Credits",
+      "mood": "Warm reprise of the menu theme",
+      "bpm": 100
+    }
+  ],
+  "sfx": {
+    "player": [
+      "shot x4 (one per jet)",
+      "special charge",
+      "special release",
+      "bomb",
+      "pickup",
+      "shield hit",
+      "shield break",
+      "hull hit",
+      "low-hull alarm",
+      "revive"
+    ],
+    "enemy": [
+      "shot",
+      "missile launch",
+      "laser charge",
+      "laser gate hum",
+      "explosion small / medium / large",
+      "acid pop",
+      "rock break"
+    ],
+    "boss": [
+      "warning siren",
+      "roar (one per boss)",
+      "phase change",
+      "weak point open",
+      "defeat boom stack"
+    ],
+    "menu": [
+      "move",
+      "select",
+      "back",
+      "launch",
+      "star earned",
+      "sector-clear fanfare",
+      "game-over sting",
+      "A² Burst"
+    ]
+  },
+  "voice_lines": {
+    "AYAN": [
+      "Locked on!",
+      "Nice shot, Aarav!",
+      "Focus Shot, fire!",
+      "Hang on, I'm coming!",
+      "Boss incoming!"
+    ],
+    "AARAV": [
+      "Shields up!",
+      "I've got your back, Ayan!",
+      "Shield Burst!",
+      "Thanks for the save!",
+      "We did it!"
+    ]
+  },
+  "voice_rule": "At most once every 20 s. Subtitles can be turned off in Settings.",
+  "ducking": "Low-hull alarm -30%, A² Burst -60% for 2 s, voice lines -20%.",
+  "crossfade_s": 0.5,
+  "note": "Behaviour per screen: reference/board-text/MusicMap.txt. NO audio files exist; list only.",
+  "stage_music": "see rules_decided.json music_for_stages"
+}

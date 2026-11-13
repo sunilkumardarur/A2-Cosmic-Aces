@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>A² Cosmic Aces — Hangar</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&amp;family=Exo+2:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#2DE2FF}a:hover{color:#FFFFFF}
+button{font-family:inherit;color:inherit;cursor:pointer;text-align:left}
+</style>
+</helmet>
+<div style="width: 1280px; height: 720px; position: relative; overflow: hidden; box-sizing: border-box; padding: 36px 56px; background: #05060F; font-family: 'Exo 2', sans-serif; color: #FFFFFF; display: flex; flex-direction: column; gap: 22px">
+  <sc-for list="{{stars}}" as="s" hint-placeholder-count="20">
+    <div style="position: absolute; left: {{s.x}}px; top: {{s.y}}px; width: 2px; height: 2px; border-radius: 50%; background: #FFFFFF; opacity: {{s.o}}"></div>
+  </sc-for>
+  <div style="position: absolute; left: 0; right: 0; bottom: 0; height: 160px; background: repeating-linear-gradient(90deg, rgba(45,226,255,.08) 0 1px, transparent 1px 64px), linear-gradient(0deg, rgba(45,226,255,.10), rgba(5,6,15,0))"></div>
+
+  <header style="position: relative; display: flex; align-items: center; gap: 24px">
+    <a href="Main.dc.html" style="display: flex; align-items: center; gap: 8px; height: 44px; padding: 0 16px; border: 2px solid rgba(169,180,208,.4); color: #D7DEF0; text-decoration: none; font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 13px; letter-spacing: 2px"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg>MENU</a>
+    <div style="display: flex; flex-direction: column; gap: 2px">
+      <h1 style="margin: 0; font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 34px; letter-spacing: 3px; text-shadow: 0 0 16px rgba(45,226,255,.6)">HANGAR</h1>
+      <div style="font-size: 15px; color: #A9B4D0">Choose your flight and your fighter, then launch.</div>
+    </div>
+  </header>
+
+  <div style="position: relative; display: flex; gap: 32px">
+    <section style="width: 744px; display: flex; flex-direction: column; gap: 12px">
+      <h2 style="margin: 0; font-family: 'Orbitron', sans-serif; font-size: 14px; letter-spacing: 4px; color: #2DE2FF">1 · FLIGHT</h2>
+      <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px">
+
+        <button type="button" onClick="{{pickJet0}}" style="height: 226px; padding: 16px; box-sizing: border-box; display: flex; gap: 16px; align-items: center; border: 2px solid {{jb0}}; background: {{jbg0}}; border-radius: 6px">
+          <svg aria-hidden="true" viewBox="0 0 100 120" style="width: 110px; height: 132px; flex: none; filter: drop-shadow(0 0 10px rgba(45,226,255,.55))">
+            <path d="M44 96 L50 114 L56 96 Z" fill="#FF3EA5"/>
+            <path d="M50 4 L60 40 L92 74 L92 86 L62 80 L58 96 L42 96 L38 80 L8 86 L8 74 L40 40 Z" fill="#0E1A2E" stroke="#2DE2FF" stroke-width="2.5" stroke-linejoin="round"/>
+            <path d="M50 18 L55 44 L50 58 L45 44 Z" fill="#2DE2FF"/>
+            <path d="M16 78 L40 56 M84 78 L60 56" stroke="#FF3EA5" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          <div style="display: flex; flex-direction: column; gap: 8px; flex: 1">
+            <div style="font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 18px">NOVA STRIKER</div>
+            <div style="font-size: 12px; letter-spacing: 2px; color: #2DE2FF">ALL-ROUNDER</div>
+            <div style="display: grid; grid-template-columns: 70px 1fr; gap: 6px 8px; align-items: center; font-size: 12px; color: #A9B4D0">
+              <span>SPEED</span><div style="height: 6px; background: rgba(255,255,255,.12)"><div style="width: 70%; height: 6px; background: #2DE2FF"></div></div>
+              <span>ARMOR</span><div style="height: 6px; background: rgba(255,255,255,.12)"><div style="width: 60%; height: 6px; background: #2DE2FF"></div></div>
+              <span>FIREPOWER</span><div style="height: 6px; background: rgba(255,255,255,.12)"><div style="width: 70%; height: 6px; background: #2DE2FF"></div></div>
+            </div>
+            <div style="font-size: 13px; color: #D7DEF0">Twin pulse cannons</div>
+          </div>
+        </button>
+
+        <button type="button" onClick="{{pickJet1}}" style="height: 226px; padding: 16px; box-sizing: border-box; display: flex; gap: 16px; align-items: center; border: 2px solid {{jb1}}; background: {{jbg1}}; border-radius: 6px">
+          <svg aria-hidden="true" viewBox="0 0 100 120" style="width: 110px; height: 132px; flex: none; filter: drop-shadow(0 0 10px rgba(178,107,255,.6))">
+            <path d="M46 98 L50 116 L54 98 Z" fill="#2DE2FF"/>
+            <path d="M50 6 L96 92 L64 82 L50 100 L36 82 L4 92 Z" fill="#140C24" stroke="#B26BFF" stroke-width="2.5" stroke-linejoin="round"/>
+            <path d="M50 26 L56 52 L50 62 L44 52 Z" fill="#B26BFF"/>
+            <path d="M22 80 L44 66 M78 80 L56 66" stroke="#B26BFF" stroke-width="1.5" opacity=".7"/>
+          </svg>
+          <div style="display: flex; flex-direction: column; gap: 8px; flex: 1">
+            <div style="font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 18px">PHANTOM X</div>
+            <div style="font-size: 12px; letter-spacing: 2px; color: #C99BFF">STEALTH INTERCEPTOR</div>
+            <div style="display: grid; grid-template-columns: 70px 1fr; gap: 6px 8px; align-items: center; font-size: 12px; color: #A9B4D0">
+              <span>SPEED</span><div style="height: 6px; background: rgba(255,255,255,.12)"><div style="width: 95%; height: 6px; background: #B26BFF"></div></div>
+              <span>ARMOR</span><div style="height: 6px; background: rgba(255,255,255,.12)"><div style="width: 35%; height: 6px; background: #B26BFF"></div></div>
+              <span>FIREPOWER</span><div style="height: 6px; background: rgba(255,255,255,.12)"><div style="width: 60%; height: 6px; background: #B26BFF"></div></div>
+            </div>
+            <div style="font-size: 13px; color: #D7DEF0">Phase dash — 1s invisible</div>
+          </div>
+        </button>
+
+        <button type="button" disabled onClick="{{pickJet2}}" style="position: relative; height: 226px; padding: 16px; box-sizing: border-box; display: flex; gap: 16px; align-items: center; border: 2px solid {{jb2}}; background: {{jbg2}}; border-radius: 6px">
+          <div style="position: absolute; inset: 0; z-index: 1; background: rgba(5,6,15,.84); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px"><svg aria-hidden="true" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#FF9A3D" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg><div style="font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 13px; letter-spacing: 2px; color: #FF9A3D">TITAN BULWARK · LOCKED</div><div style="font-size: 12px; color: #D7DEF0">Clear Stage 3 to unlock</div></div>
+          <svg aria-hidden="true" viewBox="0 0 100 120" style="width: 110px; height: 132px; flex: none; filter: drop-shadow(0 0 10px rgba(255,154,61,.55))">
+            <path d="M40 104 L44 116 L48 104 Z M52 104 L56 116 L60 104 Z" fill="#FF3EA5"/>
+            <path d="M40 10 L60 10 L66 34 L90 44 L94 80 L70 88 L64 104 L36 104 L30 88 L6 80 L10 44 L34 34 Z" fill="#1E140C" stroke="#FF9A3D" stroke-width="2.5" stroke-linejoin="round"/>
+            <rect x="44" y="20" width="12" height="26" rx="6" fill="#FF9A3D"/>
+            <rect x="14" y="50" width="6" height="22" fill="#FF9A3D" opacity=".8"/>
+            <rect x="80" y="50" width="6" height="22" fill="#FF9A3D" opacity=".8"/>
+          </svg>
+          <div style="display: flex; flex-direction: column; gap: 8px; flex: 1">
+            <div style="font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 18px">TITAN BULWARK</div>
+            <div style="font-size: 12px; letter-spacing: 2px; color: #FF9A3D">HEAVY GUNSHIP</div>
+            <div style="display: grid; grid-template-columns: 70px 1fr; gap: 6px 8px; align-items: center; font-size: 12px; color: #A9B4D0">
+              <span>SPEED</span><div style="height: 6px; background: rgba(255,255,255,.12)"><div style="width: 40%; height: 6px; background: #FF9A3D"></div></div>
+              <span>ARMOR</span><div style="height: 6px; background: rgba(255,255,255,.12)"><div style="width: 95%; height: 6px; background: #FF9A3D"></div></div>
+              <span>FIREPOWER</span><div style="height: 6px; background: rgba(255,255,255,.12)"><div style="width: 85%; height: 6px; background: #FF9A3D"></div></div>
+            </div>
+            <div style="font-size: 13px; color: #D7DEF0">Starts every stage with a shield</div>
+          </div>
+        </button>
+
+        <button type="button" onClick="{{pickJet3}}" style="height: 226px; padding: 16px; box-sizing: border-box; display: flex; gap: 16px; align-items: center; border: 2px solid {{jb3}}; background: {{jbg3}}; border-radius: 6px">
+          <svg aria-hidden="true" viewBox="0 0 100 120" style="width: 110px; height: 132px; flex: none; filter: drop-shadow(0 0 10px rgba(124,255,107,.5))">
+            <path d="M45 100 L50 116 L55 100 Z" fill="#FFC83D"/>
+            <path d="M50 2 L56 50 L80 36 L86 44 L60 76 L58 100 L42 100 L40 76 L14 44 L20 36 L44 50 Z" fill="#0C1E10" stroke="#7CFF6B" stroke-width="2.5" stroke-linejoin="round"/>
+            <path d="M50 14 L53 46 L50 56 L47 46 Z" fill="#7CFF6B"/>
+            <circle cx="82" cy="40" r="3" fill="#7CFF6B"/><circle cx="18" cy="40" r="3" fill="#7CFF6B"/>
+          </svg>
+          <div style="display: flex; flex-direction: column; gap: 8px; flex: 1">
+            <div style="font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 18px">VIPER LANCE</div>
+            <div style="font-size: 12px; letter-spacing: 2px; color: #7CFF6B">RAPID STRIKER</div>
+            <div style="display: grid; grid-template-columns: 70px 1fr; gap: 6px 8px; align-items: center; font-size: 12px; color: #A9B4D0">
+              <span>SPEED</span><div style="height: 6px; background: rgba(255,255,255,.12)"><div style="width: 80%; height: 6px; background: #7CFF6B"></div></div>
+              <span>ARMOR</span><div style="height: 6px; background: rgba(255,255,255,.12)"><div style="width: 45%; height: 6px; background: #7CFF6B"></div></div>
+              <span>FIREPOWER</span><div style="height: 6px; background: rgba(255,255,255,.12)"><div style="width: 90%; height: 6px; background: #7CFF6B"></div></div>
+            </div>
+            <div style="font-size: 13px; color: #D7DEF0">Fastest fire rate in the fleet</div>
+          </div>
+        </button>
+      </div>
+    </section>
+
+    <section style="flex: 1; display: flex; flex-direction: column; gap: 12px">
+      <h2 style="margin: 0; font-family: 'Orbitron', sans-serif; font-size: 14px; letter-spacing: 4px; color: #FF3EA5">2 · FIGHTER</h2>
+
+      <button type="button" onClick="{{pickAyan}}" style="height: 160px; padding: 14px; box-sizing: border-box; display: flex; gap: 16px; align-items: center; border: 2px solid {{pb0}}; background: {{pbg0}}; border-radius: 6px">
+        <svg role="img" aria-label="Ayan, kid pilot in a cyan helmet" viewBox="0 0 120 120" style="width: 120px; height: 120px; flex: none">
+          <circle cx="60" cy="60" r="56" fill="#0E1A2E"/>
+          <circle cx="60" cy="64" r="44" fill="#16223C" stroke="#2DE2FF" stroke-width="4"/>
+          <rect x="12" y="56" width="10" height="26" rx="4" fill="#2DE2FF"/>
+          <rect x="98" y="56" width="10" height="26" rx="4" fill="#2DE2FF"/>
+          <ellipse cx="60" cy="74" rx="27" ry="28" fill="#B9794E"/>
+          <path d="M33 66 L38 50 L44 58 L50 46 L56 56 L62 44 L68 56 L74 46 L80 58 L86 52 L87 66 Q60 54 33 66 Z" fill="#1B1210"/>
+          <ellipse cx="50" cy="76" rx="4" ry="5" fill="#1B1210"/><ellipse cx="70" cy="76" rx="4" ry="5" fill="#1B1210"/>
+          <circle cx="51.5" cy="74" r="1.5" fill="#FFFFFF"/><circle cx="71.5" cy="74" r="1.5" fill="#FFFFFF"/>
+          <path d="M49 88 Q60 97 71 88" stroke="#1B1210" stroke-width="3" fill="none" stroke-linecap="round"/>
+          <rect x="34" y="22" width="52" height="16" rx="8" fill="#2DE2FF"/>
+          <path d="M60 25 L62 29 L66 29.5 L63 32 L64 36 L60 34 L56 36 L57 32 L54 29.5 L58 29 Z" fill="#05060F"/>
+        </svg>
+        <div style="display: flex; flex-direction: column; gap: 4px; flex: 1">
+          <div style="font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 22px; color: #2DE2FF">AYAN</div>
+          <div style="font-size: 12px; letter-spacing: 2px; color: #A9B4D0">THE SHARPSHOOTER</div>
+          <div style="font-size: 13px; color: #FFFFFF; margin-top: 6px"><b>Special · Focus Shot</b></div>
+          <div style="font-size: 13px; color: #D7DEF0">Charged beam that pierces every enemy in a line.</div>
+        </div>
+      </button>
+
+      <button type="button" onClick="{{pickAarav}}" style="height: 160px; padding: 14px; box-sizing: border-box; display: flex; gap: 16px; align-items: center; border: 2px solid {{pb1}}; background: {{pbg1}}; border-radius: 6px">
+        <svg role="img" aria-label="Aarav, kid pilot in an orange helmet with round glasses" viewBox="0 0 120 120" style="width: 120px; height: 120px; flex: none">
+          <circle cx="60" cy="60" r="56" fill="#1E140C"/>
+          <circle cx="60" cy="64" r="44" fill="#2A1C12" stroke="#FF9A3D" stroke-width="4"/>
+          <rect x="12" y="56" width="10" height="26" rx="4" fill="#FF9A3D"/>
+          <rect x="98" y="56" width="10" height="26" rx="4" fill="#FF9A3D"/>
+          <ellipse cx="60" cy="74" rx="27" ry="28" fill="#A86A42"/>
+          <path d="M33 68 Q36 48 60 46 Q84 46 87 64 Q72 56 52 58 Q42 60 33 68 Z" fill="#14100E"/>
+          <circle cx="49" cy="77" r="8" fill="none" stroke="#FFC83D" stroke-width="2.5"/><circle cx="71" cy="77" r="8" fill="none" stroke="#FFC83D" stroke-width="2.5"/>
+          <path d="M57 77 L63 77" stroke="#FFC83D" stroke-width="2.5"/>
+          <circle cx="49" cy="77" r="3.5" fill="#14100E"/><circle cx="71" cy="77" r="3.5" fill="#14100E"/>
+          <path d="M50 90 Q60 96 70 90" stroke="#14100E" stroke-width="3" fill="none" stroke-linecap="round"/>
+          <rect x="34" y="22" width="52" height="16" rx="8" fill="#FF9A3D"/>
+          <path d="M62 24 L55 31 L60 31 L57 37 L65 29 L60 29 Z" fill="#05060F"/>
+        </svg>
+        <div style="display: flex; flex-direction: column; gap: 4px; flex: 1">
+          <div style="font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 22px; color: #FF9A3D">AARAV</div>
+          <div style="font-size: 12px; letter-spacing: 2px; color: #A9B4D0">THE DEFENDER</div>
+          <div style="font-size: 13px; color: #FFFFFF; margin-top: 6px"><b>Special · Shield Burst</b></div>
+          <div style="font-size: 13px; color: #D7DEF0">Shockwave that wipes out nearby enemy bullets.</div>
+        </div>
+      </button>
+
+      <div style="margin-top: 8px; padding: 14px 16px; border: 1px solid rgba(169,180,208,.25); background: rgba(255,255,255,.03); display: flex; flex-direction: column; gap: 4px">
+        <div style="font-size: 11px; letter-spacing: 3px; color: #A9B4D0">READY — PICK YOUR SECTOR</div>
+        <div style="font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 16px"><span style="color: {{jetColor}}">{{jetName}}</span> · <span style="color: {{pilotColor}}">{{pilotName}}</span></div>
+      </div>
+      <a href="SectorMap.dc.html" style="display: flex; align-items: center; justify-content: center; gap: 12px; height: 56px; background: #FF3EA5; color: #05060F; text-decoration: none; font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 18px; letter-spacing: 4px; clip-path: polygon(14px 0, 100% 0, calc(100% - 14px) 100%, 0 100%); box-shadow: 0 0 24px rgba(255,62,165,.5)">CHOOSE SECTOR<svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </section>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":720}}'>
+class Component extends DCLogic {
+  renderVals() {
+    let s = 21;
+    const r = () => { s = (s * 9301 + 49297) % 233280; return s / 233280; };
+    const stars = [];
+    for (let i = 0; i < 90; i++) stars.push({ x: Math.round(r() * 1280), y: Math.round(r() * 720), o: (0.2 + r() * 0.6).toFixed(2) });
+    const jets = [['NOVA STRIKER', '#2DE2FF'], ['PHANTOM X', '#B26BFF'], ['TITAN BULWARK', '#FF9A3D'], ['VIPER LANCE', '#7CFF6B']];
+    const pilots = [['AYAN', '#2DE2FF'], ['AARAV', '#FF9A3D']];
+    const jet = this.state?.jet ?? 0;
+    const pilot = this.state?.pilot ?? 0;
+    const off = 'rgba(169,180,208,.22)';
+    const v = { stars };
+    jets.forEach((j, i) => {
+      v['jb' + i] = i === jet ? j[1] : off;
+      v['jbg' + i] = i === jet ? 'rgba(255,255,255,.07)' : 'rgba(5,6,15,.55)';
+      v['pickJet' + i] = () => this.setState({ jet: i });
+    });
+    pilots.forEach((p, i) => {
+      v['pb' + i] = i === pilot ? p[1] : off;
+      v['pbg' + i] = i === pilot ? 'rgba(255,255,255,.07)' : 'rgba(5,6,15,.55)';
+    });
+    v.pickAyan = () => this.setState({ pilot: 0 });
+    v.pickAarav = () => this.setState({ pilot: 1 });
+    v.jetName = jets[jet][0]; v.jetColor = jets[jet][1];
+    v.pilotName = pilots[pilot][0]; v.pilotColor = pilots[pilot][1];
+    return v;
+  }
+}
+</script>
+</body>
+</html>

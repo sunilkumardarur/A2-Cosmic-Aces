@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>A² Cosmic Aces — Tutorial Hints</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&amp;family=Exo+2:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#2DE2FF}a:hover{color:#FFFFFF}
+</style>
+</helmet>
+<div style="width: 1280px; height: 720px; position: relative; overflow: hidden; background: #0B0605; font-family: 'Exo 2', sans-serif; color: #FFFFFF">
+  <sc-for list="{{stars}}" as="s" hint-placeholder-count="20">
+    <div style="position: absolute; left: {{s.x}}px; top: {{s.y}}px; width: 2px; height: 2px; border-radius: 50%; background: #FFE2C8; opacity: {{s.o}}"></div>
+  </sc-for>
+  <div style="position: absolute; left: 180px; top: -120px; width: 900px; height: 520px; border-radius: 50%; background: radial-gradient(ellipse, rgba(255,138,61,.20), rgba(11,6,5,0) 70%)"></div>
+
+  <svg aria-hidden="true" viewBox="0 0 100 100" style="position: absolute; left: 150px; top: 200px; width: 90px; height: 90px; transform: rotate(20deg)"><path d="M30 8 L66 6 L92 30 L94 64 L72 92 L34 94 L8 70 L6 34 Z" fill="#5A4636" stroke="#FF8A3D" stroke-width="3" stroke-linejoin="round"/><circle cx="38" cy="36" r="9" fill="#3E3026"/><circle cx="64" cy="60" r="12" fill="#3E3026"/></svg>
+  <svg aria-hidden="true" viewBox="0 0 60 60" style="position: absolute; left: 620px; top: 130px; width: 54px; height: 54px; filter: drop-shadow(0 0 6px rgba(255,77,94,.8))"><path d="M30 4 L54 22 L46 50 L14 50 L6 22 Z" fill="#1A1E2C" stroke="#FF4D5E" stroke-width="2.5"/><circle cx="30" cy="30" r="7" fill="#FF4D5E"/></svg>
+  <div style="position: absolute; left: 640px; top: 214px; width: 10px; height: 10px; border-radius: 50%; background: #FF4D5E; box-shadow: 0 0 10px #FF4D5E"></div>
+  <div style="position: absolute; left: 640px; top: 290px; width: 10px; height: 10px; border-radius: 50%; background: #FF4D5E; box-shadow: 0 0 10px #FF4D5E"></div>
+
+  <div style="position: absolute; left: 930px; top: 330px; width: 52px; height: 52px; border-radius: 50%; border: 3px solid #B26BFF; background: radial-gradient(circle, rgba(178,107,255,.5), rgba(178,107,255,.08)); box-shadow: 0 0 20px rgba(178,107,255,.9); display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20V6M6 12l6-6 6 6"/></svg></div>
+
+  <div style="position: absolute; left: 456px; top: 340px; width: 4px; height: 40px; background: #2DE2FF; border-radius: 2px; box-shadow: 0 0 10px #2DE2FF"></div>
+  <div style="position: absolute; left: 500px; top: 360px; width: 4px; height: 40px; background: #2DE2FF; border-radius: 2px; box-shadow: 0 0 10px #2DE2FF"></div>
+  <svg aria-hidden="true" viewBox="0 0 100 120" style="position: absolute; left: 430px; top: 470px; width: 100px; height: 120px; filter: drop-shadow(0 0 14px rgba(45,226,255,.7))"><path d="M44 96 L50 120 L56 96 Z" fill="#FF3EA5"/><path d="M38 96 L41 112 L44 96 Z M56 96 L59 112 L62 96 Z" fill="#FFC83D"/><path d="M50 4 L60 40 L92 74 L92 86 L62 80 L58 96 L42 96 L38 80 L8 86 L8 74 L40 40 Z" fill="#0E1A2E" stroke="#2DE2FF" stroke-width="2.5" stroke-linejoin="round"/><path d="M50 18 L55 44 L50 58 L45 44 Z" fill="#2DE2FF"/></svg>
+
+  <div style="position: absolute; left: 24px; bottom: 20px; display: flex; gap: 12px; align-items: center; padding: 10px 14px; background: rgba(4,5,12,.78); border: 1px solid rgba(45,226,255,.5)">
+    <span style="font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 12px; letter-spacing: 2px; color: #2DE2FF">SPECIAL</span>
+    <div style="width: 160px; height: 8px; background: rgba(255,255,255,.15)"><div style="width: 100%; height: 8px; background: #2DE2FF"></div></div>
+    <span style="font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 12px; color: #FFC83D">READY</span>
+  </div>
+
+  <svg aria-hidden="true" viewBox="0 0 1280 720" style="position: absolute; inset: 0; width: 1280px; height: 720px">
+    <path d="M640 440 L560 470" stroke="#FFC83D" stroke-width="2" stroke-dasharray="5 5"/>
+    <path d="M720 240 L670 190" stroke="#FFC83D" stroke-width="2" stroke-dasharray="5 5"/>
+    <path d="M900 400 L940 385" stroke="#FFC83D" stroke-width="2" stroke-dasharray="5 5"/>
+    <path d="M300 640 L230 662" stroke="#FFC83D" stroke-width="2" stroke-dasharray="5 5"/>
+  </svg>
+
+  <div style="position: absolute; left: 600px; top: 410px; width: 320px; padding: 14px 16px; background: #FFFFFF; color: #05060F; border-radius: 12px; display: flex; gap: 12px">
+    <span style="flex: none; width: 28px; height: 28px; border-radius: 50%; background: #2DE2FF; display: flex; align-items: center; justify-content: center; font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 14px">1</span>
+    <div style="font-size: 14px; line-height: 1.45"><b>MOVE.</b> Use the arrow keys or WASD. Your jet shoots by itself — no button needed.</div>
+  </div>
+  <div style="position: absolute; left: 700px; top: 176px; width: 300px; padding: 14px 16px; background: #FFFFFF; color: #05060F; border-radius: 12px; display: flex; gap: 12px">
+    <span style="flex: none; width: 28px; height: 28px; border-radius: 50%; background: #FF4D5E; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 14px">2</span>
+    <div style="font-size: 14px; line-height: 1.45"><b>DODGE.</b> Red shots hurt. Slide out of their path.</div>
+  </div>
+  <div style="position: absolute; left: 880px; top: 420px; width: 340px; padding: 14px 16px; background: #FFFFFF; color: #05060F; border-radius: 12px; display: flex; gap: 12px">
+    <span style="flex: none; width: 28px; height: 28px; border-radius: 50%; background: #B26BFF; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 14px">3</span>
+    <div style="font-size: 14px; line-height: 1.45"><b>GRAB.</b> Fly into glowing orbs. Purple orbs raise your damage.</div>
+  </div>
+  <div style="position: absolute; left: 230px; top: 618px; width: 360px; padding: 14px 16px; background: #FFFFFF; color: #05060F; border-radius: 12px; display: flex; gap: 12px">
+    <span style="flex: none; width: 28px; height: 28px; border-radius: 50%; background: #FFC83D; display: flex; align-items: center; justify-content: center; font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 14px">4</span>
+    <div style="font-size: 14px; line-height: 1.45"><b>SPECIAL.</b> When the bar is full, press Shift for a big attack.</div>
+  </div>
+
+  <div style="position: absolute; left: 24px; top: 20px; display: flex; gap: 12px; align-items: center; padding: 10px 16px; background: rgba(4,5,12,.85); border: 1px solid rgba(255,200,61,.6)">
+    <span style="font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 12px; letter-spacing: 3px; color: #FFC83D">HINT 1 OF 4</span>
+    <span style="font-size: 12px; color: #D7DEF0">Shown one at a time, only in Stage 1</span>
+  </div>
+  <a href="Gameplay.dc.html" style="position: absolute; right: 24px; top: 20px; display: flex; align-items: center; height: 40px; padding: 0 18px; border: 2px solid rgba(169,180,208,.6); background: rgba(4,5,12,.85); color: #D7DEF0; text-decoration: none; font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 12px; letter-spacing: 3px">SKIP TIPS</a>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":720}}'>
+class Component extends DCLogic {
+  renderVals() {
+    let s = 101;
+    const r = () => { s = (s * 9301 + 49297) % 233280; return s / 233280; };
+    const stars = [];
+    for (let i = 0; i < 110; i++) stars.push({ x: Math.round(r() * 1280), y: Math.round(r() * 720), o: (0.15 + r() * 0.55).toFixed(2) });
+    return { stars };
+  }
+}
+</script>
+</body>
+</html>

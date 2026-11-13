@@ -1,0 +1,29 @@
+STAGE 09 · TIER 1
+TIDE GATE
+A space ocean full of bubbles and currents.
+SAME STAGE, TINTED, IN
+MK II · STAGE 19
+PAIR · STAGE 89
+BUBBLE MINE
+HAZARD · 1 HIT
+Floats up and pops into 4 small bubbles.
+EEL SCOUT
+ENEMY · 3 HITS
+Swims in waves and fires sparks.
+WATER WALL
+OBSTACLE · UNBREAKABLE
+Slow column of water with one gap.
+CURRENT STREAM
+HAZARD · UNBREAKABLE
+Pushes your jet sideways.
+BOSS 9
+HP 7,500 · 2 PHASES
+Tidal Kraken Maelo
+MK II in stage 19
+HP 11,250
+FIGHTS · Tentacles sweep in from the sides. Bubble bullets.
+WEAK POINT · Eyes when the tentacles retreat.
+MK II ADDS · Adds a whirlpool that pulls you in.
+MID-STAGE · Mini-boss Reef Crab
+First clear up to +100 credits
+Repeat clear +1

@@ -1,0 +1,38 @@
+MENU
+WHO'S PLAYING?
+Credits, shop powers, unlocks, high scores and achievements are saved to your profile.
+LAST PLAYED
+AYAN
+Credits
+340
+Shop powers owned
+3 / 8
+Stars
+5 / 12
+Achievements
+4 / 12
+Best score
+0048900
+Play time
+1h 30m
+PLAY AS AYAN
+PROFILE
+AARAV
+Credits
+120
+Shop powers owned
+1 / 8
+Stars
+2 / 12
+Achievements
+2 / 12
+Best score
+0012450
+Play time
+0h 40m
+PLAY AS AARAV
+NEW PROFILE
+NAME
+CREATE
+Co-op: Player 2 picks a profile too. Each pilot brings their own shop powers and earns their own credits.
+Backup: up to 4 profiles per device. Each profile has 3 save slots + 1 autosave. Export a profile as a code to move it to another device.

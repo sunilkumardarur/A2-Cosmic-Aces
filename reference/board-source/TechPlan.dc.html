@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>A² Cosmic Aces — Tech Plan</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&amp;family=Exo+2:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>body{margin:0}</style>
+</helmet>
+<div style="width: 1280px; height: 720px; position: relative; overflow: hidden; box-sizing: border-box; padding: 24px 40px; background: #05060F; font-family: 'Exo 2', sans-serif; color: #FFFFFF; display: flex; flex-direction: column; gap: 14px">
+  <header style="display: flex; justify-content: space-between; align-items: flex-end">
+    <h1 style="margin: 0; font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 28px; letter-spacing: 3px; text-shadow: 0 0 16px rgba(45,226,255,.5)">TECH PLAN</h1>
+    <div style="font-size: 13px; color: #A9B4D0">Recommended defaults. You pick the final engine and platform.</div>
+  </header>
+
+  <div style="display: flex; gap: 16px; flex: 1">
+
+    <div style="width: 410px; display: flex; flex-direction: column; gap: 14px">
+      <section style="padding: 14px 16px; border: 1px solid rgba(45,226,255,.45); background: rgba(5,6,15,.85); display: flex; flex-direction: column; gap: 8px">
+        <h2 style="margin: 0; font-family: 'Orbitron', sans-serif; font-size: 12px; letter-spacing: 4px; color: #2DE2FF">ENGINE OPTIONS</h2>
+        <div style="padding: 10px 12px; border: 2px solid #2DE2FF; background: rgba(45,226,255,.08); display: flex; flex-direction: column; gap: 3px">
+          <div style="display: flex; justify-content: space-between"><b style="font-size: 14px">Phaser 3 · TypeScript + Vite</b><span style="font-size: 11px; letter-spacing: 2px; color: #7CFF6B">RECOMMENDED</span></div>
+          <span style="font-size: 12px; line-height: 1.45; color: #D7DEF0">Runs in any browser from a link. Fastest to build and share. Can be wrapped for PC (Electron) and phone (Capacitor) later.</span>
+        </div>
+        <div style="padding: 10px 12px; border: 1px solid rgba(169,180,208,.4); display: flex; flex-direction: column; gap: 3px">
+          <b style="font-size: 14px">Godot 4</b>
+          <span style="font-size: 12px; line-height: 1.45; color: #D7DEF0">Free, light, exports to PC, web and phone from one project. Good if you want app stores.</span>
+        </div>
+        <div style="padding: 10px 12px; border: 1px solid rgba(169,180,208,.4); display: flex; flex-direction: column; gap: 3px">
+          <b style="font-size: 14px">Unity</b>
+          <span style="font-size: 12px; line-height: 1.45; color: #D7DEF0">Most tools and store support, but heavier than a 2D shooter needs.</span>
+        </div>
+      </section>
+      <section style="padding: 14px 16px; border: 1px solid rgba(255,154,61,.45); background: rgba(5,6,15,.85); display: flex; flex-direction: column; gap: 8px; flex: 1">
+        <h2 style="margin: 0; font-family: 'Orbitron', sans-serif; font-size: 12px; letter-spacing: 4px; color: #FF9A3D">PLATFORM &amp; SCREEN</h2>
+        <div style="font-size: 13px; line-height: 1.6; color: #E6EAF5">
+          <div><b>Launch:</b> desktop browser, 16:9, game canvas 1280 × 720 that scales to fit.</div>
+          <div><b>Next:</b> phone landscape with touch controls (solo only).</div>
+          <div><b>Later:</b> installable PC app and app stores.</div>
+          <div><b>Art:</b> SVG shapes in these boards become sprite sheets (PNG) at 2× size.</div>
+          <div><b>Stack:</b> TypeScript, Phaser 3, Vite. Tests: Vitest (logic and data), Playwright (screens and play-through). PC app: Electron. Phone: Capacitor.</div>
+        </div>
+      </section>
+    </div>
+
+    <div style="width: 410px; display: flex; flex-direction: column; gap: 14px">
+      <section style="padding: 14px 16px; border: 1px solid rgba(124,255,107,.45); background: rgba(5,6,15,.85); display: flex; flex-direction: column; gap: 8px">
+        <h2 style="margin: 0; font-family: 'Orbitron', sans-serif; font-size: 12px; letter-spacing: 4px; color: #7CFF6B">SAVING</h2>
+        <div style="font-size: 13px; line-height: 1.55; color: #E6EAF5">Each profile keeps its own credits, shop items, unlocks, high scores and achievements, plus 3 save slots + 1 autosave per profile (up to 4 profiles per device), in the browser (localStorage). An Export code button copies the save as text for backup or moving devices. Online cloud saves can be added later.</div>
+        <pre style="margin: 0; padding: 10px 12px; background: #0A0C1A; border: 1px solid rgba(124,255,107,.3); font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 11.5px; line-height: 1.5; color: #CFFFC8; overflow: hidden">{
+  "slot": 1, "mode": "solo",
+  "profile": "ayan", "jet": "nova_striker",
+  "stage": 41, "score": 48900,
+  "stars": [3,3,2, ... 100 values, 0-3 each],
+  "cleared": [1,1,1, ... 100 values, 0 or 1],
+  "stage_unlocked": 42,
+  "difficulty": "normal",
+  "savedAt": "2026-11-08T19:20:00Z"
+}</pre>
+      </section>
+      <section style="padding: 14px 16px; border: 1px solid rgba(255,62,165,.45); background: rgba(5,6,15,.85); display: flex; flex-direction: column; gap: 8px; flex: 1">
+        <h2 style="margin: 0; font-family: 'Orbitron', sans-serif; font-size: 12px; letter-spacing: 4px; color: #FF3EA5">GAME DATA FILES</h2>
+        <div style="font-size: 13px; line-height: 1.6; color: #E6EAF5">
+          <div><b style="font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 12px; color: #FF9A3D">jets.json</b> · speed, fire rate, damage, hull</div><div><b style="font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 12px; color: #FF9A3D">pilots.json</b> · Ayan, Aarav, special moves</div><div><b style="font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 12px; color: #FF9A3D">bosses.json</b> · 40 bosses, HP, phases, attacks</div><div><b style="font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 12px; color: #FF9A3D">stages.json</b> · 100 stages, bosses, credits</div><div><b style="font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 12px; color: #FF9A3D">stage_themes.json</b> · enemies, hazards, mini-bosses</div><div><b style="font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 12px; color: #FF9A3D">waves.json</b> · spawn timing per stage</div><div><b style="font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 12px; color: #FF9A3D">balance.json</b> · drops, damage, enemy scaling</div><div><b style="font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 12px; color: #FF9A3D">powerups.json</b> · type, time, drop weight</div>
+        </div>
+        <div style="font-size: 12px; color: #A9B4D0; margin-top: auto">Tuning numbers lives here, not in code, so you can balance without a programmer.</div>
+      </section>
+    </div>
+
+    <div style="flex: 1; display: flex; flex-direction: column; gap: 14px">
+      <section style="padding: 14px 16px; border: 1px solid rgba(77,163,255,.45); background: rgba(5,6,15,.85); display: flex; flex-direction: column; gap: 8px">
+        <h2 style="margin: 0; font-family: 'Orbitron', sans-serif; font-size: 12px; letter-spacing: 4px; color: #4DA3FF">SCREEN FLOW</h2>
+        <div style="display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 11px; font-family: 'Orbitron', sans-serif; font-weight: 700; letter-spacing: 1px">
+          <span style="padding: 4px 8px; border: 1px solid #2DE2FF">HOME</span>→<span style="padding: 4px 8px; border: 1px solid #2DE2FF">MODE</span>→<span style="padding: 4px 8px; border: 1px solid #2DE2FF">HANGAR</span>→<span style="padding: 4px 8px; border: 1px solid #2DE2FF">MAP</span>→<span style="padding: 4px 8px; border: 1px solid #2DE2FF">STORY</span>→<span style="padding: 4px 8px; border: 1px solid #2DE2FF">LOADING</span>→<span style="padding: 4px 8px; border: 1px solid #FF3EA5">PLAY</span>→<span style="padding: 4px 8px; border: 1px solid #FF3EA5">BOSS</span>→<span style="padding: 4px 8px; border: 1px solid #7CFF6B">CLEAR</span> / <span style="padding: 4px 8px; border: 1px solid #FF4D5E">GAME OVER</span>
+        </div>
+        <div style="font-size: 12px; color: #A9B4D0">Pause, Settings, Load and Credits open from Home or Play.</div>
+      </section>
+      <section style="padding: 14px 16px; border: 1px solid rgba(255,200,61,.45); background: rgba(5,6,15,.85); display: flex; flex-direction: column; gap: 8px; flex: 1">
+        <h2 style="margin: 0; font-family: 'Orbitron', sans-serif; font-size: 12px; letter-spacing: 4px; color: #FFC83D">BUILD ORDER</h2>
+        <div style="display: flex; flex-direction: column; gap: 8px; font-size: 13px; line-height: 1.4; color: #E6EAF5">
+          <div style="display: flex; gap: 10px"><b style="font-family: 'Orbitron', sans-serif; color: #FFC83D">1</b><span>Fly, shoot, one enemy type, hit and die.</span></div>
+          <div style="display: flex; gap: 10px"><b style="font-family: 'Orbitron', sans-serif; color: #FFC83D">2</b><span>Stage 1 complete with waves, Cinder Crab, Rockmaw and power-ups.</span></div>
+          <div style="display: flex; gap: 10px"><b style="font-family: 'Orbitron', sans-serif; color: #FFC83D">3</b><span>Menus, Hangar, pilots, jets, pause, game over, saving.</span></div>
+          <div style="display: flex; gap: 10px"><b style="font-family: 'Orbitron', sans-serif; color: #FFC83D">4</b><span>Stages 2 to 100 with their enemies and 40 bosses, all driven by the data files.</span></div>
+          <div style="display: flex; gap: 10px"><b style="font-family: 'Orbitron', sans-serif; color: #FFC83D">5</b><span>Two-player co-op and A² Burst.</span></div>
+          <div style="display: flex; gap: 10px"><b style="font-family: 'Orbitron', sans-serif; color: #FFC83D">6</b><span>Music, sound, effects, touch controls, polish.</span></div>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":720}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+‹ SECTORS
+SECTOR 1 · DAWN FRONTIER
+Meet the first ten bosses. Stages 1–10 · Tier 1 · Mk I. Pick a stage to play it.
+STAGE 1
+CLEARED
+EMBER BELT
+Rockmaw
+MK I
+HP 1,200
++100
+STAGE 2
+CLEARED
+VENOM NEBULA
+Hive Queen Zyra
+MK I
+HP 2,000
++100
+STAGE 3
+CLEARED
+IRON FLEET
+Dreadnought Ω-9
+MK I
+HP 3,200
++100
+STAGE 4
+CLEARED
+VOID RIFT
+Void Emperor Kaal
+MK I
+HP 5,000
++100
+STAGE 5
+CLEARED
+FROST REACH
+Frost Colossus Glacius
+MK I
+HP 5,500
++100
+STAGE 6
+NEXT
+STORM VEIL
+Storm Serpent Voltra
+MK I
+HP 6,000
++100
+STAGE 7
+LOCKED
+GEAR YARD
+Clockwork Titan Tikka
+MK I
+HP 6,500
++100
+STAGE 8
+LOCKED
+MIRROR MAZE
+Mirror Mantis Spectra
+MK I
+HP 7,000
++100
+STAGE 9
+LOCKED
+TIDE GATE
+Tidal Kraken Maelo
+MK I
+HP 7,500
++100
+STAGE 10
+LOCKED
+COMET RUN
+Comet King Blazar
+MK I
+HP 8,000
++100
+Each stage ends with its own boss.
+First clear pays the credits shown. Clearing the same stage again pays +1.

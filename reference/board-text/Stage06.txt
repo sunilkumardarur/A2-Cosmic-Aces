@@ -1,0 +1,29 @@
+STAGE 06 · TIER 1
+STORM VEIL
+A sky of living lightning. Watch for the glowing orbs.
+SAME STAGE, TINTED, IN
+MK II · STAGE 16
+PAIR · STAGE 86
+SPARK ORB
+HAZARD · 1 HIT
+Orbs come in pairs joined by a lightning line.
+STORM WISP
+ENEMY · 2 HITS
+Darts side to side and fires small bolts.
+CHARGED CLOUD
+OBSTACLE · 3 HITS
+Drifts down and zaps nearby when shot.
+STATIC MINE
+HAZARD · 1 HIT
+Bursts into a ring of sparks.
+BOSS 6
+HP 6,000 · 2 PHASES
+Storm Serpent Voltra
+MK II in stage 16
+HP 9,000
+FIGHTS · Lightning chains jump between warning orbs.
+WEAK POINT · Head, right after each lightning chain.
+MK II ADDS · Chains bounce off the screen edges.
+MID-STAGE · Mini-boss Thunder Hawk
+First clear up to +100 credits
+Repeat clear +1

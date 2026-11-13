@@ -1,0 +1,13 @@
+SPECIAL
+READY
+1
+MOVE. Use the arrow keys or WASD. Your jet shoots by itself — no button needed.
+2
+DODGE. Red shots hurt. Slide out of their path.
+3
+GRAB. Fly into glowing orbs. Purple orbs raise your damage.
+4
+SPECIAL. When the bar is full, press Shift for a big attack.
+HINT 1 OF 4
+Shown one at a time, only in Stage 1
+SKIP TIPS

@@ -1,0 +1,12 @@
+MENU
+SHOP
+Buy a power once and it is yours for good — every stage, every mode.
+PROFILE · AYAN
+{{credits}}
+{{it.tag}}
+{{it.name}}
+{{it.desc}}
+{{it.price}}
+{{it.btnLabel}}
+Credits are rare: first clears of stages, bosses and achievements. Repeat clears pay only +1. Higher tiers (II, III) of each power appear after you buy the first.
+RESET DEMO

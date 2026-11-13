@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>A² Cosmic Aces — Co-op</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&amp;family=Exo+2:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>body{margin:0}</style>
+</helmet>
+<div style="width: 1280px; height: 720px; position: relative; overflow: hidden; background: #050A08; font-family: 'Exo 2', sans-serif; color: #FFFFFF">
+  <sc-for list="{{far}}" as="s" hint-placeholder-count="20">
+    <div style="position: absolute; left: {{s.x}}px; top: {{s.y}}px; width: 1px; height: 1px; background: #C9FFD0; opacity: {{s.o}}"></div>
+  </sc-for>
+  <div style="position: absolute; left: 280px; top: -160px; width: 800px; height: 520px; border-radius: 50%; background: radial-gradient(ellipse, rgba(124,255,107,.16), rgba(255,62,165,.08) 45%, rgba(5,10,8,0) 70%)"></div>
+  <sc-for list="{{streaks}}" as="s" hint-placeholder-count="20">
+    <div style="position: absolute; left: {{s.x}}px; top: {{s.y}}px; width: 2px; height: {{s.h}}px; border-radius: 1px; background: linear-gradient(180deg, rgba(255,255,255,0), rgba(255,255,255,.8)); opacity: {{s.o}}"></div>
+  </sc-for>
+
+  <svg aria-hidden="true" viewBox="0 0 60 80" style="position: absolute; left: 420px; top: 130px; width: 50px; height: 66px"><ellipse cx="30" cy="24" rx="8" ry="14" fill="#1F3D2A" stroke="#7CFF6B" stroke-width="2.5"/><path d="M24 20 L6 10 L10 28 Z M36 20 L54 10 L50 28 Z" fill="#7CFF6B" opacity=".5" stroke="#7CFF6B" stroke-width="1.5"/><circle cx="27" cy="18" r="2" fill="#FF3EA5"/><circle cx="33" cy="18" r="2" fill="#FF3EA5"/></svg>
+  <svg aria-hidden="true" viewBox="0 0 60 80" style="position: absolute; left: 520px; top: 100px; width: 50px; height: 66px"><ellipse cx="30" cy="24" rx="8" ry="14" fill="#1F3D2A" stroke="#7CFF6B" stroke-width="2.5"/><path d="M24 20 L6 10 L10 28 Z M36 20 L54 10 L50 28 Z" fill="#7CFF6B" opacity=".5" stroke="#7CFF6B" stroke-width="1.5"/><circle cx="27" cy="18" r="2" fill="#FF3EA5"/><circle cx="33" cy="18" r="2" fill="#FF3EA5"/></svg>
+  <svg aria-hidden="true" viewBox="0 0 60 80" style="position: absolute; left: 740px; top: 140px; width: 50px; height: 66px"><ellipse cx="30" cy="24" rx="8" ry="14" fill="#1F3D2A" stroke="#7CFF6B" stroke-width="2.5"/><path d="M24 20 L6 10 L10 28 Z M36 20 L54 10 L50 28 Z" fill="#7CFF6B" opacity=".5" stroke="#7CFF6B" stroke-width="1.5"/><circle cx="27" cy="18" r="2" fill="#FF3EA5"/><circle cx="33" cy="18" r="2" fill="#FF3EA5"/></svg>
+  <svg aria-hidden="true" viewBox="0 0 60 80" style="position: absolute; left: 840px; top: 108px; width: 50px; height: 66px"><ellipse cx="30" cy="24" rx="8" ry="14" fill="#1F3D2A" stroke="#7CFF6B" stroke-width="2.5"/><path d="M24 20 L6 10 L10 28 Z M36 20 L54 10 L50 28 Z" fill="#7CFF6B" opacity=".5" stroke="#7CFF6B" stroke-width="1.5"/><circle cx="27" cy="18" r="2" fill="#FF3EA5"/><circle cx="33" cy="18" r="2" fill="#FF3EA5"/></svg>
+  <div style="position: absolute; left: 640px; top: 236px; width: 10px; height: 10px; border-radius: 50%; background: #FF3EA5; box-shadow: 0 0 10px #FF3EA5"></div>
+  <div style="position: absolute; left: 790px; top: 270px; width: 10px; height: 10px; border-radius: 50%; background: #FF3EA5; box-shadow: 0 0 10px #FF3EA5"></div>
+
+  <div style="position: absolute; left: 400px; top: 300px; width: 4px; height: 40px; background: #2DE2FF; border-radius: 2px; box-shadow: 0 0 10px #2DE2FF"></div>
+  <div style="position: absolute; left: 444px; top: 330px; width: 4px; height: 40px; background: #2DE2FF; border-radius: 2px; box-shadow: 0 0 10px #2DE2FF"></div>
+  <div style="position: absolute; left: 424px; top: 400px; width: 4px; height: 40px; background: #2DE2FF; border-radius: 2px; box-shadow: 0 0 10px #2DE2FF"></div>
+
+  <svg role="img" aria-label="Ayan's Nova Striker, flying" viewBox="0 0 100 120" style="position: absolute; left: 376px; top: 470px; width: 100px; height: 120px; filter: drop-shadow(0 0 14px rgba(45,226,255,.7))"><path d="M44 96 L50 120 L56 96 Z" fill="#FF3EA5"/><path d="M38 96 L41 112 L44 96 Z M56 96 L59 112 L62 96 Z" fill="#FFC83D"/><path d="M50 4 L60 40 L92 74 L92 86 L62 80 L58 96 L42 96 L38 80 L8 86 L8 74 L40 40 Z" fill="#0E1A2E" stroke="#2DE2FF" stroke-width="2.5" stroke-linejoin="round"/><path d="M50 18 L55 44 L50 58 L45 44 Z" fill="#2DE2FF"/><path d="M16 78 L40 56 M84 78 L60 56" stroke="#FF3EA5" stroke-width="2" stroke-linecap="round"/></svg>
+
+  <div style="position: absolute; left: 700px; top: 440px; width: 160px; height: 160px; display: flex; align-items: center; justify-content: center">
+    <svg aria-hidden="true" viewBox="0 0 160 160" style="position: absolute; inset: 0; width: 160px; height: 160px"><circle cx="80" cy="80" r="70" fill="none" stroke="rgba(255,255,255,.15)" stroke-width="6" stroke-dasharray="3 8"/><circle cx="80" cy="80" r="70" fill="none" stroke="#7CFF6B" stroke-width="6" stroke-linecap="round" stroke-dasharray="440" stroke-dashoffset="167" transform="rotate(-90 80 80)"/></svg>
+    <svg role="img" aria-label="Aarav's Titan Bulwark, downed and waiting to be revived" viewBox="0 0 100 120" style="width: 80px; height: 96px; opacity: .45; filter: grayscale(.6)"><path d="M40 10 L60 10 L66 34 L90 44 L94 80 L70 88 L64 104 L36 104 L30 88 L6 80 L10 44 L34 34 Z" fill="#1E140C" stroke="#FF9A3D" stroke-width="2.5" stroke-linejoin="round"/><rect x="44" y="20" width="12" height="26" rx="6" fill="#FF9A3D"/></svg>
+    <div style="position: absolute; bottom: -28px; left: -20px; right: -20px; text-align: center; font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 12px; letter-spacing: 2px; color: #7CFF6B">REVIVING 62%</div>
+  </div>
+  <svg aria-hidden="true" viewBox="0 0 60 60" style="position: absolute; left: 740px; top: 395px; width: 40px; height: 40px"><path d="M30 4 V56 M4 30 H56" stroke="#7CFF6B" stroke-width="8" stroke-linecap="round"/></svg>
+
+  <div style="position: absolute; left: 24px; top: 20px; width: 320px; display: flex; gap: 12px; align-items: center; padding: 10px 14px 10px 10px; background: rgba(4,5,12,.78); border: 1px solid rgba(45,226,255,.45)">
+    <svg role="img" aria-label="Ayan" viewBox="0 0 120 120" style="width: 52px; height: 52px; flex: none"><circle cx="60" cy="64" r="48" fill="#16223C" stroke="#2DE2FF" stroke-width="5"/><ellipse cx="60" cy="74" rx="27" ry="28" fill="#B9794E"/><path d="M33 66 L38 50 L44 58 L50 46 L56 56 L62 44 L68 56 L74 46 L80 58 L86 52 L87 66 Q60 54 33 66 Z" fill="#1B1210"/><rect x="34" y="18" width="52" height="16" rx="8" fill="#2DE2FF"/></svg>
+    <div style="display: flex; flex-direction: column; gap: 6px; flex: 1">
+      <div style="display: flex; justify-content: space-between"><span style="font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 12px; letter-spacing: 2px; color: #2DE2FF">P1 · AYAN</span><span style="font-size: 11px; color: #A9B4D0">NOVA STRIKER</span></div>
+      <div style="display: flex; gap: 3px"><span style="flex: 1; height: 8px; background: #7CFF6B"></span><span style="flex: 1; height: 8px; background: #7CFF6B"></span><span style="flex: 1; height: 8px; background: #7CFF6B"></span><span style="flex: 1; height: 8px; background: #7CFF6B"></span><span style="flex: 1; height: 8px; background: rgba(255,255,255,.15)"></span></div>
+      <div style="height: 8px; background: rgba(255,255,255,.15)"><div style="width: 88%; height: 8px; background: #2DE2FF"></div></div>
+    </div>
+  </div>
+
+  <div style="position: absolute; right: 24px; top: 20px; width: 320px; display: flex; gap: 12px; align-items: center; padding: 10px 10px 10px 14px; background: rgba(4,5,12,.78); border: 1px solid rgba(255,77,94,.55)">
+    <div style="display: flex; flex-direction: column; gap: 6px; flex: 1">
+      <div style="display: flex; justify-content: space-between"><span style="font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 12px; letter-spacing: 2px; color: #FF9A3D">P2 · AARAV</span><span style="font-size: 11px; color: #FF7A86; font-weight: 700">DOWN</span></div>
+      <div style="display: flex; gap: 3px"><span style="flex: 1; height: 8px; background: rgba(255,255,255,.15)"></span><span style="flex: 1; height: 8px; background: rgba(255,255,255,.15)"></span><span style="flex: 1; height: 8px; background: rgba(255,255,255,.15)"></span><span style="flex: 1; height: 8px; background: rgba(255,255,255,.15)"></span><span style="flex: 1; height: 8px; background: rgba(255,255,255,.15)"></span></div>
+      <div style="height: 8px; background: rgba(255,255,255,.15)"><div style="width: 100%; height: 8px; background: #FF9A3D"></div></div>
+    </div>
+    <svg role="img" aria-label="Aarav" viewBox="0 0 120 120" style="width: 52px; height: 52px; flex: none; filter: grayscale(.7)"><circle cx="60" cy="64" r="48" fill="#2A1C12" stroke="#FF9A3D" stroke-width="5"/><ellipse cx="60" cy="74" rx="27" ry="28" fill="#A86A42"/><path d="M33 68 Q36 48 60 46 Q84 46 87 64 Q72 56 52 58 Q42 60 33 68 Z" fill="#14100E"/><circle cx="49" cy="77" r="8" fill="none" stroke="#FFC83D" stroke-width="3"/><circle cx="71" cy="77" r="8" fill="none" stroke="#FFC83D" stroke-width="3"/><rect x="34" y="18" width="52" height="16" rx="8" fill="#FF9A3D"/></svg>
+  </div>
+
+  <div style="position: absolute; left: 440px; top: 20px; width: 400px; display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 10px 14px; background: rgba(4,5,12,.78); border: 1px solid rgba(255,62,165,.5)">
+    <div style="font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 11px; letter-spacing: 4px; color: #7CFF6B">STAGE 2 · VENOM NEBULA</div>
+    <div style="font-family: 'Orbitron', sans-serif; font-weight: 900; font-size: 28px; letter-spacing: 3px">0048900</div>
+    <div style="font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 13px; color: #FFC83D">×6 TEAM COMBO</div>
+  </div>
+
+  <div style="position: absolute; left: 400px; right: 400px; bottom: 22px; display: flex; flex-direction: column; gap: 6px; align-items: center">
+    <div style="font-family: 'Orbitron', sans-serif; font-weight: 700; font-size: 12px; letter-spacing: 4px; color: #FFC83D">A² BURST</div>
+    <div style="width: 100%; height: 14px; border: 2px solid #FFC83D; background: rgba(255,255,255,.1); display: flex"><div style="width: 78%; background: linear-gradient(90deg, #2DE2FF, #FF9A3D, #FFC83D)"></div></div>
+    <div style="font-size: 11px; letter-spacing: 2px; color: #A9B4D0">FILLS WHEN BOTH PILOTS SHOOT · NEEDS BOTH PILOTS ALIVE</div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1280,"height":720}}'>
+class Component extends DCLogic {
+  renderVals() {
+    let s = 61;
+    const r = () => { s = (s * 9301 + 49297) % 233280; return s / 233280; };
+    const far = [];
+    for (let i = 0; i < 180; i++) far.push({ x: Math.round(r() * 1280), y: Math.round(r() * 720), o: (0.2 + r() * 0.6).toFixed(2) });
+    const streaks = [];
+    for (let i = 0; i < 20; i++) streaks.push({ x: Math.round(r() * 1280), y: Math.round(r() * 700), h: Math.round(18 + r() * 40), o: (0.15 + r() * 0.3).toFixed(2) });
+    return { far, streaks };
+  }
+}
+</script>
+</body>
+</html>

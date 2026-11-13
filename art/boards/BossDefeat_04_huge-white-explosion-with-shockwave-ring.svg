@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Huge white explosion with shockwave rings and flying fragments" viewBox="0 0 200 270" style="position: absolute; inset: 0; width: 100%; height: 100%">
+          <circle cx="100" cy="130" r="120" fill="none" stroke="#FF3EA5" stroke-width="4" opacity=".5"/>
+          <circle cx="100" cy="130" r="92" fill="none" stroke="#FF8A3D" stroke-width="5" opacity=".7"/>
+          <circle cx="100" cy="130" r="70" fill="#FF8A3D" opacity=".8"/>
+          <circle cx="100" cy="130" r="48" fill="#FFC83D"/>
+          <circle cx="100" cy="130" r="26" fill="#FFFFFF"/>
+          <path d="M20 40 L44 56 L28 70 Z M170 36 L184 62 L160 58 Z M14 200 L40 190 L36 214 Z M176 214 L190 192 L196 220 Z M96 14 L108 34 L88 36 Z" fill="#5A4636" stroke="#FF8A3D" stroke-width="2"/>
+        </svg>
